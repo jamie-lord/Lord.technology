@@ -17,8 +17,8 @@ title: Lord.technology
 email: jamie@lord.technology
 description: >- # this means to ignore newlines until "baseurl:"
   Jamie Lord is a Software Engineer based in Nottingham, UK specialising in C# .Net Core and Xamarin.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamie-lord.github.io/Lord.technology" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Lord.technology" # the subpath of your site, e.g. /blog
+url: "https://jamie-lord.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jme_lord
 github_username:  jamie-lord
 
