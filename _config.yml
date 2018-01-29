@@ -42,3 +42,8 @@ plugins:
 #   - vendor/ruby/
 
 show_excerpts: true
+
+header_pages:
+  - projects.md
+  - blog.md
+  - about.md
