@@ -3,16 +3,22 @@ layout: page
 title: About
 permalink: /about/
 ---
+#### I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I love computers. Seriously, a lot. Because of this passion I've just completed my Masters degree in Computer Science at the University of Lincoln and making [lots of interesting digital things]({{ site.baseurl }}{% link projects.md %}) to help expand my knowledge along the way.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+As of November 2016 I work for IFS UK Research & Development as a Software Engineer.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Currently, I'm a Xamarin native developer working on a large and rather exciting new project targeting mobile platforms.
 
+* [Twitter](https://twitter.com/jme_lord)
+* [Linkedin](https://www.linkedin.com/in/jamie-lord/)
+* [Instagram](https://www.instagram.com/jlordlord/)
+* [ResearchGate](https://www.researchgate.net/profile/Jamie_Lord)
 
-[jekyll-organization]: https://github.com/jekyll
+## Memberships
+
+I'm a current member of the following organisations and societies.
+
+- [European Alliance for Innovation](http://eai.eu/)
+- [The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering](http://icst.org/)
