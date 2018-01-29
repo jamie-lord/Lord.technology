@@ -66,5 +66,5 @@ Here are few things I've built. They're in chronological order for your convenie
 |[The Caravan Club - Lincolnshire Centre](/projects/the-caravan-club-lincolnshire-centre)|WordPress|
 |[Charles Osei's blog](/projects/charles-osei-s-blog)|Ghost blogging platform|
 |[Gateway Of Technology Ltd. website optimisation](/projects/gateway-of-technology-ltd)|WordPress|
-|[GatewayCRM](/projects/gatewaycrm)|C#|
-|[JHACK - The Technology Blog](/projects/jhack-the-technology-blog)|WordPress|
+|[GatewayCRM]({{ site.baseurl }}{% post_url 2013-01-01-gateway-crm %})|C#|
+|[JHACK - The Technology Blog]({{ site.baseurl }}{% post_url 2013-01-01-jhack %})|WordPress|
