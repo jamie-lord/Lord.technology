@@ -21,3 +21,28 @@ h1, h2, h3, h4, h5, h6 {
 .page-heading {
     font-size: 2em;
 }
+
+.container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.button {
+    color: $brand-color;
+    border: 1px solid $brand-color;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: $brand-color;
+    color: $background-color;
+    text-decoration: none;
+}
+
+.home-projects-button {
+    text-align: center;
+}
