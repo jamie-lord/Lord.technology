@@ -46,3 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 .home-projects-button {
     text-align: center;
 }
+
+::selection {
+    background: $selection-color;
+}
+
+::-moz-selection {
+    background: $selection-color;
+}
