@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Lord.technology
+author: Jamie Lord
 email: jamie@lord.technology
 description: >- # this means to ignore newlines until "baseurl:"
   Jamie Lord is a Software Engineer based in Nottingham, UK specialising in C# .Net Core and Xamarin.
