@@ -4,12 +4,12 @@ title:  "Projects"
 date:   2018-01-28 22:17:51 +0000
 permalink: /projects/
 ---
-# Things I'm actively working/playing with
+## Things I'm actively working/playing with
 
 * Git based JSON object store [C#, .Net Core, Git, JSON]
 * Reverse engineering Logi Circle API [C#, .Net Core 2.0, MPEG-DASH streaming]
 
-# Completed projects
+## Completed projects
 
 Here are few things I've built. They're in chronological order for your convenience.
 
