@@ -54,7 +54,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Pro Logs Ltd.](http://prologs.co.uk/)|WordPress|
 |[Dynamic Wheels Ltd.]({{ site.baseurl }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
-|[The University of Lincoln American Football Team](/projects/the-university-of-lincoln-american-football-team)|WordPress|
+|[The University of Lincoln American Football Team]({{ site.baseurl }}{% post_url 2013-01-01-the-university-of-lincoln-american-football-team %})|WordPress|
 |Head movement computer control system|C++, Microsoft Kinect|
 |Designing a £250,000 campus network|Cisco hardware|
 |A* algorithm maze solver|C++|
