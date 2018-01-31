@@ -59,7 +59,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Designing a £250,000 campus network|Cisco hardware|
 |A* algorithm maze solver|C++|
 |Geographic semantic network generator|Prolog|
-|[Markrosoft.org](/projects/markrosoft-org)|WordPress|
+|[Markrosoft.org]({{ site.baseurl }}{% post_url 2013-01-01-markrosoft-org %})|WordPress|
 |AutoInvoice|C#|
 |Where's Wally solver|C++|
 |Puzzle solving using a sum of squares algorithm|C++|
