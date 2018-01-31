@@ -5,11 +5,11 @@ permalink: /about/
 ---
 #### I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.
 
-I love computers. Seriously, a lot. Because of this passion I've just completed my Masters degree in Computer Science at the University of Lincoln and making [lots of interesting digital things]({{ site.baseurl }}{% link projects.md %}) to help expand my knowledge along the way.
+I love computers. Seriously, a lot. Because of this passion I pursued a Masters degree in Computer Science at the University of Lincoln which I completed in early 2016.
 
 As of November 2016 I work for IFS UK Research & Development as a Software Engineer.
 
-Currently, I'm a Xamarin native developer working on a large and rather exciting new project targeting mobile platforms.
+Currently, I'm a Xamarin native developer working on a large and rather exciting new project targeting mobile platforms. I also frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.baseurl }}/projects) page for examples.
 
 * [Twitter](https://twitter.com/jme_lord)
 * [Linkedin](https://www.linkedin.com/in/jamie-lord/)
