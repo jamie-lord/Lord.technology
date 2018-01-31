@@ -63,7 +63,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |AutoInvoice|C#|
 |Where's Wally solver|C++|
 |Puzzle solving using a sum of squares algorithm|C++|
-|[The Caravan Club - Lincolnshire Centre](/projects/the-caravan-club-lincolnshire-centre)|WordPress|
+|[The Caravan Club - Lincolnshire Centre]({{ site.baseurl }}{% post_url 2013-01-01-the-caravan-club-lincolnshire-centre %})|WordPress|
 |[Charles Osei's blog]({{ site.baseurl }}{% post_url 2013-01-01-charles-oseis-blog %})|Ghost blogging platform|
 |[Gateway Of Technology Ltd. website optimisation]({{ site.baseurl }}{% post_url 2013-01-01-gateway-of-technology-ltd %})|WordPress|
 |[GatewayCRM]({{ site.baseurl }}{% post_url 2013-01-01-gateway-crm %})|C#|
