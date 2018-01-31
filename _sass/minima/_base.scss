@@ -83,6 +83,9 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-weight: 700;
 }
 
 
@@ -139,7 +142,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $grey-color;
 }
 
 code {
@@ -217,22 +220,20 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($background-color, 8%);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    background-color: lighten($background-color, 8%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }

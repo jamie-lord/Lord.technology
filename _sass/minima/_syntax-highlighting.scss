@@ -1,12 +1,17 @@
 /**
  * Syntax highlighting styles
  */
+.highlighter-rouge, .highlight {
+  background: $grey-color;
+  color: $background-color;
+}
+
 .highlight {
-  background: #fff;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: $grey-color;
+    color: $background-color;
   }
 
   .c     { color: #998; font-style: italic } // Comment
