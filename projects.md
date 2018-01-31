@@ -52,7 +52,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/)|WordPress, Bootstrap|
 |[Personal photography website](/blog/creating-a-koken-photography-site)|Koken|
 |[Pro Logs Ltd.](http://prologs.co.uk/)|WordPress|
-|Dynamic Wheels Ltd.|WordPress|
+|[Dynamic Wheels Ltd.]({{ site.baseurl }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
 |[The University of Lincoln American Football Team](/projects/the-university-of-lincoln-american-football-team)|WordPress|
 |Head movement computer control system|C++, Microsoft Kinect|
@@ -64,7 +64,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Where's Wally solver|C++|
 |Puzzle solving using a sum of squares algorithm|C++|
 |[The Caravan Club - Lincolnshire Centre](/projects/the-caravan-club-lincolnshire-centre)|WordPress|
-|[Charles Osei's blog](/projects/charles-osei-s-blog)|Ghost blogging platform|
+|[Charles Osei's blog]({{ site.baseurl }}{% post_url 2013-01-01-charles-oseis-blog %})|Ghost blogging platform|
 |[Gateway Of Technology Ltd. website optimisation](/projects/gateway-of-technology-ltd)|WordPress|
 |[GatewayCRM]({{ site.baseurl }}{% post_url 2013-01-01-gateway-crm %})|C#|
 |[JHACK - The Technology Blog]({{ site.baseurl }}{% post_url 2013-01-01-jhack %})|WordPress|
