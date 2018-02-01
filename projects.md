@@ -1,13 +1,11 @@
 ---
 layout: page
 title:  "Projects"
-date:   2018-01-28 22:17:51 +0000
+date:   2018-02-01 22:17:51 +0000
 permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
-* New version of this site using [Jekyll](https://jekyllrb.com/) and Github Pages
-* Git based JSON object store [C#, .Net Core, Git, JSON]
 * Reverse engineering Logi Circle API [C#, .Net Core 2.0, MPEG-DASH streaming]
 
 ## Completed projects
@@ -16,6 +14,8 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[New version of this site](https://github.com/jamie-lord/Lord.technology)|[Jekyll](https://jekyllrb.com/), Github Pages|
+|[Git based JSON object store](https://github.com/jamie-lord/GitStore)|C#, .Net Core, Git, JSON|
 |[Distributed local search engine](https://github.com/jamie-lord/LSE)|C#, .Net Core 2.0|
 |[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core 2.0, Postgres|
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
