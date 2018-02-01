@@ -51,7 +51,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Twitter mood controlled music app|Windows Phone 8.1, Microsoft Azure cloud|
 |[Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/)|WordPress, Bootstrap|
 |[Personal photography website](/blog/creating-a-koken-photography-site)|Koken|
-|[Pro Logs Ltd.](http://prologs.co.uk/)|WordPress|
+|Pro Logs Ltd.|WordPress|
 |[Dynamic Wheels Ltd.]({{ site.baseurl }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
 |[The University of Lincoln American Football Team]({{ site.baseurl }}{% post_url 2013-01-01-the-university-of-lincoln-american-football-team %})|WordPress|
