@@ -6,6 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
+* New version of this site using [Jekyll](https://jekyllrb.com/) and Github Pages
 * Git based JSON object store [C#, .Net Core, Git, JSON]
 * Reverse engineering Logi Circle API [C#, .Net Core 2.0, MPEG-DASH streaming]
 
@@ -25,7 +26,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Date/outing finder Android app|Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL|
 |iOS Hacker News client with offline caching|Xcode, Swift|
 |[Task Eleven](http://marydansie.com) - Poetry and prose by Mary Dansie|WordPress|
-|[Wordr.xyz](https://wordr.xyz) - A collection of poems written by a computer|Python, WordPress|
+|Wordr.xyz - A collection of poems written by a computer|Python, WordPress|
 |Classifying liver lesions using machine learning|WEKA, MATLAB|
 |Microsoft Azure authentication mobile service & Android app|Microsoft Azure mobile service, Google authentication API, Android Studio|
 |[Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects](/assets/docs/LOR12290627_CMP9050M_3.pdf)|[Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV|
@@ -44,13 +45,13 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Wildlife Conservation: Help Nature](http://helpnature.co.uk/)|WordPress|
 |PHP content management system in < 100 lines (this site)|PHP, HMTL5, CSS3|
 |Distributed website mapping system|Ruby, MongoDB|
-|Realtime cloud messaging service|Microsoft Azure cloud, Azure TABLE data storage, AMS single sign-on, Windows Phone 8.1|
+|Real-time cloud messaging service|Microsoft Azure cloud, Azure TABLE data storage, AMS single sign-on, Windows Phone 8.1|
 |Networked traffic light junction simulator|Java|
 |Intelligent news aggregator web application (Undergraduate dissertation project)|Ruby, Sinatra, Redis, Bootstrap|
 |[Lincoln Guitar Tuition](http://lincolnguitartuition.uk/)|WordPress|
 |Twitter mood controlled music app|Windows Phone 8.1, Microsoft Azure cloud|
 |[Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/)|WordPress, Bootstrap|
-|[Personal photography website](/blog/creating-a-koken-photography-site)|Koken|
+|[Personal photography website]({{ site.baseurl }}{% post_url 2014-12-12-creating-a-koken-photography-site %})|Koken|
 |Pro Logs Ltd.|WordPress|
 |[Dynamic Wheels Ltd.]({{ site.baseurl }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
