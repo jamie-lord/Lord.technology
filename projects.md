@@ -1,11 +1,12 @@
 ---
 layout: page
 title:  "Projects"
-date:   2018-02-01 22:17:51 +0000
+date:   2018-02-03 12:30:51 +0000
 permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
+* [.Net Core blockchain implementation](https://github.com/jamie-lord/blockchain_netcore) [C#, .Net Core]
 * Reverse engineering Logi Circle API [C#, .Net Core 2.0, MPEG-DASH streaming]
 
 ## Completed projects
