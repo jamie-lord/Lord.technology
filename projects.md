@@ -43,7 +43,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |The University of Lincoln School of Computer Science Postgraduate Management System (UROS 2015 project)|Laravel, MySQL|
 |Global public FTP indexing|Python, MySQL|
 |[Jaq McCaughern Contemporary Artist](http://jaqmccaughern.com/)|WordPress, Bootstrap|
-|[Wildlife Conservation: Help Nature](http://helpnature.co.uk/)|WordPress|
+|Wildlife Conservation: Help Nature|WordPress|
 |PHP content management system in < 100 lines (this site)|PHP, HMTL5, CSS3|
 |Distributed website mapping system|Ruby, MongoDB|
 |Real-time cloud messaging service|Microsoft Azure cloud, Azure TABLE data storage, AMS single sign-on, Windows Phone 8.1|
