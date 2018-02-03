@@ -13,7 +13,7 @@ date:   2014-10-10 00:00:00 +0000
 > 
 > We believe a social network can be a tool for empowerment. Not a tool to deceive, coerce, and manipulate — but a place to connect, create, and celebrate life.
 > 
-> You are not a product. - *[Ello Manifesto](https://ello.co/wtf/post/manifesto)*
+> You are not a product. - Ello Manifesto
 
 Personally I don't mind the UI although many web designers are complaining that it's uninspired, not something I necessarily disagree with but I feel it's a serious improvement over Facebook's archaic look and feel.
 

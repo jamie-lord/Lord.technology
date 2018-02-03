@@ -21,7 +21,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core 2.0, Postgres|
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
 |[Entity Framework backed mutithreaded web crawler](https://github.com/jamie-lord/Spindel)|C#, Entity Framework 6, MSSQL|
-|[![HACK24](/assets/img/hack24_logo.png)](https://vimeo.com/209075693)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
+|[![HACK24](/assets/img/hack24_logo.png)](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
 |[Super simple todo list](https://github.com/jamie-lord/todo)|HTML5, Javascript, Bootstrap|
 |Hyperspace route calculator|C#|
 |Date/outing finder Android app|Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL|
