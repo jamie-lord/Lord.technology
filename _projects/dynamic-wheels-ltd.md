@@ -2,7 +2,6 @@
 layout: post
 title:  "Dynamic Wheels Ltd."
 date:   2013-01-01 00:00:00 +0000
-categories: project
 ---
 Dynamic Wheels Ltd. required a new responsive ecommerce website to provide detailed information to customers regarding their services as well as general advertisement of the brand.
 

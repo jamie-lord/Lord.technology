@@ -46,3 +46,8 @@ header_pages:
   - projects.md
   - blog.md
   - about.md
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name

@@ -30,7 +30,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Wordr.xyz - A collection of poems written by a computer|Python, WordPress|
 |Classifying liver lesions using machine learning|WEKA, MATLAB|
 |Microsoft Azure authentication mobile service & Android app|Microsoft Azure mobile service, Google authentication API, Android Studio|
-|[Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects](/assets/docs/LOR12290627_CMP9050M_3.pdf)|[Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV|
+|[Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects]({{ site.url }}/assets/docs/LOR12290627_CMP9050M_3.pdf)|[Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV|
 |Automatic detection of rivers in RGB satellite imagery using support vector machines (MComp research project)|Python, OpenCV, [Scikit-learn](http://scikit-learn.org/stable/)|
 |Analysis of historical weather records for Lincolnshire (~1.8 million records)|C++, OpenCL|
 |[![HACK24](/assets/img/hack24_logo.png)](http://www.hack24.co.uk)|Android Studio, [Pusher](https://pusher.com/)|
@@ -54,19 +54,19 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/)|WordPress, Bootstrap|
 |[Personal photography website]({{ site.url }}{% post_url 2014-12-12-creating-a-koken-photography-site %})|Koken|
 |Pro Logs Ltd.|WordPress|
-|[Dynamic Wheels Ltd.]({{ site.url }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
+|[Dynamic Wheels Ltd.]({{ site.url }}/projects/dynamic-wheels-ltd)|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
-|[The University of Lincoln American Football Team]({{ site.url }}{% post_url 2013-01-01-the-university-of-lincoln-american-football-team %})|WordPress|
+|[The University of Lincoln American Football Team]({{ site.url }}/projects/the-university-of-lincoln-american-football-team)|WordPress|
 |Head movement computer control system|C++, Microsoft Kinect|
 |Designing a £250,000 campus network|Cisco hardware|
 |A* algorithm maze solver|C++|
 |Geographic semantic network generator|Prolog|
-|[Markrosoft.org]({{ site.url }}{% post_url 2013-01-01-markrosoft-org %})|WordPress|
+|[Markrosoft.org]({{ site.url }}/projects/markrosoft-org)|WordPress|
 |AutoInvoice|C#|
 |Where's Wally solver|C++|
 |Puzzle solving using a sum of squares algorithm|C++|
-|[The Caravan Club - Lincolnshire Centre]({{ site.url }}{% post_url 2013-01-01-the-caravan-club-lincolnshire-centre %})|WordPress|
-|[Charles Osei's blog]({{ site.url }}{% post_url 2013-01-01-charles-oseis-blog %})|Ghost blogging platform|
-|[Gateway Of Technology Ltd. website optimisation]({{ site.url }}{% post_url 2013-01-01-gateway-of-technology-ltd %})|WordPress|
-|[GatewayCRM]({{ site.url }}{% post_url 2013-01-01-gateway-crm %})|C#|
-|[JHACK - The Technology Blog]({{ site.url }}{% post_url 2013-01-01-jhack %})|WordPress|
+|[The Caravan Club - Lincolnshire Centre]({{ site.url }}/projects/the-caravan-club-lincolnshire-centre)|WordPress|
+|[Charles Osei's blog]({{ site.url }}/projects/charles-oseis-blog)|Ghost blogging platform|
+|[Gateway Of Technology Ltd. website optimisation]({{ site.url }}/projects/gateway-of-technology-ltd)|WordPress|
+|[GatewayCRM]({{ site.url }}/projects/gateway-crm)|C#|
+|[JHACK - The Technology Blog]({{ site.url }}/projects/jhack)|WordPress|

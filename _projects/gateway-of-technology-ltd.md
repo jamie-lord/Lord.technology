@@ -2,7 +2,6 @@
 layout: post
 title:  "Gateway Of Technology Ltd."
 date:   2013-01-01 00:00:00 +0000
-categories: project
 ---
 Telecommunications and Internet service provider [Gateway of Technology Ltd.](http://www.gotltd.co.uk/) required a refresh of their homepage as well as extensive search engine optimisation.
 
