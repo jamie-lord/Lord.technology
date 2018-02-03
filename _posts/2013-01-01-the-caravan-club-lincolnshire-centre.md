@@ -8,11 +8,11 @@ categories: project
 
 The LCC approached me in late 2013 to develop a new website to bring their online presence into the twenty-first century. Their aim was to have a website that included a detailed calendar system showing their rallies and meetings. They also wanted the new site to feature an online ticket and payment system as well as being very easy for their webmaster to administrate.
 
-![The Caravan Club - Lincolnshire Centre Homepage]({{ site.baseurl }}/assets/img/lincolnshirecentre-home.jpg)
+![The Caravan Club - Lincolnshire Centre Homepage]({{ site.url }}/assets/img/lincolnshirecentre-home.jpg)
 
 To make the website as easy to manage as possible, I chose WordPress as the CRM. WordPress makes adding new events and tickets very simple. Digitising the club's tickets has meant a lowering in overheads as well as easier management.
 
-![The Caravan Club - Lincolnshire Centre Calendar page]({{ site.baseurl }}/assets/img/lincolnshirecentre-calendar.jpg)
+![The Caravan Club - Lincolnshire Centre Calendar page]({{ site.url }}/assets/img/lincolnshirecentre-calendar.jpg)
 
 The site is fully responsive, enabling members of the club to view information on their tablets or phones. This was an important inclusion as a large number of views take place during a rally, i.e. on a camp site!
 
@@ -20,7 +20,7 @@ Because the club's webmaster changes every few years the organisation wanted to 
 
 The server utilises Varnish cache as well as Cloudflare. This makes the browsing experience epic. Loading times are super-fast as well as not being limited by geography. This is the normal setup for new clients of mine - I feel it offers a great quality system that is very cost effective.
 
-![The Caravan Club - Lincolnshire Centre Tickets page]({{ site.baseurl }}/assets/img/lincolnshirecentre-tickets.jpg)
+![The Caravan Club - Lincolnshire Centre Tickets page]({{ site.url }}/assets/img/lincolnshirecentre-tickets.jpg)
 
 ### A testimonial from the webmaster
 

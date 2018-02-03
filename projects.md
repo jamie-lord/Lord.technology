@@ -52,21 +52,21 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Lincoln Guitar Tuition](http://lincolnguitartuition.uk/)|WordPress|
 |Twitter mood controlled music app|Windows Phone 8.1, Microsoft Azure cloud|
 |[Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/)|WordPress, Bootstrap|
-|[Personal photography website]({{ site.baseurl }}{% post_url 2014-12-12-creating-a-koken-photography-site %})|Koken|
+|[Personal photography website]({{ site.url }}{% post_url 2014-12-12-creating-a-koken-photography-site %})|Koken|
 |Pro Logs Ltd.|WordPress|
-|[Dynamic Wheels Ltd.]({{ site.baseurl }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
+|[Dynamic Wheels Ltd.]({{ site.url }}{% post_url 2013-01-01-dynamic-wheels-ltd %})|WordPress|
 |The University of Lincoln School of Computer Science Student Management System (UROS 2014 project)|PHP, MySQL, Bootstrap, CouchCMS|
-|[The University of Lincoln American Football Team]({{ site.baseurl }}{% post_url 2013-01-01-the-university-of-lincoln-american-football-team %})|WordPress|
+|[The University of Lincoln American Football Team]({{ site.url }}{% post_url 2013-01-01-the-university-of-lincoln-american-football-team %})|WordPress|
 |Head movement computer control system|C++, Microsoft Kinect|
 |Designing a £250,000 campus network|Cisco hardware|
 |A* algorithm maze solver|C++|
 |Geographic semantic network generator|Prolog|
-|[Markrosoft.org]({{ site.baseurl }}{% post_url 2013-01-01-markrosoft-org %})|WordPress|
+|[Markrosoft.org]({{ site.url }}{% post_url 2013-01-01-markrosoft-org %})|WordPress|
 |AutoInvoice|C#|
 |Where's Wally solver|C++|
 |Puzzle solving using a sum of squares algorithm|C++|
-|[The Caravan Club - Lincolnshire Centre]({{ site.baseurl }}{% post_url 2013-01-01-the-caravan-club-lincolnshire-centre %})|WordPress|
-|[Charles Osei's blog]({{ site.baseurl }}{% post_url 2013-01-01-charles-oseis-blog %})|Ghost blogging platform|
-|[Gateway Of Technology Ltd. website optimisation]({{ site.baseurl }}{% post_url 2013-01-01-gateway-of-technology-ltd %})|WordPress|
-|[GatewayCRM]({{ site.baseurl }}{% post_url 2013-01-01-gateway-crm %})|C#|
-|[JHACK - The Technology Blog]({{ site.baseurl }}{% post_url 2013-01-01-jhack %})|WordPress|
+|[The Caravan Club - Lincolnshire Centre]({{ site.url }}{% post_url 2013-01-01-the-caravan-club-lincolnshire-centre %})|WordPress|
+|[Charles Osei's blog]({{ site.url }}{% post_url 2013-01-01-charles-oseis-blog %})|Ghost blogging platform|
+|[Gateway Of Technology Ltd. website optimisation]({{ site.url }}{% post_url 2013-01-01-gateway-of-technology-ltd %})|WordPress|
+|[GatewayCRM]({{ site.url }}{% post_url 2013-01-01-gateway-crm %})|C#|
+|[JHACK - The Technology Blog]({{ site.url }}{% post_url 2013-01-01-jhack %})|WordPress|

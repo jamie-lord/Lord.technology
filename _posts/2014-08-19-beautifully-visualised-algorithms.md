@@ -8,13 +8,13 @@ Have a look at these delightfully colourful representations of a few common data
 > [VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html) was conceptualised in 2011 by Dr Steven Halim as a tool to help his students better understand data structures and algorithms, by allowing them to learn the basics on their own and at their own pace. Together with some of his students from the National University of Singapore, a series of visualisations were developed and consolidated, from simple sorting algorithms to complex graph data structures and algorithms.
 
 ### Generic Recursion Tree
-![Generic Recursion Tree]({{ site.baseurl }}/assets/img/recursion.gif)
+![Generic Recursion Tree]({{ site.url }}/assets/img/recursion.gif)
 
 ### Graph Matching
-![Graph Matching]({{ site.baseurl }}/assets/img/matching.gif)
+![Graph Matching]({{ site.url }}/assets/img/matching.gif)
 
 ### Sorting
-![Sorting]({{ site.baseurl }}/assets/img/sorting.gif)
+![Sorting]({{ site.url }}/assets/img/sorting.gif)
 
 ### Bitmask
-![Bitmask]({{ site.baseurl }}/assets/img/bitmask.gif)
+![Bitmask]({{ site.url }}/assets/img/bitmask.gif)

@@ -9,7 +9,7 @@ I've also recently adopted Adobe Lightroom, something I can't recommend enough, 
 
 This CMS is (much like Anchor) still in its infancy although unlike Anchor it's being actively developed, yay. Although unlike WordPress and Drupal the community is small and there is a lack of plugins and themes, not that I find this a turnoff - all the more hacking for me.
 
-![Koken management interface]({{ site.baseurl }}/assets/img/koken-library.jpg)
+![Koken management interface]({{ site.url }}/assets/img/koken-library.jpg)
 
 The management interface has to be the nicest I've ever seen in and CMS, and that's some serious praise. It works. It works **really** well. The layout is intuitive, using plenty of drag-and-drop elements and obvious menus. The only minor issue I have is the colour pallet can sometimes make text a little difficult to read at a glance, I must be getting old...
 

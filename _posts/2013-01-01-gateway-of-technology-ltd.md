@@ -8,11 +8,11 @@ Telecommunications and Internet service provider [Gateway of Technology Ltd.](ht
 
 The homepage design was simplified considerably, removing distracting gifs and confusion elements that didn't convey a message clearly. Below is the homepage before the redesign.
 
-![Gateway Of Technology Old Homepage Design]({{ site.baseurl }}/assets/img/gotltd-old-homepage.jpg)
+![Gateway Of Technology Old Homepage Design]({{ site.url }}/assets/img/gotltd-old-homepage.jpg)
 
 The new homepage uses the grid system from [Twitter Bootstrap](http://getbootstrap.com/) to display a simple, easy to understand overview of the services offered by Gateway. A prominent quick-quote form is included beside an image slider showing some of the best deals and services available. Simplifying the colour scheme makes the homepage feel more professional and easier on the eyes.
 
-![Gateway Of Technology New Homepage Design]({{ site.baseurl }}/assets/img/gotltd-new-homepage.jpg)
+![Gateway Of Technology New Homepage Design]({{ site.url }}/assets/img/gotltd-new-homepage.jpg)
 
 Due to the simplified design as well as clean code, the homepage loads considerably faster than the old design, this aids SEO as well as simply improving the experience for users, particularly using mobile devices.
 
