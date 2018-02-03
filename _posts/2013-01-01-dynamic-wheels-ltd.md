@@ -16,7 +16,7 @@ The website is fully responsive, meaning it's fully functional on mobile devices
 
 One feature of the new website that the client specifically required was an image gallery to showcase previous work and the process of completing it. This can be seen in the image above.
 
-![Dynamic Wheels Ltd. Contact page]({{ site.baseurl }}/assets/img/ynamic-wheels-contact.jpg)
+![Dynamic Wheels Ltd. Contact page]({{ site.baseurl }}/assets/img/dynamic-wheels-contact.jpg)
 
 As mentioned, this website also has an online store, including a complete checkout and payment system that allows Dynamic Wheels to manage stock and orders within WordPress.
 
