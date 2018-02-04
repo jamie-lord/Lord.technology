@@ -15,7 +15,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
-|[New version of this site](https://github.com/jamie-lord/Lord.technology)|[Jekyll](https://jekyllrb.com/), Github Pages|
+|[New version of this site]({{ site.url }}{% post_url 2018-02-03-ubuntu-on-windows %})|[Jekyll](https://jekyllrb.com/), Github Pages|
 |[Git based JSON object store](https://github.com/jamie-lord/GitStore)|C#, .Net Core, Git, JSON|
 |[Distributed local search engine](https://github.com/jamie-lord/LSE)|C#, .Net Core 2.0|
 |[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core 2.0, Postgres|
