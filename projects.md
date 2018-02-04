@@ -16,7 +16,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |:---|:---|
 |Reverse engineering the Logi Circle API|C#, .Net Core, MPEG-DASH streaming|
 |[New version of this site]({{ site.url }}{% post_url 2018-02-03-ubuntu-on-windows %})|[Jekyll](https://jekyllrb.com/), Github Pages|
-|[Git based JSON object store](https://github.com/jamie-lord/GitStore)|C#, .Net Core, Git, JSON|
+|[Git based JSON object store]({{ site.url }}/projects/git-json-object-store)|C#, .Net Core, Git, JSON|
 |[Distributed local search engine](https://github.com/jamie-lord/LSE)|C#, .Net Core|
 |[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core, Postgres|
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
