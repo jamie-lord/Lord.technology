@@ -11,9 +11,9 @@ As of November 2016 I work for IFS UK Research & Development as a Software Engin
 
 Currently, I'm a Xamarin native developer working on a large and rather exciting new project targeting mobile platforms. I also frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.url }}/projects) page for examples.
 
-* [Twitter](https://twitter.com/jme_lord)
-* [Linkedin](https://www.linkedin.com/in/jamie-lord/)
-* [Instagram](https://www.instagram.com/jlordlord/)
+* [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#twitter"></use></svg>Twitter](https://twitter.com/jme_lord)
+* [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#linkedin"></use></svg>Linkedin](https://www.linkedin.com/in/jamie-lord/)
+* [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#instagram"></use></svg>Instagram](https://www.instagram.com/jlordlord/)
 * [ResearchGate](https://www.researchgate.net/profile/Jamie_Lord)
 
 ## Memberships
