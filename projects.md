@@ -7,7 +7,6 @@ permalink: /projects/
 ## Things I'm actively working/playing with
 
 * [.Net Core blockchain implementation](https://github.com/jamie-lord/blockchain_netcore) [C#, .Net Core]
-* Reverse engineering Logi Circle API [C#, .Net Core 2.0, MPEG-DASH streaming]
 
 ## Completed projects
 
@@ -15,10 +14,11 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|Reverse engineering the Logi Circle API|C#, .Net Core, MPEG-DASH streaming|
 |[New version of this site]({{ site.url }}{% post_url 2018-02-03-ubuntu-on-windows %})|[Jekyll](https://jekyllrb.com/), Github Pages|
 |[Git based JSON object store](https://github.com/jamie-lord/GitStore)|C#, .Net Core, Git, JSON|
-|[Distributed local search engine](https://github.com/jamie-lord/LSE)|C#, .Net Core 2.0|
-|[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core 2.0, Postgres|
+|[Distributed local search engine](https://github.com/jamie-lord/LSE)|C#, .Net Core|
+|[Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/)|C#, .Net Core, Postgres|
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
 |[Entity Framework backed mutithreaded web crawler](https://github.com/jamie-lord/Spindel)|C#, Entity Framework 6, MSSQL|
 |[![HACK24](/assets/img/hack24_logo.png)](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
