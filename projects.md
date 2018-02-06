@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
-* [.Net Core blockchain implementation](https://github.com/jamie-lord/blockchain_netcore) [C#, .Net Core]
+* Supermarket price tracking & prediction system v4 [C#, .Net Core, Git, MessagePack]
 
 ## Completed projects
 
@@ -14,6 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[.Net Core blockchain]({{ site.url }}/projects/dot-net-core-blockchain)|C#, .Net Core|
 |Reverse engineering the Logi Circle API|C#, .Net Core, MPEG-DASH streaming|
 |[New version of this site]({{ site.url }}{% post_url 2018-02-03-ubuntu-on-windows %})|[Jekyll](https://jekyllrb.com/), Github Pages|
 |[Git based JSON object store]({{ site.url }}/projects/git-json-object-store)|C#, .Net Core, Git, JSON|
