@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-#### I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.
+I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.
 
 I love computers. Seriously, a lot. Because of this passion I pursued a Masters degree in Computer Science at the University of Lincoln which I completed in early 2016.
 

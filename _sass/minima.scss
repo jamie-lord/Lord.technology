@@ -1,10 +1,19 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@font-face {
+  font-family: 'MarvinVisions';
+  src: url(MarvinVisions-Bold.woff2);
+}
+@font-face {
+  font-family: 'Lato';
+  src: url(Lato-Regular.ttf);
+}
 
 // Define defaults for each variable.
-$base-font-family: 'Libre Baskerville', serif !default;
+$base-font-family: 'Lato', sans-serif !default;
+$header-font-family: 'MarvinVisions', sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
+$header-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 

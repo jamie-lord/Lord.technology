@@ -82,10 +82,10 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
   line-height: 1.4;
-  letter-spacing: 0;
-  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 
@@ -124,7 +124,6 @@ blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
