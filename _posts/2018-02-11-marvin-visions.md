@@ -5,7 +5,7 @@ date:   2018-02-11 12:32:00 +0000
 ---
 Jekyll makes it trivial to edit a site's look and feel, just modify your sass files and push to Github. I keep playing around with colours, paddings and fonts - there's always something to tweak.
 
-I recently stumbled on [_Marvin Visions_](https://www.readvisions.com/marvin) a bold and striking typeface - I liked it so much I've started using it for headings on this site[^1]. Coupled with an old favorite of mine, [Lato](https://fonts.google.com/specimen/Lato), this font looks particularly good on little blog posts like this one.
+I recently stumbled on [_Marvin Visions_](https://www.readvisions.com/marvin) a bold and striking typeface - I liked it so much I've started using it for headings on this site[^1]. Coupled with an old favorite of mine, [Lato](http://www.latofonts.com/lato-free-fonts/), this font looks particularly good on little blog posts like this one.
 
 ![Planets]({{ site.url }}/assets/img/marvin-postcard.png)
 
