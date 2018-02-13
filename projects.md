@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
-* Supermarket price tracking & prediction system v4 [C#, .Net Core, Git, MessagePack]
+* [Pure Web API](https://github.com/jamie-lord/PureApi) [C#, .Net Core, Azure Web Service]
 * [Hack24 2018](http://www.hack24.co.uk) [The excitement is hard to contain]
 
 ## Completed projects
