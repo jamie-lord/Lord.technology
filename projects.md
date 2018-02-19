@@ -24,7 +24,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
 |[Emily O’Reilly ACR - Paper Conservation](http://emilyoreilly.co.uk/)|WordPress|
 |[Entity Framework backed mutithreaded web crawler](https://github.com/jamie-lord/Spindel)|C#, Entity Framework 6, MSSQL|
-|[![HACK24](/assets/img/hack24_logo.png)](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
+|[<img src="/assets/img/hack-24-logo-white.png" alt="HACK24">](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
 |[Super simple todo list](https://github.com/jamie-lord/todo)|HTML5, Javascript, Bootstrap|
 |Hyperspace route calculator|C#|
 |Date/outing finder Android app|Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL|
@@ -36,7 +36,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |[Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects]({{ site.url }}/assets/docs/LOR12290627_CMP9050M_3.pdf)|[Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV|
 |Automatic detection of rivers in RGB satellite imagery using support vector machines (MComp research project)|Python, OpenCV, [Scikit-learn](http://scikit-learn.org/stable/)|
 |Analysis of historical weather records for Lincolnshire (~1.8 million records)|C++, OpenCL|
-|[![HACK24](/assets/img/hack24_logo.png)](http://www.hack24.co.uk)|Android Studio, [Pusher](https://pusher.com/)|
+|[![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk)|Android Studio, [Pusher](https://pusher.com/)|
 |Braitenberg vehicle demonstrating a ‘fear’ of spherical objects|[Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV|
 |IaaS cloud service for inventory management (custom RESTful API)|Python, Tornado, Microsoft Azure|
 |[Moira West Fibre Artist & Felt Maker](http://www.moirawestfelt.com/)|WordPress|
