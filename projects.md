@@ -6,6 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
+* [SocketComment](https://github.com/jamie-lord/SocketComment) [C#, .Net Core Web App, CouchDB, WebSocket]
 * [Pure Web API](https://github.com/jamie-lord/PureApi) [C#, .Net Core, Azure Web Service]
 * [Hack24 2018](http://www.hack24.co.uk) [The excitement is hard to contain]
 
