@@ -6,8 +6,6 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
-* [SocketComment](https://github.com/jamie-lord/SocketComment) [C#, .Net Core Web App, CouchDB, WebSocket]
-* [Pure Web API](https://github.com/jamie-lord/PureApi) [C#, .Net Core, Azure Web Service]
 * [Hack24 2018](http://www.hack24.co.uk) [The excitement is hard to contain]
 
 ## Completed projects
@@ -16,6 +14,9 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication)|C#, .Net Core Web App, CouchDB|
+|[SocketComment](https://github.com/jamie-lord/SocketComment)|C#, .Net Core Web App, CouchDB|
+|[Pure Web API](https://github.com/jamie-lord/PureApi)|C#, .Net Core, Azure Web Service|
 |[.Net Core blockchain]({{ site.url }}/projects/dot-net-core-blockchain)|C#, .Net Core|
 |Reverse engineering the Logi Circle API|C#, .Net Core, MPEG-DASH streaming|
 |[New version of this site]({{ site.url }}{% post_url 2018-02-03-ubuntu-on-windows %})|[Jekyll](https://jekyllrb.com/), Github Pages|
