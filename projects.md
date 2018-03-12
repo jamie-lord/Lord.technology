@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
-* [Hack24 2018](http://www.hack24.co.uk) [The excitement is hard to contain]
+* Full document content search using ElasticSearch
 
 ## Completed projects
 
@@ -14,6 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk)|Microsoft Bot Framework, Azure SQL database, Giphy API|
 |[.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication)|C#, .Net Core Web App, CouchDB|
 |[SocketComment](https://github.com/jamie-lord/SocketComment)|C#, .Net Core Web App, CouchDB|
 |[Pure Web API](https://github.com/jamie-lord/PureApi)|C#, .Net Core, Azure Web Service|
