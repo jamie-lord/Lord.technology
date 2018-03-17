@@ -14,7 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
-|[![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk)|Microsoft Bot Framework, Azure SQL database, Giphy API|
+|[![HACK24](/assets/img/hack-24-logo-white.png)]({{ site.url }}{% post_url 2018-03-17-winning-experians-hack24-2018-challenge %})|Microsoft Bot Framework, Azure SQL database, Giphy API|
 |[.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication)|C#, .Net Core Web App, CouchDB|
 |[SocketComment](https://github.com/jamie-lord/SocketComment)|C#, .Net Core Web App, CouchDB|
 |[Pure Web API](https://github.com/jamie-lord/PureApi)|C#, .Net Core, Azure Web Service|
