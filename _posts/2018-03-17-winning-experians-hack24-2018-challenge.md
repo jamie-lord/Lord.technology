@@ -5,7 +5,7 @@ date:   2018-03-17 15:40:00 +0000
 ---
 For the third year in a row I attended [Tech Nottingham's Hack24](https://www.hack24.co.uk/); a 24 hour hackathon hosted in the heart of Nottingham and sponsored by some of the most prominent technology businesses in the area and beyond. Myself and three colleagues from IFS R&D in Nottingham took part together last year and decided to do the same again in 2018. We had a different strategy this time though, instead of spending the entire time working on our hack, we would enjoy as much of the event as possible and try and have a great time - not that last year wasn't awesome, we just ended up spending the whole time with our heads down working.
 
-Frankly, our planning before the even was non-existant, we hadn't decided what challenge to do or what technologies to use; this is something that I would presume would put us at a disadvantage, but apparently not...
+Frankly, our planning before the event was non-existant, we hadn't decided what challenge to do or what technologies to use; this is something that I would presume would put us at a disadvantage, but apparently not...
 
 <p style="text-align: center;">
 <img src="{{ site.url }}/assets/img/PorgPowered.svg" alt="Team PorgPowered logo" style="background: white; padding: 1em; max-width: 25em;">
