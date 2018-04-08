@@ -6,6 +6,7 @@ permalink: /projects/
 ---
 ## Things I'm actively working/playing with
 
+* WebRTC peer to peer social network using [Blazor](https://github.com/aspnet/Blazor)
 * Full document content search using ElasticSearch
 
 ## Completed projects
@@ -14,6 +15,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[Blazor based Todo.txt app](http://do.lord.technology/) ([Source](https://github.com/jamie-lord/do))|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
 |[![HACK24](/assets/img/hack-24-logo-white.png)]({{ site.url }}{% post_url 2018-03-17-winning-experians-hack24-2018-challenge %})|Microsoft Bot Framework, Azure SQL database, Giphy API|
 |[.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication)|C#, .Net Core Web App, CouchDB|
 |[SocketComment](https://github.com/jamie-lord/SocketComment)|C#, .Net Core Web App, CouchDB|
