@@ -1,13 +1,12 @@
 ---
 layout: page
 title:  "Projects"
-date:   2018-02-03 12:30:51 +0000
-permalink: /projects/
+date:   2018-09-09 16:00:00 +0000
+permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* WebRTC peer to peer social network using [Blazor](https://github.com/aspnet/Blazor)
-* Full document content search using ElasticSearch
+* [.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject)
 
 ## Completed projects
 
@@ -15,6 +14,9 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[Web API for SQLite](https://github.com/jamie-lord/Dataweb)|C#, .Net Core|
+|Decentralised social network app using email as transport mechanism|Xamarin Forms, [MailKit](https://github.com/jstedfast/MailKit), SQLite|
+|[Static photography site generator](https://github.com/jamie-lord/Photography-site-generator) ([Output](https://photography.lord.technology/))|C#, .Net Core, [UIKit](https://getuikit.com/)|
 |[Blazor based Todo.txt app](http://do.lord.technology/) ([Source](https://github.com/jamie-lord/do))|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
 |[![HACK24](/assets/img/hack-24-logo-white.png)]({{ site.url }}{% post_url 2018-03-17-winning-experians-hack24-2018-challenge %})|Microsoft Bot Framework, Azure SQL database, Giphy API|
 |[.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication)|C#, .Net Core Web App, CouchDB|
