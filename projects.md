@@ -6,7 +6,7 @@ permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* [.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject)
+* Updated [Blazor based Todo.txt app](http://do.lord.technology/)
 
 ## Completed projects
 
@@ -14,6 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject)|C#, .Net Core|
 |[Web API for SQLite](https://github.com/jamie-lord/Dataweb)|C#, .Net Core|
 |Decentralised social network app using email as transport mechanism|Xamarin Forms, [MailKit](https://github.com/jstedfast/MailKit), SQLite|
 |[Static photography site generator](https://github.com/jamie-lord/Photography-site-generator) ([Output](https://photography.lord.technology/))|C#, .Net Core, [UIKit](https://getuikit.com/)|
