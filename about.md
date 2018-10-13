@@ -11,6 +11,8 @@ As of November 2016 I work for IFS UK Research & Development as a Software Engin
 
 Currently, I'm a Xamarin native developer working on a large and rather exciting new project. I also frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.url }}/projects) page for examples.
 
+Since the first version, I've also been really interested in [Blazor](https://blazor.net/) and have been trying to find new use cases for the developing world of web assembly.
+
 **🏆 Winner of [Experian's _Learning About Money Challenge_](https://www.hack24.co.uk/blog/the-experian-learning-about-money-challenge) at [Hack24](https://www.hack24.co.uk/) 2018.**
 
 * [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#twitter"></use></svg>Twitter](https://twitter.com/jme_lord)
