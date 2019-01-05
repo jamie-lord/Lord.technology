@@ -13,12 +13,12 @@ Currently, I'm a Xamarin native developer working on a large and rather exciting
 
 Since the first version, I've also been really interested in [Blazor](https://blazor.net/) and have been trying to find new use cases for the developing world of web assembly.
 
-**🏆 Winner of [Experian's _Learning About Money Challenge_](https://www.hack24.co.uk/blog/the-experian-learning-about-money-challenge) at [Hack24](https://www.hack24.co.uk/) 2018.**
+🏆 Winner of [Experian's _Learning About Money Challenge_](https://www.hack24.co.uk/blog/the-experian-learning-about-money-challenge) at [Hack24](https://www.hack24.co.uk/) 2018.
 
+* [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#github"></use></svg>GitHub](https://github.com/jamie-lord)
 * [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#twitter"></use></svg>Twitter](https://twitter.com/jme_lord)
 * [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#linkedin"></use></svg>Linkedin](https://www.linkedin.com/in/jamie-lord/)
 * [<svg class="svg-icon"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#instagram"></use></svg>Instagram](https://www.instagram.com/jlordlord/)
-* [ResearchGate](https://www.researchgate.net/profile/Jamie_Lord)
 
 ## Memberships
 
