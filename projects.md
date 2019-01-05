@@ -14,7 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
-|[Food Hygiene Twitter Bot](https://twitter.com/FoodHygieneBot)|C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [tweetinvi](https://github.com/linvi/tweetinvi), Azure|
+|[Food Hygiene Twitter Bot](https://twitter.com/FoodHygieneBot)|C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [Tweetinvi](https://github.com/linvi/tweetinvi), Azure|
 |Updates to [Blazor based Todo.txt app](http://do.lord.technology/)|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
 |[.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject)|C#, .Net Core|
 |[Web API for SQLite](https://github.com/jamie-lord/Dataweb)|C#, .Net Core|
