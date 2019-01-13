@@ -47,6 +47,7 @@ show_excerpts: true
 header_pages:
   - projects.md
   - blog.md
+  - reading-list.md
   - about.md
 
 collections:
