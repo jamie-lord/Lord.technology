@@ -1,12 +1,12 @@
 ---
 layout: page
 title:  "Projects"
-date:   2018-09-09 16:00:00 +0000
+date:   2019-02-02 11:00:00 +0000
 permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* WebRTC with Blazor
+* Highly parallel web crawling with Azure Functions and Cosmos DB
 
 ## Completed projects
 
