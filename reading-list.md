@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reading List
+title: 📚 Reading List
 permalink: /reading-list/
 ---
 ## Literature I've read recently
