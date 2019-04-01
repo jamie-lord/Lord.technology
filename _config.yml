@@ -18,7 +18,7 @@ title: Jamie Lord - Lord.technology
 author: Jamie Lord
 email: jamie@lord.technology
 description: >- # this means to ignore newlines until "baseurl:"
-  Jamie Lord is a Senior Software Engineer based in Nottingham, UK specialising in C# .Net Core and Xamarin native.
+  Jamie Lord is a developer based in Nottingham, UK specialising in C# .Net Core, Azure and Xamarin native.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lord.technology" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jme_lord

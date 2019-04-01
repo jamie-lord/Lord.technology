@@ -7,9 +7,7 @@ I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstand
 
 I love computers. Seriously, a lot. Because of this passion I pursued a Masters degree in Computer Science at the University of Lincoln which I completed in early 2016.
 
-As of November 2016 I work for IFS UK Product Development as a Senior Software Engineer.
-
-Currently, I'm a Xamarin native developer working on a large and rather exciting new project. I also frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.url }}/projects) page for examples.
+I frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.url }}/projects) page for examples.
 
 Since the first version, I've also been really interested in [Blazor](https://blazor.net/) and have been trying to find new use cases for the developing world of web assembly.
 
