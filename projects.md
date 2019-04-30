@@ -1,12 +1,12 @@
 ---
 layout: page
 title:  "Projects"
-date:   2019-02-02 11:00:00 +0000
+date:   2019-04-30 10:30:00 +0000
 permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* Highly parallel web crawling with Azure Functions and Cosmos DB
+* Recipe social network using Cosmos DB and .Net Core Razor web app
 
 ## Completed projects
 
@@ -14,6 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|Highly parallel web crawler|C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues|
 |[Multiplicative persistence calculator](https://github.com/jamie-lord/Multiplicative-Persistence) for large numbers|C#, .Net Core|
 |[Food Hygiene Twitter Bot](https://twitter.com/FoodHygieneBot)|C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [Tweetinvi](https://github.com/linvi/tweetinvi), SQLite, Azure Functions, Azure File Storage|
 |Updates to [Blazor based Todo.txt app](http://do.lord.technology/)|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
