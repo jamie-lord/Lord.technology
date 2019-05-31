@@ -5,6 +5,10 @@ permalink: /reading-list/
 ---
 ## Literature I've read recently
 
+### [GCHQ: The Uncensored Story of Britain's Most Secret Intelligence Agency](https://www.waterstones.com/book/gchq/richard-aldrich/9780007312658) [05/19]
+
+A dense history of an interesting organisation. The first part of the book, covering the second world war is very interesting and easy to read, however I found the late 50's through to the early 70's fairly boring and this expands through some hundreds of pages - not ideal. However, coming out of the other side and into the heart of the cold war was much more interesting, things picked up from there. It's a well written history but it isn't exactly light reading, 'tome' would be a suitable word to describe this volume. Recommended reading if you're a developer interested in early computing and the activities at Bletchley Park but you might find yourself struggling to get past the half-way point if you aren't as interested in post WWII US-UK politics.
+
 ### [Hello World: How to be Human in the Age of the Machine](https://www.waterstones.com/book/hello-world/hannah-fry/9780857525246) [03/19]
 
 Hannah Fry provides many eye-opening examples of how algorithms can harm society and individuals when blindly followed. As a software developer, I found it refreshing to explore how software can impact real people through misclassification of information. From motoring to crime and legal systems, Fry provides a well-rounded insight into how software is shaping society and numerous cautionary tales about where things have gone wrong. Her writing style is excellent and even though I would classify myself as fairly well read on this topic, she provided many interesting citations that kept me entertained.
