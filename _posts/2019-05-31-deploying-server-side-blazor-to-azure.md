@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "How to deploy server-side Blazor to an Azure App Service"
-date:   2018-05-31 15:40:00 +0000
+date:   2018-05-31 16:01:00 +0000
 ---
 Sadly [Microsoft's documentation](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/blazor/server-side?view=aspnetcore-3.0) on this is non-existent at the moment and there are a couple of tricky parts that caught me out the first time I tried so I thought I'd provide instructions here for anyone trying to do the same thing.
 
-The first to do is add `Microsoft.Extensions.Hosting` and `Microsoft.Extensions.Hosting.WindowsServices` packages from NuGet (you'll need to include pre-release versions when searching) to your Blazor project. Then add `.UseWindowsService()` to the `CreateHostBuilder` method in `program.cs`.
+The first thing to do is add `Microsoft.Extensions.Hosting` and `Microsoft.Extensions.Hosting.WindowsServices` packages from NuGet (you'll need to include pre-release versions when searching) to your Blazor project. Then add `.UseWindowsService()` to the `CreateHostBuilder` method in `program.cs`.
 
 In my case, the solution built locally fine for me but when I tried to deploy to azure I got a number of errors regarding package version mismatches and needed to manually fix these before a release build would succeed. This simply involved explicitly adding a few packages to my Blazor UI project and a few others, but this step will be entirely personal depending on your projects and their dependencies.
 
