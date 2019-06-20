@@ -14,6 +14,7 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|Natural language parser (recipe ingredients)|C#, Sprache|
 |Recipe social network|C#, .Net Core, Cosmos Db, server rendered Blazor (Razor components)|
 |Highly parallel web crawler|C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues|
 |[Multiplicative persistence calculator](https://github.com/jamie-lord/Multiplicative-Persistence) for large numbers|C#, .Net Core|
