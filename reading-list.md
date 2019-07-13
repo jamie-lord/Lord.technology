@@ -5,6 +5,10 @@ permalink: /reading-list/
 ---
 ## Literature I've read recently
 
+### [The Dark Side of Technology](https://www.waterstones.com/book/the-dark-side-of-technology/peter-townsend/9780198790532) [06/19]
+
+Disappointing. I typically enjoy this style of book and have ready many like it, but this one felt a little under developed and the writing quality left something to be desired. Some great points are made as Townsend meanders his pessimistic way along - pessimism that is certainly not unrealistic. Whilst there were some very good points made, I felt as though they were too thinly spread, I'd find myself reading a section, getting to the end, and then realising very little had actually been said.
+
 ### [GCHQ: The Uncensored Story of Britain's Most Secret Intelligence Agency](https://www.waterstones.com/book/gchq/richard-aldrich/9780007312658) [05/19]
 
 A dense history of an interesting organisation. The first part of the book, covering the second world war is very interesting and easy to read, however I found the late 50's through to the early 70's fairly boring and this expands through some hundreds of pages - not ideal. However, coming out of the other side and into the heart of the cold war was much more interesting, things picked up from there. It's a well written history but it isn't exactly light reading, 'tome' would be a suitable word to describe this volume. Recommended reading if you're a developer interested in early computing and the activities at Bletchley Park but you might find yourself struggling to get past the half-way point if you aren't as interested in post WWII US-UK politics.
