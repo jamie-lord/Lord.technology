@@ -1,12 +1,13 @@
 ---
 layout: page
 title:  "Projects"
-date:   2019-06-20 20:00:00 +0000
+date:   2019-12-23 12:00:00 +0000
 permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* Listing/cataloguing social network using Vue.js, Azure SQL Database, .Net Core Web API
+* Auto generated UI from OpenAPI Specification using Vue.js
+* Auto generated API and OpenAPI Specification from SQL database using C# and .Net Core Web API
 
 ## Completed projects
 
@@ -14,6 +15,9 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|[Shit food](https://shitfood.wtf)|Vue.js, Azure Functions, Azure Table Storage, Azure SQL Server, EF Core, Google Places API, Food Hygiene API, Trip Advisor scraping|
+|End to end encrypted social network|Vue.js, Azure Table Storage, .Net Core Web API, [TweetNaCl.js](https://tweetnacl.js.org)|
+|Listing/cataloguing social network|Vue.js, Azure SQL Database, .Net Core Web API|
 |Natural language parser (recipe ingredients)|C#, Sprache|
 |Recipe social network|C#, .Net Core, Cosmos Db, server rendered Blazor (Razor components)|
 |Highly parallel web crawler|C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues|
