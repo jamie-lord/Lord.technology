@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing the 'Anyone But Richard M Stallman' License"
-date:   2013-11-11 00:00:00 +0000
+date:   2013-11-11T00:00:00
 ---
 Having attended Dr Richard Stallman's interesting talk at Lincoln University yesterday, I thought I'd have a look on Twitter at reactions to his militant views. One tweet sent me to the [best software license](https://github.com/landondyer/kasm/blob/master/LICENSE) I've ever seen: ABRMS. landondyer has taken it upon themselves to write this short license, presumably they're not a fan of Stallman...
 
