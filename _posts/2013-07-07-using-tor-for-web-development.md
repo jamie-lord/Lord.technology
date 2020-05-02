@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Tor for web development"
-date:   2013-07-07 00:00:00 +0000
+date:   2013-07-07T00:00:00
 ---
 [Project Tor](https://www.torproject.org/index.html.en) enables anyone to browse the internet anonymously as if from another side of the planet. This is useful to those wanting to engage in shady activities, it's also very convenient for web developers.
 

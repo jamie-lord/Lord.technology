@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marvin Visions"
-date:   2018-02-11 12:32:00 +0000
+date:   2018-02-11T12:32:00
 ---
 Jekyll makes it trivial to edit a site's look and feel, just modify your sass files and push to Github. I keep playing around with colours, paddings and fonts - there's always something to tweak.
 
