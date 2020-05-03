@@ -1,39 +1,38 @@
-p {
-    text-align: justify
-}
-
 .container {
-    margin: 10px auto;
-    text-align: center;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .button {
-    color: $brand-color;
-    border: 1px solid $brand-color;
-    border-radius: 3px;
-    display: inline-block;
-    padding: 7px 20px;
-    text-decoration: none;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  text-transform: uppercase;
+  color: $brand-color;
+  border: 1px solid $brand-color;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 7px 20px;
+  text-decoration: none;
 }
 
 .button:hover {
-    background: $brand-color;
-    color: $background-color;
-    text-decoration: none;
+  background: $brand-color;
+  color: $background-color;
+  text-decoration: none;
 }
 
 .home-projects-button {
-    text-align: center;
+  text-align: center;
 }
 
 ::selection {
-    background: $selection-color;
+  background: $selection-color;
 }
 
 ::-moz-selection {
-    background: $selection-color;
+  background: $selection-color;
 }
 
 .footer-description {
-    text-align: left;
+  text-align: left;
 }

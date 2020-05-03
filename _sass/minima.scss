@@ -1,40 +1,40 @@
 @charset "utf-8";
 @font-face {
-  font-family: 'MarvinVisions';
-  src: url(MarvinVisions-Bold.woff2);
+  font-family: "UnicaOne";
+  src: url(UnicaOne-Regular.ttf);
 }
 @font-face {
-  font-family: 'Lato';
-  src: url(LatoLatin-Regular.woff2);
+  font-family: "Vollkorn";
+  src: url(Vollkorn-Regular.ttf);
 }
 
 // Define defaults for each variable.
-$base-font-family: 'Lato', sans-serif !default;
-$header-font-family: 'MarvinVisions', sans-serif !default;
-$base-font-size:   16px !default;
+$base-font-family: "Vollkorn", sans-serif !default;
+$header-font-family: "UnicaOne", sans-serif !default;
+$base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $header-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit: 32px !default;
 
-$text-color:       #C3B6A2 !default;
-$background-color: #232B32 !default;
-$brand-color:      #FA8334 !default;
-$selection-color:  #424B54 !default;
+$text-color: #c3b6a2 !default;
+$background-color: #232b32 !default;
+$brand-color: #fa8334 !default;
+$selection-color: #424b54 !default;
 
-$grey-color:       #ECECEC !default;
+$grey-color: #ececec !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width: 800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -54,9 +54,5 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting",
-  "customizations"
-;
+@import "minima/base", "minima/layout", "minima/syntax-highlighting",
+  "customizations";
