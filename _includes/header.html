@@ -25,6 +25,9 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
+          {% if site.github_username%}
+          <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon" style="margin-top: 2px"><use xlink:href="{{ site.url }}/assets/minima-social-icons.svg#github"></use></svg></a>
+          {% endif %}
         </div>
       </nav>
     {% endif %}
