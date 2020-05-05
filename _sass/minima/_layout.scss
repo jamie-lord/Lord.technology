@@ -197,6 +197,9 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  text-transform: uppercase;
 }
 
 .post-link {
