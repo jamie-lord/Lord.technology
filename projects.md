@@ -6,8 +6,7 @@ permalink: /projects
 ---
 ## Things I'm actively working/playing with
 
-* Auto generated UI from OpenAPI Specification using Vue.js
-* Auto generated API and OpenAPI Specification from SQL database using C# and .Net Core Web API
+* Liquid templating in C# with Markdown
 
 ## Completed projects
 
@@ -15,9 +14,21 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
-|[Shit food](https://shitfood.wtf)|Vue.js, Azure Functions, Azure Table Storage, Azure SQL Server, EF Core, Google Places API, Food Hygiene API, Trip Advisor scraping|
+|Micro blogging platform|C# .Net Core, Azure SQL database, EF Core, Identity Server, Liquid templates|
+|[Github Pages in-browser CMS](https://github.com/jamie-lord/github-cms)|Vue.js, Bulma, GitHub API|
+|UK train/locomotive database|SQLite, C# .Net Core|
+|Document Database|SQLite, C# .Net Core, Azure App Service|
+|Vue Component based CMS|Vue.js, C# .Net Core|
+|Tiny Work Order web app|CouchDB, PouchDB, Vue.js, TypeScript|
+|Generate relational database from spreadsheet|Azure SQL database, C# .Net Core|
+|[Blazor WebAssembly & Web API example using gRPC](https://github.com/jamie-lord/blazor-grpc-rss)|gRPC, Blazor WebAssembly, C# .Net Core|
+|Unofficial Parkrun API|C# .Net Core|
+|Indexing all GitHub repositories|C# .Net Core, Lucene.Net, Azure Blob Storage, MessagePack|
+|RSS feed ingester|Azure Functions, Cosmos DB, C# .Net Core|
+|Auto-generate REST API from SQL database at runtime|Azure SQL database, C# .Net Core, [SqlKata](https://sqlkata.com), Azure App Service|
+|[Shit food](https://shitfood.wtf)|Vue.js, Azure Functions, Azure Table Storage, Azure SQL database, EF Core, Google Places API, Food Hygiene API, Trip Advisor scraping|
 |End to end encrypted social network|Vue.js, Azure Table Storage, .Net Core Web API, [TweetNaCl.js](https://tweetnacl.js.org)|
-|Listing/cataloguing social network|Vue.js, Azure SQL Database, .Net Core Web API|
+|Listing/cataloguing social network|Vue.js, Azure SQL database, .Net Core Web API|
 |Natural language parser (recipe ingredients)|C#, Sprache|
 |Recipe social network|C#, .Net Core, Cosmos Db, server rendered Blazor (Razor components)|
 |Highly parallel web crawler|C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues|
