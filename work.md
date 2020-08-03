@@ -10,6 +10,14 @@ What I'm doing today and a history of where I've been employed in the past.
     <ul>
       <li>
         <div class="bullet mitrefinch"></div>
+        <div class="time">August 2020</div>
+        <div class="desc">
+          <h3>Mitrefinch</h3>
+          <span class="designation">Delivery Team Lead</span>
+        </div>
+      </li>
+      <li>
+        <div class="bullet mitrefinch"></div>
         <div class="time">April 2019</div>
         <div class="desc">
           <h3>Mitrefinch</h3>
