@@ -22,7 +22,7 @@ What I'm doing today and a history of where I've been employed in the past.
         <div class="desc">
           <h3>Mitrefinch</h3>
           <span class="designation">Developer</span>
-          <p>Using Vue.js with TypeScript and C# .Net Core with Azure technologies to build multitennant SaaS applications including payroll and access control systems</p>
+          <p>Using Vue.js with TypeScript and C# .Net Core with Azure technologies to build multi-tenant SaaS applications including payroll and access control systems</p>
         </div>
       </li>
       <li>
