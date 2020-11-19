@@ -14,6 +14,10 @@ Here are few things I've built. They're in chronological order for your convenie
 
 |Project|Tech|
 |:---|:---|
+|Goodreads review scraper|C#, Entity Framework Core, Azure Functions, Azure SQL|
+|[World Cup of Tube Lines 2020](https://wcol2020.lord.technology)|C#, Azure Functions, Twitter API v2, Github Pages|
+|[Tiny RSS Reader](https://github.com/jamie-lord/Reader)|C# .Net 5, Entity Framework Core, Razor Pages, SQLite|
+|[Bardcore Blog](https://bardcoreblog.com)|Jekyll, Github Pages|
 |Micro blogging platform|C# .Net Core, Azure SQL database, EF Core, Identity Server, Liquid templates|
 |[Github Pages in-browser CMS](https://github.com/jamie-lord/github-cms)|Vue.js, Bulma, GitHub API|
 |UK train/locomotive database|SQLite, C# .Net Core|
@@ -26,7 +30,7 @@ Here are few things I've built. They're in chronological order for your convenie
 |Indexing all GitHub repositories|C# .Net Core, Lucene.Net, Azure Blob Storage, MessagePack|
 |RSS feed ingester|Azure Functions, Cosmos DB, C# .Net Core|
 |Auto-generate REST API from SQL database at runtime|Azure SQL database, C# .Net Core, [SqlKata](https://sqlkata.com), Azure App Service|
-|[Shit food](https://shitfood.wtf)|Vue.js, Azure Functions, Azure Table Storage, Azure SQL database, EF Core, Google Places API, Food Hygiene API, Trip Advisor scraping|
+|[Shit food](https://github.com/jamie-lord/shit-food)|Vue.js, Azure Functions, Azure Table Storage, Azure SQL database, EF Core, Google Places API, Food Hygiene API, Trip Advisor scraping|
 |End to end encrypted social network|Vue.js, Azure Table Storage, .Net Core Web API, [TweetNaCl.js](https://tweetnacl.js.org)|
 |Listing/cataloguing social network|Vue.js, Azure SQL database, .Net Core Web API|
 |Natural language parser (recipe ingredients)|C#, Sprache|
