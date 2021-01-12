@@ -1,8 +1,9 @@
 ---
+title: JHACK - The Technology Blog
+date: 2013-01-01 00:00:00 Z
 layout: post
-title:  "JHACK - The Technology Blog"
-date:   2013-01-01 00:00:00 +0000
 ---
+
 In late 2012 I decided to start my own technology blog to learn more about website design and maintenance and to provide a reasonable excuse for my vast appetite for technology news.
 
 The site is called [JHACK](http://jhack.co.uk) - I decided on this name simply because it's short and easy to remember. Using WordPress and a melody of plugins, coupled with a heavily customised theme, I developed the sites branding and design over a three month beta period. The main reason for setting the site up was to discover and implement new technologies such as CloudFlare and Varnish Cache; as well as enhancing my Linux sysadmin knowledge.

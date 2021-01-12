@@ -1,8 +1,9 @@
 ---
+title: Ubuntu on Windows
+date: 2018-02-03 15:49:51 Z
 layout: post
-title:  "Ubuntu on Windows"
-date:   2018-02-03T15:49:51
 ---
+
 At home I use two computers: a 13 inch MacBook Pro for less intensive tasks and a Dell Precision T1700 with a 4K monitor when I want to stretch the software engineer bit of my brain. Jekyll is only officially supported on Linux and MacOS but it is possible to use Jekyll on Windows if you install Ubuntu via the Microsoft Store[^1]. I remember reading about this awesome little thing when it became available but hadn't got around to trying it - but now I wanted to run Jekyll on my Windows machine the time had come to install a Linux subsystem.
 
 It was trivial to install[^2] and setup via the Microsoft Store and everything worked right out of the box. I was able to install Ruby and get access to my site's repository[^3] on my Windows filesystem as by default Ubuntu had mounted my drives, meaning all I have to do was navigate to `/mnt/c/Users/Jamie/ThisSiteRepo` and run `jekyll serve` and off I was to the races.

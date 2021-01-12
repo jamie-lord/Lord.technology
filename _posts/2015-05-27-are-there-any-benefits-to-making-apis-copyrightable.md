@@ -1,8 +1,9 @@
 ---
+title: Are there any benefits to making APIs copyrightable?
+date: 2015-05-27 00:00:00 Z
 layout: post
-title:  "Are there any benefits to making APIs copyrightable?"
-date:   2015-05-27T00:00:00
 ---
+
 The White House has told the Supreme Court that APIs can be copyrighted ([arstechnica.com](http://arstechnica.com/tech-policy/2015/05/white-house-sides-with-oracle-tells-supreme-court-apis-are-copyrightable/)). This is generally being perceived as terrible news, the design of an API is typically very standard affair, meaning there could be a lot of court cases if this where to become law.
 
 I certainly don't disagree with the general feelings of the community, having recently designed and developed my own cloud services on Microsoft Azure for my Social Applications Development module at university; APIs are undoubtedly imperative to modern computing. [Good API design](http://lcsd05.cs.tamu.edu/slides/keynote.pdf) promotes a simple, human readable format - there's no point making your URIs illogical or impossible to understand. Enabling commonly used syntax to be copyrighted could force developers to write less than optimal code to skirt the potential of copyright infringement.

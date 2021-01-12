@@ -1,8 +1,9 @@
 ---
+title: The Caravan Club - Lincolnshire Centre
+date: 2013-01-01 00:00:00 Z
 layout: post
-title:  "The Caravan Club - Lincolnshire Centre"
-date:   2013-01-01 00:00:00 +0000
 ---
+
 #### Did you know that Lincolnshire is home to the UK's largest caravan club?
 
 The LCC approached me in late 2013 to develop a new website to bring their online presence into the twenty-first century. Their aim was to have a website that included a detailed calendar system showing their rallies and meetings. They also wanted the new site to feature an online ticket and payment system as well as being very easy for their webmaster to administrate.

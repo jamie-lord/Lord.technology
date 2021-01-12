@@ -1,8 +1,9 @@
 ---
+title: Joining Ello
+date: 2014-10-10 00:00:00 Z
 layout: post
-title:  "Joining Ello"
-date:   2014-10-10T00:00:00
 ---
+
 [Ello.co](https://ello.co) is a new social network that's caused a bit of a stir online due to its anti-Facebook attitude, the manifesto makes this fact pretty clear...
 
 > Your social network is owned by advertisers.

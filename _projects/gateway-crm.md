@@ -1,8 +1,9 @@
 ---
+title: GatewayCRM
+date: 2013-01-01 00:00:00 Z
 layout: post
-title:  "GatewayCRM"
-date:   2013-01-01 00:00:00 +0000
 ---
+
 [Gateway Of Technology Ltd](http://gotltd.co.uk/) required a simple, easy to use customer relationship management system that integrated with their existing payment system. I developed a Windows application that met all outlined goals and provided a highly-useful and robust business tool.
 
 ![Gateway CRM add new page]({{ site.url }}/assets/img/gateway-crm-add-new.png)

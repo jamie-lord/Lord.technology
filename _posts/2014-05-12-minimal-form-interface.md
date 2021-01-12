@@ -1,8 +1,9 @@
 ---
+title: Minimal form interface
+date: 2014-05-12 00:00:00 Z
 layout: post
-title:  "Minimal form interface"
-date:   2014-05-12T00:00:00
 ---
+
 How can web forms be reformed into a 21st century tool for data input? [Codrops](http://tympanus.net/Development/MinimalForm/) have published an interesting take on the traditional form that improves usability at the expense of universal support.
 
 > Today we'd like share a very simplistic form interface with you. You've probably seen this kind of single input view form in several modern websites. We spotted one in the end of the PageLanes website and thought that this is a really nice and user-friendly concept for a form.

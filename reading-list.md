@@ -1,8 +1,9 @@
 ---
+title: "\U0001F4DA Reading List"
+permalink: "/reading-list/"
 layout: page
-title: 📚 Reading List
-permalink: /reading-list/
 ---
+
 ## Literature I've read recently
 
 ### [The Dark Side of Technology](https://www.waterstones.com/book/the-dark-side-of-technology/peter-townsend/9780198790532) [06/19]
