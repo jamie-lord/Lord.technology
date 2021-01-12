@@ -1,8 +1,9 @@
 ---
+title: Creating a Koken photography site
+date: 2014-12-12 00:00:00 Z
 layout: post
-title:  "Creating a Koken photography site"
-date:   2014-12-12T00:00:00
 ---
+
 I never need much of an excuse to try a new CMS, subsequently I've created a new website for myself to showcase my photographic efforts using [Koken](http://koken.me/). Recently treating myself to a new camera (a Canon EOS M to replace a tired 5D Mk I) I decided I should probably create an online repository of my favorite images. Koken's been developed (pun intended) with this task in mind, it isn't really suited for more general sites but for photography it's seriously slick.
 
 I've also recently adopted Adobe Lightroom, something I can't recommend enough, if you haven't used it yet and are familiar with Adobe's other products. Koken has a great [plugin for Lightroom](https://store.koken.me/lightroom/koken-publish-service) that allows publishing of images from within the software straight to your site - very neat indeed.

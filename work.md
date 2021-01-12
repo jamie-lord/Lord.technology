@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Work
-permalink: /work/
+permalink: "/work/"
+layout: page
 ---
 
 What I'm doing today and a history of where I've been employed in the past.

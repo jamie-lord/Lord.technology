@@ -1,8 +1,9 @@
 ---
+title: Moving to a Mac
+date: 2015-05-21 00:00:00 Z
 layout: post
-title:  "Moving to a Mac"
-date:   2015-05-21T00:00:00
 ---
+
 First of all, I feel it's important to make clear that I'm typically a 'Windows person', that is to say, I've always used Windows as my primary OS. Of course I'm perfectly comfortable working with Linux, but normally you'll find me using Windows 8.1.
 
 Why? Because I've never had a reason to use anything else. I do a small amount of mandatory development in Visual Studio for Windows Phone applications but I'm generally more comfortable using a simple text editor, my favourite at the moment being Sublime Text 3.

@@ -1,8 +1,9 @@
 ---
+title: Gateway Of Technology Ltd.
+date: 2013-01-01 00:00:00 Z
 layout: post
-title:  "Gateway Of Technology Ltd."
-date:   2013-01-01 00:00:00 +0000
 ---
+
 Telecommunications and Internet service provider [Gateway of Technology Ltd.](http://www.gotltd.co.uk/) required a refresh of their homepage as well as extensive search engine optimisation.
 
 The homepage design was simplified considerably, removing distracting gifs and confusion elements that didn't convey a message clearly. Below is the homepage before the redesign.

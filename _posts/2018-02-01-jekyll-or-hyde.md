@@ -1,8 +1,9 @@
 ---
+title: Migrating to Jekyll
+date: 2018-02-01 21:17:51 Z
 layout: post
-title:  "Migrating to Jekyll"
-date:   2018-02-01T21:17:51
 ---
+
 Having spent a lot of time recently (even more than normal) working with Git I decided to once again migrate my site to another content management system. I do this every few years, mainly because it's a great excuse to play with some software and possibly programming or markup languages that I haven't use before. This instance is no exception. Additionally I've been consolidating my old web servers due to a steady decrease in their load as sites get retired or removed; this has made me reevaluate what I wanted to do with this site as it would require a migration to another server anyway - a perfect opportunity to play with something new.
 
 This site used to run on a flat file CMS called Grav that I've really had no complaints about. It's been fast and maintenance free and there have been a steady stream of updates for the core system as well as the common plugins I used. But times are changing and I've been interested in using the static site generator Jekyll for a while.

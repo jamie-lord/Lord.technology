@@ -1,8 +1,9 @@
 ---
+title: How to run a timer triggered Azure Function instantly when developing
+date: 2019-12-28 16:00:00 Z
 layout: post
-title:  "How to run a timer triggered Azure Function instantly when developing"
-date:   2019-12-28T16:00:00
 ---
+
 You can set a timer triggered Azure Function to run on startup when built for development like this:
 
 {% highlight csharp %}

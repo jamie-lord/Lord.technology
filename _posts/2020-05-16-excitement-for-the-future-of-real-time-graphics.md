@@ -1,7 +1,8 @@
 ---
 title: Excitement for the future of real-time graphics
-date: 2020-05-16T15:20:00.903Z
+date: 2020-05-16 15:20:00 Z
 ---
+
 A couple of days ago Epic released a video showing a [demo for Unreal Engine 5](https://www.youtube.com/watch?v=qC5KtatMcUw). If you're reading this then you've likely already seen that video, but I wanted to put into words my feelings about such a remarkable demonstration of the future of real-time computer generated graphics and gaming. Of course Epic is known for its astounding demos that demonstrate technologies that while are technically possible, game developers often cannot match due to time/cost constraints or not achieving palatable performance. However, the visuals shown in that demo are so remarkable that I still find it exciting and inspiring to think what is just around the corner.
 
 When I was a child I was blown away by Myst and Riven, games my father played and occasionally let me enjoy too. Although I didn't have the patience to solve most of the puzzles, I was always amazed by how real everything looked. Playing these games now highlights how far things have come and what the future might hold. The scenery in Epic's demo looks photo-real - it's better than many CGI backgrounds in blockbuster films made in the last 5 years, yet rendered in real-time on commodity hardware.

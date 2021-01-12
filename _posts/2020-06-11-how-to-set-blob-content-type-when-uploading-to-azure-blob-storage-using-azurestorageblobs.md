@@ -1,9 +1,8 @@
 ---
-title: >-
-  How to set blob content type when uploading to Azure Blob storage using
-  Azure.Storage.Blobs
-date: 2020-06-11T15:15:00.000Z
+title: How to set blob content type when uploading to Azure Blob storage using Azure.Storage.Blobs
+date: 2020-06-11 15:15:00 Z
 ---
+
 I recently wanted to upload something to an Azure Storage Blob Container and specify the content type without having to make another request, sadly there's currently no documentation that I could find on how to do this common operation. Here's how to do it with the current version of [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/) (12.4.4)...
 
 ```

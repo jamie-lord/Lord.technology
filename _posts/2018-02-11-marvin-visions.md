@@ -1,8 +1,9 @@
 ---
+title: Marvin Visions
+date: 2018-02-11 12:32:00 Z
 layout: post
-title:  "Marvin Visions"
-date:   2018-02-11T12:32:00
 ---
+
 Jekyll makes it trivial to edit a site's look and feel, just modify your sass files and push to Github. I keep playing around with colours, paddings and fonts - there's always something to tweak.
 
 I recently stumbled on [_Marvin Visions_](https://www.readvisions.com/marvin) a bold and striking typeface - I liked it so much I've started using it for headings on this site[^1]. Coupled with an old favorite of mine, [Lato](http://www.latofonts.com/lato-free-fonts/), this font looks particularly good on little blog posts like this one.

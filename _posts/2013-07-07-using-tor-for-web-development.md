@@ -1,8 +1,9 @@
 ---
+title: Using Tor for web development
+date: 2013-07-07 00:00:00 Z
 layout: post
-title:  "Using Tor for web development"
-date:   2013-07-07T00:00:00
 ---
+
 [Project Tor](https://www.torproject.org/index.html.en) enables anyone to browse the internet anonymously as if from another side of the planet. This is useful to those wanting to engage in shady activities, it's also very convenient for web developers.
 
 Cars frequently kill people; this doesn't make every driver a murderer. Using the Tor network is the same: it can be used for good and evil. Reporters use it to send highly sensitive information from nations that aren't too happy to let them spread the truth, it could also be used by paedophiles and other unsavoury characters, but there’s nothing we can do about that.

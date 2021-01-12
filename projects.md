@@ -1,9 +1,10 @@
 ---
+title: Projects
+date: 2019-12-23 12:00:00 Z
+permalink: "/projects"
 layout: page
-title:  "Projects"
-date:   2019-12-23 12:00:00 +0000
-permalink: /projects
 ---
+
 ## Things I'm actively working/playing with
 
 * Liquid templating in C# with Markdown

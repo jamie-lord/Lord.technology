@@ -1,8 +1,9 @@
 ---
+title: Moot 1.5 is here and finally brings paid upgrades
+date: 2013-06-06 00:00:00 Z
 layout: post
-title:  "Moot 1.5 is here and finally brings paid upgrades"
-date:   2013-06-06T00:00:00
 ---
+
 As you will be aware by now, I've been following the beta journey of [Moot](http://moot.it/), a new and exciting forum system designed to eradicate dated [phpBB](https://www.phpbb.com/) forums from the internet. The system has just reached a new mile-stone by including [branding and single sign-on](https://moot.it/upgrade/) as paid extras.
 
 Branding, unsurprisingly, enables you to dress up your Moot forum to match the rest of your site. This includes adding your logo to the login window, static SEO pages and branded emails from Moot. Single sign-on will enable your users to sign into your site and Moot forum with one user name and password. Currently users need a Moot username or to create an account with the service using your Facebook or Twitter credentials.
