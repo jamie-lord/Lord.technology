@@ -1,20 +1,17 @@
 ---
 title: Projects
-date: 2019-12-23 12:00:00 Z
+date: 2021-01-16 21:00:00 Z
 permalink: "/projects"
 layout: page
 ---
 
-## Things I'm actively working/playing with
-
-* Liquid templating in C# with Markdown
-
-## Completed projects
-
-Here are few things I've built. They're in chronological order for your convenience.
+Here are few things I've built/done. They're in chronological order for your convenience.
 
 |Project|Tech|
 |:---|:---|
+|Simple API Gateway|C#|
+|Learning F#|Get Programming with F#|
+|Unregistered domain finder|C#, Hetzner VPS cluster|
 |Goodreads review scraper|C#, Entity Framework Core, Azure Functions, Azure SQL|
 |[World Cup of Tube Lines 2020](https://wcol2020.lord.technology)|C#, Azure Functions, Twitter API v2, Github Pages|
 |[Tiny RSS Reader](https://github.com/jamie-lord/Reader)|C# .Net 5, Entity Framework Core, Razor Pages, SQLite|
