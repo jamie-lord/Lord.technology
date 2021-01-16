@@ -14,7 +14,7 @@ What I'm doing today and a history of where I've been employed in the past.
         <div class="desc">
           <h3>Mitrefinch</h3>
           <span class="designation">Delivery Team Lead</span>
-          <p>Lead Developer on the Mitrefinch Platform team. Using Azure technologies to build cross-product systems and infrastructure. Including user accounts, licencing, cross product events and other internal tooling.</p>
+          <p>Lead Developer on the Mitrefinch Platform team. Using Azure technologies to build cross-product systems and infrastructure. Including user accounts, licencing, event messaging and other internal tools.</p>
         </div>
       </li>
       <li>
