@@ -10,7 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 |Project|Tech|
 |:---|:---|
 |Simple API Gateway|C#|
-|Learning F#|Get Programming with F#|
+|Learning F#|[Get Programming with F#](https://www.goodreads.com/book/show/40617290-get-programming-with-f)|
 |Unregistered domain finder|C#, Hetzner VPS cluster|
 |Goodreads review scraper|C#, Entity Framework Core, Azure Functions, Azure SQL|
 |[World Cup of Tube Lines 2020](https://wcol2020.lord.technology)|C#, Azure Functions, Twitter API v2, Github Pages|
