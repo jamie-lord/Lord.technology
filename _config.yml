@@ -21,7 +21,7 @@ email: jamie@lord.technology
 description: Jamie Lord is a lead developer based in Nottingham, UK using C#, Vue.js, TypeScript and Azure technologies to build awesome products
 twitter_username: jme_lord
 github_username: jamie-lord
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: lord
 search: true
 locale: en-GB
 
