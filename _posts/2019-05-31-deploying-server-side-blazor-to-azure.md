@@ -1,6 +1,6 @@
 ---
 title: How to deploy server-side Blazor to an Azure App Service
-date: 2019-05-31 16:01:00 Z
+date: 2019-05-31 17:01:00 +01:00
 ---
 
 Sadly [Microsoft's documentation](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/blazor/server-side?view=aspnetcore-3.0) on this is non-existent at the moment and there are a couple of tricky parts that caught me out the first time I tried so I thought I'd provide instructions here for anyone trying to do the same thing.

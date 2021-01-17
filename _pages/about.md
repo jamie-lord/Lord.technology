@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+title: About
+permalink: "/about/"
 ---
 
 I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.

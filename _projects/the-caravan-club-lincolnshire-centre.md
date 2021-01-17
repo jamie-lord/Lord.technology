@@ -1,6 +1,6 @@
 ---
 title: The Caravan Club - Lincolnshire Centre
-date: 2013-01-01 00:00:00 Z
+date: 2013-01-01 00:00:00 +00:00
 ---
 
 #### Did you know that Lincolnshire is home to the UK's largest caravan club?
