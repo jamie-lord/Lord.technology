@@ -5,7 +5,7 @@ date: 2014-12-12 00:00:00 +00:00
 
 I never need much of an excuse to try a new CMS, subsequently I've created a new website for myself to showcase my photographic efforts using [Koken](http://koken.me/). Recently treating myself to a new camera (a Canon EOS M to replace a tired 5D Mk I) I decided I should probably create an online repository of my favorite images. Koken's been developed (pun intended) with this task in mind, it isn't really suited for more general sites but for photography it's seriously slick.
 
-I've also recently adopted Adobe Lightroom, something I can't recommend enough, if you haven't used it yet and are familiar with Adobe's other products. Koken has a great [plugin for Lightroom](https://store.koken.me/lightroom/koken-publish-service) that allows publishing of images from within the software straight to your site - very neat indeed.
+I've also recently adopted Adobe Lightroom, something I can't recommend enough, if you haven't used it yet and are familiar with Adobe's other products. Koken has a great plugin for Lightroom that allows publishing of images from within the software straight to your site - very neat indeed.
 
 This CMS is (much like Anchor) still in its infancy although unlike Anchor it's being actively developed, yay. Although unlike WordPress and Drupal the community is small and there is a lack of plugins and themes, not that I find this a turnoff - all the more hacking for me.
 
