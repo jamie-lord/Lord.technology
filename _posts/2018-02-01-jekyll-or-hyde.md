@@ -1,6 +1,6 @@
 ---
 title: Migrating to Jekyll
-date: 2018-02-01 21:17:51 Z
+date: 2018-02-01 21:17:51 +00:00
 ---
 
 Having spent a lot of time recently (even more than normal) working with Git I decided to once again migrate my site to another content management system. I do this every few years, mainly because it's a great excuse to play with some software and possibly programming or markup languages that I haven't use before. This instance is no exception. Additionally I've been consolidating my old web servers due to a steady decrease in their load as sites get retired or removed; this has made me reevaluate what I wanted to do with this site as it would require a migration to another server anyway - a perfect opportunity to play with something new.

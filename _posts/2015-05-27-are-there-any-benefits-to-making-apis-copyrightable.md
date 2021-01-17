@@ -1,6 +1,6 @@
 ---
 title: Are there any benefits to making APIs copyrightable?
-date: 2015-05-27 00:00:00 Z
+date: 2015-05-27 01:00:00 +01:00
 ---
 
 The White House has told the Supreme Court that APIs can be copyrighted ([arstechnica.com](http://arstechnica.com/tech-policy/2015/05/white-house-sides-with-oracle-tells-supreme-court-apis-are-copyrightable/)). This is generally being perceived as terrible news, the design of an API is typically very standard affair, meaning there could be a lot of court cases if this where to become law.

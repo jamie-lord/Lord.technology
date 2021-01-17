@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2021-01-16 21:00:00 Z
+date: 2021-01-16 21:00:00 +00:00
 permalink: "/projects/"
 ---
 

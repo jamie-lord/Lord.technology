@@ -1,6 +1,6 @@
 ---
 title: Creating a Koken photography site
-date: 2014-12-12 00:00:00 Z
+date: 2014-12-12 00:00:00 +00:00
 ---
 
 I never need much of an excuse to try a new CMS, subsequently I've created a new website for myself to showcase my photographic efforts using [Koken](http://koken.me/). Recently treating myself to a new camera (a Canon EOS M to replace a tired 5D Mk I) I decided I should probably create an online repository of my favorite images. Koken's been developed (pun intended) with this task in mind, it isn't really suited for more general sites but for photography it's seriously slick.
