@@ -1,7 +1,6 @@
 ---
 title: C# object and file storage in Git
 date: 2018-02-04 16:33:00 Z
-layout: post
 ---
 
 I recently wrote a small class library to serialise and store objects as JSON files in a local or remote Git repository. The library has a simple interface to get and store objects or collections of objects. The objects are then simply serialised and saved to files named based on the property `Id` and in a directory named using the object type. Files are also supported and simply saved based on a provided file name.

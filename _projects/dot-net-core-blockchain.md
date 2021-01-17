@@ -1,7 +1,6 @@
 ---
 title: ".Net Core blockchain"
 date: 2018-02-06 20:30:00 Z
-layout: post
 ---
 
 I recently forked a popular C# blockchain demonstration program and ported the project to .Net Core. Fortunately the project is very simple by design, its entire point is to provide a practical demonstration of how a blockchain works. After conducting some minor refactoring and migrating the project to .Net Core everything worked well and as expected. One issue was that the [*TinyWebServer*](https://bitbucket.org/tevert/tinywebserver) library used is not .Net Core ready so I manually included that in the project.

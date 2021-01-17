@@ -1,7 +1,6 @@
 ---
 title: The University of Lincoln American Football Team
 date: 2013-01-01 00:00:00 Z
-layout: post
 ---
 
 The University of Lincoln American Football team (The Lincoln Colonials) required new web hosting to allow them to migrate from an archaic Drupal site to a new WordPress one. Thanks to my highly flexible and expandable infrastructure I was able to deliver a superior hosting platform at a very reasonable cost.

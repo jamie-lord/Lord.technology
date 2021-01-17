@@ -1,7 +1,6 @@
 ---
 title: JHACK - The Technology Blog
 date: 2013-01-01 00:00:00 Z
-layout: post
 ---
 
 In late 2012 I decided to start my own technology blog to learn more about website design and maintenance and to provide a reasonable excuse for my vast appetite for technology news.
