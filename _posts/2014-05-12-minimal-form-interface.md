@@ -1,7 +1,6 @@
 ---
 title: Minimal form interface
 date: 2014-05-12 00:00:00 Z
-layout: post
 ---
 
 How can web forms be reformed into a 21st century tool for data input? [Codrops](http://tympanus.net/Development/MinimalForm/) have published an interesting take on the traditional form that improves usability at the expense of universal support.

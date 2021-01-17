@@ -1,10 +1,90 @@
----
-title: Jamie Lord - Lord.technology
-timezone: UTC
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jamie Lord
+subtitle: Lord.technology
+url: https://lord.technology
+repository: jamie-lord/Lord.technology
+email: jamie@lord.technology
+description: Jamie Lord is a lead developer based in Nottingham, UK using C#, Vue.js, TypeScript and Azure technologies to build awesome products
+twitter_username: jme_lord
+github_username: jamie-lord
+minimal_mistakes_skin: dark
+search: true
+locale: en-GB
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/London
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+author:
+  name: "Jamie Lord"
+  avatar: "/assets/images/jamie.jpg"
+  bio: "Lead developer using C#, Vue.js, TypeScript and Azure technologies to build awesome products"
+  location: "Nottingham, UK"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jme_lord"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jamie-lord"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jamie-lord"
+
+social:
+  type: Person
+  name: Jamie Lord
+  links:
+    - "https://twitter.com/jme_lord"
+    - "https://github.com/jamie-lord"
+    - "https://www.linkedin.com/in/jamie-lord"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jme_lord"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jamie-lord"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jamie-lord"
+
 collections:
-  posts:
-    title: Posts
-    output: true
   projects:
     title: Projects
     output: true
@@ -12,23 +92,37 @@ collections:
   uploads:
     title: Uploads
     output: true
-header_title: Jamie Lord
-author: Jamie Lord
-email: jamie@lord.technology
-description: Jamie Lord is a lead developer based in Nottingham, UK using C#, Vue.js,
-  TypeScript and Azure technologies to build awesome products
-baseurl: 
-url: https://lord.technology
-twitter_username: jme_lord
-github_username: jamie-lord
-markdown: kramdown
-plugins:
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-sitemap
-show_excerpts: true
-header_pages:
-- projects.md
-- blog.md
-- work.md
-- about.md
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

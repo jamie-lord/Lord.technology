@@ -1,8 +1,7 @@
 ---
 title: Projects
 date: 2021-01-16 21:00:00 Z
-permalink: "/projects"
-layout: page
+permalink: "/projects/"
 ---
 
 Here are few things I've built/done. They're in chronological order for your convenience.
