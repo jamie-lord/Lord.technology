@@ -3,7 +3,7 @@ title: Using Tor for web development
 date: 2013-07-07 01:00:00 +01:00
 ---
 
-[Project Tor](https://www.torproject.org/index.html.en) enables anyone to browse the internet anonymously as if from another side of the planet. This is useful to those wanting to engage in shady activities, it's also very convenient for web developers.
+Project Tor enables anyone to browse the internet anonymously as if from another side of the planet. This is useful to those wanting to engage in shady activities, it's also very convenient for web developers.
 
 Cars frequently kill people; this doesn't make every driver a murderer. Using the Tor network is the same: it can be used for good and evil. Reporters use it to send highly sensitive information from nations that aren't too happy to let them spread the truth, it could also be used by paedophiles and other unsavoury characters, but there’s nothing we can do about that.
 
@@ -13,4 +13,4 @@ Cars frequently kill people; this doesn't make every driver a murderer. Using th
 
 Browsing the internet from an external source is extremely useful when testing new sites and applications; it gives a developer an easy way to view something from the perspective of a newcomer. This isn’t easily achievable without fiddling with proxies or physically joining another network. Using this method can quickly identify issues with new projects such as 404 errors, cache problems and compression woes.
 
-Keeping a [Tor Browser Bundle](https://www.torproject.org/download/download-easy.html.en) up-to-date and ready for action at a moment's notice is something I highly recommend. One possibly undesired effect is that you might be browsing the Internet from an entirely different continent. This can give you an insight into load times from across the globe; it can also be a pain having to wait for lengthy loading times...
+Keeping a Tor Browser Bundle up-to-date and ready for action at a moment's notice is something I highly recommend. One possibly undesired effect is that you might be browsing the Internet from an entirely different continent. This can give you an insight into load times from across the globe; it can also be a pain having to wait for lengthy loading times...
