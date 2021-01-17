@@ -5,13 +5,13 @@ date: 2013-01-01 00:00:00 +00:00
 
 In late 2012 I decided to start my own technology blog to learn more about website design and maintenance and to provide a reasonable excuse for my vast appetite for technology news.
 
-The site is called [JHACK](http://jhack.co.uk) - I decided on this name simply because it's short and easy to remember. Using WordPress and a melody of plugins, coupled with a heavily customised theme, I developed the sites branding and design over a three month beta period. The main reason for setting the site up was to discover and implement new technologies such as CloudFlare and Varnish Cache; as well as enhancing my Linux sysadmin knowledge.
+The site is called JHACK - I decided on this name simply because it's short and easy to remember. Using WordPress and a melody of plugins, coupled with a heavily customised theme, I developed the sites branding and design over a three month beta period. The main reason for setting the site up was to discover and implement new technologies such as CloudFlare and Varnish Cache; as well as enhancing my Linux sysadmin knowledge.
 
 ![JHACK homepage]({{ site.url }}/assets/img/jhack-home.jpg)
 
 The site includes Facebook and Twitter accounts, as well as a forum using Moot. Not only is the desktop version of the site entirely responsive, it also has a mobile version using JetPack.
 
-My posts vary in their subject matter, but I tend to focus more on electronics, Computer Science and hacks. JHACK was never intended to be a personal blog - many posts (mainly about gaming) are written by [Tarik Suday](http://jhack.co.uk/author/tarik-suday/), a University buddy of mine.
+My posts vary in their subject matter, but I tend to focus more on electronics, Computer Science and hacks. JHACK was never intended to be a personal blog - many posts (mainly about gaming) are written by Tarik Suday, a University buddy of mine.
 Between February 2013 and February 2014 the site received over 511,000 pageviews.
 
 ![JHACK post page]({{ site.url }}/assets/img/jhack-post.png)
