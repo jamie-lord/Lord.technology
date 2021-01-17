@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2021-01-16 21:00:00 +00:00
+date: 2021-01-17 21:00:00 +00:00
 permalink: "/projects/"
 ---
 
@@ -37,7 +37,7 @@ Here are few things I've built/done. They're in chronological order for your con
 |[Food Hygiene Twitter Bot](https://twitter.com/FoodHygieneBot)|C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [Tweetinvi](https://github.com/linvi/tweetinvi), SQLite, Azure Functions, Azure File Storage|
 |Updates to [Blazor based Todo.txt app](http://do.lord.technology/)|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
 |[.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject)|C#, .Net Core|
-|[Web API for SQLite](https://github.com/jamie-lord/Dataweb)|C#, .Net Core|
+|Web API for SQLite|C#, .Net Core|
 |Decentralised social network app using email as transport mechanism|Xamarin Forms, [MailKit](https://github.com/jstedfast/MailKit), SQLite|
 |[Static photography site generator](https://github.com/jamie-lord/Photography-site-generator) ([Output](https://photography.lord.technology/))|C#, .Net Core, [UIKit](https://getuikit.com/)|
 |[Blazor based Todo.txt app](http://do.lord.technology/) ([Source](https://github.com/jamie-lord/do))|[Blazor](https://github.com/aspnet/Blazor), Mono via Wasm|
@@ -54,7 +54,7 @@ Here are few things I've built/done. They're in chronological order for your con
 |Live global flight data-gathering and statistics system|C#, Entity Framework 6, MSSQL|
 |[Emily O’Reilly ACR - Paper Conservation](http://emilyoreilly.co.uk/)|WordPress|
 |[Entity Framework backed mutithreaded web crawler](https://github.com/jamie-lord/Spindel)|C#, Entity Framework 6, MSSQL|
-|[<img src="/assets/img/hack-24-logo-white.png" alt="HACK24">](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, [Xamarin Forms](https://github.com/ngokani/FakeNews)|
+|[<img src="/assets/img/hack-24-logo-white.png" alt="HACK24">](http://www.hack24.co.uk)|[ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, Xamarin Forms|
 |[Super simple todo list](https://github.com/jamie-lord/todo)|HTML5, Javascript, Bootstrap|
 |Hyperspace route calculator|C#|
 |Date/outing finder Android app|Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL|
