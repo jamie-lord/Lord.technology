@@ -13,6 +13,8 @@ Since the first version, I've also been really interested in [Blazor](https://bl
 
 🏆 Winner of [Experian's _Learning About Money Challenge_](https://www.hack24.co.uk/blog/the-experian-learning-about-money-challenge) at [Hack24](https://www.hack24.co.uk/) 2018.
 
+[Microsoft Certifications](https://www.youracclaim.com/users/lord/badges)
+
 ## Memberships
 
 I'm a current member of the following organisations and societies.
