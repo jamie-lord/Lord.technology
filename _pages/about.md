@@ -19,6 +19,10 @@ Since the first version, I've also been really interested in [Blazor](https://bl
 
 I'm a current member of the following organisations and societies.
 
+[!<figure style="height: 64px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/RBC_proud_banner_black_bg.png" alt="">
+</figure>](https://www.sustainweb.org/realbread/)
+
 [![Real Bread Campaign](/assets/img/RBC_proud_banner_black_bg.png)](https://www.sustainweb.org/realbread/)
 
 - [European Alliance for Innovation](http://eai.eu/)
