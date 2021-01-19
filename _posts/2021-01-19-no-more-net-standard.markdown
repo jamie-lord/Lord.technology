@@ -5,7 +5,7 @@ categories:
 - dotnet
 ---
 
-Whilst reading about the [plan for Entity Framework Core 6.0](https://devblogs.microsoft.com/dotnet/the-plan-for-entity-framework-core-6-0) I noticed a [remark about .Net Standard]([https://devblogs.microsoft.com/dotnet/the-future-of-net-standard](https://devblogs.microsoft.com/dotnet/the-future-of-net-standard/)) that I'd not clocked last year.
+Whilst reading about the [plan for Entity Framework Core 6.0](https://devblogs.microsoft.com/dotnet/the-plan-for-entity-framework-core-6-0) I noticed a [remark about .Net Standard](https://devblogs.microsoft.com/dotnet/the-future-of-net-standard) that I'd not clocked last year.
 
 As of .Net 5.0, there will be no future .Net Standard versions. .Net Standard 2.1 is the last version.
 
