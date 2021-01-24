@@ -5,7 +5,7 @@ categories:
 - dataset
 ---
 
-I've published a [dataset on GitHub](https://github.com/jamie-lord/uk-train-dataset) that comprises of a single CSV file containing every locomotive in the UK. This includes historic and private locomotives.
+I've published a [dataset on GitHub](https://github.com/jamie-lord/uk-train-dataset) that comprises of a single CSV file containing every locomotive in the UK. This includes historic and private locomotives, London Underground and other light rail rolling stock.
 
 ## Values included
 
