@@ -10,7 +10,7 @@ tags:
 
 [Spring 2021](https://www.notion.so/api-beta) is still outlined as the release timeframe for the Notion API and I can't wait. I've been using Notion since becoming a [Lead Developer](https://lord.technology/work) to try and improve my knowledge storage and it's been a fantastic choice so far.
 
-I've used some of the templates Notion ships with, particularly the project board (like Trello) for little side projects that warrant more than just a todo list. However most of my usage is just pages with bullet points and sub titles.
+I've used some of the templates Notion ships with, particularly the project board (like Trello) for little side projects that warrant more than just a todo list. However most of my usage is just pages with bullet points and sub headings.
 
 Because pages can be rearranged so easily I'm trying to force myself to create new pages for every topic rather than ending up with large pages that contain notes on a whole topic. This heavy partitioning has no effect on searching but makes it easier to manually find something if pages are organised correctly. My strategy to pages is much like commits - they're free so why not use loads?
 
