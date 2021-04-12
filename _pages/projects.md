@@ -8,6 +8,11 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|[Software synthesizer](https://github.com/jamie-lord/Synth)|C#|
+|SQLite JSON document store|C#|
+|Jira Client|C#, NSwag|
+|Playing with Pulumi|Pulumi, C#|
+|[Truly infinite HTML tables](https://github.com/jamie-lord/Spreadbase)|JavaScript|
 |Simple API Gateway|C#|
 |Learning F#|[Get Programming with F#](https://www.goodreads.com/book/show/40617290-get-programming-with-f)|
 |Unregistered domain finder|C#, Hetzner VPS cluster|
