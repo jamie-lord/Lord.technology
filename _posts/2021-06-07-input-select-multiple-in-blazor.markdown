@@ -13,43 +13,43 @@ Firstly the HTML in your component. Do **not** add the normal `@bind-Value` to t
 
 ```html
 <select @ref="_selectReference" @onchange="OnSelectionChanged" multiple>
-			@foreach (var option in AllOptions)
-			{
-	   <option value="@option" selected="@Model.SelectedOptions.Contains(option)">@option</option>
-			}
-  </select>
+	@foreach (var option in AllOptions)
+	{
+		<option value="@option" selected="@Model.SelectedOptions.Contains(option)">@option</option>
+	}
+</select>
 ```
 
 In your component's `code` section we need to get the selected values and then update the model. In my example I'm using a `HashSet` because I expect all values to be unique, you could also us a `List` if you prefer.
 
 ```csharp
 private async Task OnSelectionChanged(ChangeEventArgs eventArgs)
-	{
-		var selection = await GetSelections(_selectReference);
-		Model.SelectedOptions = selection;
-	}
+{
+	var selection = await GetSelections(_selectReference);
+	Model.SelectedOptions = selection;
+}
 
-	private ElementReference _selectReference;
+private ElementReference _selectReference;
 
-	public async Task<HashSet<string>> GetSelections(ElementReference elementReference)
-	{
-		return (await JS.InvokeAsync<List<string>>("getSelectedValues", _selectReference)).ToHashSet();
-	}
+public async Task<HashSet<string>> GetSelections(ElementReference elementReference)
+{
+	return (await JS.InvokeAsync<List<string>>("getSelectedValues", _selectReference)).ToHashSet();
+}
 ```
 
 And finally a tiny bit of JavaScript is required sadly that returns all the selected values for C# to update your model.
 
 ```jsx
 window.getSelectedValues = function(sel) {
-   var results = [];
-   var i;
-   for (i = 0; i < sel.options.length; i++) {
-	if (sel.options[i].selected) {
-	 results[results.length] = sel.options[i].value;
+	var results = [];
+	var i;
+	for (i = 0; i < sel.options.length; i++) {
+		if (sel.options[i].selected) {
+			results[results.length] = sel.options[i].value;
+		}
 	}
-   }
-   return results;
-  };
+	return results;
+};
 ```
 
 And that's it, add some styling and you should have a working multi select in your Blazor form.
