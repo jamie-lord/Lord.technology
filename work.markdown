@@ -1,7 +1,7 @@
 ---
 title: Work
 date: 2021-06-16 19:13:00 +01:00
-permalink: "/work-new/"
+permalink: "/work/"
 author_profile: true
 layout: single
 ---
