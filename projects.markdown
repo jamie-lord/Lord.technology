@@ -10,6 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|Content management system and blog engine|Server-side Blazor, Entity Framework, Razor Pages|
 |[Reactive Blazor UI](https://github.com/jamie-lord/Reactive-Blazor-test)|Server-side Blazor, System.Reactive, Entity Framework|
 |No code app creator|Server-side Blazor|
 |[Software synthesizer](https://github.com/jamie-lord/Synth)|C#|
