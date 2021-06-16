@@ -6,4 +6,4 @@ author_profile: true
 layout: single
 ---
 
-Test
+This is only a test.
