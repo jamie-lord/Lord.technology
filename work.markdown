@@ -15,13 +15,13 @@ Lead Developer on the Mitrefinch Platform team. Using Azure technologies to buil
 ### Developer - April 2019
 Using Vue.js with TypeScript and C# .Net Core with Azure technologies to build multi-tenant SaaS applications including payroll and access control systems.
 
-## [IFS](https://web.archive.org/web/20181022211004/https://www.ifsworld.com/us/)
+## <a href="https://web.archive.org/web/20181022211004/https://www.ifsworld.com/us/" target="_blank">IFS</a>
 ### Senior Software Engineer - October 2018
 Continued work on the mobile framework as well as internal tools using C# .Net Core.
 
 ### Software Engineer - November 2016
 Developing a unique and vast mobile framework using Xamarin Native for Android, iOS and Windows desktop to allow creation of runtime-defined apps.
 
-## [MultiPie](https://web.archive.org/web/20160610141221/http://www.multipie.co.uk/)
+## <a href="https://web.archive.org/web/20160610141221/http://www.multipie.co.uk/" target="_blank">MultiPie</a>
 ### Mobile Applications Developer - May 2016
 Worked on a variety of native iOS and Android mobile apps for clients using Swift and Java.
