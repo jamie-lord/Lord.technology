@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2021-06-16 19:56:00 +01:00
-permalink: "/about-new/"
+permalink: "/about/"
 author_profile: true
 layout: single
 ---
