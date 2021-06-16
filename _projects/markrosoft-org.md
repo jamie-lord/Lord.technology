@@ -3,7 +3,7 @@ title: Markrosoft.org
 date: 2013-01-01 00:00:00 +00:00
 ---
 
-[Markrosoft.org](http://markrosoft.org/) is the personal website of Mark Collins a Demonstrator & Developer at the University of Lincoln. Mark required a redesign of his blog, he wanted a simple, flat interface that focused on quality content.
+[Markrosoft.org](https://markrosoft.org/) is the personal website of Mark Collins a Demonstrator & Developer at the University of Lincoln. Mark required a redesign of his blog, he wanted a simple, flat interface that focused on quality content.
 
 ![markrosoft.org homepage]({{ site.url }}/assets/img/markrosoft-homepage.png)
 
