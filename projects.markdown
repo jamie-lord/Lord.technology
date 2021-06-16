@@ -1,7 +1,7 @@
 ---
 title: Projects
 date: 2021-06-16 19:46:00 +01:00
-permalink: "/projects-new/"
+permalink: "/projects/"
 author_profile: true
 layout: single
 ---
