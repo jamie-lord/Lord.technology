@@ -8,22 +8,20 @@ layout: single
 
 What I'm doing today and a history of where I've been employed in the past.
 
-## Delivery Team Lead - Mitrefinch <small>August 2020</small>
-
+## Mitrefinch
+### Delivery Team Lead - August 2020
 Lead Developer on the Mitrefinch Platform team. Using Azure technologies to build cross-product systems and infrastructure. Including user accounts, licencing, event messaging and other internal tools.
 
-## Developer - Mitrefinch <small>April 2019</small>
-
+### Developer - April 2019
 Using Vue.js with TypeScript and C# .Net Core with Azure technologies to build multi-tenant SaaS applications including payroll and access control systems.
 
-## Senior Software Engineer - IFS <small>October 2018</small>
-
+## IFS
+### Senior Software Engineer - October 2018
 Continued work on the mobile framework as well as internal tools using C# .Net Core.
 
-## Software Engineer - IFS <small>November 2016</small>
-
+### Software Engineer - November 2016
 Developing a unique and vast mobile framework using Xamarin Native for Android, iOS and Windows desktop to allow creation of runtime-defined apps.
 
-## Mobile Applications Developer - MultiPie <small>May 2016</small>
-
+## MultiPie
+### Mobile Applications Developer - May 2016
 Worked on a variety of native iOS and Android mobile apps for clients using Swift and Java.
