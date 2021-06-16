@@ -10,9 +10,11 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|[Reactive Blazor UI](https://github.com/jamie-lord/Reactive-Blazor-test)|Server-side Blazor, System.Reactive, Entity Framework|
+|No code app creator|Server-side Blazor|
 |[Software synthesizer](https://github.com/jamie-lord/Synth)|C#|
 |SQLite JSON document store|C#|
-|Jira Client|C#, NSwag|
+|Custom Jira client|C#, NSwag|
 |Playing with Pulumi|Pulumi, C#|
 |[Truly infinite HTML tables](https://github.com/jamie-lord/Spreadbase)|JavaScript|
 |Simple API Gateway|C#|
