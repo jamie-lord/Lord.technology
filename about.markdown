@@ -1,28 +1,27 @@
 ---
-title: About
-date: 2021-06-16 19:56:00 +01:00
+title: About me
+date: 2021-06-17 20:54:00 +01:00
 permalink: "/about/"
 author_profile: true
 layout: single
 ---
 
-I'm Jamie Lord, Master of Computing (MComp) and winner of the prize for Outstanding Contribution from the University of Lincoln.
+I'm Jamie Lord, a Lead Software Engineer currently building multi-tenant SaaS applications using Azure technologies and C#.
 
-I love computers. Seriously, a lot. Because of this passion I pursued a Masters degree in Computer Science at the University of Lincoln which I completed in early 2016.
+Experienced in building development teams and instilling a culture that results in reliable, maintainable products where team members feel empowered to increase quality and take real ownership of their work - I live and breath software development and relish the challenges it poses.
 
-I frequently use .Net Core to create tools and systems to support my other work. Have a look at the [projects]({{ site.url }}/projects) page for examples.
+## My current work sees me using
 
-Since the first version, I've also been really interested in [Blazor](https://blazor.net/) and have been trying to find new use cases for the developing world of web assembly.
+- C# .Net Core 3.1 and .Net 5.0
+- Razor pages and MVC
+- Vue.js & Vuex with TypeScript
+- C# Web APIs (using Swagger and NSwag Studio)
+- Azure Cosmos DB
+- Azure SQL
+- Azure Service Bus
+- Azure App Services
+- Azure Functions
+- SignalR
+- Azure Front Door
 
-🏆 Winner of [Experian's _Learning About Money Challenge_](https://www.hack24.co.uk/blog/the-experian-learning-about-money-challenge) at [Hack24](https://www.hack24.co.uk/) 2018.
-
-[Microsoft Certifications](https://www.youracclaim.com/users/lord/badges)
-
-## Memberships
-
-I'm a current member of the following organisations and societies.
-
-[![Real Bread Campaign](/assets/img/RBC_proud_banner_black_bg.png)](https://www.sustainweb.org/realbread/)
-
-- [European Alliance for Innovation](http://eai.eu/)
-- [The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering](http://icst.org/)
+It's pretty rare that I'm not toying with a side-project or two ([see GitHub for more](https://github.com/jamie-lord)) and I particularly enjoy using Blazor to rapidly prototype - something I've been doing since 0.1.0 back in March 2018.
