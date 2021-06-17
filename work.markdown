@@ -10,7 +10,7 @@ What I'm doing today and a history of where I've been employed in the past.
 
 ## <a href="https://web.archive.org/web/20200119002737/https://www.mitrefinch.co.uk/" target="_blank">Mitrefinch</a>
 ### 👉 Delivery Team Lead - August 2020
-Lead Developer on the Mitrefinch Platform team. Using Azure technologies to build cross-product systems and infrastructure. Including user accounts, licencing, event messaging and other internal tools.
+Lead Developer on the Mitrefinch Platform team. Using C# and Azure technologies to build cross-product systems and infrastructure. Including our SSO platform, product licencing, event messaging infrastructure and other internal management systems.
 
 ### Developer - April 2019
 Using Vue.js with TypeScript and C# .Net Core with Azure technologies to build multi-tenant SaaS applications including payroll and access control systems.
