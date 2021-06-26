@@ -10,7 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
-|[Notion to Jekyll](https://github.com/jamie-lord/NotionToJekyll)|C#, Notion API, GitHub API|
+|[Notion to Jekyll](https://lord.technology/2021/06/26/notion-to-jekyll.html)|C#, Notion API, GitHub API|
 |Content management system and blog engine|Server-side Blazor, Entity Framework, Razor Pages|
 |[Reactive Blazor UI](https://github.com/jamie-lord/Reactive-Blazor-test)|Server-side Blazor, System.Reactive, Entity Framework|
 |No code app creator|Server-side Blazor|
