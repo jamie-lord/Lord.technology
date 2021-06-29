@@ -1,7 +1,13 @@
 ---
 title: Publishing blog posts from Notion to Jekyll
-date: 2021-06-26 22:56:00 +01:00
+date: 2021-06-26T22:24:00.0000000+01:00
+last_modified_at: 2021-06-29T20:29:00.0000000+01:00
 notion_id: 257993ef-c789-488b-99de-cfc0b9348dd2
+categories:
+- programming
+tags:
+- notion
+- writing
 ---
 
 I use Notion as my personal knowledgebase and normally write blog posts in temporary pages and then manually publish them to my Jekyll site using SiteLeaf. With the Notion API now operational I'd been meaning to build a little tool to take blog posts inside a Notion database and convert them to markdown and push them to GitHub. I've now done that as this very post has been published using [the little program](https://github.com/jamie-lord/NotionToJekyll) I've created.
