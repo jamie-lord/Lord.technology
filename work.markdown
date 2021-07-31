@@ -8,8 +8,12 @@ layout: single
 
 What I'm doing today and a history of where I've been employed in the past.
 
+## <a href="https://web.archive.org/web/20210506205544/https://www.oneadvanced.com/" target="_blank">Advanced</a>
+### 👉 Principal Software Engineer - July 2021
+Lead Developer on Mitrefinch (acquired by Advanced October 2020) Flexipay payroll solution.
+
 ## <a href="https://web.archive.org/web/20200119002737/https://www.mitrefinch.co.uk/" target="_blank">Mitrefinch</a>
-### 👉 Delivery Team Lead - August 2020
+### Delivery Team Lead - August 2020
 Lead Developer on the Mitrefinch Platform team. Using C# and Azure technologies to build cross-product systems and infrastructure. Including our SSO platform, product licencing, event messaging infrastructure and other internal management systems.
 
 ### Developer - April 2019
