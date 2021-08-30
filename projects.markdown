@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2021-06-16 19:46:00 +01:00
+date: 2021-08-30 16:28:00 +01:00
 permalink: "/projects/"
 author_profile: true
 layout: single
@@ -10,6 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|.Net browser engine|C#|
 |[Notion to Jekyll](https://lord.technology/2021/06/26/notion-to-jekyll.html)|C#, Notion API, GitHub API|
 |Content management system and blog engine|Server-side Blazor, Entity Framework, Razor Pages|
 |[Reactive Blazor UI](https://github.com/jamie-lord/Reactive-Blazor-test)|Server-side Blazor, System.Reactive, Entity Framework|
