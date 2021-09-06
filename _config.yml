@@ -108,3 +108,7 @@ compress_html:
   blanklines: true
   ignore:
     envs: development
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: UA-165399120-1
