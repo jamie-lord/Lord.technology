@@ -1,12 +1,12 @@
 ---
 title: Not-so-smarthome
-date: 2021-09-08T22:08:00.0000000+01:00
-last_modified_at: 2021-09-08T22:10:00.0000000+01:00
-notion_id: 8314e47a-ef09-42eb-b7b7-322b11213e84
+date: 2021-09-08 22:08:00 +01:00
 categories:
 - home
 tags:
 - IOT
+last_modified_at: 2021-09-08 22:10:00 +01:00
+notion_id: 8314e47a-ef09-42eb-b7b7-322b11213e84
 ---
 
 Having recently moved house, we've come to the conclusion that we don't need and won't be reinstalling our smart lightbulbs and Amazon Echos, or any other smart devices for that matter.
