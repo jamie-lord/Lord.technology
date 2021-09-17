@@ -1,12 +1,12 @@
 ---
 title: Time to get planning for Hacktoberfest 2021
-date: 2021-09-17T20:56:00.0000000+01:00
-last_modified_at: 2021-09-17T20:57:00.0000000+01:00
-notion_id: acf2490d-43fa-42a6-ab37-60a7354aa33b
+date: 2021-09-17 20:56:00 +01:00
 categories:
 - programming
 tags:
 - hacktoberfest
+last_modified_at: 2021-09-17 20:57:00 +01:00
+notion_id: acf2490d-43fa-42a6-ab37-60a7354aa33b
 ---
 
 I've done the last 3 or 4 Hacktoberfests and really enjoyed the motivation to plough into a project during October.
