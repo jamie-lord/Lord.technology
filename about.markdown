@@ -24,4 +24,4 @@ Experienced in building development teams and instilling a culture that results 
 - SignalR
 - Azure Front Door
 
-It's pretty rare that I'm not toying with a side-project or two ([see GitHub for more](https://github.com/jamie-lord)) and I particularly enjoy using Blazor to rapidly prototype - something I've been doing since 0.1.0 back in March 2018.
+It's pretty rare that I'm not toying with [a side-project or two](https://lord.technology/projects/) ([see GitHub for more](https://github.com/jamie-lord)) and I particularly enjoy using Blazor to rapidly prototype - something I've been doing since 0.1.0 back in March 2018.
