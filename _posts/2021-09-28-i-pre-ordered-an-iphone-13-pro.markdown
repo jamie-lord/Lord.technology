@@ -1,14 +1,14 @@
 ---
 title: I've pre-ordered an iPhone 13 Pro
-date: 2021-09-28T19:33:00.0000000+01:00
-last_modified_at: 2021-09-28T19:35:00.0000000+01:00
-notion_id: 44d848ff-bc74-4b01-9eb2-d7f276beca0d
+date: 2021-09-28 19:33:00 +01:00
 categories:
 - Mobile
 tags:
 - iOS
 - Android
 - iPhone
+last_modified_at: 2021-09-28 19:35:00 +01:00
+notion_id: 44d848ff-bc74-4b01-9eb2-d7f276beca0d
 ---
 
 I hate iOS. And I also hate Android. For years I developed apps for both platforms (and Windows desktop too) and for this reason I'm an anti-fanboy. I'm all too aware of the terrible memory usage when initialising UI on Android and the diabolical tool that is Xcode for iOS development. I don't have a strong allegiance to either clan and have now flip-flopped between the two every 3 years or so.
