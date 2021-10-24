@@ -1,14 +1,14 @@
 ---
 title: iPhone 13 Pro
-date: 2021-10-24T20:49:00.0000000+01:00
-last_modified_at: 2021-10-24T20:51:00.0000000+01:00
-notion_id: 7b4e9351-31f9-4647-a7ab-8d83b2cc8b27
+date: 2021-10-24 20:49:00 +01:00
 categories:
 - Mobile
 tags:
 - iOS
 - Android
 - iPhone
+last_modified_at: 2021-10-24 20:51:00 +01:00
+notion_id: 7b4e9351-31f9-4647-a7ab-8d83b2cc8b27
 ---
 
 FaceID is amazingly good, particularly considering I was such a lover of TouchID on the iPhone 6S and really did not like the idea of FaceID when it first came out having only seen terrible implementations of this feature on other devices.
