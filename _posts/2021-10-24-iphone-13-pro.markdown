@@ -1,0 +1,31 @@
+---
+title: iPhone 13 Pro
+date: 2021-10-24T20:49:00.0000000+01:00
+last_modified_at: 2021-10-24T20:51:00.0000000+01:00
+notion_id: 7b4e9351-31f9-4647-a7ab-8d83b2cc8b27
+categories:
+- Mobile
+tags:
+- iOS
+- Android
+- iPhone
+---
+
+FaceID is amazingly good, particularly considering I was such a lover of TouchID on the iPhone 6S and really did not like the idea of FaceID when it first came out having only seen terrible implementations of this feature on other devices.
+
+Battery life is exceptional. I've driven 300 miles with Google Maps on the whole time and still had 25% battery remaining at the end. I'll be curious to see how this wears down over time as my 6S ended up unusable specifically because the battery degraded so much, hopefully Apple have got better at this.
+
+This is my first phone with no headphone jack and I don't mind as I don't have a commute anymore - hooray for the pandemic. If I end up doing much walking on my own again then I'll look into wireless headphones, however I've never been too keen on having another device to manage the battery of.
+
+It has a fantastic variety of cameras - there's a very large difference between wide angle, normal and zoomed. This has been particularly useful as we've just got a cat so the 256GB capacity of this device is slowly being filled with images and videos of Captain Haddock 😻.
+
+I'm surprised that I don't mind not having any physical buttons on the front of the phone. When I first tried an iPhone X simulator I hated the gestures to go home and view open apps but in practice it's been easy to get used to and works well.
+
+Tapping the screen to wake the device is a great feature that is far more intuitive when I want to glance at the time or see what notifications I have. I know some Android phones have this and I think I tried it on my last phone but cannot have got on well with that implementation given I didn't use it for long.
+
+This is my first device that I've used wireless charging with other than the original Apple Watch. The snappy magnets of the Apple charging pad are great - no more fumbling around trying to get it plugged in after the bedroom lights have gone off.
+
+The iOS keyboard is exceptional. I appreciate that there are loads of third part keyboards on Android and that I may not have been using the best one available but the behaviour of the default iOS one is fantastic. It seems to do a great job of automatically correcting my mistakes which I appreciate when using apps where your sent messages cannot be deleted. Technology transparently making me look less stupid is always appreciated.
+
+Overall this device is surprisingly good and I've not found a single thing that iOS cannot do anymore that Android can.
+
