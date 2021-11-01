@@ -10,7 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
-|Shipping vessel downloader|.Net 6, Entity Framework, SQLite|
+|Shipping vessel downloader|C# .Net 6, Entity Framework, SQLite|
 |Watching for website changes with GitHub Actions|GitHub Actions, urlwatch|
 |.Net browser engine|C#|
 |[Notion to Jekyll](https://lord.technology/2021/06/26/notion-to-jekyll.html)|C#, Notion API, GitHub API|
