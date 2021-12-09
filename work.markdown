@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2021-07-19 19:13:00 +01:00
+date: 2021-12-09 07:13:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
