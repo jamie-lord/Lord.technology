@@ -39,7 +39,7 @@ subtitle: Lord.technology
 url: https://lord.technology
 repository: jamie-lord/Lord.technology
 email: jamie@lord.technology
-description: Jamie Lord is a lead developer based in Nottingham, UK using C#, Vue.js,
+description: Jamie Lord is CTO of HeadClear, based in Nottingham, UK using C#, Vue.js,
   TypeScript and Azure technologies to build awesome products
 twitter_username: jme_lord
 github_username: jamie-lord
@@ -65,8 +65,7 @@ plugins:
 author:
   name: Jamie Lord
   avatar: "/assets/images/jamie.jpg"
-  bio: Lead developer using C#, Vue.js, TypeScript and Azure technologies to build
-    awesome products
+  bio: CTO using C#, Vue.js, TypeScript and Azure technologies to build awesome products
   location: Nottingham, UK
   links:
   - label: GitHub
