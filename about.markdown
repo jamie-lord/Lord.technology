@@ -1,6 +1,6 @@
 ---
 title: About me
-date: 2021-06-17 20:54:00 +01:00
+date: 2021-12-09 08:54:00 +00:00
 permalink: "/about/"
 author_profile: true
 layout: single
