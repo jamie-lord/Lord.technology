@@ -6,7 +6,7 @@ author_profile: true
 layout: single
 ---
 
-I'm Jamie Lord, a full stack Lead Software Engineer currently building multi-tenant SaaS applications using Azure technologies and C#.
+I'm Jamie Lord, a full stack developer currently building multi-tenant SaaS applications using Azure technologies and C#.
 
 Experienced in building development teams and instilling a culture that results in reliable, maintainable products where team members feel empowered to increase quality and take real ownership of their work - I live and breath software development and relish the challenges it poses.
 
