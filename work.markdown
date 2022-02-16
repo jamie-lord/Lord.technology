@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2021-12-09 07:13:00 +00:00
+date: 2022-02-16 12:13:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -10,7 +10,7 @@ What I'm doing today and a history of where I've been employed in the past.
 
 
 ## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
-### 👉 CTO - December 2021
+### 👉 Chief Technology Officer - December 2021
 HeadClear is a leading-edge workplace mental health and well-being platform, focused on helping you and your employees prevent and manage stress, anxiety and related conditions. Developed by specialists and underpinned by clinical psychology our technology platform provides predictive analytics, well-being insights and in-depth self-management tools which increase productivity and helps individuals to take control of their own health and well-being.
 
 ## <a href="https://web.archive.org/web/20210506205544/https://www.oneadvanced.com/" target="_blank">Advanced</a>
