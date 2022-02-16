@@ -14,6 +14,7 @@ Experienced in building development teams and instilling a culture that results 
 
 - C# .Net 6.0
 - GraphQL
+- Entity Framework
 - Postgres
 - Angular
 - Ionic
