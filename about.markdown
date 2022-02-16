@@ -1,6 +1,6 @@
 ---
 title: About me
-date: 2021-12-09 08:54:00 +00:00
+date: 2022-02-16 12:15:00 +00:00
 permalink: "/about/"
 author_profile: true
 layout: single
@@ -12,16 +12,11 @@ Experienced in building development teams and instilling a culture that results 
 
 ## My current work sees me using
 
-- C# .Net Core 3.1 and .Net 5.0
-- Razor pages and MVC
-- Vue.js & Vuex with TypeScript
-- C# Web APIs (using Swagger and NSwag Studio)
-- Azure Cosmos DB
-- Azure SQL
-- Azure Service Bus
-- Azure App Services
-- Azure Functions
-- SignalR
-- Azure Front Door
+- C# .Net 6.0
+- GraphQL
+- Postgres
+- Angular
+- Ionic
+- Docker
 
 It's pretty rare that I'm not toying with [a side-project or two](https://lord.technology/projects/) ([see GitHub for more](https://github.com/jamie-lord)) and I particularly enjoy using Blazor to rapidly prototype - something I've been doing since 0.1.0 back in March 2018.
