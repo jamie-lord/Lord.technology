@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2022-03-30 13:40:00 +01:00
+date: 2022-03-30 13:43:00 +01:00
 permalink: "/projects/"
 author_profile: true
 layout: single
@@ -12,7 +12,7 @@ Here are few things I've built/done. They're in chronological order for your con
 |:---|:---|
 |Micro blog generator|Ionic, Angular, GitHub API|
 |Military aircraft tracker|C# .Net 6, Entity Framework, SQLite|
-|In-browser live HTML editor|JavaScript|
+|[In-browser live HTML editor](https://github.com/jamie-lord/live-html-editor)|JavaScript|
 |Shipping vessel downloader|C# .Net 6, Entity Framework, SQLite|
 |Watching for website changes with GitHub Actions|GitHub Actions, urlwatch|
 |.Net browser engine|C#|
