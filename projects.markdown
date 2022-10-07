@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2022-03-30 13:43:00 +01:00
+date: 2022-10-07 10:30:00 +01:00
 permalink: "/projects/"
 author_profile: true
 layout: single
@@ -10,6 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|Camera and lens price tracker|C#, Blazor, SQLite|
 |Micro blog generator|Ionic, Angular, GitHub API|
 |Military aircraft tracker|C# .Net 6, Entity Framework, SQLite|
 |[In-browser live HTML editor](https://github.com/jamie-lord/live-html-editor)|JavaScript|
