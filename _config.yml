@@ -41,7 +41,6 @@ repository: jamie-lord/Lord.technology
 email: jamie@lord.technology
 description: Jamie Lord is CTO of HeadClear, based in Nottingham, UK using C#, GraphQL
   and Ionic Angular to build awesome products
-twitter_username: jme_lord
 github_username: jamie-lord
 minimal_mistakes_skin: lord
 search: true
@@ -74,16 +73,12 @@ author:
   - label: Linkedin
     icon: fab fa-fw fa-linkedin
     url: https://www.linkedin.com/in/jamie-lord
-  - label: Twitter
-    icon: fab fa-fw fa-twitter-square
-    url: https://twitter.com/jme_lord
 social:
   type: Person
   name: Jamie Lord
   links:
   - https://github.com/jamie-lord
   - https://www.linkedin.com/in/jamie-lord
-  - https://twitter.com/jme_lord
 footer:
   links:
   - label: GitHub
@@ -92,9 +87,6 @@ footer:
   - label: Linkedin
     icon: fab fa-fw fa-linkedin
     url: https://www.linkedin.com/in/jamie-lord
-  - label: Twitter
-    icon: fab fa-fw fa-twitter-square
-    url: https://twitter.com/jme_lord
 category_archive:
   type: liquid
   path: "/categories/"
