@@ -1,5 +1,5 @@
 ---
-title: Innovative cursor
+title: Innovative caret
 date: 2022-11-06 13:16:00 +00:00
 tags:
 - genius
