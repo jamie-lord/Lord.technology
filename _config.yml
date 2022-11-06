@@ -102,4 +102,4 @@ compress_html:
 analytics:
   provider: google-gtag
   google:
-    tracking_id: UA-165399120-1
+    tracking_id: G-SV12MR8FCS
