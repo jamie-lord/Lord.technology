@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2022-10-07 10:30:00 +01:00
+date: 2022-11-15 20:40:00 +00:00
 permalink: "/projects/"
 author_profile: true
 layout: single
@@ -10,6 +10,8 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|Anonymous Twitter client|C#, Razor|
+|Desktop UI|HTML Canvas|
 |Camera and lens price tracker|C#, Blazor, SQLite|
 |Micro blog generator|Ionic, Angular, GitHub API|
 |Military aircraft tracker|C# .Net 6, Entity Framework, SQLite|
