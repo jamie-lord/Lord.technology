@@ -1,0 +1,16 @@
+---
+title: This post was (mostly) written by Notion AI
+date: 2022-12-19 15:00:00 +00:00
+categories:
+- codswallop
+---
+
+I recently ventured into the world of Notion AI, enabling the features on my workspace with an eager curiosity to see what it could do for my writing. Although I wasn't sure what to expect when I first began, after trying it out, I have to say that I'm not too impressed. The AI has only made minor alterations to my text and I'm not sure if these changes have made it any better. However, I'm still open to giving it a chance as I'm sure the AI will continue to learn and improve, and I'm looking forward to seeing what it can do in the future.
+
+However, I'm still hopeful that the 'make longer' and 'make shorter' features may come in handy and allow me to expand specific prompts and condense any drivel that I may have written. Even further, I'm sure there will be many more tools and techniques that the AI has to offer which I have yet to discover, and I'm looking forward to uncovering them and seeing how they can assist me in my writing endeavours. What's more, I'm sure there are multiple ways in which the AI can be used to improve my writing, such as providing more detailed feedback on my grammar and syntax, as well as suggesting more creative ways to express my ideas. With these tools, I'm sure I'll be able to craft more compelling pieces of written work.
+
+As technology advances and progresses, Textual AI is quickly becoming a vital component of our lives. From news outlets to educational institutions, the application of AI-driven text and language analysis is profoundly changing how we interpret and use data and information. Looking ahead, it is very likely that Textual AI will take over the world and revolutionize communication, collaboration, and content creation. This highlights just how important AI-driven text analysis will be in the near future, allowing us to create content more quickly, accurately, and efficiently. We are already seeing the implementation of AI-driven text analysis in numerous industries, such as healthcare, finance, and more, and it is expected that as AI-driven text analysis becomes increasingly popular, the opportunities and possibilities it presents will only increase. The potential for Textual AI is exponential, with the potential for its application across multiple fields being virtually limitless.
+
+Content writers may find themselves relegated to simply writing bullet points, but they can also be tasked with providing more detailed and comprehensive information, such as expanding on the bullet points they create with additional facts, statistics, and examples. This can help to ensure that readers have a better understanding of the material, as well as help to make it more engaging. Additionally, content writers can also help with the layout of material, ensuring that the format is easy to read and understand. By taking on these various tasks, content writers can help to create more effective and appealing content for their audience.
+
+What a load of codswallop.
