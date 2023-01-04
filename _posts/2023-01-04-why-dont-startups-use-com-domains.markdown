@@ -1,6 +1,8 @@
 ---
 title: Why don't startups use .com domains?
 date: 2023-01-04 12:48:00 +00:00
+categories:
+- startup
 ---
 
 Startups can and do use .com domains, and many of them do. However, it is also common for startups to use other types of domains, such as .io, .co, .net, and others. There are a few reasons why startups might choose to use a domain other than .com:
