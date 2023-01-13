@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2023-01-13 15:20:00 +00:00
+date: 2023-01-13 15:30:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -25,7 +25,7 @@ My role as HeadClear CTO includes the following responsibilities:
 
 ## <a href="https://web.archive.org/web/20210506205544/https://www.oneadvanced.com/" target="_blank">Advanced</a>
 ### Principal Software Engineer - October 2020
-Lead Developer on Mitrefinch (acquired by Advanced October 2020) Flexipay payroll solution.
+Lead developer on Mitrefinch Flexipay payroll solution (acquired by Advanced October 2020) responsible for overseeing the development of the product, including managing a team of developers, ensuring that the product meets the needs of the customers, and staying up to date with industry trends and advancements in technology. I was responsible for ensuring that the product was developed on schedule and within budget, and that it meet or exceeded quality standards. Additionally, I was involved in the testing, debugging, and maintenance of the product, as well as working with other departments such as sales and marketing to promote Flexipay.
 
 ## <a href="https://web.archive.org/web/20200119002737/https://www.mitrefinch.co.uk/" target="_blank">Mitrefinch</a>
 ### Delivery Team Lead - August 2020
