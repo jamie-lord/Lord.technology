@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2022-02-16 12:13:00 +00:00
+date: 2023-01-13 15:20:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -11,7 +11,17 @@ What I'm doing today and a history of where I've been employed in the past.
 
 ## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
 ### 👉 Chief Technology Officer - December 2021
-HeadClear is a leading-edge workplace mental health and well-being platform, focused on helping you and your employees prevent and manage stress, anxiety and related conditions. Developed by specialists and underpinned by clinical psychology our technology platform provides predictive analytics, well-being insights and in-depth self-management tools which increase productivity and helps individuals to take control of their own health and well-being.
+My role as HeadClear CTO includes the following responsibilities:
+1. Technical vision: Setting the technical direction for HeadClear and ensuring that it aligns with the overall business strategy.
+2. Product development: Leading the development of the company's product, including the design, development, and testing of new features and functionality.
+3. Team management: Managing and mentoring the engineering team, including hiring, onboarding, and performance evaluations.
+4. Technology infrastructure: Building and maintaining the technology infrastructure necessary to support HeadClear's products and services.
+5. Technical partnerships: Identifying and developing technical partnerships that can help HeadClear grow and scale.
+6. Staying up-to-date with the latest technologies and trends, and making sure we’re using the best tools and techniques to achieve our goals.
+7. Communicating effectively with other stakeholders, including the CEO, other members of the leadership team, and external partners.
+8. Managing the budget for the technology team and wider IT requirements and ensuring that HeadClear is getting the most value for its money.
+9. Identifying and mitigating technical risks, and creating and implementing contingency plans to minimize disruptions to the business.
+10. Being a leader and an advocate for HeadClear and its products both internally and externally.
 
 ## <a href="https://web.archive.org/web/20210506205544/https://www.oneadvanced.com/" target="_blank">Advanced</a>
 ### Principal Software Engineer - October 2020
