@@ -8,7 +8,7 @@ layout: single
 
 What I'm doing today and a history of where I've been employed in the past.
 
-## <a href="https://www.cds.co.uk target="_blank">CDS UK</a>
+## <a href="https://www.cds.co.uk" target="_blank">CDS UK</a>
 ### 👉 Solution Architect - March 2023
 
 ## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
