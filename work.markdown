@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2023-01-13 15:30:00 +00:00
+date: 2023-03-07 11:49:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -8,9 +8,11 @@ layout: single
 
 What I'm doing today and a history of where I've been employed in the past.
 
+## <a href="https://www.cds.co.uk target="_blank">CDS UK</a>
+### 👉 Solution Architect - March 2023
 
 ## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
-### 👉 Chief Technology Officer - December 2021
+### Chief Technology Officer - December 2021
 My role as HeadClear CTO includes the following responsibilities:
 1. Technical vision: Setting the technical direction for HeadClear and ensuring that it aligns with the overall business strategy.
 2. Product development: Leading the development of the company's product, including the design, development, and testing of new features and functionality.
