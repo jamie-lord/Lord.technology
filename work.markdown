@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2023-03-07 11:49:00 +00:00
+date: 2023-06-13 16:20:00 +01:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -10,6 +10,17 @@ What I'm doing today and a history of where I've been employed in the past.
 
 ## <a href="https://www.cds.co.uk" target="_blank">CDS UK</a>
 ### 👉 Solution Architect - March 2023
+- Analyse and understand client requirements, needs, and pain points
+- Design and develop solutions that meet client requirements, budget, and timelines
+- Collaborate with stakeholders to gather and incorporate feedback into solution designs
+- Identify and mitigate potential risks, issues, and roadblocks in solution designs
+- Select and integrate appropriate technologies and services to meet solution requirements
+- Ensure that solution designs comply with industry standards, regulations, and best practices
+- Test and validate solution designs to ensure they meet the desired outcomes
+- Provide guidance and support to development teams during the implementation and deployment phases
+- Continuously evaluate and improve solution designs to ensure they remain relevant and effective over time
+- Stay up-to-date with emerging technologies, trends, and best practices in the industry
+- Communicate solution designs and recommendations effectively to both technical and non-technical stakeholders
 
 ## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
 ### Chief Technology Officer - December 2021
