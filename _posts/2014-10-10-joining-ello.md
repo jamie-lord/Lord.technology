@@ -3,7 +3,7 @@ title: Joining Ello
 date: 2014-10-10 01:00:00 +01:00
 ---
 
-[Ello.co](https://ello.co) is a new social network that's caused a bit of a stir online due to its anti-Facebook attitude, the manifesto makes this fact pretty clear...
+Ello.co is a new social network that's caused a bit of a stir online due to its anti-Facebook attitude, the manifesto makes this fact pretty clear...
 
 > Your social network is owned by advertisers.
 > 
@@ -19,4 +19,4 @@ Personally I don't mind the UI although many web designers are complaining that 
 
 At the time of writing this post, the social network is invite-only, meaning basically no one I actually know IRL has an account. Interestingly I quite like this, I'm finding people and organisations using Ello that I'd probably never find elsewhere - including designers, developers and artists.
 
-Take a look at [my page](https://ello.co/jamielord) to see my latest posts and if you're already a member why not add me to your noise feed?
+Take a look at my page to see my latest posts and if you're already a member why not add me to your noise feed?
