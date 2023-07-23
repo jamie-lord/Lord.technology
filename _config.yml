@@ -70,23 +70,16 @@ author:
   - label: GitHub
     icon: fab fa-fw fa-github
     url: https://github.com/jamie-lord
-  - label: Linkedin
-    icon: fab fa-fw fa-linkedin
-    url: https://www.linkedin.com/in/jamie-lord
 social:
   type: Person
   name: Jamie Lord
   links:
   - https://github.com/jamie-lord
-  - https://www.linkedin.com/in/jamie-lord
 footer:
   links:
   - label: GitHub
     icon: fab fa-fw fa-github
     url: https://github.com/jamie-lord
-  - label: Linkedin
-    icon: fab fa-fw fa-linkedin
-    url: https://www.linkedin.com/in/jamie-lord
 category_archive:
   type: liquid
   path: "/categories/"
