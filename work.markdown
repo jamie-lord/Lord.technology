@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2023-06-13 16:20:00 +01:00
+date: 2023-07-28 11:05:00 +01:00
 permalink: "/work/"
 author_profile: true
 layout: single
@@ -22,7 +22,7 @@ What I'm doing today and a history of where I've been employed in the past.
 - Stay up-to-date with emerging technologies, trends, and best practices in the industry
 - Communicate solution designs and recommendations effectively to both technical and non-technical stakeholders
 
-## <a href="https://www.headclear.com/" target="_blank">HeadClear</a>
+## <a href="https://web.archive.org/web/20230728100050/https://www.headclear.com/" target="_blank">HeadClear</a>
 ### Chief Technology Officer - December 2021
 My role as HeadClear CTO includes the following responsibilities:
 1. Technical vision: Setting the technical direction for HeadClear and ensuring that it aligns with the overall business strategy.
