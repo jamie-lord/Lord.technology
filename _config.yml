@@ -39,8 +39,8 @@ subtitle: Lord.technology
 url: https://lord.technology
 repository: jamie-lord/Lord.technology
 email: jamie@lord.technology
-description: Jamie Lord is CTO of HeadClear, based in Nottingham, UK using C#, GraphQL
-  and Ionic Angular to build awesome products
+description: Jamie Lord is Solution Architect at CDS, based in Nottingham, UK, using
+  Azure and C# to build awesome projects
 github_username: jamie-lord
 minimal_mistakes_skin: lord
 search: true
@@ -64,7 +64,8 @@ plugins:
 author:
   name: Jamie Lord
   avatar: "/assets/images/jamie.jpg"
-  bio: CTO using C#, GraphQL and Ionic Angular to build awesome products
+  bio: Jamie Lord is Solution Architect at CDS, based in Nottingham, UK, using Azure
+    and C# to build awesome projects
   location: Nottingham, UK
   links:
   - label: GitHub
