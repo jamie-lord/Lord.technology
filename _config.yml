@@ -64,8 +64,8 @@ plugins:
 author:
   name: Jamie Lord
   avatar: "/assets/images/jamie.jpg"
-  bio: Jamie Lord is Solution Architect at CDS, based in Nottingham, UK, using Azure
-    and C# to build awesome projects
+  bio: Solution Architect at CDS, based in Nottingham, UK, using Azure and C# to build
+    awesome projects
   location: Nottingham, UK
   links:
   - label: GitHub
