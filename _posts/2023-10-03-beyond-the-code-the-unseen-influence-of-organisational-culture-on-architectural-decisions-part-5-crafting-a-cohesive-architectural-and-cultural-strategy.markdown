@@ -1,6 +1,5 @@
 ---
-title: 'Beyond the Code: The Unseen Influence of Organisational Culture on Architectural
-  Decisions - Part 5: Crafting a Cohesive Architectural and Cultural Strategy'
+title: 'Beyond the Code - Part 5: Crafting a Cohesive Architectural and Cultural Strategy'
 date: 2023-10-03 22:20:00 +01:00
 categories:
 - solution architecture
