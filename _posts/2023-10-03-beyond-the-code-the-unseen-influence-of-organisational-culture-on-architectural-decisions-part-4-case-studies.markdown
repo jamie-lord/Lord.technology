@@ -1,6 +1,5 @@
 ---
-title: 'Beyond the Code: The Unseen Influence of Organisational Culture on Architectural
-  Decisions - Part 4: Case Studies'
+title: 'Beyond the Code - Part 4: Case Studies'
 date: 2023-10-03 22:15:00 +01:00
 categories:
 - solution architecture
