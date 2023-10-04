@@ -1,6 +1,6 @@
 ---
-title: 'Beyond the Code: The Unseen Influence of Organisational Culture on Architectural
-  Decisions - Part 3: Bridging the Gap between Technical and Cultural Silos'
+title: 'Beyond the Code - Part 3: Bridging the Gap between Technical and Cultural
+  Silos'
 date: 2023-10-03 22:10:00 +01:00
 categories:
 - solution architecture
