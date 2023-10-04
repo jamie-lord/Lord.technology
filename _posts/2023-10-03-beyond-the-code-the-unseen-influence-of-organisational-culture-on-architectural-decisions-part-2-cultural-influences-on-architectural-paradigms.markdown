@@ -7,6 +7,10 @@ categories:
 tags:
 - agile
 - monolith
+excerpt: This post aims to explore the deep-seated relationship between agile cultures
+  and agile architectural practices, providing insights into how each enables and
+  reinforces the other, while also acknowledging and exploring the challenges that
+  arise in navigating this symbiotic relationship.
 ---
 
 1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
