@@ -7,6 +7,12 @@ categories:
 tags:
 - culture
 - organisations
+excerpt: Aligning technical and cultural objectives is not a static activity but a
+  dynamic, ongoing process that requires continuous engagement, feedback, and adaptation.
+  By ensuring that architectural decisions not only align with but also actively support
+  and enhance cultural objectives, organisations can create a synergistic relationship
+  where culture and architecture mutually reinforce and elevate each other, driving
+  the organisation towards its desired outcomes and visions.
 ---
 
 1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
