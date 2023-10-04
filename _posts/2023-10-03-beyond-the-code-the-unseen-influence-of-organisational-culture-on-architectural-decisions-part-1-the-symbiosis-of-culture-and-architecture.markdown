@@ -10,10 +10,9 @@ tags:
 - organisation
 - agile
 - waterfall
-excerpt: |-
-  In the intricate world of software development, solution architects often find themselves at the intersection of technical design and organisational strategy. While the technical aspects of solution architecture are frequently discussed, the profound impact of organisational culture on architectural decisions is a topic that often goes unexplored.
-
-  This series of blog posts aims to shed light on how the values, beliefs, and behaviours within a company can shape the architectural landscapes of its software solutions.
+excerpt: This post aims to provide a foundational understanding of organisational
+  culture and hint at its pervasive influence on architectural decisions, setting
+  the stage for deeper exploration in the following posts in the series.
 ---
 
 ## Introduction
