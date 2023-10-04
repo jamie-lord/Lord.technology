@@ -9,6 +9,12 @@ tags:
 - culture
 ---
 
+1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
+2. [Cultural Influences on Architectural Paradigms](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-2-cultural-influences-on-architectural-paradigms.html)
+3. [Bridging the Gap between Technical and Cultural Silos](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-3-bridging-the-gap-between-technical-and-cultural-silos.html)
+4. [Case Studies](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-4-case-studies.html)
+5. [Crafting a Cohesive Architectural and Cultural Strategy](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-5-crafting-a-cohesive-architectural-and-cultural-strategy.html)
+
 ## Building a Culture-Aware Architectural Strategy
 
 The harmonisation of architectural strategies with the cultural milieu of an organisation is paramount to ensuring not only the technical efficacy of architectural decisions but also their sustainability and alignment with organisational objectives and norms. In this section, we explore strategies and considerations for building a culture-aware architectural strategy that synergistically intertwines technical and cultural elements.
