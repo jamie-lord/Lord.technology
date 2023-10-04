@@ -9,6 +9,13 @@ tags:
 - monolith
 ---
 
+
+1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
+2. [Cultural Influences on Architectural Paradigms](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-2-cultural-influences-on-architectural-paradigms.html)
+3. [Bridging the Gap between Technical and Cultural Silos](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-3-bridging-the-gap-between-technical-and-cultural-silos.html)
+4. [Case Studies](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-4-case-studies.html)
+5. [Crafting a Cohesive Architectural and Cultural Strategy](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-5-crafting-a-cohesive-architectural-and-cultural-strategy.html)
+
 ## Agility in Culture and Architecture
 
 Agility, in both organisational culture and architectural design, has become a pivotal aspect of modern software development, enabling businesses to adapt to the ever-changing technological and market landscapes. The symbiosis between an agile culture and agile architectural practices is profound, each reinforcing and enabling the other to create a resilient and adaptive organisational ecosystem.
