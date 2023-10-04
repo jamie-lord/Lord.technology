@@ -9,7 +9,6 @@ tags:
 - monolith
 ---
 
-
 1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
 2. [Cultural Influences on Architectural Paradigms](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-2-cultural-influences-on-architectural-paradigms.html)
 3. [Bridging the Gap between Technical and Cultural Silos](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-3-bridging-the-gap-between-technical-and-cultural-silos.html)
