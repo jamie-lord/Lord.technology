@@ -7,6 +7,12 @@ categories:
 tags:
 - strategy
 - culture
+excerpt: The harmonisation of architectural strategies with the cultural milieu of
+  an organisation is paramount to ensuring not only the technical efficacy of architectural
+  decisions but also their sustainability and alignment with organisational objectives
+  and norms. In this section, we explore strategies and considerations for building
+  a culture-aware architectural strategy that synergistically intertwines technical
+  and cultural elements.
 ---
 
 1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
