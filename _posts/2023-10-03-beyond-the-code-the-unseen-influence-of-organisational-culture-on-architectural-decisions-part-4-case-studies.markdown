@@ -4,6 +4,11 @@ title: 'Beyond the Code: The Unseen Influence of Organisational Culture on Archi
 date: 2023-10-03 22:15:00 +01:00
 categories:
 - solution architecture
+excerpt: This post aims to explore the learnings that can be derived from failures
+  and challenges, providing insights into the pitfalls and complexities that can arise
+  when navigating the intertwined domains of organisational culture and architectural
+  decisions, and highlighting the importance of alignment, change management, and
+  continuous learning.
 ---
 
 1. [The Symbiosis of Culture and Architecture](https://lord.technology/2023/10/03/beyond-the-code-the-unseen-influence-of-organisational-culture-on-architectural-decisions-part-1-the-symbiosis-of-culture-and-architecture.html)
