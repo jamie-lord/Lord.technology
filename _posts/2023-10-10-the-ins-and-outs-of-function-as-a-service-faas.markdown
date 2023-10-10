@@ -48,7 +48,7 @@ Secure Access: Planning around secure access management and function isolation i
 
 ## Best Practices
 
-###State Management
+### State Management
 
 Architects must find a harmonious balance between the inherently stateless nature of FaaS and the stateful requirements of robust applications.
 
