@@ -37,6 +37,7 @@ defaults:
     author_profile: true
 subtitle: Lord.technology
 logo: "/assets/images/JL_logo.png"
+og_image: "/assets/images/JL_logo.png"
 url: https://lord.technology
 repository: jamie-lord/Lord.technology
 email: jamie@lord.technology
