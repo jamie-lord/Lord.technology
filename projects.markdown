@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2022-11-15 20:40:00 +00:00
+date: 2023-11-05 18:00:00 +00:00
 permalink: "/projects/"
 author_profile: true
 layout: single
@@ -10,7 +10,12 @@ Here are few things I've built/done. They're in chronological order for your con
 
 |Project|Tech|
 |:---|:---|
+|Cloudflare powered photo sharing site|Cloudflare Workers, [Hono](https://hono.dev), D1, R2, [Drizzle](https://orm.drizzle.team)|
+|Fastest bulk Hacker News downloader|C#|
+|[Style-less web browser](https://github.com/jamie-lord/Wander)|MAUI, AngleSharp|
+|HTML Canvas window manger|HTML Canvas, vanilla JS|
 |Anonymous Twitter client|C#, Razor|
+|Automated technology journalist|C#, OpenAI API, WordPress|
 |Desktop UI|HTML Canvas|
 |Camera and lens price tracker|C#, Blazor, SQLite|
 |Micro blog generator|Ionic, Angular, GitHub API|
