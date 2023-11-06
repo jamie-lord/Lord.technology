@@ -1,0 +1,52 @@
+@startgantt
+ganttscale yearly
+
+<style>
+ganttDiagram {
+    FontName Arial
+    FontSize 18
+    note {
+        FontSize 10
+    }
+    timeline {
+        BackgroundColor Bisque
+        FontName Arial
+        FontSize 16
+        FontStyle bold
+        FontColor black
+    }
+}
+</style>
+
+[University of Lincoln MComp 🎓] starts 2012-09-01 and ends 2016-04-31
+
+[MultiPie Mobile Applications Developer] starts 2016-05-01 and ends 2016-10-31
+[MultiPie Mobile Applications Developer] is colored in #f8c4b9
+note bottom
+MultiPie redundancy due to company closing
+end note
+
+[IFS Software Engineer] starts 2016-11-01 and ends 2018-09-31
+[IFS Software Engineer] is colored in #dabbf7
+
+[IFS Senior Software Engineer] starts 2018-10-01 and ends 2019-03-31
+[IFS Senior Software Engineer] is colored in #dabbf7
+
+[Mitrefinch Developer] starts 2019-04-01 and ends 2020-07-30
+[Mitrefinch Developer] is colored in #b3dbff
+
+[Mitrefinch Delivery Team Lead] starts 2020-08-01 and ends 2020-09-31
+[Mitrefinch Delivery Team Lead] is colored in #b3dbff
+
+[Advanced Principal Software Engineer] starts 2020-10-01 and ends 2021-11-31
+[Advanced Principal Software Engineer] is colored in #b3dbff
+note bottom
+Title change due to Advanced acquiring Mitrefinch
+end note
+
+[HeadClear CTO] starts 2021-12-01 and ends 2023-02-28
+[HeadClear CTO] is colored in #f6bcc3
+
+[CDS Solution Architect] starts 2023-03-01 and ends 2023-12-31
+[CDS Solution Architect] is colored in #bdf4f2
+@endgantt
