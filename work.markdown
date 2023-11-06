@@ -1,12 +1,15 @@
 ---
 title: Work
-date: 2023-07-28 11:05:00 +01:00
+date: 2023-11-06 19:00:00 +00:00
 permalink: "/work/"
 author_profile: true
 layout: single
 ---
 
 What I'm doing today and a history of where I've been employed in the past.
+
+![Me-gantt]({{ site.url }}{{ site.baseurl }}/assets/img/gantt.png)
+{: .full}
 
 ## <a href="https://www.cds.co.uk" target="_blank">CDS UK</a>
 ### 👉 Solution Architect - March 2023
