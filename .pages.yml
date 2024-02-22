@@ -8,7 +8,7 @@ content:
       fields: [ title, date, categories, tags ]
       default:
         sort: date
-        order: asc
+        order: desc
     fields:
       - name: date
         label: Date
