@@ -6,6 +6,9 @@ content:
     path: '_posts'
     view:
       fields: [ title, date, categories, tags ]
+      default:
+        sort: date
+        order: asc
     fields:
       - name: date
         label: Date
