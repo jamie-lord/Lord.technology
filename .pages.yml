@@ -18,10 +18,10 @@ content:
         type: string
       - name: categories
         label: Categories
-        type: string
+        type: object
       - name: tags
         label: Tags
-        type: string
+        type: object
       - name: body
         label: Body
         type: rich-text
