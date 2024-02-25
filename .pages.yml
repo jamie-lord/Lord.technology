@@ -4,7 +4,6 @@ content:
     label: Posts
     type: collection
     path: '_posts'
-    extension: 'markdown'
     view:
       fields: [ title, date, categories, tags ]
       default:
