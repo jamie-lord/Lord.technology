@@ -15,6 +15,7 @@ content:
         type: date
         options:
           time: true
+          format: YYYY-MM-DDTHH:mm
       - name: title
         label: Title
         type: string
