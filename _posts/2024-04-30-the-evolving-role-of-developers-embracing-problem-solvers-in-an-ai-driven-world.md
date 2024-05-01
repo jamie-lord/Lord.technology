@@ -5,7 +5,7 @@ title: "The Evolving Role of Developers: Embracing Problem Solvers in an
 categories:
   - category: ai
 tags:
-  - tag: innovation
+  - tag: innovationn
   - tag: software development
   - tag: thought leadership
 ---
