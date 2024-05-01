@@ -1,5 +1,5 @@
 ---
-date: 2024-04-30
+date: 2024-04-30T20:00
 title: "The Evolving Role of Developers: Embracing Problem Solvers in an
   AI-Driven World"
 categories:
