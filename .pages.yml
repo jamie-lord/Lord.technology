@@ -25,7 +25,6 @@ content:
         list: true
         fields:
           - name: category
-            label: Category
             type: string
       - name: tags
         label: Tags
@@ -33,7 +32,6 @@ content:
         list: true
         fields:
           - name: tag
-            label: Tag
             type: string
       - name: body
         label: Body
