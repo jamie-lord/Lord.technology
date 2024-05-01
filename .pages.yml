@@ -21,10 +21,10 @@ content:
         type: string
       - name: categories
         label: Categories
-        type: string
+        type: text
       - name: tags
         label: Tags
-        type: string
+        type: text
       - name: body
         label: Body
         type: rich-text
