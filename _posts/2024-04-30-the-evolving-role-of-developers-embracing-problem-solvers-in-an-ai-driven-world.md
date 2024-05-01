@@ -3,11 +3,11 @@ date: 2024-04-30T20:00
 title: "The Evolving Role of Developers: Embracing Problem Solvers in an
   AI-Driven World"
 categories:
-  - ai
+  - category: ai
 tags:
-  - software development
-  - thought leadership
-  - innovation
+  - tag: innovation
+  - tag: software development
+  - tag: thought leadership
 ---
 In a world where artificial intelligence is rapidly transforming the software development landscape, it's easy to get caught up in the hype surrounding tools like Devin. But amidst all the buzz, we risk losing sight of what truly matters: the human problem solvers who breathe life into our projects. As someone who's built and led numerous development teams, I've learnt that the real value of a developer lies not in their ability to churn out lines of code, but in their capacity to navigate complex challenges and deliver innovative solutions.
 
