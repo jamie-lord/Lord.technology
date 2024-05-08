@@ -7,6 +7,8 @@ tags:
   - ipadOS
   - iOS
 ---
+!\[iPad Pro with AI\]({{ site.url }}{{ site.baseurl }}/assets/img/a6f0f9de-6e78-4a45-adf7-b5bb4cd2d612.webp)
+
 In a move that's equal parts visionary and controversial, Apple has fired a loud salvo in the battle for the future of consumer AI. With the launch of their new M4 chip boasting amped up AI horsepower, the tech titan is betting big on a world where your devices don't just run AI, they essentially become AI - learning, inferencing and adapting locally without relying on the cloud.
 
 Imagine a future where your iPhone or MacBook isn't just a tool, but an intelligent companion that understands you like no other, enabled by powerful Neural Engines processing your most personal data right on the device. Apple paints a picture of an AI-powered user experience that's magically seamless and low-latency, yet fiercely protective of your privacy, enabled by keeping your data out of the hands of big bad cloud providers.
