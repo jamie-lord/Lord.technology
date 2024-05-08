@@ -7,7 +7,7 @@ tags:
   - ipadOS
   - iOS
 ---
-!\[iPad Pro with AI\]({{ site.url }}{{ site.baseurl }}/assets/img/a6f0f9de-6e78-4a45-adf7-b5bb4cd2d612.webp)
+![iPad Pro with AI]({{ site.url }}{{ site.baseurl }}/assets/img/a6f0f9de-6e78-4a45-adf7-b5bb4cd2d612.webp)
 
 In a move that's equal parts visionary and controversial, Apple has fired a loud salvo in the battle for the future of consumer AI. With the launch of their new M4 chip boasting amped up AI horsepower, the tech titan is betting big on a world where your devices don't just run AI, they essentially become AI - learning, inferencing and adapting locally without relying on the cloud.
 
