@@ -2,10 +2,11 @@
 date: 2024-05-08T13:00
 title: Apple's Brave New World of On-Device AI
 categories:
-  - Apple
+  - ai
 tags:
   - ipadOS
   - iOS
+  - apple
 ---
 ![iPad Pro with AI]({{ site.url }}{{ site.baseurl }}/assets/img/a6f0f9de-6e78-4a45-adf7-b5bb4cd2d612.webp)
 
