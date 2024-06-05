@@ -16,6 +16,6 @@ Between the dominance of mega-sites, the disappearance of code results, the rise
 
 Ironically, we seem to be better off asking an LLM directly rather than doing a Google search. Tools like ChatGPT and Anthropic's Claude can synthesise information from across the web and provide direct, useful answers and relevant code examples, without all the SEO cruft. While not perfect, the trajectory of AI models points to them becoming better than traditional search.
 
-Some argue that Google remains dominant simply due to inertia and lack of strong competition, not because they are still the best. Upstarts like Kagi and [You.com](http://You.com) show promise, but have an uphill battle against Google's entrenched position.
+Some argue that Google remains dominant simply due to inertia and lack of strong competition, not because they are still the best. Upstarts like Kagi and You.com show promise, but have an uphill battle against Google's entrenched position.
 
 Still, if the quality decline continues, more users will start seeking alternatives. Google may be headed down the same path as former tech giants like Nokia and Blackberry - overtaken not because they lacked resources, but because they grew complacent and lost touch with what users wanted. The future is looking more and more like it belongs to AI, not traditional search. And that may not be a bad thing. A shakeup of the search market is long overdue, and perhaps AI will be the force that finally dethrones the Google hegemony.
