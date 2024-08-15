@@ -2,10 +2,10 @@
 date: 2024-08-15T09:00
 title: How AI Scientist works
 categories:
-  - AI
+  - ad
 tags:
-  - Research
-  - Academia
+  - research
+  - academia
 ---
 [AI Scientist](https://sakana.ai/ai-scientist/) is a groundbreaking system that automates the entire process of machine learning research, from generating novel ideas to producing publication-ready papers. This innovative tool represents a significant leap forward in leveraging AI to accelerate scientific discovery and push the boundaries of what's possible in machine learning.
 
