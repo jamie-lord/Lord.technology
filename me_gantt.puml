@@ -1,5 +1,6 @@
 @startgantt
 ganttscale yearly
+Project starts 2012-09-01
 
 <style>
 ganttDiagram {
@@ -18,7 +19,7 @@ ganttDiagram {
 }
 </style>
 
-[University of Lincoln MComp 🎓] starts 2012-09-01 and ends 2016-04-31
+[University of Lincoln MComp] starts 2012-09-01 and ends 2016-04-31
 
 [MultiPie Mobile Applications Developer] starts 2016-05-01 and ends 2016-10-31
 [MultiPie Mobile Applications Developer] is colored in #f8c4b9
@@ -47,6 +48,6 @@ end note
 [HeadClear CTO] starts 2021-12-01 and ends 2023-02-28
 [HeadClear CTO] is colored in #f6bcc3
 
-[CDS Solution Architect] starts 2023-03-01 and ends 2023-12-31
+[CDS Solution Architect] starts 2023-03-01 and ends 2024-09-01
 [CDS Solution Architect] is colored in #bdf4f2
 @endgantt
