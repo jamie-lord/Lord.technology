@@ -44,6 +44,15 @@ content:
         options:
           time: true
           format: YYYY-MM-DDTHH:mm
+      - name: permalink
+        label: Permalink
+        type: string
+      - name: author_profile
+        label: Author profile
+        type: boolean
+      - name: layout
+        label: Layout
+        type: string
       - name: body
         label: Body
         type: rich-text
