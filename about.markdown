@@ -1,6 +1,9 @@
 ---
 title: About me
 date: 2024-10-10T10:00
+permalink: /about/
+author_profile: true
+layout: single
 ---
 I'm Jamie Lord, a full stack developer currently working as a Solution Architect building multi-tenant SaaS applications using Azure technologies and C#.
 
