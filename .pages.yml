@@ -15,7 +15,7 @@ content:
         type: date
         options:
           time: true
-          format: YYYY-MM-DDTHH:mm
+          format: yyyy-MM-ddTHH:mm
       - name: title
         label: Title
         type: string
@@ -43,7 +43,7 @@ content:
         type: date
         options:
           time: true
-          format: YYYY-MM-DDTHH:mm
+          format: yyyy-MM-ddTHH:mm
       - name: permalink
         label: Permalink
         type: string
