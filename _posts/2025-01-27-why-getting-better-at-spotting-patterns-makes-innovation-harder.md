@@ -1,5 +1,5 @@
 ---
-date: 2025-01-27173800440000019:00
+date: 2025-01-27T19:00
 title: Why Getting Better at Spotting Patterns Makes Innovation Harder
 ---
 Here's a surprising truth about intelligence: the better you become at recognising patterns, the harder it becomes to break free of them. This isn't just true for AI – it manifests everywhere from evolution to scientific breakthroughs to market innovation.
