@@ -42,7 +42,6 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-ddTHH:mm
       - name: permalink
         label: Permalink
         type: string
