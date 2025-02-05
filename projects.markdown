@@ -42,7 +42,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Goodreads review scraper | C#, Entity Framework Core, Azure Functions, Azure SQL |
 | World Cup of Tube Lines 2020 | C#, Azure Functions, Twitter API v2, Github Pages |
 | [Tiny RSS Reader](https://github.com/jamie-lord/Reader) | C# .Net 5, Entity Framework Core, Razor Pages, SQLite |
-| [Bardcore Blog](https://bardcoreblog.com) | Jekyll, Github Pages |
+| Bardcore Blog | Jekyll, Github Pages |
 | Micro blogging platform | C# .Net Core, Azure SQL database, EF Core, Identity Server, Liquid templates |
 | [Github Pages in-browser CMS](https://github.com/jamie-lord/github-cms) | Vue.js, Bulma, GitHub API |
 | UK train/locomotive database | SQLite, C# .Net Core |
