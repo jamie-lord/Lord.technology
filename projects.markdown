@@ -82,7 +82,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Live global flight data-gathering and statistics system | C#, Entity Framework 6, MSSQL |
 | [Emily O’Reilly ACR - Paper Conservation](http://emilyoreilly.co.uk/) | WordPress |
 | [Entity Framework backed mutithreaded web crawler](https://github.com/jamie-lord/Spindel) | C#, Entity Framework 6, MSSQL |
-| [![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk) | [ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, Xamarin Forms |
+| ![HACK24](/assets/img/hack-24-logo-white.png) | [ASP.NET Web API](https://github.com/jamie-lord/fake-news-api), Entity Framework, Xamarin Forms |
 | [Super simple todo list](https://github.com/jamie-lord/todo) | HTML5, Javascript, Bootstrap |
 | Hyperspace route calculator | C#  |
 | Date/outing finder Android app | Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL |
