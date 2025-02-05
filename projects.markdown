@@ -87,7 +87,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Hyperspace route calculator | C#  |
 | Date/outing finder Android app | Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL |
 | iOS Hacker News client with offline caching | Xcode, Swift |
-| [Task Eleven](http://marydansie.com) - Poetry and prose by Mary Dansie | WordPress |
+| Task Eleven - Poetry and prose by Mary Dansie | WordPress |
 | Wordr.xyz - A collection of poems written by a computer | Python, WordPress |
 | Classifying liver lesions using machine learning | WEKA, MATLAB |
 | Microsoft Azure authentication mobile service & Android app | Microsoft Azure mobile service, Google authentication API, Android Studio |
