@@ -69,14 +69,14 @@ Here are few things I've built/done. They're in chronological order for your con
 | Decentralised social network app using email as transport mechanism | Xamarin Forms, [MailKit](https://github.com/jstedfast/MailKit), SQLite |
 | [Static photography site generator](https://github.com/jamie-lord/Photography-site-generator) ([Output](https://photography.lord.technology/)) | C#, .Net Core, [UIKit](https://getuikit.com/) |
 | [Blazor based Todo.txt app](http://do.lord.technology/) ([Source](https://github.com/jamie-lord/do)) | [Blazor](https://github.com/aspnet/Blazor), Mono via Wasm |
-| \[![HACK24](/assets/img/hack-24-logo-white.png)\]({{ site.url }}{% post\_url 2018-03-17-winning-experians-hack24-2018-challenge %}) | Microsoft Bot Framework, Azure SQL database, Giphy API |
+| [![HACK24](/assets/img/hack-24-logo-white.png)](/2018/03/17/winning-experians-hack24-2018-challenge.html) | Microsoft Bot Framework, Azure SQL database, Giphy API |
 | [.Net Core authentication using CouchDb](https://github.com/jamie-lord/NetCoreCouchDbAuthentication) | C#, .Net Core Web App, CouchDB |
 | [SocketComment](https://github.com/jamie-lord/SocketComment) | C#, .Net Core Web App, CouchDB |
 | [Pure Web API](https://github.com/jamie-lord/PureApi) | C#, .Net Core, Azure Web Service |
-| \[.Net Core blockchain\]({{ site.url }}/projects/dot-net-core-blockchain) | C#, .Net Core |
+| [.Net Core blockchain](/projects/dot-net-core-blockchain) | C#, .Net Core |
 | Reverse engineering the Logi Circle API | C#, .Net Core, MPEG-DASH streaming |
-| \[New version of this site\]({{ site.url }}{% post\_url 2018-02-03-ubuntu-on-windows %}) | [Jekyll](https://jekyllrb.com/), Github Pages |
-| \[Git based JSON object store\]({{ site.url }}/projects/git-json-object-store) | C#, .Net Core, Git, JSON |
+| [New version of this site](/2018/02/03/ubuntu-on-windows.html) | [Jekyll](https://jekyllrb.com/), Github Pages |
+| [Git based JSON object store](/projects/git-json-object-store) | C#, .Net Core, Git, JSON |
 | [Distributed local search engine](https://github.com/jamie-lord/LSE) | C#, .Net Core |
 | [Supermarket price tracking & prediction system](https://jamie-lord.github.io/PriceWatcher/) | C#, .Net Core, Postgres |
 | Live global flight data-gathering and statistics system | C#, Entity Framework 6, MSSQL |
@@ -91,7 +91,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Wordr.xyz - A collection of poems written by a computer | Python, WordPress |
 | Classifying liver lesions using machine learning | WEKA, MATLAB |
 | Microsoft Azure authentication mobile service & Android app | Microsoft Azure mobile service, Google authentication API, Android Studio |
-| \[Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects\]({{ site.url }}/assets/docs/LOR12290627\_CMP9050M\_3.pdf) | [Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV |
+| [Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects](/assets/docs/LOR12290627_CMP9050M_3.pdf) | [Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV |
 | Automatic detection of rivers in RGB satellite imagery using support vector machines (MComp research project) | Python, OpenCV, [Scikit-learn](http://scikit-learn.org/stable/) |
 | Analysis of historical weather records for Lincolnshire (~1.8 million records) | C++, OpenCL |
 | [![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk) | Android Studio, [Pusher](https://pusher.com/) |
@@ -113,21 +113,21 @@ Here are few things I've built/done. They're in chronological order for your con
 | [Lincoln Guitar Tuition](http://lincolnguitartuition.uk/) | WordPress |
 | Twitter mood controlled music app | Windows Phone 8.1, Microsoft Azure cloud |
 | [Gateway Of Technology Ltd. website redesign](http://gotltd.co.uk/) | WordPress, Bootstrap |
-| \[Personal photography website\]({{ site.url }}{% post\_url 2014-12-12-creating-a-koken-photography-site %}) | Koken |
+| [Personal photography website](/2014/12/12/creating-a-koken-photography-site.html) | Koken |
 | Pro Logs Ltd. | WordPress |
-| \[Dynamic Wheels Ltd.\]({{ site.url }}/projects/dynamic-wheels-ltd) | WordPress |
+| [Dynamic Wheels Ltd.](/projects/dynamic-wheels-ltd) | WordPress |
 | The University of Lincoln School of Computer Science Student Management System (UROS 2014 project) | PHP, MySQL, Bootstrap, CouchCMS |
-| \[The University of Lincoln American Football Team\]({{ site.url }}/projects/the-university-of-lincoln-american-football-team) | WordPress |
+| [The University of Lincoln American Football Team](/projects/the-university-of-lincoln-american-football-team) | WordPress |
 | Head movement computer control system | C++, Microsoft Kinect |
 | Designing a £250,000 campus network | Cisco hardware |
 | A\* algorithm maze solver | C++ |
 | Geographic semantic network generator | Prolog |
-| \[Markrosoft.org\]({{ site.url }}/projects/markrosoft-org) | WordPress |
+| [Markrosoft.org](/projects/markrosoft-org) | WordPress |
 | AutoInvoice | C#  |
 | Where's Wally solver | C++ |
 | Puzzle solving using a sum of squares algorithm | C++ |
-| \[The Caravan Club - Lincolnshire Centre\]({{ site.url }}/projects/the-caravan-club-lincolnshire-centre) | WordPress |
-| \[Charles Osei's blog\]({{ site.url }}/projects/charles-oseis-blog) | Ghost blogging platform |
-| \[Gateway Of Technology Ltd. website optimisation\]({{ site.url }}/projects/gateway-of-technology-ltd) | WordPress |
-| \[GatewayCRM\]({{ site.url }}/projects/gateway-crm) | C#  |
-| \[JHACK - The Technology Blog\]({{ site.url }}/projects/jhack) | WordPress |
+| [The Caravan Club - Lincolnshire Centre](/projects/the-caravan-club-lincolnshire-centre) | WordPress |
+| [Charles Osei's blog](/projects/charles-oseis-blog) | Ghost blogging platform |
+| [Gateway Of Technology Ltd. website optimisation](/projects/gateway-of-technology-ltd) | WordPress |
+| [GatewayCRM](/projects/gateway-crm) | C#  |
+| [JHACK - The Technology Blog](/projects/jhack) | WordPress |
