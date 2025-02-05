@@ -54,6 +54,31 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: projects
+    label: Projects page
+    path: projects.markdown
+    type: file
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+      - name: permalink
+        label: Permalink
+        type: string
+      - name: author_profile
+        label: Author profile
+        type: boolean
+      - name: layout
+        label: Layout
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: config
     label: Jekyll config
     path: _config.yml
