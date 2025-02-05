@@ -94,7 +94,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | [Research paper: Braitenberg Vehicle Demonstrating a ‘Fear’ of Spherical Objects](/assets/docs/LOR12290627_CMP9050M_3.pdf) | [Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV |
 | Automatic detection of rivers in RGB satellite imagery using support vector machines (MComp research project) | Python, OpenCV, [Scikit-learn](http://scikit-learn.org/stable/) |
 | Analysis of historical weather records for Lincolnshire (~1.8 million records) | C++, OpenCL |
-| [![HACK24](/assets/img/hack-24-logo-white.png)](http://www.hack24.co.uk) | Android Studio, [Pusher](https://pusher.com/) |
+| ![HACK24](/assets/img/hack-24-logo-white.png) | Android Studio, [Pusher](https://pusher.com/) |
 | Braitenberg vehicle demonstrating a ‘fear’ of spherical objects | [Turtlebot](http://www.turtlebot.com/), Python, ROS, OpenCV |
 | IaaS cloud service for inventory management (custom RESTful API) | Python, Tornado, Microsoft Azure |
 | [Moira West Fibre Artist & Felt Maker](http://www.moirawestfelt.com/) | WordPress |
