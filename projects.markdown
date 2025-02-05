@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2025-02-05T14:00
+date: 2025-02-05T19:00
 permalink: /projects/
 author_profile: true
 layout: single
@@ -10,7 +10,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Project | Tech |
 | --- | --- |
 | Absurdist LLM powered blog | Jekyll |
-| Camera and lens comparision dataset and website | Cloudflare Pages, Cloudflare R2, Vue, sql.js-httpvfs |
+| Camera and lens comparison dataset and website | Cloudflare Pages, Cloudflare R2, Vue, sql.js-httpvfs |
 | Next generation HR platform | Cloudflare Developer Platform (Workers, Pages, R2, D1, Access), Hono, Nuxt, OpenAI API |
 | LLM powered codebase documentation generator | C#, Anthropic API |
 | Cloudflare powered photo sharing site | Cloudflare Workers, [Hono](https://hono.dev), D1, R2, [Drizzle](https://orm.drizzle.team) |
