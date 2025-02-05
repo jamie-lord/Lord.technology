@@ -40,7 +40,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Learning F# | [Get Programming with F#](https://www.goodreads.com/book/show/40617290-get-programming-with-f) |
 | Unregistered domain finder | C#, Hetzner VPS cluster |
 | Goodreads review scraper | C#, Entity Framework Core, Azure Functions, Azure SQL |
-| [World Cup of Tube Lines 2020](https://wcol2020.lord.technology) | C#, Azure Functions, Twitter API v2, Github Pages |
+| World Cup of Tube Lines 2020 | C#, Azure Functions, Twitter API v2, Github Pages |
 | [Tiny RSS Reader](https://github.com/jamie-lord/Reader) | C# .Net 5, Entity Framework Core, Razor Pages, SQLite |
 | [Bardcore Blog](https://bardcoreblog.com) | Jekyll, Github Pages |
 | Micro blogging platform | C# .Net Core, Azure SQL database, EF Core, Identity Server, Liquid templates |
