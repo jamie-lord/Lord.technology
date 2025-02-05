@@ -62,7 +62,7 @@ Here are few things I've built/done. They're in chronological order for your con
 | Recipe social network | C#, .Net Core, Cosmos Db, server rendered Blazor (Razor components) |
 | Highly parallel web crawler | C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues |
 | [Multiplicative persistence calculator](https://github.com/jamie-lord/Multiplicative-Persistence) for large numbers | C#, .Net Core |
-| [Food Hygiene Twitter Bot](https://twitter.com/FoodHygieneBot) | C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [Tweetinvi](https://github.com/linvi/tweetinvi), SQLite, Azure Functions, Azure File Storage |
+| Food Hygiene Twitter Bot | C#, [UK food hygiene rating data API](http://ratings.food.gov.uk/open-data/en-GB), [Tweetinvi](https://github.com/linvi/tweetinvi), SQLite, Azure Functions, Azure File Storage |
 | Updates to [Blazor based Todo.txt app](http://do.lord.technology/) | [Blazor](https://github.com/aspnet/Blazor), Mono via Wasm |
 | [.Net Core super-fast immutable object store](https://github.com/jamie-lord/Imuject) | C#, .Net Core |
 | Web API for SQLite | C#, .Net Core |
