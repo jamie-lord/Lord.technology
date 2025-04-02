@@ -9,6 +9,7 @@ Here are few things I've built/done. They're in chronological order for your con
 
 | Project | Tech |
 | --- | --- |
+| ADS-B receiver and data archiver | Raspberry Pi 5, RTL-SDR V4, readsb, tar1090, graphs1090, Python, SQLite |
 | Absurdist LLM powered blog | Jekyll |
 | Camera and lens comparison dataset and website | Cloudflare Pages, Cloudflare R2, Vue, sql.js-httpvfs |
 | Next generation HR platform | Cloudflare Developer Platform (Workers, Pages, R2, D1, Access), Hono, Nuxt, OpenAI API |
