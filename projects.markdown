@@ -1,6 +1,6 @@
 ---
 title: Projects
-date: 2025-02-05T19:00
+date: 2025-04-02T16:00
 permalink: /projects/
 author_profile: true
 layout: single
