@@ -72,9 +72,9 @@ author:
   - label: GitHub
     icon: fab fa-fw fa-github
     url: https://github.com/jamie-lord
-  - label: Instagram
-    icon: fab fa-fw fa-instagram
-    url: https://www.instagram.com/jlordlord
+  - label: LinkedIn
+    icon: fab fa-fw fa-linkedin
+    url: https://www.linkedin.com/in/jamie-lord-3564472a4/
 social:
   type: Person
   name: Jamie Lord
