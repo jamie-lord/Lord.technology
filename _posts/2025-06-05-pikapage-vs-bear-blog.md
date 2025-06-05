@@ -14,7 +14,7 @@ categories:
 
 Bear Blog’s technical maturity shows in its battle-tested Django/Heroku infrastructure, while [Pika.page](http://Pika.page)’s modern approach offers more polished user interfaces but lacks proven scalability metrics.
 
-\## Core features highlight different strengths
+## Core features highlight different strengths
 
 **Content creation approaches diverge significantly.** [Pika.page](http://Pika.page) provides a rich TipTap-based visual editor with formatting toolbars, browser-based autosave, and YouTube/Vimeo auto-embedding. Writers familiar with modern editors will feel immediately comfortable.
 
@@ -24,7 +24,7 @@ Bear Blog emphasizes Markdown-first editing with support for mathematical notati
 
 Bear Blog provides multiple themes with full CSS customisation capabilities, support for no-class CSS themes via @import, custom font imports, and advanced CSS selectors. Technical users gain near-complete design control while maintaining the platform’s performance philosophy.
 
-\## Pricing structures favor different user types
+## Pricing structures favor different user types
 
 [**Pika.page**](http://Pika.page) **uses a straightforward freemium model:**
 
@@ -40,7 +40,7 @@ Bear Blog provides multiple themes with full CSS customisation capabilities, sup
 
 Bear Blog’s ability to manage 10 sites under one premium subscription creates outstanding value for prolific bloggers or those managing multiple projects. [Pika.page](http://Pika.page)’s higher pricing reflects its newer platform development costs and modern feature set.
 
-\## Technical performance shows clear winners
+## Technical performance shows clear winners
 
 **Bear Blog dominates performance metrics** through its minimalist architecture. Independent testing shows Bear Blog delivers content approximately **200x smaller than competitors**, with consistent sub-second loading times globally via Cloudflare’s CDN network.
 
@@ -50,7 +50,7 @@ The platform’s Django/Python backend runs on Heroku with PostgreSQL databases,
 
 For SEO optimisation, Bear Blog’s minimal HTML structure and fast loading contribute significantly to search rankings, while [Pika.page](http://Pika.page) currently offers limited custom SEO options for meta titles and descriptions.
 
-\## Community and support reveal platform maturity
+## Community and support reveal platform maturity
 
 **Bear Blog benefits from four years of community development** with extensive user testimonials, comprehensive documentation at [docs.bearblog.dev](http://docs.bearblog.dev), and personal founder involvement in support. Herman Martinus personally responds to user inquiries, often providing same-day email support.
 
@@ -60,7 +60,7 @@ The platform’s open-source nature enables community themes, plugins, and Hugo 
 
 Being launched in 2024, [Pika.page](http://Pika.page) has minimal presence on Reddit, Product Hunt, or tech forums compared to Bear Blog’s established community discussions and feature requests.
 
-\## Publishing workflows cater to different preferences
+## Publishing workflows cater to different preferences
 
 [**Pika.page**](http://Pika.page) **streamlines content creation** with its visual editor, draft saving system, and immediate preview capabilities. The platform supports posts and pages, navigation menu management, URL aliases for migration, and password-protected blogs. Writers can embed YouTube/Vimeo content directly and utilize writing prompts for inspiration.
 
@@ -68,7 +68,7 @@ Being launched in 2024, [Pika.page](http://Pika.page) has minimal presence on Re
 
 Both platforms generate RSS feeds automatically, but Bear Blog additionally provides Atom feeds and more comprehensive feed customisation options.
 
-\## Clear recommendations emerge for different users
+## Clear recommendations emerge for different users
 
 **Choose** [**Pika.page**](http://Pika.page) **if you:**
 
@@ -104,7 +104,7 @@ Both platforms generate RSS feeds automatically, but Bear Blog additionally prov
 
 **For developers and technical writers:** Bear Blog’s open-source nature, CSS flexibility, and technical transparency make it the clear choice. [Pika.page](http://Pika.page)’s proprietary approach limits extensibility.
 
-\## Conclusion weighs maturity against innovation
+## Conclusion weighs maturity against innovation
 
 Bear Blog represents the mature choice with proven performance, exceptional value, and established community support. Its radical minimalism philosophy delivers measurable benefits in speed, privacy, and user satisfaction over four years of operation.
 
