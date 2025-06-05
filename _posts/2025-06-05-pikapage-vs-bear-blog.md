@@ -6,7 +6,7 @@ categories:
 ---
 [**Pika.page**](http://Pika.page) **emerges as the more user-friendly option for beginners seeking modern features, while Bear Blog dominates in performance, maturity, and value for experienced users.** Both platforms excel at distraction-free blogging but serve distinctly different user needs—[Pika.page](http://Pika.page) prioritizes ease of use and visual appeal, while Bear Blog champions speed, privacy, and technical flexibility.
 
-\## Platform foundations reveal different philosophies
+## Platform foundations reveal different philosophies
 
 [**Pika.page**](http://Pika.page) launched in early 2024 by Good Enough as a “happy blogging platform” designed to make writing enjoyable without technical complexity. The platform emphasizes visual editing, beautiful default themes, and a modern user experience that gets writers blogging within minutes.
 
