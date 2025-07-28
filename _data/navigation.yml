@@ -7,3 +7,6 @@ main:
     url: /work/
   - title: "About"
     url: /about/
+  - title: "✍️ Nearly Right"
+    url: https://nearlyright.com/
+    target: _blank
