@@ -2,7 +2,7 @@
 date: 2025-08-26T18:00
 title: The Security Imperative of AI Agent Infrastructure
 categories:
-  - artificial intelligence
+  - ai
 ---
 We're witnessing the birth of a new computing paradigm. Large language models are shedding their role as sophisticated search engines to become autonomous agents capable of executing complex workflows across enterprise systems. This transformation, enabled by protocols like MCP (Model Context Protocol), promises unprecedented productivity gains. It also creates the most significant new attack surface in decades.
 
