@@ -10,7 +10,7 @@ But here's the problem: these servers often need information they don't have. An
 
 This creates an architectural challenge that's genuinely new. Traditional APIs assume the caller knows what parameters to provide. REST endpoints document their requirements upfront. GraphQL schemas define every possible query. But when an AI agent autonomously decides to use a tool, neither the agent nor the server necessarily has all the required information. Someone needs to ask the human.
 
-MCP's elicitation feature solves this through a deliberately constrained design that reveals something fundamental about building protocols for AI systems. The choices it makes—and those it refuses to make—create a framework where simplicity enables adoption rather than limiting it.
+\[MCP's elicitation\]([https://modelcontextprotocol.io/specification/draft/client/elicitation](https://modelcontextprotocol.io/specification/draft/client/elicitation)) feature solves this through a deliberately constrained design that reveals something fundamental about building protocols for AI systems. The choices it makes—and those it refuses to make—create a framework where simplicity enables adoption rather than limiting it.
 
 ## The User-in-the-Loop Problem
 
