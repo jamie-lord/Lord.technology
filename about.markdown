@@ -1,6 +1,6 @@
 ---
 title: About me
-date: 2024-10-10T10:00
+date: 2025-11-20T12:00
 permalink: /about/
 author_profile: true
 layout: single
@@ -11,7 +11,7 @@ Experienced in building development teams and instilling a culture that results 
 
 ## My current work sees me using
 
-*   C# .Net 8.0
+*   C# .Net 10.0
     
 *   Vue & Next.js
     
@@ -19,6 +19,30 @@ Experienced in building development teams and instilling a culture that results 
     
 *   Cloudflare (lots of Cloudflare Developer Platform fun)
     
+    *   Agents
+        
+    *   AI Gateway
+        
+    *   AI Search
+        
+    *   D1
+        
+    *   Durable Objects
+        
+    *   KV
+        
+    *   Queues
+        
+    *   R2
+        
+    *   Vectorize
+        
+    *   Workers
+        
+    *   Workers AI
+        
+    *   Workflows
+        
 *   TypeScript
     
 
