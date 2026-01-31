@@ -6,13 +6,13 @@ categories:
 ---
 The inversion of Linus Torvalds' famous dictum has been circulating for months now. "Code is cheap. Show me the talk." It's a clever rhetorical move, suggesting that articulation and architectural thinking have displaced typing as the limiting factor in software development. But I think this framing, while containing a kernel of truth, fundamentally misunderstands where costs have actually moved.
 
-The original article by Kailash Nadh makes a compelling case that the physiological constraints of software development have been lifted. Where once a developer's cognitive bandwidth, typing speed, and sheer endurance limited output, LLMs now compress weeks of implementation into hours. I don't dispute this observation. What I dispute is the conclusion that code has therefore become cheap.
+The [original article by Kailash Nadh](https://nadh.in/blog/code-is-cheap/) makes a compelling case that the physiological constraints of software development have been lifted. Where once a developer's cognitive bandwidth, typing speed, and sheer endurance limited output, LLMs now compress weeks of implementation into hours. I don't dispute this observation. What I dispute is the conclusion that code has therefore become cheap.
 
 ## The Liability Ledger
 
 Edsger Dijkstra noted decades ago that we should regard lines of code not as "lines produced" but as "lines spent." Every line represents a future maintenance burden, a potential failure mode, a surface area for bugs. This framing becomes more important, not less, when generation becomes trivial.
 
-The Hacker News discussion surfaced a telling observation from someone who had asked an AI to write unit tests. At first glance, they looked fine. Upon closer inspection, they contained fifty things worthy of a "what the hell" response. The tests ran, but they were bad in ways that would compound over time. This is the crux of the problem with the "cheap code" thesis. Generating code has become cheap. Owning code remains expensive. The cost hasn't disappeared; it has transferred from the moment of creation to the ongoing burden of comprehension, validation, and maintenance.
+The [Hacker News discussion](https://news.ycombinator.com/item?id=46823485) surfaced a telling observation from someone who had asked an AI to write unit tests. At first glance, they looked fine. Upon closer inspection, they contained fifty things worthy of a "what the hell" response. The tests ran, but they were bad in ways that would compound over time. This is the crux of the problem with the "cheap code" thesis. Generating code has become cheap. Owning code remains expensive. The cost hasn't disappeared; it has transferred from the moment of creation to the ongoing burden of comprehension, validation, and maintenance.
 
 When you can generate ten thousand lines in seconds, you've also generated ten thousand lines of liability in seconds. The debt accumulates faster than ever before.
 
