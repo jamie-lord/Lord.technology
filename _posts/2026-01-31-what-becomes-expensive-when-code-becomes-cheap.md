@@ -14,7 +14,7 @@ Edsger Dijkstra noted decades ago that we should regard lines of code not as "li
 
 The [Hacker News discussion](https://news.ycombinator.com/item?id=46823485) surfaced a telling observation from someone who had asked an AI to write unit tests. At first glance, they looked fine. Upon closer inspection, they contained fifty things worthy of a "what the hell" response. The tests ran, but they were bad in ways that would compound over time. This is the crux of the problem with the "cheap code" thesis. Generating code has become cheap. Owning code remains expensive. The cost hasn't disappeared; it has transferred from the moment of creation to the ongoing burden of comprehension, validation, and maintenance.
 
-When you can generate ten thousand lines in seconds, you've also generated ten thousand lines of liability in seconds. The debt accumulates faster than ever before.
+When you can generate ten thousand lines in seconds, you've also generated ten thousand lines of liability in seconds. **The debt accumulates faster than ever before.**
 
 ## The Provenance Problem
 
