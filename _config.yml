@@ -66,7 +66,7 @@ plugins:
 author:
   name: Jamie Lord
   avatar: "/assets/images/jamie.jpg"
-  bio: Solution Architect at CDS, using Azure and C# to build awesome projects
+  bio: Solution Architect at CDS, using Cloudflare, Azure and AWS to build awesome projects
   location: Boston, UK
   links:
   - label: GitHub
