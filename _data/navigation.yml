@@ -7,6 +7,9 @@ main:
     url: /work/
   - title: "About"
     url: /about/
+  - title: "☁️ Architecting on Cloudflare"
+    url: https://architectingoncloudflare.com/
+    target: _blank
   - title: "✍️ Nearly Right"
     url: https://nearlyright.com/
     target: _blank
