@@ -30,7 +30,7 @@ There is at least one existing book that walks you through building things on th
 
 **The chapter I am most proud of**
 
-Chapter 24 is called "When Not to Use Cloudflare."
+Chapter 24 is called "[When Not to Use Cloudflare.](https://architectingoncloudflare.com/chapter-24)"
 
 I am aware of how that sounds for someone who works at a Cloudflare partner and writes enthusiastically about the platform. But this is the chapter that makes the rest of the book trustworthy. Every platform has a shape, and every shape has edges. If your workload needs more than 128 MB of memory and streaming will not help, Workers are wrong. If you need inbound TCP connections that are not WebRTC, Cloudflare cannot do it. If your database requires cross-partition transactions, the platform's eventual consistency patterns are not a substitute, they are a different thing entirely.
 
