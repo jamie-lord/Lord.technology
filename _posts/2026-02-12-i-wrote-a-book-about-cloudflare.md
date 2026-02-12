@@ -4,7 +4,7 @@ title: I wrote a book about Cloudflare
 categories:
   - cloudflare
 ---
-I have been writing about Cloudflare's Developer Platform on this blog for a while now. Posts about Workers, Containers, Analytics Engine, the platform as a whole. Each one started the same way: I would encounter something that surprised me, spend a few days pulling it apart, and write up what I found. It was never planned as a series. I just kept finding things worth writing about.
+I have been writing about Cloudflare's Developer Platform on this blog for a while now. Posts about [Workers](https://lord.technology/2024/02/21/hashing-passwords-on-cloudflare-workers.html), [Containers](https://lord.technology/2025/06/24/cloudflare-containers-changes-everything-for-serverless-computing.html), [Analytics Engine](https://lord.technology/2025/02/04/what-is-cloudflare-workers-analytics-engine.html), [the platform as a whole](https://lord.technology/2026/01/12/rethinking-state-at-the-edge-with-cloudflare-durable-objects.html). Each one started the same way: I would encounter something that surprised me, spend a few days pulling it apart, and write up what I found. It was never planned as a series. I just kept finding things worth writing about.
 
 At some point last year, the posts started feeling incomplete. Not wrong, but limited. I would finish writing about Durable Objects and realise I had not explained how they relate to D1, or when you would choose one over the other, or what happens to your architecture when you combine them. Each post existed in isolation when the platform does not. The interesting questions are not about individual services; they are about the decisions between them.
 
