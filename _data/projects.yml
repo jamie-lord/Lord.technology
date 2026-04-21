@@ -2,6 +2,12 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
+  title: Architecting on Cloudflare — the book
+  url: https://architectingoncloudflare.com
+  wip: true
+  stack: [Workers, Durable Objects, D1, R2, Vectorize, Workers AI]
+
+- year: 2026
   title: ADS-B receiver and data archiver
   stack: [Raspberry Pi 5, RTL-SDR V4, readsb, tar1090, Python, SQLite]
 

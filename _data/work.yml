@@ -6,24 +6,26 @@
   url: https://www.cds.co.uk
   current: true
   bullets:
-    - Analyse and understand client requirements, needs, and pain points.
-    - Design and develop solutions that meet client requirements, budget, and timelines.
-    - Select and integrate appropriate technologies and services to meet solution requirements.
-    - Provide guidance and support to development teams during implementation and deployment.
-    - Continuously evaluate and improve solution designs to ensure they remain relevant and effective.
-    - Stay up-to-date with emerging technologies, trends, and best practices in the industry.
+    - Sole Solution Architect for a £38m+ digital transformation firm working across government, policing, and healthcare.
+    - Lead architect on Single Online Home — a national policing platform serving almost every UK police force. 160+ bespoke components handling millions of daily interactions at sub-second response times, on a hybrid Azure / Cloudflare estate under ISO 27001 and Cyber Essentials Plus.
+    - Authored CDS's engineering handbook — architectural patterns (modular monolith as default, ADRs, reversible-vs-irreversible decision framing) and our agentic engineering practice with Claude Code (CLAUDE.md hygiene, TDD loops as agent guardrails, human review under agent load).
+    - Build MCP servers as the mechanism for enterprises to productise their data assets for AI consumption.
+    - Authored the AI governance framework aligned with ISO 42001, supporting public-sector adoption for clients including the College of Policing.
+    - Architect healthcare integrations using HL7 and FHIR, digital evidence platforms, and legacy modernisation programmes across Azure, AWS, and Cloudflare.
+    - Led one infrastructure redesign that reduced operational costs by 40% while maintaining 99.9% uptime.
 
 - start: Dec 2021
   end: Mar 2023
   years: 2021 – 2023
   org: HeadClear
-  role: Chief Technology Officer
+  role: Chief Technology Officer (co-founder)
   bullets:
-    - Set the technical direction and aligned it with the overall business strategy.
-    - Led product development — design, development, and testing of new features and functionality.
-    - Managed and mentored the engineering team, including hiring and onboarding.
-    - Built and maintained the technology infrastructure supporting HeadClear's products.
-    - Identified and developed technical partnerships to help HeadClear grow and scale.
+    - Co-founded HeadClear to give organisations meaningful insight into employee wellbeing without invasive monitoring.
+    - Built Insight Optical Imaging — vital signs measured through facial blood flow using only a device's standard camera; no video data stored.
+    - Shipped iOS and Android apps (Ionic), a management web dashboard, and a .NET Core + PostgreSQL backend across multi-environment deployment.
+    - Developed ML models for wellbeing anomaly detection and predictive analytics within strict privacy boundaries.
+    - Built Azure AD integration with automated user sync and org-hierarchy mapping to remove the admin burden that usually kills enterprise adoption.
+    - Designed data portability into the foundations — when employees leave an organisation, their wellbeing data leaves with them. HIPAA-level standards throughout.
 
 - start: Oct 2020
   end: Dec 2021
@@ -31,45 +33,35 @@
   org: Advanced
   role: Principal Software Engineer
   bullets:
-    - Lead developer on the Mitrefinch Flexipay payroll solution (acquired by Advanced in October 2020).
-    - Oversaw the development of the product, managing a team of developers.
-    - Ensured the product was developed on schedule, within budget, and met quality standards.
-
-- start: Aug 2020
-  end: Oct 2020
-  years: 2020
-  org: Mitrefinch
-  role: Delivery Team Lead
-  bullets:
-    - Lead Developer on the Mitrefinch Platform team.
-    - Used C# and Azure technologies to build cross-product systems and infrastructure.
-    - Including SSO platform, product licencing, event messaging, and internal management systems.
+    - Led the transformation of Flexipay from a legacy desktop payroll product to a multi-tenant, cloud-native SaaS platform.
+    - Redesigned the core architecture for tenant isolation while keeping the efficiency of shared infrastructure.
+    - Shipped a processing engine that handles gross-to-net for 10,000 employees in under 20 seconds — opening market segments the desktop product could never reach.
+    - Built GDPR-compliant data handling, audit trails, and automation for pension auto-enrolment and HMRC RTI submissions.
+    - By exit, Flexipay served 3,500 UK organisations with full HMRC RTI recognition — a proper modernisation, not a refresh.
 
 - start: Apr 2019
-  end: Aug 2020
+  end: Oct 2020
   years: 2019 – 2020
   org: Mitrefinch
-  role: Developer
+  role: Developer → Delivery Team Lead
   bullets:
-    - Used Vue.js with TypeScript and C# .Net Core with Azure technologies.
-    - Built multi-tenant SaaS applications including payroll and access control systems.
-
-- start: Oct 2018
-  end: Oct 2018
-  years: 2018
-  org: IFS
-  role: Senior Software Engineer
-  bullets:
-    - Continued work on the mobile framework and internal tools using C# .Net Core.
+    - Joined working on MF Secure — access control for buildings with biometric entry, fire-safety integration, and real-time tracking of staff, contractors, and visitors. First proper exposure to the regulatory weight physical security systems carry.
+    - Used Vue.js + TypeScript and C# .NET Core on Azure to build multi-tenant SaaS components across the payroll and access-control products.
+    - Promoted to lead the Platform team — responsible for the Azure estate underpinning Mitrefinch's product suite.
+    - Built SSO across the suite and integrated access control, time & attendance, and cloud payroll into a coherent platform.
+    - Contributed to maintaining Mitrefinch's ISO 27001 accreditation — non-negotiable for enterprise clients in this space.
+    - Transitioned into the Principal Software Engineer role at Advanced when Mitrefinch was acquired in October 2020.
 
 - start: Nov 2016
-  end: Oct 2018
-  years: 2016 – 2018
+  end: Apr 2019
+  years: 2016 – 2019
   org: IFS
-  role: Software Engineer
+  role: Software Engineer → Senior
   bullets:
-    - Developed a unique and vast mobile framework using Xamarin Native for Android, iOS and Windows desktop.
-    - Framework allowed creation of runtime-defined apps.
+    - Built a unified Xamarin Native mobile framework deploying across iOS, Android, and Windows desktop — proper platform-specific implementation with shared business logic underneath.
+    - Owned the offline-first synchronisation system, including conflict resolution for field workers on intermittent connections — where the interesting engineering lived.
+    - The resulting framework underpinned IFS's mobile workforce management line during a period of strong analyst recognition in the space.
+    - Promoted from Software Engineer to Senior during tenure.
 
 - start: May 2016
   end: Nov 2016
@@ -77,5 +69,6 @@
   org: MultiPie
   role: Mobile Applications Developer
   bullets:
-    - Worked on a variety of native iOS and Android mobile apps for clients.
-    - Built apps using Swift and Java.
+    - First professional role, at a small app consultancy in Nottingham's Creative Quarter.
+    - Built native iOS and Android apps across a genuinely varied client book — games, social platforms, interactive brochures, sports tracking, precision manufacturing apps.
+    - In a team that small, involved from initial client conversations through to launch and ongoing support. The variety was the education.
