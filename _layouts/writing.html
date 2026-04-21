@@ -1,19 +1,38 @@
 ---
 layout: default
 ---
-{% assign all_cats = "" | split: "," %}
+{% comment %}
+  Collect categories case-insensitively and only surface those with
+  at least 3 posts in the filter bar. Sorted by post count, descending.
+{% endcomment %}
+{% assign all_cats = "" | split: "" %}
 {% for post in site.posts %}
   {% for c in post.categories %}
-    {% assign all_cats = all_cats | push: c %}
+    {% assign lc = c | downcase %}
+    {% assign all_cats = all_cats | push: lc %}
   {% endfor %}
 {% endfor %}
-{% assign cats = all_cats | uniq | sort %}
+{% assign unique_cats = all_cats | uniq %}
+{% assign rows = "" | split: "" %}
+{% for c in unique_cats %}
+  {% assign n = 0 %}
+  {% for x in all_cats %}{% if x == c %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+  {% if n >= 3 %}
+    {% capture padded %}{{ n | prepend: '0000' }}{% endcapture %}
+    {% assign padded = padded | slice: -4, 4 %}
+    {% capture row %}{{ padded }}|{{ c }}{% endcapture %}
+    {% assign rows = rows | push: row %}
+  {% endif %}
+{% endfor %}
+{% assign top_cats = rows | sort | reverse %}
+{% assign first_post = site.posts.last %}
+{% assign first_year = first_post.date | date: '%Y' %}
 <main class="page v2 no-wobble">
   <section class="v2-page-head">
     <div class="v2-hero-num" aria-hidden="true">01</div>
     <div class="v2-stamp v2-stamp--writing">
       <div class="v2-stamp-row">INDEX · {{ site.posts.size }} POSTS</div>
-      <div class="v2-stamp-row">SINCE {{ site.posts | last | map: 'date' | first | date: '%Y' | default: '2013' }}</div>
+      <div class="v2-stamp-row">SINCE {{ first_year }}</div>
       <div class="v2-stamp-mark">[ jl ]</div>
     </div>
 
@@ -24,7 +43,7 @@ layout: default
         <span class="v2-kicker">notes, rough edges, things worth saving</span>
       </div>
       <h1 class="v2-hero-title">Notes, rough edges, and <span class="v2-underline">things worth saving</span>.</h1>
-      <p class="v2-hero-sub">{{ site.posts.size }} posts going back to 2013. Some are single-link references I wanted to remember — most are short.</p>
+      <p class="v2-hero-sub">{{ site.posts.size }} posts going back to {{ first_year }}. Some are single-link references I wanted to remember — most are short.</p>
     </div>
   </section>
 
@@ -32,18 +51,22 @@ layout: default
     <div class="v2-filter-bar" id="writing-filter">
       <span class="v2-filter-label">Filter</span>
       <button class="v2-chip is-active" data-cat="all" type="button">all</button>
-      {% for c in cats %}
-        <button class="v2-chip" data-cat="{{ c }}" type="button">{{ c }}</button>
+      {% for row in top_cats %}
+        {% assign bits = row | split: '|' %}
+        {% assign name = bits[1] %}
+        <button class="v2-chip" data-cat="{{ name }}" type="button">{{ name }}</button>
       {% endfor %}
       <span class="v2-filter-count" id="writing-count">· {{ site.posts.size }} shown</span>
     </div>
 
     <ul class="v2-post-list" id="writing-list">
       {% for post in site.posts %}
-        {% assign cat = post.categories | first | default: 'notes' %}
+        {% assign cat = post.categories | first | default: 'notes' | downcase %}
         {% assign words = post.content | number_of_words %}
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
-        <a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ post.categories | join: ' ' }}">
+        {% assign data_cats = "" %}
+        {% for c in post.categories %}{% assign data_cats = data_cats | append: ' ' | append: c | downcase %}{% endfor %}
+        <a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">
           <div class="v2-post-date">
             <div class="v2-post-day">{{ post.date | date: '%d' }}</div>
             <div class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</div>
@@ -59,8 +82,7 @@ layout: default
                 <span class="v2-post-sep"> · </span>
               {% endif %}
               <span>{{ minutes }} min</span>
-              <span> · </span>
-              <span class="v2-post-slug">{{ post.url }}</span>
+              <span class="v2-post-slug-meta"> · <span class="v2-post-slug">{{ post.url }}</span></span>
             </div>
           </div>
         </a>
@@ -68,9 +90,10 @@ layout: default
     </ul>
   </section>
 
+  {% capture writing_status %}{{ site.posts.size }} posts · archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
-     body="Archive going back to 2013. RSS feed lives at <code>/feed.xml</code> — still the best way to follow along."
-     status="currently: writing slowly" %}
+     body="Archive going back to <code>2013</code>. RSS feed lives at <code>/feed.xml</code> — still the best way to follow along."
+     status=writing_status %}
 </main>
 
 <script>

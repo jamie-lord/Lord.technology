@@ -52,7 +52,8 @@ layout: default
     </section>
   {% endfor %}
 
+  {% capture projects_status %}{{ projects.size }} entries · {{ years | last }}–{{ years | first }}{% endcapture %}
   {% include colophon.html
      body="Not all of these are live — I build a lot of things to learn, then move on. Source for most lives on <a href='https://github.com/jamie-lord'>GitHub</a>."
-     status="currently: shipping side-projects" %}
+     status=projects_status %}
 </main>

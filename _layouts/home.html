@@ -112,7 +112,9 @@ layout: default
   </section>
   {% endif %}
 
+  {% assign first_year = site.posts.last.date | date: '%Y' %}
+  {% capture home_status %}{{ site.posts.size }} posts · {% if site.data.projects %}{{ site.data.projects.size }} projects · {% endif %}archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
      body="Built by hand in Stamford. Jekyll, a text editor, and some patience — written slowly, shipped quietly."
-     status="currently: building" %}
+     status=home_status %}
 </main>
