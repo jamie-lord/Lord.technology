@@ -49,13 +49,17 @@ layout: default
             {% for t in page.tags %}<span class="v2-tape">{{ t }}</span>{% endfor %}
           </div>
           {% endif %}
+          {% comment %}
+            page.previous = older post (earlier in time), page.next = newer.
+            Older reads left, newer reads right.
+          {% endcomment %}
           <nav class="v2-post-nav" aria-label="Adjacent posts">
             <div class="v2-post-nav-prev">
-              {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="v2-post-nav-label">← Previous</span><span class="v2-post-nav-title">{{ page.previous.title }}</span></a>{% endif %}
+              {% if page.previous %}<a href="{{ page.previous.url | relative_url }}" rel="prev"><span class="v2-post-nav-label">← Older</span><span class="v2-post-nav-title">{{ page.previous.title }}</span></a>{% endif %}
             </div>
             <span class="v2-post-nav-sig" aria-hidden="true">— jl</span>
             <div class="v2-post-nav-next">
-              {% if page.next %}<a href="{{ page.next.url | relative_url }}"><span class="v2-post-nav-label">Next →</span><span class="v2-post-nav-title">{{ page.next.title }}</span></a>{% endif %}
+              {% if page.next %}<a href="{{ page.next.url | relative_url }}" rel="next"><span class="v2-post-nav-label">Newer →</span><span class="v2-post-nav-title">{{ page.next.title }}</span></a>{% endif %}
             </div>
           </nav>
         </div>

@@ -33,7 +33,7 @@ layout: default
         <span class="v2-year-rule" aria-hidden="true"></span>
         <span class="v2-year-count">{{ year_projects.size }} project{% if year_projects.size != 1 %}s{% endif %}</span>
       </div>
-      <ol class="v2-proj-list">
+      <ol class="v2-proj-list v2-proj-list--grouped">
         {% for proj in year_projects %}
           <li class="v2-proj">
             <span class="v2-proj-year">{{ proj.year }}</span>
