@@ -6,7 +6,6 @@
 {% if page.title %}<title>{{ page.title }} · {{ site.title }}</title>{% else %}<title>{{ site.title }} — {{ site.subtitle | default: site.description }}</title>{% endif %}
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
-<link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 

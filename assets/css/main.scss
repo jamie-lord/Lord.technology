@@ -394,14 +394,17 @@ img { max-width: 100%; height: auto; }
 .v2-proj-list { list-style: none; padding: 0; margin: 0; counter-reset: proj; }
 .v2-proj {
   display: grid;
-  grid-template-columns: 28px 1fr;
+  grid-template-columns: 64px 32px 1fr;
   align-items: baseline;
   gap: 20px;
   padding: 14px 0;
   border-bottom: 1px dashed var(--fog-2);
   transition: border-bottom-color 140ms var(--ease), background 140ms var(--ease);
 }
-.v2-proj .v2-proj-year { display: none; }
+/* Inside a year-grouped list (projects page) the per-row year is
+   redundant — the group header already shows it. */
+.v2-proj-list--grouped .v2-proj { grid-template-columns: 28px 1fr; }
+.v2-proj-list--grouped .v2-proj-year { display: none; }
 .v2-proj:last-child { border-bottom: none; }
 .v2-proj:hover { border-bottom-color: var(--copper); }
 .v2-proj-year {
