@@ -1,6 +1,29 @@
----
 title: Jamie Lord
+subtitle: Lord.technology
+name: Jamie Lord
+email: jamie@lord.technology
+url: https://lord.technology
+description: >-
+  Jamie Lord is a Solution Architect at CDS, building multi-tenant SaaS
+  applications with C#, Cloudflare, Azure and AWS.
+author:
+  name: Jamie Lord
+  role: Solution Architect
+  location: Stamford, UK
+  avatar: "/assets/images/jamie.jpg"
+  url: https://lord.technology
+  email: jamie@lord.technology
+  github: jamie-lord
+  linkedin: jamie-lord-3564472a4
+logo: "/assets/images/JL_logo.png"
+og_image: "/assets/images/JL_logo.png"
+repository: jamie-lord/Lord.technology
+github_username: jamie-lord
+locale: en-GB
 timezone: Europe/London
+markdown: kramdown
+permalink: "/:year/:month/:day/:title:output_ext"
+
 collections:
   posts:
     title: Posts
@@ -12,94 +35,52 @@ collections:
   uploads:
     title: Uploads
     output: true
+
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: false
-    share: false
-    related: true
-- scope:
-    path: _pages
-    type: pages
-  values:
-    layout: single
-    author_profile: true
-- scope:
-    path: _projects
-    type: projects
-  values:
-    layout: single
-    author_profile: true
-subtitle: Lord.technology
-logo: "/assets/images/JL_logo.png"
-og_image: "/assets/images/JL_logo.png"
-url: https://lord.technology
-repository: jamie-lord/Lord.technology
-email: jamie@lord.technology
-description: Jamie Lord is Solution Architect at CDS, using Cloudflare, Azure
-  and AWS to build awesome projects
-github_username: jamie-lord
-minimal_mistakes_skin: lord
-search: true
-locale: en-GB
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-permalink: "/:year/:month/:day/:title:output_ext"
-paginate: 5
-paginate_path: "/page:num/"
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: _projects
+      type: projects
+    values:
+      layout: page
+
 include:
-- _pages
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
 plugins:
-- jekyll-remote-theme
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
-- jekyll-include-cache
-- jekyll-seo-tag
-author:
-  name: Jamie Lord
-  avatar: "/assets/images/jamie.jpg"
-  bio: Solution Architect at CDS, using Cloudflare, Azure and AWS to build awesome projects
-  location: Stamford, UK
-  links:
-  - label: GitHub
-    icon: fab fa-fw fa-github
-    url: https://github.com/jamie-lord
-  - label: LinkedIn
-    icon: fab fa-fw fa-linkedin
-    url: https://www.linkedin.com/in/jamie-lord-3564472a4/
-social:
-  type: Person
-  name: Jamie Lord
-  links:
-  - https://github.com/jamie-lord
-footer:
-  links:
-  - label: GitHub
-    icon: fab fa-fw fa-github
-    url: https://github.com/jamie-lord
-  - label: LinkedIn
-    icon: fab fa-fw fa-linkedin
-    url: https://www.linkedin.com/in/jamie-lord-3564472a4/
-category_archive:
-  type: liquid
-  path: "/categories/"
-tag_archive:
-  type: liquid
-  path: "/tags/"
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jemoji
+
+sass:
+  style: compressed
+
 compress_html:
   clippings: all
   comments: all
   blanklines: true
   ignore:
     envs: development
+
 analytics:
   provider: google-gtag
   google:

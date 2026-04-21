@@ -1,0 +1,106 @@
+---
+layout: default
+---
+<main class="page v2">
+  <section class="v2-page-head">
+    <div class="v2-hero-num" aria-hidden="true">04</div>
+    <div class="v2-stamp v2-stamp--about">
+      <div class="v2-stamp-row">PROFILE · {{ site.author.name | upcase }}</div>
+      <div class="v2-stamp-row">{{ site.author.location | upcase }}</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+    <div class="v2-page-inner">
+      <div class="v2-hero-label">
+        <span class="v2-kicker">04 / About</span>
+        <span class="v2-bullet">·</span>
+        <span class="v2-kicker">who, what, where</span>
+      </div>
+      <h1 class="v2-hero-title">I live and breathe software development, and relish the <span class="v2-underline">challenges it poses</span>.</h1>
+    </div>
+  </section>
+
+  <section class="v2-block v2-about-grid">
+    <aside class="v2-polaroid">
+      <div class="v2-polaroid-frame">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+      </div>
+      <div class="v2-polaroid-caption">
+        <div class="v2-polaroid-name">{{ site.author.name }}</div>
+        <div class="v2-polaroid-sub">{{ site.author.location }} · he/him</div>
+      </div>
+    </aside>
+
+    <div class="v2-about-body">
+      {{ content }}
+
+      <figure class="v2-about-map" aria-label="Hand-drawn map of Stamford, UK">
+        <svg viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 78 C 24 72, 38 92, 60 82 S 100 66, 128 78 S 158 72, 158 78" fill="none" stroke="#0F1620" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+          <path d="M2 82 C 24 76, 38 96, 60 86 S 100 70, 128 82 S 158 76, 158 82" fill="none" stroke="#0F1620" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
+          <path d="M12 10 L 150 24" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
+          <path d="M20 50 L 140 44" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
+          <path d="M60 4  L 72 100" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
+          <path d="M100 2 L 108 108" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
+          <path d="M30 8  L 28 72" fill="none" stroke="#0F1620" stroke-width="0.5" opacity="0.3"/>
+          <g transform="translate(74,46)" stroke="#0F1620" stroke-width="0.9" fill="none" opacity="0.75">
+            <path d="M-3 10 L -3 0 L 0 -6 L 3 0 L 3 10 Z"/>
+            <line x1="0" y1="-6" x2="0" y2="-12"/>
+            <circle cx="0" cy="-13" r="0.8" fill="#0F1620"/>
+          </g>
+          <g transform="translate(84,58)">
+            <path d="M0 -18 C -6 -18, -9 -12, -9 -8 C -9 -3, 0 6, 0 6 C 0 6, 9 -3, 9 -8 C 9 -12, 6 -18, 0 -18 Z" fill="#B8703A" stroke="#8E541F" stroke-width="0.8"/>
+            <circle cx="0" cy="-9" r="2.6" fill="#F6F1E8"/>
+          </g>
+          <text x="96" y="56" font-family="Source Serif 4, Georgia, serif" font-size="9" font-style="italic" fill="#0F1620" opacity="0.85">Stamford</text>
+          <text x="96" y="66" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1" fill="#8E541F">52.65°N · 0.48°W</text>
+          <g transform="translate(140,14)" stroke="#0F1620" stroke-width="0.6" fill="none" opacity="0.55">
+            <circle cx="0" cy="0" r="6"/>
+            <path d="M0 -7 L 1.4 0 L 0 7 L -1.4 0 Z" fill="#0F1620"/>
+            <text x="-1.6" y="-9" font-family="JetBrains Mono, monospace" font-size="4" fill="#0F1620" stroke="none">N</text>
+          </g>
+          <g transform="translate(8,110)" stroke="#0F1620" stroke-width="0.6" opacity="0.6">
+            <line x1="0" y1="0" x2="24" y2="0"/>
+            <line x1="0" y1="-2" x2="0" y2="2"/>
+            <line x1="12" y1="-1.5" x2="12" y2="1.5"/>
+            <line x1="24" y1="-2" x2="24" y2="2"/>
+            <text x="0" y="8" font-family="JetBrains Mono, monospace" font-size="4" fill="#0F1620" stroke="none">0 — 500m</text>
+          </g>
+        </svg>
+        <figcaption class="v2-about-map-caption">
+          <strong>Stamford, Lincs</strong>
+          Small stone town on the Welland. Quiet enough to think, an hour from anywhere that isn't.
+        </figcaption>
+      </figure>
+
+      {% if site.data.stack %}
+      <h3 class="v2-about-h3">
+        <span class="v2-about-h3-num">a.</span> What I use today
+      </h3>
+      <div class="v2-stack-grid">
+        {% for group in site.data.stack %}
+          <div class="v2-stack-item">
+            <div class="v2-stack-label">{{ group.label }}</div>
+            <div class="v2-stack-tags">
+              {% for t in group.items %}<span class="v2-tape">{{ t }}</span>{% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h3 class="v2-about-h3">
+        <span class="v2-about-h3-num">b.</span> Say hello
+      </h3>
+      <ul class="v2-contact-list">
+        <li><span class="v2-contact-key">Email</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+        <li><span class="v2-contact-key">GitHub</span><a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></li>
+        <li><span class="v2-contact-key">LinkedIn</span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">{{ site.author.name }}</a></li>
+        <li><span class="v2-contact-key">RSS</span><a href="{{ '/feed.xml' | relative_url }}">/feed.xml</a></li>
+      </ul>
+    </div>
+  </section>
+
+  {% include colophon.html
+     body="This site is hand-built with Jekyll — a text editor, some patience, and not much else."
+     status="currently: coffee, Stamford, a half-finished F# project" %}
+</main>

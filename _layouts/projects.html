@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% assign projects = site.data.projects %}
+{% assign years = "" | split: "," %}
+{% for p in projects %}{% assign years = years | push: p.year %}{% endfor %}
+{% assign years = years | uniq | sort | reverse %}
+<main class="page v2 no-wobble">
+  <section class="v2-page-head">
+    <div class="v2-hero-num" aria-hidden="true">02</div>
+    <div class="v2-stamp v2-stamp--projects">
+      <div class="v2-stamp-row">LEDGER · {{ projects.size }}+ ENTRIES</div>
+      <div class="v2-stamp-row">{{ years | last }} — {{ years | first }}</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+
+    <div class="v2-page-inner">
+      <div class="v2-hero-label">
+        <span class="v2-kicker">02 / Projects</span>
+        <span class="v2-bullet">·</span>
+        <span class="v2-kicker">chronological</span>
+      </div>
+      <h1 class="v2-hero-title">{{ projects.size }}+ things I've built, in <span class="v2-underline">chronological order</span>.</h1>
+      <p class="v2-hero-sub">Most are side-projects. Some became companies. A handful still run.</p>
+    </div>
+  </section>
+
+  {% for year in years %}
+    {% assign year_projects = projects | where: 'year', year %}
+    <section class="v2-block v2-block-tight">
+      <div class="v2-year-head">
+        <span class="v2-year-num">{{ year }}</span>
+        <span class="v2-year-rule" aria-hidden="true"></span>
+        <span class="v2-year-count">{{ year_projects.size }} project{% if year_projects.size != 1 %}s{% endif %}</span>
+      </div>
+      <ol class="v2-proj-list">
+        {% for proj in year_projects %}
+          <li class="v2-proj">
+            <span class="v2-proj-year">{{ proj.year }}</span>
+            <span class="v2-proj-check{% if proj.wip %} v2-proj-check--wip{% endif %}" aria-hidden="true">{% if proj.wip %}◦{% else %}✓{% endif %}</span>
+            <div class="v2-proj-main">
+              <h3 class="v2-proj-title">{% if proj.url %}<a href="{{ proj.url }}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
+              {% if proj.stack and proj.stack.size > 0 %}
+              <div class="v2-proj-stack">
+                {% for s in proj.stack %}<span class="v2-tape">{{ s }}</span>{% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+
+  {% include colophon.html
+     body="Not all of these are live — I build a lot of things to learn, then move on. Source for most lives on <a href='https://github.com/jamie-lord'>GitHub</a>."
+     status="currently: shipping side-projects" %}
+</main>

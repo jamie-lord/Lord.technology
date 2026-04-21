@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<main class="page v2 no-wobble">
+  <section class="v2-page-head">
+    {% if page.hero_num %}<div class="v2-hero-num" aria-hidden="true">{{ page.hero_num }}</div>{% endif %}
+    {% if page.stamp %}
+    <div class="v2-stamp v2-stamp--{{ page.nav_key | default: 'about' }}">
+      {% for row in page.stamp %}<div class="v2-stamp-row">{{ row }}</div>{% endfor %}
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+    {% endif %}
+
+    <div class="v2-page-inner">
+      {% if page.kicker %}
+      <div class="v2-hero-label">
+        {% for bit in page.kicker %}
+          {% if forloop.index0 > 0 %}<span class="v2-bullet">·</span>{% endif %}
+          <span class="v2-kicker">{{ bit }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <h1 class="v2-hero-title">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="v2-hero-sub">{{ page.subtitle }}</p>{% endif %}
+    </div>
+  </section>
+
+  <section class="v2-block v2-block-tight">
+    <article class="v2-post-article">
+      <div class="v2-post-body-v3">
+        {{ content }}
+      </div>
+    </article>
+  </section>
+
+  {% include colophon.html status=page.colophon_status body=page.colophon_body %}
+</main>

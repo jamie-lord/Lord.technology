@@ -1,23 +1,44 @@
-<div class="page__footer-follow">
-    <ul class="social-icons">
-        {% if site.data.ui-text[site.locale].follow_label %}
-        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-        {% endif %}
-
-        {% if site.footer.links %}
-        {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i
-                    class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-
-        <li><a
-                href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i
-                    class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label
-                | default: "Feed" }}</a></li>
-    </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      {% include monogram.html class="mark-sm" %}
+      <div>
+        <div class="foot-title">{{ site.author.name }}</div>
+        <div class="foot-sub">{{ site.author.role }} · {{ site.author.location }}</div>
+      </div>
+    </div>
+    <div class="footer-right">
+      <a href="https://github.com/{{ site.author.github }}" rel="me">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="14" height="14"><path d="M12 .5C5.73.5.67 5.57.67 11.84c0 5.01 3.24 9.26 7.75 10.76.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.15.68-3.82-1.52-3.82-1.52-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.66 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.16-3.04-.12-.29-.5-1.44.11-3 0 0 .95-.3 3.1 1.16a10.7 10.7 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.62 1.56.23 2.71.11 3 .72.79 1.16 1.8 1.16 3.04 0 4.35-2.66 5.3-5.19 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 0 .3.21.66.79.55 4.5-1.5 7.74-5.75 7.74-10.76C23.33 5.57 18.27.5 12 .5Z"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="14" height="14"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9h3.56v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0Z"/></svg>
+        LinkedIn
+      </a>
+      <a href="{{ '/feed.xml' | relative_url }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="14" height="14"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        RSS
+      </a>
+      <a href="mailto:{{ site.author.email }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="14" height="14"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+        Email
+      </a>
+    </div>
+  </div>
+  {% if site.data.navigation.external and site.data.navigation.external.size > 0 %}
+  <div class="footer-inner" style="margin-top: 12px;">
+    <div class="footer-external">
+      <span>Also writing at:</span>
+      {% for link in site.data.navigation.external %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  <div class="footer-meta">
+    <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+    <span class="dot">·</span>
+    <span>Built quietly, with <code>Jekyll</code>.</span>
+  </div>
+</footer>

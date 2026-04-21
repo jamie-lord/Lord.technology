@@ -1,0 +1,538 @@
+# Project list migrated from projects.markdown. Years are best-effort estimates
+# based on ordering, linked posts, and tech clues; refine as needed.
+
+- year: 2026
+  title: ADS-B receiver and data archiver
+  stack: [Raspberry Pi 5, RTL-SDR V4, readsb, tar1090, Python, SQLite]
+
+- year: 2025
+  title: Absurdist LLM-powered blog
+  stack: [Jekyll, Anthropic API]
+
+- year: 2025
+  title: Camera and lens comparison dataset and website
+  stack: [Cloudflare Pages, R2, Vue, sql.js-httpvfs]
+
+- year: 2025
+  title: Next-generation HR platform
+  wip: true
+  stack: [Cloudflare Workers, Pages, R2, D1, Access, Hono, Nuxt, OpenAI API]
+
+- year: 2024
+  title: LLM-powered codebase documentation generator
+  stack: [C#, Anthropic API]
+
+- year: 2024
+  title: Cloudflare-powered photo sharing site
+  stack: [Workers, Hono, D1, R2, Drizzle]
+
+- year: 2024
+  title: Fastest bulk Hacker News downloader
+  stack: [C#]
+
+- year: 2023
+  title: Style-less web browser — Wander
+  url: https://github.com/jamie-lord/Wander
+  stack: [.NET MAUI, AngleSharp]
+
+- year: 2023
+  title: HTML Canvas window manager
+  stack: [HTML Canvas, vanilla JS]
+
+- year: 2023
+  title: Anonymous Twitter client
+  stack: [C#, Razor]
+
+- year: 2023
+  title: Automated technology journalist
+  stack: [C#, OpenAI API, WordPress]
+
+- year: 2022
+  title: Desktop UI on HTML Canvas
+  stack: [HTML Canvas]
+
+- year: 2022
+  title: Camera and lens price tracker
+  stack: [C#, Blazor, SQLite]
+
+- year: 2022
+  title: Micro blog generator
+  stack: [Ionic, Angular, GitHub API]
+
+- year: 2022
+  title: Military aircraft tracker
+  stack: [C# .Net 6, Entity Framework, SQLite]
+
+- year: 2021
+  title: In-browser live HTML editor
+  url: https://github.com/jamie-lord/live-html-editor
+  stack: [JavaScript]
+
+- year: 2021
+  title: Shipping vessel downloader
+  stack: [C# .Net 6, Entity Framework, SQLite]
+
+- year: 2021
+  title: Watching for website changes with GitHub Actions
+  stack: [GitHub Actions, urlwatch]
+
+- year: 2021
+  title: .Net browser engine
+  stack: [C#]
+
+- year: 2021
+  title: Notion to Jekyll
+  url: /2021/06/26/notion-to-jekyll.html
+  stack: [C#, Notion API, GitHub API]
+
+- year: 2021
+  title: Content management system and blog engine
+  stack: [Server-side Blazor, Entity Framework, Razor Pages]
+
+- year: 2021
+  title: Reactive Blazor UI
+  url: https://github.com/jamie-lord/Reactive-Blazor-test
+  stack: [Server-side Blazor, System.Reactive, Entity Framework]
+
+- year: 2021
+  title: No-code app creator
+  stack: [Server-side Blazor]
+
+- year: 2020
+  title: Software synthesizer — Synth
+  url: https://github.com/jamie-lord/Synth
+  stack: [C#]
+
+- year: 2020
+  title: SQLite JSON document store
+  stack: [C#]
+
+- year: 2020
+  title: Custom Jira client
+  stack: [C#, NSwag]
+
+- year: 2020
+  title: Playing with Pulumi
+  stack: [Pulumi, C#]
+
+- year: 2020
+  title: Truly infinite HTML tables — Spreadbase
+  url: https://github.com/jamie-lord/Spreadbase
+  stack: [JavaScript]
+
+- year: 2020
+  title: Simple API Gateway
+  stack: [C#]
+
+- year: 2020
+  title: Learning F#
+  stack: [F#]
+
+- year: 2020
+  title: Unregistered domain finder
+  stack: [C#, Hetzner VPS cluster]
+
+- year: 2020
+  title: Goodreads review scraper
+  stack: [C#, EF Core, Azure Functions, Azure SQL]
+
+- year: 2020
+  title: World Cup of Tube Lines 2020
+  stack: [C#, Azure Functions, Twitter API v2, GitHub Pages]
+
+- year: 2020
+  title: Tiny RSS Reader
+  url: https://github.com/jamie-lord/Reader
+  stack: [C# .Net 5, EF Core, Razor Pages, SQLite]
+
+- year: 2020
+  title: Bardcore Blog
+  stack: [Jekyll, GitHub Pages]
+
+- year: 2019
+  title: Micro-blogging platform
+  stack: [C# .Net Core, Azure SQL, EF Core, Identity Server, Liquid]
+
+- year: 2019
+  title: GitHub Pages in-browser CMS
+  url: https://github.com/jamie-lord/github-cms
+  stack: [Vue.js, Bulma, GitHub API]
+
+- year: 2019
+  title: UK train / locomotive database
+  stack: [SQLite, C# .Net Core]
+
+- year: 2019
+  title: Document Database
+  stack: [SQLite, C# .Net Core, Azure App Service]
+
+- year: 2019
+  title: Vue Component-based CMS
+  stack: [Vue.js, C# .Net Core]
+
+- year: 2019
+  title: Tiny Work Order web app
+  stack: [CouchDB, PouchDB, Vue.js, TypeScript]
+
+- year: 2019
+  title: Generate relational database from spreadsheet
+  stack: [Azure SQL, C# .Net Core]
+
+- year: 2019
+  title: Blazor WebAssembly & Web API example using gRPC
+  url: https://github.com/jamie-lord/blazor-grpc-rss
+  stack: [gRPC, Blazor WebAssembly, C# .Net Core]
+
+- year: 2019
+  title: Unofficial Parkrun API
+  stack: [C# .Net Core]
+
+- year: 2019
+  title: Indexing all GitHub repositories
+  stack: [C# .Net Core, Lucene.Net, Azure Blob Storage, MessagePack]
+
+- year: 2019
+  title: RSS feed ingester
+  stack: [Azure Functions, Cosmos DB, C# .Net Core]
+
+- year: 2019
+  title: Auto-generate REST API from SQL database at runtime
+  stack: [Azure SQL, C# .Net Core, SqlKata, Azure App Service]
+
+- year: 2019
+  title: Shit food
+  url: https://github.com/jamie-lord/shit-food
+  stack: [Vue.js, Azure Functions, Azure Table Storage, Azure SQL, EF Core, Google Places API]
+
+- year: 2019
+  title: End-to-end encrypted social network
+  stack: [Vue.js, Azure Table Storage, .Net Core Web API, TweetNaCl.js]
+
+- year: 2018
+  title: Listing / cataloguing social network
+  stack: [Vue.js, Azure SQL, .Net Core Web API]
+
+- year: 2018
+  title: Natural-language recipe ingredient parser
+  stack: [C#, Sprache]
+
+- year: 2018
+  title: Recipe social network
+  stack: [C#, .Net Core, Cosmos DB, Blazor Razor components]
+
+- year: 2018
+  title: Highly parallel web crawler
+  stack: [C#, .Net Core, Azure Functions, Cosmos DB, Storage Queues]
+
+- year: 2018
+  title: Multiplicative persistence calculator
+  url: https://github.com/jamie-lord/Multiplicative-Persistence
+  stack: [C#, .Net Core]
+
+- year: 2018
+  title: Food Hygiene Twitter Bot
+  stack: [C#, Tweetinvi, SQLite, Azure Functions, Azure File Storage]
+
+- year: 2018
+  title: Blazor-based Todo.txt app updates
+  url: http://do.lord.technology/
+  stack: [Blazor, Mono via Wasm]
+
+- year: 2018
+  title: .Net Core super-fast immutable object store
+  url: https://github.com/jamie-lord/Imuject
+  stack: [C#, .Net Core]
+
+- year: 2018
+  title: Web API for SQLite
+  stack: [C#, .Net Core]
+
+- year: 2018
+  title: Decentralised social network using email as transport
+  stack: [Xamarin Forms, MailKit, SQLite]
+
+- year: 2018
+  title: Static photography site generator
+  url: https://github.com/jamie-lord/Photography-site-generator
+  stack: [C#, .Net Core, UIKit]
+
+- year: 2018
+  title: Blazor-based Todo.txt app
+  url: http://do.lord.technology/
+  stack: [Blazor, Mono via Wasm]
+
+- year: 2018
+  title: HACK24 — winning Experian's 2018 challenge
+  url: /2018/03/17/winning-experians-hack24-2018-challenge.html
+  stack: [Microsoft Bot Framework, Azure SQL, Giphy API]
+
+- year: 2018
+  title: .Net Core authentication using CouchDb
+  url: https://github.com/jamie-lord/NetCoreCouchDbAuthentication
+  stack: [C#, .Net Core, CouchDB]
+
+- year: 2018
+  title: SocketComment
+  url: https://github.com/jamie-lord/SocketComment
+  stack: [C#, .Net Core, CouchDB]
+
+- year: 2018
+  title: Pure Web API
+  url: https://github.com/jamie-lord/PureApi
+  stack: [C#, .Net Core, Azure Web Service]
+
+- year: 2018
+  title: .Net Core blockchain
+  url: /projects/dot-net-core-blockchain
+  stack: [C#, .Net Core]
+
+- year: 2018
+  title: Reverse engineering the Logi Circle API
+  stack: [C#, .Net Core, MPEG-DASH]
+
+- year: 2018
+  title: New version of this site
+  url: /2018/02/03/ubuntu-on-windows.html
+  stack: [Jekyll, GitHub Pages]
+
+- year: 2018
+  title: Git-based JSON object store
+  url: /projects/git-json-object-store
+  stack: [C#, .Net Core, Git, JSON]
+
+- year: 2017
+  title: Distributed local search engine
+  url: https://github.com/jamie-lord/LSE
+  stack: [C#, .Net Core]
+
+- year: 2017
+  title: Supermarket price tracking & prediction system
+  url: https://jamie-lord.github.io/PriceWatcher/
+  stack: [C#, .Net Core, Postgres]
+
+- year: 2017
+  title: Live global flight data gathering and statistics
+  stack: [C#, Entity Framework 6, MSSQL]
+
+- year: 2017
+  title: Emily O'Reilly ACR — Paper Conservation
+  url: http://emilyoreilly.co.uk/
+  stack: [WordPress]
+
+- year: 2017
+  title: Entity Framework backed multithreaded web crawler — Spindel
+  url: https://github.com/jamie-lord/Spindel
+  stack: [C#, Entity Framework 6, MSSQL]
+
+- year: 2017
+  title: HACK24 — fake news API
+  url: https://github.com/jamie-lord/fake-news-api
+  stack: [ASP.NET Web API, Entity Framework, Xamarin Forms]
+
+- year: 2017
+  title: Super simple todo list
+  url: https://github.com/jamie-lord/todo
+  stack: [HTML5, JavaScript, Bootstrap]
+
+- year: 2017
+  title: Hyperspace route calculator
+  stack: [C#]
+
+- year: 2016
+  title: Date / outing finder Android app
+  stack: [Google Places API, C#, ASP.NET Web API 2, Entity Framework 6, MSSQL]
+
+- year: 2016
+  title: iOS Hacker News client with offline caching
+  stack: [Xcode, Swift]
+
+- year: 2016
+  title: Task Eleven — poetry and prose by Mary Dansie
+  stack: [WordPress]
+
+- year: 2016
+  title: Wordr.xyz — a collection of poems written by a computer
+  stack: [Python, WordPress]
+
+- year: 2016
+  title: Classifying liver lesions using machine learning
+  stack: [WEKA, MATLAB]
+
+- year: 2016
+  title: Microsoft Azure authentication mobile service
+  stack: [Azure Mobile Service, Google Auth API, Android Studio]
+
+- year: 2016
+  title: "Research paper: Braitenberg vehicle demonstrating a 'fear' of spherical objects"
+  url: /assets/docs/LOR12290627_CMP9050M_3.pdf
+  stack: [Turtlebot, Python, ROS, OpenCV]
+
+- year: 2016
+  title: Automatic detection of rivers in RGB satellite imagery (MComp research)
+  stack: [Python, OpenCV, scikit-learn]
+
+- year: 2016
+  title: Analysis of historical weather records for Lincolnshire
+  stack: [C++, OpenCL]
+
+- year: 2015
+  title: HACK24 (2015) — Pusher real-time demo
+  stack: [Android Studio, Pusher]
+
+- year: 2015
+  title: Braitenberg vehicle demonstrating a 'fear' of spherical objects
+  stack: [Turtlebot, Python, ROS, OpenCV]
+
+- year: 2015
+  title: IaaS cloud service for inventory management
+  stack: [Python, Tornado, Microsoft Azure]
+
+- year: 2015
+  title: Moira West Fibre Artist & Felt Maker
+  url: http://www.moirawestfelt.com/
+  stack: [WordPress]
+
+- year: 2015
+  title: Statistical analysis of Yellowhammer population
+  stack: [IBM SPSS]
+
+- year: 2015
+  title: Pool game simulation
+  url: https://github.com/jamie-lord/CMP9133M-assessment-1
+  stack: [C++, OpenGL]
+
+- year: 2015
+  title: Lung image analysis project
+  stack: [MATLAB]
+
+- year: 2015
+  title: Lincoln SoCS Postgraduate Management System (UROS 2015)
+  stack: [Laravel, MySQL]
+
+- year: 2015
+  title: Global public FTP indexing
+  stack: [Python, MySQL]
+
+- year: 2015
+  title: Jaq McCaughern Contemporary Artist
+  url: http://jaqmccaughern.com/
+  stack: [WordPress, Bootstrap]
+
+- year: 2015
+  title: Wildlife Conservation — Help Nature
+  stack: [WordPress]
+
+- year: 2014
+  title: PHP content management system in under 100 lines
+  stack: [PHP, HTML5, CSS3]
+
+- year: 2014
+  title: Distributed website mapping system
+  stack: [Ruby, MongoDB]
+
+- year: 2014
+  title: Real-time cloud messaging service
+  stack: [Microsoft Azure, Azure Table Storage, AMS SSO, Windows Phone 8.1]
+
+- year: 2014
+  title: Networked traffic light junction simulator
+  stack: [Java]
+
+- year: 2014
+  title: Intelligent news aggregator (undergraduate dissertation)
+  stack: [Ruby, Sinatra, Redis, Bootstrap]
+
+- year: 2014
+  title: Lincoln Guitar Tuition
+  url: http://lincolnguitartuition.uk/
+  stack: [WordPress]
+
+- year: 2014
+  title: Twitter-mood-controlled music app
+  stack: [Windows Phone 8.1, Microsoft Azure]
+
+- year: 2014
+  title: Gateway Of Technology Ltd. website redesign
+  url: http://gotltd.co.uk/
+  stack: [WordPress, Bootstrap]
+
+- year: 2014
+  title: Personal photography website
+  url: /2014/12/12/creating-a-koken-photography-site.html
+  stack: [Koken]
+
+- year: 2014
+  title: Pro Logs Ltd.
+  stack: [WordPress]
+
+- year: 2014
+  title: Dynamic Wheels Ltd.
+  url: /projects/dynamic-wheels-ltd
+  stack: [WordPress]
+
+- year: 2014
+  title: Lincoln SoCS Student Management System (UROS 2014)
+  stack: [PHP, MySQL, Bootstrap, CouchCMS]
+
+- year: 2014
+  title: University of Lincoln American Football Team
+  url: /projects/the-university-of-lincoln-american-football-team
+  stack: [WordPress]
+
+- year: 2014
+  title: Head-movement computer control system
+  stack: [C++, Microsoft Kinect]
+
+- year: 2014
+  title: Designing a £250,000 campus network
+  stack: [Cisco hardware]
+
+- year: 2014
+  title: A* algorithm maze solver
+  stack: [C++]
+
+- year: 2014
+  title: Geographic semantic network generator
+  stack: [Prolog]
+
+- year: 2013
+  title: Markrosoft.org
+  url: /projects/markrosoft-org
+  stack: [WordPress]
+
+- year: 2013
+  title: AutoInvoice
+  stack: [C#]
+
+- year: 2013
+  title: Where's Wally solver
+  stack: [C++]
+
+- year: 2013
+  title: Puzzle solving using a sum of squares algorithm
+  stack: [C++]
+
+- year: 2013
+  title: The Caravan Club — Lincolnshire Centre
+  url: /projects/the-caravan-club-lincolnshire-centre
+  stack: [WordPress]
+
+- year: 2013
+  title: Charles Osei's blog
+  url: /projects/charles-oseis-blog
+  stack: [Ghost]
+
+- year: 2013
+  title: Gateway Of Technology Ltd. website optimisation
+  url: /projects/gateway-of-technology-ltd
+  stack: [WordPress]
+
+- year: 2013
+  title: GatewayCRM
+  url: /projects/gateway-crm
+  stack: [C#]
+
+- year: 2013
+  title: JHACK — The Technology Blog
+  url: /projects/jhack
+  stack: [WordPress]

@@ -1,0 +1,81 @@
+- start: Mar 2023
+  end: present
+  years: 2023 →
+  org: CDS UK
+  role: Solution Architect
+  url: https://www.cds.co.uk
+  current: true
+  bullets:
+    - Analyse and understand client requirements, needs, and pain points.
+    - Design and develop solutions that meet client requirements, budget, and timelines.
+    - Select and integrate appropriate technologies and services to meet solution requirements.
+    - Provide guidance and support to development teams during implementation and deployment.
+    - Continuously evaluate and improve solution designs to ensure they remain relevant and effective.
+    - Stay up-to-date with emerging technologies, trends, and best practices in the industry.
+
+- start: Dec 2021
+  end: Mar 2023
+  years: 2021 – 2023
+  org: HeadClear
+  role: Chief Technology Officer
+  bullets:
+    - Set the technical direction and aligned it with the overall business strategy.
+    - Led product development — design, development, and testing of new features and functionality.
+    - Managed and mentored the engineering team, including hiring and onboarding.
+    - Built and maintained the technology infrastructure supporting HeadClear's products.
+    - Identified and developed technical partnerships to help HeadClear grow and scale.
+
+- start: Oct 2020
+  end: Dec 2021
+  years: 2020 – 2021
+  org: Advanced
+  role: Principal Software Engineer
+  bullets:
+    - Lead developer on the Mitrefinch Flexipay payroll solution (acquired by Advanced in October 2020).
+    - Oversaw the development of the product, managing a team of developers.
+    - Ensured the product was developed on schedule, within budget, and met quality standards.
+
+- start: Aug 2020
+  end: Oct 2020
+  years: 2020
+  org: Mitrefinch
+  role: Delivery Team Lead
+  bullets:
+    - Lead Developer on the Mitrefinch Platform team.
+    - Used C# and Azure technologies to build cross-product systems and infrastructure.
+    - Including SSO platform, product licencing, event messaging, and internal management systems.
+
+- start: Apr 2019
+  end: Aug 2020
+  years: 2019 – 2020
+  org: Mitrefinch
+  role: Developer
+  bullets:
+    - Used Vue.js with TypeScript and C# .Net Core with Azure technologies.
+    - Built multi-tenant SaaS applications including payroll and access control systems.
+
+- start: Oct 2018
+  end: Oct 2018
+  years: 2018
+  org: IFS
+  role: Senior Software Engineer
+  bullets:
+    - Continued work on the mobile framework and internal tools using C# .Net Core.
+
+- start: Nov 2016
+  end: Oct 2018
+  years: 2016 – 2018
+  org: IFS
+  role: Software Engineer
+  bullets:
+    - Developed a unique and vast mobile framework using Xamarin Native for Android, iOS and Windows desktop.
+    - Framework allowed creation of runtime-defined apps.
+
+- start: May 2016
+  end: Nov 2016
+  years: 2016
+  org: MultiPie
+  role: Mobile Applications Developer
+  bullets:
+    - Worked on a variety of native iOS and Android mobile apps for clients.
+    - Built apps using Swift and Java.
