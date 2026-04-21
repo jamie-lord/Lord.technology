@@ -51,7 +51,8 @@ defaults:
       path: _projects
       type: projects
     values:
-      layout: page
+      layout: project
+      nav_key: projects
 
 include:
   - _pages

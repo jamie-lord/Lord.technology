@@ -29,8 +29,7 @@ layout: default
             <span>{{ page.date | date: '%-d %B %Y' }}</span>
             <span class="v2-post-sep">·</span>
             <span>{{ minutes }} min read</span>
-            <span class="v2-post-sep">·</span>
-            <span class="v2-post-slug">{{ page.url }}</span>
+            <span class="v2-post-slug-meta"><span class="v2-post-sep">·</span> <span class="v2-post-slug">{{ page.url }}</span></span>
           </div>
         </div>
       </div>
@@ -50,17 +49,23 @@ layout: default
             {% for t in page.tags %}<span class="v2-tape">{{ t }}</span>{% endfor %}
           </div>
           {% endif %}
-          <div class="v2-post-nav">
-            {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
-            <span class="v2-post-nav-sig">— jl</span>
-            {% if page.next %}<a href="{{ page.next.url | relative_url }}" style="text-align: right;">{{ page.next.title }} →</a>{% else %}<span></span>{% endif %}
-          </div>
+          <nav class="v2-post-nav" aria-label="Adjacent posts">
+            <div class="v2-post-nav-prev">
+              {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="v2-post-nav-label">← Previous</span><span class="v2-post-nav-title">{{ page.previous.title }}</span></a>{% endif %}
+            </div>
+            <span class="v2-post-nav-sig" aria-hidden="true">— jl</span>
+            <div class="v2-post-nav-next">
+              {% if page.next %}<a href="{{ page.next.url | relative_url }}"><span class="v2-post-nav-label">Next →</span><span class="v2-post-nav-title">{{ page.next.title }}</span></a>{% endif %}
+            </div>
+          </nav>
         </div>
       </div>
     </article>
   </section>
 
+  {% assign first_year = site.posts.last.date | date: '%Y' %}
+  {% capture post_status %}archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
      body="Written in a plain text editor, pushed through Jekyll, served as a static file. If you spotted a mistake or want to reply, <a href='mailto:jamie@lord.technology'>send me an email</a>."
-     status="archive since 2013" %}
+     status=post_status %}
 </main>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<main class="page v2">
+  <section class="v2-page-head v2-post-head-wrap">
+    <div class="v2-hero-num" aria-hidden="true">02</div>
+    <div class="v2-stamp v2-stamp--projects">
+      <div class="v2-stamp-row">PROJECT{% if page.date %} · {{ page.date | date: '%Y' }}{% endif %}</div>
+      <div class="v2-stamp-row">LEDGER</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+
+    <div class="v2-page-inner">
+      <a href="{{ '/projects/' | relative_url }}" class="v2-back">← Back to projects</a>
+      <h1 class="v2-hero-title">{{ page.title }}</h1>
+      {% if page.date %}
+      <div class="v2-post-meta-top">
+        <span>{{ page.date | date: '%Y' }}</span>
+        <span class="v2-post-sep">·</span>
+        <span class="v2-post-slug">{{ page.url }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="v2-block v2-block-tight">
+    <article class="v2-post-article">
+      <div class="v2-post-body-v3">
+        {{ content }}
+      </div>
+    </article>
+  </section>
+
+  {% include colophon.html %}
+</main>
