@@ -1,0 +1,42 @@
+---
+title: Writing
+permalink: /writing/
+layout: writing
+nav_key: writing
+redirect_from:
+  - /blog/
+  - /blog/index.html
+  - /categories/
+  - /categories/index.html
+  - /tags/
+  - /tags/index.html
+  - /page2/
+  - /page3/
+  - /page4/
+  - /page5/
+  - /page6/
+  - /page7/
+  - /page8/
+  - /page9/
+  - /page10/
+  - /page11/
+  - /page12/
+  - /page13/
+  - /page14/
+  - /page15/
+  - /page16/
+  - /page17/
+  - /page18/
+  - /page19/
+  - /page20/
+  - /page21/
+  - /page22/
+  - /page23/
+  - /page24/
+  - /page25/
+  - /page26/
+  - /page27/
+  - /page28/
+  - /page29/
+  - /page30/
+---

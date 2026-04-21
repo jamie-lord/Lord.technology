@@ -1,0 +1,66 @@
+---
+layout: default
+---
+{% assign cat = page.categories | first | default: 'notes' %}
+{% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 200 | plus: 1 %}
+<main class="page v2">
+  <section class="v2-page-head v2-post-head-wrap">
+    <div class="v2-hero-num" aria-hidden="true">{{ page.date | date: '%y' }}</div>
+    <div class="v2-stamp v2-stamp--entry">
+      <div class="v2-stamp-row">ENTRY · {{ page.date | date: '%Y' }}</div>
+      <div class="v2-stamp-row">{{ minutes }} MIN · {{ cat | upcase }}</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+
+    <div class="v2-page-inner">
+      <a href="{{ '/writing/' | relative_url }}" class="v2-back">← Back to writing</a>
+
+      <div class="v2-post-hero-row">
+        <div class="v2-post-date v2-post-date--big">
+          <div class="v2-post-day">{{ page.date | date: '%d' }}</div>
+          <div class="v2-post-mo">{{ page.date | date: '%b' | upcase }}</div>
+          <div class="v2-post-yr">'{{ page.date | date: '%y' }}</div>
+        </div>
+        <div class="v2-post-hero-body">
+          <span class="v2-stamp-cat">{{ cat }}</span>
+          <h1 class="v2-post-h1">{{ page.title }}</h1>
+          <div class="v2-post-meta-top">
+            <span>{{ page.date | date: '%-d %B %Y' }}</span>
+            <span class="v2-post-sep">·</span>
+            <span>{{ minutes }} min read</span>
+            <span class="v2-post-sep">·</span>
+            <span class="v2-post-slug">{{ page.url }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="v2-block v2-block-tight">
+    <article class="v2-post-article">
+      <div class="v2-post-body-v3">
+        {{ content }}
+
+        <div class="v2-post-footer">
+          <div class="v2-post-footer-rule" aria-hidden="true"></div>
+          {% if page.tags and page.tags.size > 0 %}
+          <div class="v2-post-tags">
+            <span class="v2-post-tags-label">Tagged</span>
+            {% for t in page.tags %}<span class="v2-tape">{{ t }}</span>{% endfor %}
+          </div>
+          {% endif %}
+          <div class="v2-post-nav">
+            {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+            <span class="v2-post-nav-sig">— jl</span>
+            {% if page.next %}<a href="{{ page.next.url | relative_url }}" style="text-align: right;">{{ page.next.title }} →</a>{% else %}<span></span>{% endif %}
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  {% include colophon.html
+     body="Written in a plain text editor, pushed through Jekyll, served as a static file. If you spotted a mistake or want to reply, <a href='mailto:jamie@lord.technology'>send me an email</a>."
+     status="archive since 2013" %}
+</main>

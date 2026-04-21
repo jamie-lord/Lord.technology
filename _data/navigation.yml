@@ -1,15 +1,33 @@
 main:
-  - title: "Projects"
+  - title: Writing
+    url: /writing/
+    key: writing
+  - title: Projects
     url: /projects/
-  - title: "Blog"
-    url: /blog/
-  - title: "Work"
+    key: projects
+  - title: Work
     url: /work/
-  - title: "About"
+    key: work
+  - title: About
     url: /about/
-  - title: "☁️ Architecting on Cloudflare"
+    key: about
+
+external:
+  - title: "Architecting on Cloudflare"
     url: https://architectingoncloudflare.com/
-    target: _blank
-  - title: "✍️ Nearly Right"
+  - title: "Nearly Right"
     url: https://nearlyright.com/
-    target: _blank
+
+social:
+  - label: GitHub
+    url: https://github.com/jamie-lord
+    icon: github
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jamie-lord-3564472a4/
+    icon: linkedin
+  - label: RSS
+    url: /feed.xml
+    icon: rss
+  - label: Email
+    url: mailto:jamie@lord.technology
+    icon: mail

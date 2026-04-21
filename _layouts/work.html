@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% assign jobs = site.data.work %}
+<main class="page v2 no-wobble">
+  <section class="v2-page-head">
+    <div class="v2-hero-num" aria-hidden="true">03</div>
+    <div class="v2-stamp v2-stamp--work">
+      <div class="v2-stamp-row">RECORD · EMPLOYMENT</div>
+      <div class="v2-stamp-row">{% assign last_job = jobs | last %}{{ last_job.years | split: ' ' | first }} — NOW</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+
+    <div class="v2-page-inner">
+      <div class="v2-hero-label">
+        <span class="v2-kicker">03 / Work</span>
+        <span class="v2-bullet">·</span>
+        <span class="v2-kicker">ten years of shipping</span>
+      </div>
+      <h1 class="v2-hero-title">Ten years of shipping — <span class="v2-underline">most of it in C#</span>.</h1>
+      <p class="v2-hero-sub">What I'm doing today and a history of where I've been employed.</p>
+    </div>
+  </section>
+
+  <section class="v2-block">
+    <div class="v2-timeline">
+      {% for job in jobs %}
+        <article class="v2-job">
+          <div class="v2-job-when">
+            <div class="v2-job-start">{{ job.start }}</div>
+            <div class="v2-job-end">{{ job.end }}</div>
+            {% if job.current %}<div class="v2-job-now">· now</div>{% endif %}
+          </div>
+          <div class="v2-job-body">
+            <div class="v2-job-org">{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</div>
+            <div class="v2-job-role">{{ job.role }}</div>
+            {% if job.bullets and job.bullets.size > 0 %}
+            <ul class="v2-job-bullets">
+              {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% include colophon.html
+     body="Full CV available on request. <a href='mailto:jamie@lord.technology'>Get in touch</a> if you'd like to talk."
+     status="currently: Solution Architect at CDS, Stamford" %}
+</main>

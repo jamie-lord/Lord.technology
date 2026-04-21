@@ -1,0 +1,34 @@
+- label: Languages
+  items:
+    - C# .Net 10
+    - TypeScript
+    - F#
+
+- label: Frameworks
+  items:
+    - Vue
+    - Next.js
+    - Blazor
+    - Nuxt
+    - Hono
+
+- label: Cloud
+  items:
+    - Azure
+    - AWS
+    - Cloudflare Dev Platform
+
+- label: Cloudflare
+  items:
+    - Agents
+    - AI Gateway
+    - AI Search
+    - D1
+    - Durable Objects
+    - KV
+    - Queues
+    - R2
+    - Vectorize
+    - Workers
+    - Workers AI
+    - Workflows

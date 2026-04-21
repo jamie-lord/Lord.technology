@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% assign all_cats = "" | split: "," %}
+{% for post in site.posts %}
+  {% for c in post.categories %}
+    {% assign all_cats = all_cats | push: c %}
+  {% endfor %}
+{% endfor %}
+{% assign cats = all_cats | uniq | sort %}
+<main class="page v2 no-wobble">
+  <section class="v2-page-head">
+    <div class="v2-hero-num" aria-hidden="true">01</div>
+    <div class="v2-stamp v2-stamp--writing">
+      <div class="v2-stamp-row">INDEX · {{ site.posts.size }} POSTS</div>
+      <div class="v2-stamp-row">SINCE {{ site.posts | last | map: 'date' | first | date: '%Y' | default: '2013' }}</div>
+      <div class="v2-stamp-mark">[ jl ]</div>
+    </div>
+
+    <div class="v2-page-inner">
+      <div class="v2-hero-label">
+        <span class="v2-kicker">01 / Writing</span>
+        <span class="v2-bullet">·</span>
+        <span class="v2-kicker">notes, rough edges, things worth saving</span>
+      </div>
+      <h1 class="v2-hero-title">Notes, rough edges, and <span class="v2-underline">things worth saving</span>.</h1>
+      <p class="v2-hero-sub">{{ site.posts.size }} posts going back to 2013. Some are single-link references I wanted to remember — most are short.</p>
+    </div>
+  </section>
+
+  <section class="v2-block v2-block-tight">
+    <div class="v2-filter-bar" id="writing-filter">
+      <span class="v2-filter-label">Filter</span>
+      <button class="v2-chip is-active" data-cat="all" type="button">all</button>
+      {% for c in cats %}
+        <button class="v2-chip" data-cat="{{ c }}" type="button">{{ c }}</button>
+      {% endfor %}
+      <span class="v2-filter-count" id="writing-count">· {{ site.posts.size }} shown</span>
+    </div>
+
+    <ul class="v2-post-list" id="writing-list">
+      {% for post in site.posts %}
+        {% assign cat = post.categories | first | default: 'notes' %}
+        {% assign words = post.content | number_of_words %}
+        {% assign minutes = words | divided_by: 200 | plus: 1 %}
+        <a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ post.categories | join: ' ' }}">
+          <div class="v2-post-date">
+            <div class="v2-post-day">{{ post.date | date: '%d' }}</div>
+            <div class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</div>
+            <div class="v2-post-yr">'{{ post.date | date: '%y' }}</div>
+          </div>
+          <div class="v2-post-body">
+            <span class="v2-stamp-cat">{{ cat }}</span>
+            <h3 class="v2-post-title">{{ post.title }}</h3>
+            <p class="v2-post-ex">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+            <div class="v2-post-meta">
+              {% if post.tags and post.tags.size > 0 %}
+                {% for t in post.tags %}#{{ t }}{% unless forloop.last %} · {% endunless %}{% endfor %}
+                <span class="v2-post-sep"> · </span>
+              {% endif %}
+              <span>{{ minutes }} min</span>
+              <span> · </span>
+              <span class="v2-post-slug">{{ post.url }}</span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% include colophon.html
+     body="Archive going back to 2013. RSS feed lives at <code>/feed.xml</code> — still the best way to follow along."
+     status="currently: writing slowly" %}
+</main>
+
+<script>
+(function() {
+  var bar = document.getElementById('writing-filter');
+  var list = document.getElementById('writing-list');
+  var count = document.getElementById('writing-count');
+  if (!bar || !list) return;
+  bar.addEventListener('click', function(e) {
+    var btn = e.target.closest('.v2-chip');
+    if (!btn) return;
+    var cat = btn.dataset.cat;
+    bar.querySelectorAll('.v2-chip').forEach(function(b) { b.classList.toggle('is-active', b === btn); });
+    var items = list.querySelectorAll('.v2-post');
+    var shown = 0;
+    items.forEach(function(item) {
+      var cats = (item.dataset.cats || '').split(' ').filter(Boolean);
+      var match = cat === 'all' || cats.indexOf(cat) !== -1;
+      item.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (count) count.textContent = '· ' + shown + ' shown';
+  });
+})();
+</script>
