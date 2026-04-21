@@ -1,34 +1,42 @@
+- label: What I'm into
+  items:
+    - Agentic engineering
+    - Claude Code
+    - MCP servers
+    - Edge-native architecture
+    - AI governance
+
+- label: Where I work
+  items:
+    - UK government
+    - Policing & public safety
+    - Healthcare (HL7 / FHIR)
+    - Enterprise multi-tenant SaaS
+    - Official-Sensitive data
+
+- label: Cloud
+  items:
+    - Cloudflare Developer Platform
+    - Azure
+    - AWS
+
 - label: Languages
   items:
-    - C# .Net 10
+    - C# (.NET 10)
     - TypeScript
     - F#
 
 - label: Frameworks
   items:
-    - Vue
-    - Next.js
     - Blazor
+    - Vue
     - Nuxt
+    - Next.js
     - Hono
 
-- label: Cloud
+- label: Data
   items:
-    - Azure
-    - AWS
-    - Cloudflare Dev Platform
-
-- label: Cloudflare
-  items:
-    - Agents
-    - AI Gateway
-    - AI Search
+    - Postgres
+    - SQLite
     - D1
-    - Durable Objects
-    - KV
-    - Queues
-    - R2
     - Vectorize
-    - Workers
-    - Workers AI
-    - Workflows
