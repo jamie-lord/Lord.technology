@@ -5,8 +5,8 @@ layout: default
   <section class="v2-page-head v2-post-head-wrap">
     <div class="v2-hero-num" aria-hidden="true">02</div>
     <div class="v2-stamp v2-stamp--projects">
-      <div class="v2-stamp-row">PROJECT{% if page.date %} · {{ page.date | date: '%Y' }}{% endif %}</div>
-      <div class="v2-stamp-row">LEDGER</div>
+      <div class="v2-stamp-row">PROJECT</div>
+      {% if page.date %}<div class="v2-stamp-row">{{ page.date | date: '%Y' }}</div>{% endif %}
       <div class="v2-stamp-mark">[ jl ]</div>
     </div>
 
@@ -31,5 +31,6 @@ layout: default
     </article>
   </section>
 
-  {% include colophon.html %}
+  {% include colophon.html
+     body="Most of my code lives on <a href='https://github.com/jamie-lord'>GitHub</a>. If you want to talk about a project like this, <a href='mailto:jamie@lord.technology'>email</a> is probably best." %}
 </main>

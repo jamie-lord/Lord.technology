@@ -5,7 +5,7 @@ layout: about
 nav_key: about
 ---
 
-I'm Jamie Lord. I work as a Solution Architect at [CDS](https://www.cds.co.uk/), a digital consultancy that mostly serves the UK public sector.
+I'm Jamie Lord. I love building software, and I've been doing it in various shapes over the years — architect, developer, CTO, consultant. Right now it's mostly as a Solution Architect at [CDS](https://www.cds.co.uk/), a digital consultancy serving the UK public sector.
 
 Most of my time goes on Single Online Home, a national policing platform that serves almost every UK police force in England and Wales. It's a hybrid Azure and Cloudflare estate, which means the tools I reach for at work are often the tools I end up writing about here.
 

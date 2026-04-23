@@ -6,7 +6,7 @@ layout: default
 {% assign minutes = words | divided_by: 200 | plus: 1 %}
 <main class="page v2">
   <section class="v2-page-head v2-post-head-wrap">
-    <div class="v2-hero-num" aria-hidden="true">{{ page.date | date: '%y' }}</div>
+    <div class="v2-hero-num" aria-hidden="true">01</div>
     <div class="v2-stamp v2-stamp--entry">
       <div class="v2-stamp-row">ENTRY · {{ page.date | date: '%Y' }}</div>
       <div class="v2-stamp-row">{{ minutes }} MIN · {{ cat | upcase }}</div>
@@ -70,6 +70,6 @@ layout: default
   {% assign first_year = site.posts.last.date | date: '%Y' %}
   {% capture post_status %}archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
-     body="Written in a plain text editor, pushed through Jekyll, served as a static file. If you spotted a mistake or want to reply, <a href='mailto:jamie@lord.technology'>send me an email</a>."
+     body="If you spotted a mistake or want to reply, <a href='mailto:jamie@lord.technology'>send me an email</a>."
      status=post_status %}
 </main>

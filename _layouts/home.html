@@ -5,7 +5,7 @@ layout: default
   <section class="v2-hero">
     <div class="v2-hero-num" aria-hidden="true">00</div>
     <div class="v2-stamp v2-stamp--home">
-      <div class="v2-stamp-row">ENTRY · {{ site.time | date: '%Y' }}</div>
+      <div class="v2-stamp-row">{{ site.author.name | upcase }}</div>
       <div class="v2-stamp-row">{{ site.author.location | upcase }}</div>
       <div class="v2-stamp-mark">[ jl ]</div>
     </div>
@@ -20,11 +20,11 @@ layout: default
       </div>
 
       <h1 class="v2-hero-title">
-        Solution Architect at CDS, writing <a href="https://architectingoncloudflare.com" class="v2-underline v2-underline--link">a book about Cloudflare</a>.
+        Building software, <span class="v2-underline">for the love of it</span>.
       </h1>
 
       <p class="v2-hero-sub">
-        Most days, a hybrid Azure and Cloudflare estate for UK public-sector digital services. Most evenings, <a href="{{ '/projects/' | relative_url }}">a side-project or two</a>.
+        Architect, developer, or consultant — whatever the work calls for. My toolkit evolves; right now that's mostly Cloudflare's Developer Platform, which I'm <a href="https://architectingoncloudflare.com">writing a book about</a>.
       </p>
 
       <div class="v2-hero-ctas">
@@ -115,6 +115,6 @@ layout: default
   {% assign first_year = site.posts.last.date | date: '%Y' %}
   {% capture home_status %}{{ site.posts.size }} posts · {% if site.data.projects %}{{ site.data.projects.size }} projects · {% endif %}archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
-     body="Built by hand in Stamford. Jekyll, a text editor, and some patience — written slowly, shipped quietly."
+     body="Built by hand in Stamford, UK."
      status=home_status %}
 </main>
