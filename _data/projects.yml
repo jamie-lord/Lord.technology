@@ -2,12 +2,6 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
-  title: Architecting on Cloudflare — the book
-  url: https://architectingoncloudflare.com
-  wip: true
-  stack: [Workers, Durable Objects, D1, R2, Vectorize, Workers AI]
-
-- year: 2026
   title: AI-powered UK employment policy compliance platform
   wip: true
   stack: [SvelteKit, TypeScript, Cloudflare Workers, D1, R2, Workers AI, Workflows, AI Gateway]
@@ -18,8 +12,13 @@
   stack: [TypeScript, SQLite, Azure SDK, Cloudflare API, Claude Code, MCP]
 
 - year: 2026
-  title: Alternative Hacker News reader with local caching
+  title: Architecting on Cloudflare — the book
+  url: https://architectingoncloudflare.com
   wip: true
+  stack: [Workers, Durable Objects, D1, R2, Vectorize, Workers AI]
+
+- year: 2026
+  title: Alternative Hacker News reader with local caching
   stack: [React 19, TypeScript, Vite, IndexedDB, Hacker News API]
 
 - year: 2026
