@@ -266,6 +266,12 @@ img { max-width: 100%; height: auto; }
   border-bottom: 2px solid var(--copper);
   padding-bottom: 2px;
 }
+a.v2-underline--link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 140ms var(--ease), border-bottom-color 140ms var(--ease);
+}
+a.v2-underline--link:hover { color: var(--copper-deep); }
 .v2-strike { color: var(--slate); position: relative; }
 .v2-strike::after {
   content: ""; position: absolute; left: -2px; right: -2px;
