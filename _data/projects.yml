@@ -26,6 +26,14 @@
   stack: [Raspberry Pi 5, RTL-SDR V4, readsb, tar1090, Python, SQLite]
 
 - year: 2025
+  title: AI-assisted UK primary school SATs marking tool
+  stack: [Next.js 15, React 19, TypeScript, Cloudflare Workers, OpenNext, KV, AI Gateway, Anthropic API]
+
+- year: 2025
+  title: Serverless website change monitor with email alerts
+  stack: [Cloudflare Workers, KV, Cron Triggers, Email Routing]
+
+- year: 2025
   title: Absurdist LLM-powered blog
   stack: [Jekyll, Anthropic API]
 
@@ -35,7 +43,6 @@
 
 - year: 2025
   title: Next-generation HR platform
-  wip: true
   stack: [Cloudflare Workers, Pages, R2, D1, Access, Hono, Nuxt, OpenAI API]
 
 - year: 2024
