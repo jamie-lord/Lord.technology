@@ -28,10 +28,10 @@
 
 - label: Frameworks
   items:
-    - Blazor
-    - Vue
-    - Nuxt
+    - SvelteKit
     - Next.js
+    - Nuxt
+    - Vue
     - Hono
 
 - label: Data
