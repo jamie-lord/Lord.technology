@@ -4,13 +4,11 @@ title: What is Cloudflare Developer Platform?
 categories:
   - cloudflare
 ---
-If you've heard about Cloudflare's Developer Platform but aren't quite sure what it offers, this guide aims to break it down in simple terms without diving too deep into technical jargon.
+If you've heard about Cloudflare's Developer Platform but aren't quite sure what it offers, this guide breaks it down in plain terms.
 
 ## What is the Cloudflare Developer Platform?
 
-At its core, Cloudflare Developer Platform is a comprehensive set of tools that enables developers to build, deploy and run applications globally without managing traditional server infrastructure.
-
-It functions as a complete development environment where applications automatically deploy worldwide across Cloudflare's network spanning over 300 cities, providing performance benefits regardless of where your users are located.
+Cloudflare Developer Platform is a set of tools that lets developers build, deploy and run applications globally without managing traditional server infrastructure. Applications deploy worldwide across Cloudflare's network spanning over 300 cities, providing performance benefits regardless of where your users are located.
 
 ## Key Components
 
@@ -80,6 +78,4 @@ As your needs grow, you can scale up with paid plans that provide additional cap
 
 ## Summary
 
-The Cloudflare Developer Platform provides a modern approach to building applications that eliminates many traditional infrastructure concerns. It allows developers to create globally distributed applications without the complexity typically associated with worldwide deployments.
-
-Whether you're building a personal project or an enterprise application, the platform offers tools that simplify development while providing performance and reliability benefits of Cloudflare's global network.
+The Cloudflare Developer Platform lets developers build globally distributed applications without the complexity that usually accompanies worldwide deployments. Whether you're building a personal project or something larger, the platform's tools sit on top of the same global network that handles a meaningful share of internet traffic.

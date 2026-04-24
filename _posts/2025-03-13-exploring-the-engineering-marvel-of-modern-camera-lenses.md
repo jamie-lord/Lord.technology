@@ -6,54 +6,9 @@ categories:
 ---
 I've just stumbled upon what might be [the most comprehensive resource on camera lens technology I've ever seen](https://exclusivearchitecture.com/03-technical-articles-CLT-00-table-of-contents.html), and I simply had to share it with fellow photography enthusiasts. The website is called "Exclusive Architecture", created by Markus Kohlpaintner, and it offers an absolutely magnificent deep dive into lens design and technology.
 
-## An Extraordinary Resource Covering 22 Detailed Chapters
+## An Extraordinary Resource
 
-What makes this site special is its extraordinary breadth and depth. The content spans 22 meticulously crafted chapters (still a work in progress) that explore everything from basic optical principles to the most advanced lens technologies:
-
-1.  **Overview** - Introduction to lens technology
-    
-2.  **Optical Fundamentals** - The physics of light, wave-particle duality, and image formation
-    
-3.  **The Lens Barrel** - Construction, materials, weather sealing and barrel design
-    
-4.  **Mount Systems** - EF, RF and other mount technologies
-    
-5.  **Lens Elements** - Types, shapes, manufacturing processes
-    
-6.  **Optical Materials** - Glass types, fluorite elements, UD glass and plastics
-    
-7.  **Optical Aberrations** - Understanding spherical aberration, coma, astigmatism and more
-    
-8.  **Anti-Reflective Coatings** - How coatings work and their evolution
-    
-9.  **Focal Length** - Fixed vs zoom, telephoto design principles
-    
-10.  **Special Purpose Lenses** - Macro, tilt-shift and dual fisheye technologies
-    
-11.  **Focus** - Focusing principles and implementations
-    
-12.  **Autofocus Systems** - Ring-type USM, Nano USM, STM and other motor technologies
-    
-13.  **Aperture** - How aperture systems work
-    
-14.  **Electromagnetic Diaphragm** - Modern aperture control systems
-    
-15.  **Depth of Field** - The science behind focus depth
-    
-16.  **Bokeh** - Optical principles of background blur
-    
-17.  **Lens Equivalence** - Understanding focal length across formats
-    
-18.  **Image Stabilization** - How optical stabilization works
-    
-19.  **Lens Electronics** - Communication between camera and lens
-    
-20.  **Filter Systems** - Types and effects of optical filters
-    
-21.  **Glossary** - Technical terminology explained
-    
-22.  **Special Thanks** - Acknowledgements
-    
+The content spans 22 chapters (still a work in progress) covering everything from basic optical principles to the most advanced lens technologies—optical fundamentals, lens elements and materials, aberrations, coatings, autofocus systems, electromagnetic diaphragms, image stabilisation, and on through the entire optical and electronic stack. Browse the table of contents on the linked site for the full list.
 
 ## Why This Matters for All Photographers and Videographers
 

@@ -5,7 +5,7 @@ categories:
 - tv
 ---
 
-After enduring The Rings of Power recently and being unsurprisingly disappointed, I’ve discovered the BBC show *Detectorists*. This programme has been around since 2014 but I only discovered it recently via a BBC iPlayer advert having never heard of it before. Sadly it’s only 3 short seasons, with the last coming out in 2017, but considering Mary and I are currently watching The Sopranos, I don’t mind something not been too hot off the press.
+After enduring The Rings of Power recently and being unsurprisingly disappointed, I’ve discovered the BBC show *Detectorists*. This programme has been around since 2014 but I only discovered it recently via a BBC iPlayer advert having never heard of it before. Sadly it’s only 3 short seasons, with the last coming out in 2017, but considering I'm currently watching The Sopranos, I don’t mind something not been too hot off the press.
 
 Staring Toby James and Mackenzie Crook (both damn fine actors), the show follows their metal detecting hobby. I’ll admit that this premise doesn’t sound very exciting but the stories woven between the characters and their experiences is really lovely. It’s a programme that meanders along with even pacing but is surprisingly well crafted with some lovely camera work and even a little historic fiction.
 

@@ -38,9 +38,7 @@ What's particularly concerning is that Google literally wrote the book on Site R
 
 ## The Human Element
 
-The discussion on social platforms revealed another troubling aspect: the casual acceptance of these failures as inevitable. Comments about "vibe coding" and AI-generated code suggest an industry that's prioritising velocity over reliability, output over quality.
-
-Google's workforce has been significantly reduced through layoffs whilst simultaneously being asked to deliver more features faster. When management signals that speed trumps safety, these outcomes become predictable. The pressure to ship features "yesterday" creates environments where fundamental safeguards get skipped.
+Google's workforce has been reduced through layoffs whilst simultaneously being asked to deliver more features faster. When management signals that speed trumps safety, these outcomes become predictable. The pressure to ship features "yesterday" creates environments where fundamental safeguards get skipped.
 
 ## Architectural Lessons
 
@@ -77,11 +75,9 @@ Google's incident response plan includes some sensible remediation:
 
 These are all reasonable steps, but they're also things that should have been in place already. The fact that they weren't suggests deeper cultural and process issues that go beyond this single incident.
 
-## The Trillion-Dollar Mistake
+## A Failure of Institutional Memory
 
-Tony Hoare famously called null references his "billion-dollar mistake." Given the scale of this outage—affecting not just Google's services but cascading across the global internet—we might need to update that figure. The economic impact of a three-hour outage affecting millions of businesses and users worldwide likely exceeds that threshold by some margin.
-
-More importantly, this incident represents a failure of institutional memory and engineering discipline. Google has dealt with these exact failure modes before. They've written extensively about preventing them. Yet here we are, watching the same preventable mistakes play out on a global stage.
+Tony Hoare famously called null references his "billion-dollar mistake." A three-hour outage cascading across the global internet won't be cheap to add to that running total. More importantly, this incident represents a failure of institutional memory and engineering discipline. Google has dealt with these exact failure modes before. They've written extensively about preventing them. Yet here we are, watching the same preventable mistakes play out on a global stage.
 
 ## Conclusion
 

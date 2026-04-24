@@ -40,4 +40,4 @@ We're witnessing a fundamental shift in how development teams structure their wo
 
 The success of this approach will likely influence AI development tools across the industry, pushing towards more deliberate and context-aware approaches to automated code generation. Teams that embrace this planning-first mentality will find themselves building more coherent systems with fewer architectural surprises.
 
-Plan mode isn't just a new feature—it's evidence of how human-AI collaboration should evolve in software development, respecting both the capabilities and limitations of current AI whilst laying groundwork for even more sophisticated partnerships ahead.
+Plan mode is evidence of how human-AI collaboration should evolve in software development: respecting both the capabilities and limitations of current AI whilst laying groundwork for more sophisticated partnerships ahead.
