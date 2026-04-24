@@ -2,7 +2,10 @@
 date: 2024-06-26T13:30
 title: "The Unseen Crisis in Open Source: When Critical Infrastructure Relies on Unpaid Labour"
 categories:
-  - open source
+  - policy
+tags:
+  - open-source
+  - security
 ---
 Polyfill.io was acquired by a Chinese company and immediately began injecting malware into the 100,000+ websites that loaded it, JSTOR and the World Economic Forum among them. The original maintainers had walked away long before, because nobody was paying them to stay.
 

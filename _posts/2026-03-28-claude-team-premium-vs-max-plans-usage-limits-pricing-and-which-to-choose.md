@@ -3,6 +3,9 @@ date: 2026-03-28T20:35
 title: "Claude Team Premium vs Max plans: usage limits, pricing, and which to choose"
 categories:
   - ai
+tags:
+  - claude
+  - anthropic
 ---
 Anthropic does not publish exact token counts for any Claude subscription tier. This makes direct comparison between Team Premium seats and individual Max plans unnecessarily difficult, and most online guidance either conflates the two or invents precision that does not exist. What Anthropic does publish are usage multipliers relative to the Pro plan, and those multipliers, combined with the different limit structures each plan uses, are what actually determine which option suits a given workload.
 

@@ -2,7 +2,11 @@
 date: 2025-02-11T23:00
 title: TPL Dataflow in .NET
 categories:
+  - programming
+tags:
   - dotnet
+  - csharp
+  - performance
 ---
 If you've ever needed to process data through multiple stages with different throughput rates, handle concurrency gracefully, or build a processing pipeline that doesn't overwhelm its downstream systems, [Microsoft's TPL Dataflow library](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library) could be exactly what you need. It's a mature, first-party .NET library that makes complex data processing scenarios surprisingly manageable.
 

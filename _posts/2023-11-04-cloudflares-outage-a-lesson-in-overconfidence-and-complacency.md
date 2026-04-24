@@ -2,9 +2,7 @@
 title: "Cloudflare's Outage: A Lesson in Overconfidence and Complacency"
 date: 2023-11-04 12:00:00 +00:00
 categories:
-- cloudflare
-tags:
-- fail
+  - cloudflare
 ---
 
 The [recent Cloudflare outage](https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/) is a stark reminder that even the most robust and seemingly secure systems are not impervious to failure. The incident, lasting from November 2 at 11:44 UTC until November 4 at 04:25 UTC, exposed critical vulnerabilities in Cloudflare's high availability systems and their control plane's resilience. Here's a critical look at what happened, the decisions made, and the implications for Cloudflare and their clients.

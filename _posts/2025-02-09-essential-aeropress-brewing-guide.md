@@ -2,6 +2,8 @@
 date: 2025-02-09T20:00
 title: Essential AeroPress Brewing Guide
 categories:
+  - personal
+tags:
   - coffee
 ---
 ## Basic Recipe & Technique

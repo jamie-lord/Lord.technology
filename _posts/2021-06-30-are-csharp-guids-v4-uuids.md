@@ -2,9 +2,10 @@
 title: Are C# GUIDs v4 UUIDs?
 date: 2021-06-30 08:53:00 +01:00
 categories:
-- programming
+  - programming
 tags:
-- C#
+  - csharp
+  - dotnet
 last_modified_at: 2021-06-30 13:08:00 +01:00
 notion_id: c56c0025-7591-45bc-b10a-458caab34094
 ---

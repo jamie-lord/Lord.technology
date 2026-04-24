@@ -3,6 +3,8 @@ date: 2025-03-13T12:00
 title: Exploring the Engineering Marvel of Modern Camera Lenses
 categories:
   - photography
+tags:
+  - lens
 ---
 I've just stumbled upon what might be [the most comprehensive resource on camera lens technology I've ever seen](https://exclusivearchitecture.com/03-technical-articles-CLT-00-table-of-contents.html), and I simply had to share it with fellow photography enthusiasts. The website is called "Exclusive Architecture", created by Markus Kohlpaintner, and it offers an absolutely magnificent deep dive into lens design and technology.
 

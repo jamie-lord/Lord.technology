@@ -3,6 +3,8 @@ date: 2025-11-20T11:45
 title: Teaching the Machine to Ask Itself Better Questions
 categories:
   - ai
+tags:
+  - prompt-engineering
 ---
 Watch a developer struggle with an AI coding assistant and you'll see the same pattern. They write a prompt. The model misunderstands. They add more detail. The model makes different wrong assumptions. They write an even longer prompt trying to anticipate every edge case. The model produces something technically correct but entirely wrong.
 

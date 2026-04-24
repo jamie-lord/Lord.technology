@@ -2,6 +2,8 @@
 date: 2025-01-28T13:00
 title: Understanding Bitemporal Primary Keys
 categories:
+  - programming
+tags:
   - databases
 ---
 Temporal databases just got more interesting. With PostgreSQL 18's upcoming support for bitemporal primary and foreign keys, we're seeing a fundamental shift in how databases handle time-aware data. Let's dive into why this matters and how it works.

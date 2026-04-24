@@ -2,9 +2,10 @@
 title: Not-so-smarthome
 date: 2021-09-08 22:08:00 +01:00
 categories:
-- home
+  - hardware
 tags:
-- IOT
+  - amazon
+  - privacy
 last_modified_at: 2021-09-08 22:10:00 +01:00
 notion_id: 8314e47a-ef09-42eb-b7b7-322b11213e84
 ---

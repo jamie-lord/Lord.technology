@@ -2,7 +2,11 @@
 date: 2025-07-03T12:30
 title: Understanding Claude Code Plan Mode and the Architecture of Intent
 categories:
-  - claude code
+  - ai
+tags:
+  - claude-code
+  - claude
+  - anthropic
 ---
 Claude Code's new plan mode solves a problem most developers didn't realise they had. We've grown accustomed to AI tools that immediately start generating code, but this reactive approach often produces technically correct solutions that miss the bigger picture entirely.
 

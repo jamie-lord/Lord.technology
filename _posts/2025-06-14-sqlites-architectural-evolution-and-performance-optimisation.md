@@ -3,6 +3,10 @@ date: 2025-06-14T16:30
 title: SQLite's Architectural Evolution and Performance Optimisation
 categories:
   - programming
+tags:
+  - databases
+  - performance
+  - architecture
 ---
 SQLite is a useful case study in architectural philosophy and the tensions that arise when general-purpose systems encounter specialised workloads. Most of us encounter it daily—embedded in smartphones, browsers, and countless applications—but the engine itself rewards a closer look.
 

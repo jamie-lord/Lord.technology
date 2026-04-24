@@ -2,9 +2,10 @@
 title: Time to get planning for Hacktoberfest 2021
 date: 2021-09-17 20:56:00 +01:00
 categories:
-- programming
+  - personal
 tags:
-- hacktoberfest
+  - open-source
+  - side-project
 last_modified_at: 2021-09-17 20:57:00 +01:00
 notion_id: acf2490d-43fa-42a6-ab37-60a7354aa33b
 ---

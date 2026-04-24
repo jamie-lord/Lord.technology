@@ -3,6 +3,8 @@ date: 2025-06-14T17:00
 title: Three Lenses for Understanding Software Complexity
 categories:
   - programming
+tags:
+  - architecture
 ---
 Software complexity discussions often devolve into frustrating exchanges where participants talk past each other. The reason is simple: we lack a shared definition of what complexity actually means. Three prominent thinkers offer distinct perspectives that reveal fundamentally different priorities about how we should design and evaluate systems.
 

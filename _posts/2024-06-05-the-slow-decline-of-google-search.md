@@ -2,7 +2,9 @@
 date: 2024-06-05T09:00
 title: The Slow Decline of Google Search
 categories:
-  - ai
+  - internet
+tags:
+  - google
 ---
 Google has long been the dominant search engine, but in recent years the quality of its search results has noticeably declined. What was once a source of highly relevant information has now become cluttered with low-quality results, adverts, and AI-generated answers of dubious accuracy. Even worse, Google search is now often being surpassed by LLMs in terms of useful answers.
 

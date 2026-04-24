@@ -3,6 +3,8 @@ date: 2024-08-26T20:00
 title: The Myth of AI-Driven Codeless Development
 categories:
   - ai
+tags:
+  - amazon
 ---
 [AWS CEO Matt Garman told an internal meeting](https://www.businessinsider.com/aws-ceo-developers-stop-coding-ai-takes-over-2024-8) that within two years most developers might stop coding altogether. This is what someone says when they confuse coding with typing.
 

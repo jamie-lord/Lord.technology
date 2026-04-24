@@ -3,6 +3,9 @@ date: 2025-04-04T14:00
 title: What is Cloudflare Developer Platform?
 categories:
   - cloudflare
+tags:
+  - workers
+  - serverless
 ---
 If you've heard about Cloudflare's Developer Platform but aren't quite sure what it offers, this guide breaks it down in plain terms.
 

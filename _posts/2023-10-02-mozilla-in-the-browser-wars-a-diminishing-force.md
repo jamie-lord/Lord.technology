@@ -2,8 +2,11 @@
 title: 'Mozilla in the Browser Wars: A Diminishing Force'
 date: 2023-10-02 07:57:00 +01:00
 categories:
-- internet
-- browsers
+  - internet
+tags:
+  - mozilla
+  - google
+  - antitrust
 ---
 Firefox now exists primarily as Google's antitrust shield. 'Web standards' in 2023 means whatever Chrome ships. When alternative browser engines arrive on iOS, the small remaining argument for Firefox as a hedge against monoculture goes with it.
 

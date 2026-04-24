@@ -2,12 +2,11 @@
 title: "Hashing passwords on Cloudflare Workers"
 date: 2024-02-21 20:30:00 +00:00
 categories:
-  - web-development
+  - cloudflare
 tags:
-  - Cloudflare Workers
-  - Cloudflare Developer Platform
-  - security
+  - workers
   - cryptography
+  - security
 ---
 
 I've recently needed to hash passwords as part of authentication endpoints for an API I'm building using Cloudflare Workers. My complete code is below as I failed to find a single place with this as an example ready to go.

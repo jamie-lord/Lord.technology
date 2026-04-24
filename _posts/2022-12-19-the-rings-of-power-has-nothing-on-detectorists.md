@@ -2,7 +2,7 @@
 title: The Rings of Power has nothing on Detectorists
 date: 2022-12-19 14:51:00 +00:00
 categories:
-- tv
+  - personal
 ---
 
 After enduring The Rings of Power recently and being unsurprisingly disappointed, I’ve discovered the BBC show *Detectorists*. This programme has been around since 2014 but I only discovered it recently via a BBC iPlayer advert having never heard of it before. Sadly it’s only 3 short seasons, with the last coming out in 2017, but considering I'm currently watching The Sopranos, I don’t mind something not been too hot off the press.

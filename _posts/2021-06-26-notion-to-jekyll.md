@@ -2,10 +2,11 @@
 title: Publishing blog posts from Notion to Jekyll
 date: 2021-06-26 22:24:00 +01:00
 categories:
-- programming
+  - programming
 tags:
-- notion
-- writing
+  - jekyll
+  - side-project
+  - apis
 last_modified_at: 2021-06-29 20:29:00 +01:00
 notion_id: 257993ef-c789-488b-99de-cfc0b9348dd2
 ---

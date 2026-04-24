@@ -1,6 +1,8 @@
 ---
 title: Beautifully visualised algorithms
 date: 2014-08-19 01:00:00 +01:00
+categories:
+  - programming
 ---
 
 Have a look at these delightfully colourful representations of a few common data structures and algorithms. Sometimes grasping fundamental concepts can be achieved faster using well designed visual cues rather than simply the written word - I think these could be pretty useful when introducing someone to a few new aspects of computer science.

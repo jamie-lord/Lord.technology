@@ -3,6 +3,10 @@ date: 2026-02-02T21:00
 title: OpenAI's Codex App Confirms Anthropic Sets the Pace in Coding Agents
 categories:
   - ai
+tags:
+  - openai
+  - anthropic
+  - agents
 ---
 OpenAI has released a macOS desktop application for its Codex coding agent, providing a dedicated interface for running multiple AI agents in parallel across software projects. The launch confirms what the past six months have suggested: Anthropic now defines the feature roadmap for coding agents, and OpenAI is working to match it. Organisations evaluating these tools should note that OpenAI's competitive response, including doubled rate limits and temporary free access, creates a narrow window of unusually favourable pricing.
 

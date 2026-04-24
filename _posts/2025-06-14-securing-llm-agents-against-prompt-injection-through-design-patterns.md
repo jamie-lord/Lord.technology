@@ -3,6 +3,10 @@ date: 2025-06-14T16:10
 title: Securing LLM Agents Against Prompt Injection Through Design Patterns
 categories:
   - ai
+tags:
+  - agents
+  - security
+  - prompt-engineering
 ---
 As LLM-powered agents become more sophisticated and gain access to sensitive tools and data, prompt injection has evolved from academic curiosity to genuine business risk. [A recent research paper](https://arxiv.org/pdf/2506.08837) from ETH Zurich, IBM, and Microsoft presents a principled approach through six concrete design patterns that make AI agents demonstrably more secure.
 

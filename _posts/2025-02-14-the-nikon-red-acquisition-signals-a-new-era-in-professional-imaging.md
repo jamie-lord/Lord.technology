@@ -3,6 +3,8 @@ date: 2025-02-14T07:00
 title: The Nikon-RED Acquisition Signals a New Era in Professional Imaging
 categories:
   - photography
+tags:
+  - nikon
 ---
 The [announcement](https://www.nikon.com/company/news/2025/0213_imaging_01.html) of Z-mount versions of RED's V-RAPTOR \[X\] and KOMODO-X cameras marks the first tangible outcome of Nikon's acquisition of RED. While the mount change itself intrigues technically, its broader implications for the professional imaging industry point to something far more transformative.
 

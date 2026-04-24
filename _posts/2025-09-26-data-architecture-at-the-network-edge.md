@@ -3,6 +3,10 @@ date: 2025-09-26T13:00
 title: Data Architecture at the Network Edge
 categories:
   - cloudflare
+tags:
+  - databases
+  - edge-computing
+  - architecture
 ---
 [Cloudflare's Data Platform announcement](https://blog.cloudflare.com/cloudflare-data-platform/) deserves attention not for what it builds, but for what it reveals about the economics of distributed analytics. By co-locating data processing with their global edge infrastructure, they've created something that looks like a traditional data platform but operates on entirely different architectural principles.
 

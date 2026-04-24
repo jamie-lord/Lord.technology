@@ -2,7 +2,11 @@
 date: 2024-05-21T14:00
 title: "The Hypocrisy of Exemption: Politicians and Police Free from Surveillance"
 categories:
+  - policy
+tags:
   - surveillance
+  - privacy
+  - regulation
 ---
 In the ongoing debate over the EU's Child Sexual Abuse Regulation, commonly known as Chat Control, a glaring double standard has emerged. According to the latest draft, politicians, police, and intelligence officers will be exempt from the proposed surveillance measures, while ordinary citizens' communications will be subject to wiretapping. This discrepancy not only undermines the fundamental principle of equality before the law but also poses significant risks to security, democracy, and ethical governance.
 

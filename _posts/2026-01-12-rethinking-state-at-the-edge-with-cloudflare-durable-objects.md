@@ -3,6 +3,10 @@ date: 2026-01-12T20:00
 title: Rethinking State at the Edge with Cloudflare Durable Objects
 categories:
   - cloudflare
+tags:
+  - durable-objects
+  - architecture
+  - edge-computing
 ---
 Most discussions of Cloudflare's Durable Objects focus on what they can do: manage WebSocket connections, implement rate limiters, coordinate real-time collaboration. These are valid applications, but they miss the deeper architectural significance. Durable Objects aren't merely a useful tool in the edge computing toolkit—they represent a fundamental reconceptualisation of how we architect stateful systems.
 

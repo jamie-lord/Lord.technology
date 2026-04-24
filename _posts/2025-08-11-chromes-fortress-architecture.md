@@ -2,7 +2,11 @@
 date: 2025-08-11T08:30
 title: Chrome's Fortress Architecture
 categories:
-  - cybersecurity
+  - internet
+tags:
+  - google
+  - security
+  - architecture
 ---
 Looking at this [Chromium vulnerability report](https://issues.chromium.org/issues/412578726), lets examine one of the most sophisticated browser security exploits discovered in recent years. This post shows how seemingly abstract architectural decisions can create devastating security vulnerabilities when implementation details go wrong...
 
