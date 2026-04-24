@@ -65,11 +65,11 @@ layout: default
         {% assign data_cats = "" %}
         {% for c in post.categories %}{% assign data_cats = data_cats | append: ' ' | append: c | downcase %}{% endfor %}
         <a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">
-          <div class="v2-post-date">
-            <div class="v2-post-day">{{ post.date | date: '%d' }}</div>
-            <div class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</div>
-            <div class="v2-post-yr">'{{ post.date | date: '%y' }}</div>
-          </div>
+          <time class="v2-post-date" datetime="{{ post.date | date_to_xmlschema }}">
+            <span class="v2-post-day">{{ post.date | date: '%d' }}</span>
+            <span class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</span>
+            <span class="v2-post-yr">'{{ post.date | date: '%y' }}</span>
+          </time>
           <div class="v2-post-body">
             <span class="v2-stamp-cat">{{ cat }}</span>
             <h3 class="v2-post-title">{{ post.title }}</h3>

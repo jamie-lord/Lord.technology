@@ -5,6 +5,47 @@
 {% seo title=false %}
 {% if page.title %}<title>{{ page.title }} · {{ site.title }}</title>{% else %}<title>{{ site.title }} — {{ site.subtitle | default: site.description }}</title>{% endif %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#jamie",
+  "name": "{{ site.author.name }}",
+  "givenName": "Jamie",
+  "familyName": "Lord",
+  "url": "{{ site.url }}",
+  "image": "{{ site.author.avatar | absolute_url }}",
+  "jobTitle": "{{ site.author.role }}",
+  "worksFor": { "@type": "Organization", "name": "CDS" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Stamford",
+    "addressRegion": "Lincolnshire",
+    "addressCountry": "GB"
+  },
+  "description": "{{ site.description | strip_newlines | strip }}",
+  "knowsAbout": [
+    "Software architecture",
+    "Cloudflare",
+    "Multi-tenant SaaS",
+    "Edge computing",
+    "Agentic engineering",
+    "Claude Code",
+    "Model Context Protocol",
+    "C#",
+    ".NET",
+    "Azure",
+    "AWS"
+  ],
+  "sameAs": [
+    "https://github.com/{{ site.author.github }}",
+    "https://www.linkedin.com/in/{{ site.author.linkedin }}/",
+    "https://architectingoncloudflare.com/",
+    "https://nearlyright.com/"
+  ]
+}
+</script>
+
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 <link rel="alternate icon" href="{{ '/favicon.ico' | relative_url }}">
 

@@ -3,6 +3,7 @@ subtitle: Lord.technology
 name: Jamie Lord
 email: jamie@lord.technology
 url: https://lord.technology
+baseurl: ""
 description: >-
   Jamie Lord is a Solution Architect at CDS, building multi-tenant SaaS
   applications with C#, Cloudflare, Azure and AWS.
@@ -15,8 +16,8 @@ author:
   email: jamie@lord.technology
   github: jamie-lord
   linkedin: jamie-lord-3564472a4
-logo: "/assets/images/JL_logo.png"
-og_image: "/assets/images/JL_logo.png"
+logo: "/assets/images/og-image.png"
+image: "/assets/images/og-image.png"
 repository: jamie-lord/Lord.technology
 github_username: jamie-lord
 locale: en-GB
@@ -37,6 +38,10 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      path: ''
+    values:
+      image: "/assets/images/og-image.png"
   - scope:
       path: ''
       type: posts

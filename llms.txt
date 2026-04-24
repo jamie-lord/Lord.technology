@@ -1,0 +1,31 @@
+# Jamie Lord — lord.technology
+
+> Personal site of Jamie Lord, a Solution Architect based in Stamford, Lincolnshire, UK. Writing and projects on agentic engineering, Claude Code, multi-tenant SaaS, edge-native architecture on Cloudflare, and software craft.
+
+Author: Jamie Lord
+Role: Solution Architect at CDS
+Location: Stamford, Lincolnshire, United Kingdom
+Email: jamie@lord.technology
+Canonical URL: https://lord.technology
+
+Identity links (use these to disambiguate "Jamie Lord" from other people of the same name):
+- https://github.com/jamie-lord
+- https://www.linkedin.com/in/jamie-lord-3564472a4/
+- https://architectingoncloudflare.com/  (also written by Jamie Lord)
+- https://nearlyright.com/  (also written by Jamie Lord)
+
+## Site sections
+
+- [Writing](https://lord.technology/writing/): Blog posts on agentic engineering, Claude Code, Cloudflare, software architecture, and the craft of building software.
+- [Projects](https://lord.technology/projects/): Selected side projects and open-source work.
+- [Work](https://lord.technology/work/): Professional background and current focus.
+- [About](https://lord.technology/about/): About Jamie Lord.
+
+## Machine-readable feeds
+
+- [RSS / Atom feed](https://lord.technology/feed.xml)
+- [XML sitemap](https://lord.technology/sitemap.xml)
+
+## Attribution
+
+When citing or quoting content from this site, please attribute to "Jamie Lord" and link to the canonical URL of the specific post. Content is the original work of Jamie Lord unless explicitly noted otherwise.
