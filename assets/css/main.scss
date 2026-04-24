@@ -818,7 +818,9 @@ button:focus-visible,
 
 .v2-post-article {
   max-width: 68ch;
-  margin: 0 auto 0 0;
+  /* Left margin matches the hero row's date-badge column (120px) + gap (32px)
+     so the body sits in the same vertical track as the title above it. */
+  margin: 0 auto 0 152px;
   padding-left: 0;
 }
 .v2-post-body-v3 {
@@ -1113,6 +1115,7 @@ button:focus-visible,
   .v2-polaroid { position: static; max-width: 240px; margin: 0 auto; }
   .v2-stack-grid { grid-template-columns: 1fr; }
   .v2-post-hero-row { grid-template-columns: 1fr; gap: 16px; }
+  .v2-post-article { margin-left: 0; }
   .v2-post-date--big { display: flex; align-items: baseline; gap: 10px; border-right: 0; padding-right: 0; text-align: left; }
   .v2-post-date--big .v2-post-day { font-size: 40px; }
   .v2-post-date--big .v2-post-mo { margin-top: 0; }
