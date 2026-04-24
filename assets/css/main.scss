@@ -396,6 +396,20 @@ a.v2-underline--link:hover { color: var(--copper-deep); }
 .v2-post-ex { font-size: 16px; line-height: 1.55; color: var(--slate); margin: 0 0 8px; max-width: 64ch; }
 .v2-post-meta { font-family: var(--font-display); font-size: 11px; color: var(--slate-2); letter-spacing: 0.06em; }
 .v2-post-slug { color: var(--copper); }
+.v2-post-ext { color: var(--copper); font-weight: 500; margin-left: 4px; font-size: 0.85em; vertical-align: 1px; }
+.v2-post-link-cta {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  margin: 0 0 24px;
+  padding: 14px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  background: var(--paper-2);
+}
+.v2-post-link-cta a { color: var(--ink); text-decoration: none; font-weight: 500; }
+.v2-post-link-cta a:hover { color: var(--copper-deep); }
+.v2-post-link-cta span { color: var(--copper); margin-left: 4px; }
 
 /* ---------- V2 PROJECT LIST ---------- */
 .v2-proj-list { list-style: none; padding: 0; margin: 0; counter-reset: proj; }
