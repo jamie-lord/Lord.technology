@@ -2,7 +2,9 @@
 title: Moron Musk
 date: 2022-11-09 11:07:00 +00:00
 categories:
-- web
+  - internet
+tags:
+  - rant
 ---
 
 Watching Musk destroy anything he touches at the moment is excellent entertainment.

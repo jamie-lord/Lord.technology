@@ -1,6 +1,8 @@
 ---
 title: Joining Ello
 date: 2014-10-10 01:00:00 +01:00
+categories:
+  - internet
 ---
 
 Ello.co is a new social network that's caused a bit of a stir online due to its anti-Facebook attitude, the manifesto makes this fact pretty clear...

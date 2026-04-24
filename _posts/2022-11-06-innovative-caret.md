@@ -1,8 +1,10 @@
 ---
 title: Innovative caret
 date: 2022-11-06 13:16:00 +00:00
+categories:
+  - internet
 tags:
-- genius
+  - ux
 ---
 
 [Bike Outliner](https://www.hogbaysoftware.com/bike), a rich text editor for macOS (sadly only macOS 😔) has just received an update that includes a neat feature I've not seen before.

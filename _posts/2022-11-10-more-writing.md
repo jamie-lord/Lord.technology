@@ -2,7 +2,9 @@
 title: More writing
 date: 2022-11-10 16:07:00 +00:00
 categories:
-- thought
+  - personal
+tags:
+  - meta
 ---
 
 I feel like I should write more.

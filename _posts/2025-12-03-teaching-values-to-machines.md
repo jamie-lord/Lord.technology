@@ -3,6 +3,9 @@ date: 2025-12-03T10:00
 title: Teaching Values to Machines
 categories:
   - ai
+tags:
+  - claude
+  - anthropic
 ---
 Something remarkable happened in the final days of November 2025. A researcher named Richard Weiss, while probing Claude 4.5 Opus for its system prompt, stumbled upon something unexpected. The model kept referencing a section called "soul\_overview" that didn't match the usual hallucination patterns. When he regenerated the response ten times, he got nearly identical output each time. This wasn't confabulation. It was memory.
 

@@ -2,7 +2,11 @@
 title: "No more .Net Standard \U0001F389"
 date: 2021-01-19 19:51:00 +00:00
 categories:
-- dotnet
+  - programming
+tags:
+  - dotnet
+  - csharp
+  - microsoft
 ---
 
 Whilst reading about the [plan for Entity Framework Core 6.0](https://devblogs.microsoft.com/dotnet/the-plan-for-entity-framework-core-6-0) I noticed a [remark about .Net Standard](https://devblogs.microsoft.com/dotnet/the-future-of-net-standard) that I'd not clocked last year.

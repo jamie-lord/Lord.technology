@@ -2,7 +2,9 @@
 date: 2026-02-02T22:00
 title: UK Fuel Price API creates new data layer for mobility applications
 categories:
-  - gov
+  - programming
+tags:
+  - apis
 ---
 The UK government's Fuel Finder service, which launched on 2 February 2026, mandates that petrol stations report price changes within 30 minutes. For organisations building navigation, fleet management, or price comparison applications, this represents the first authoritative real-time data source for UK fuel pricing. The practical value depends entirely on enforcement, which appears designed to be lenient.
 

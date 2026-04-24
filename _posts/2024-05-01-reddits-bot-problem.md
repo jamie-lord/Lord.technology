@@ -3,9 +3,6 @@ date: 2024-05-01T19:00
 title: Reddit's Bot Problem
 categories:
   - internet
-tags:
-  - ai
-  - spam
 ---
 Reddit, once known as the "front page of the internet," is clearly facing a growing bot problem that threatens the very nature of the site as a place for authentic human discussion and content sharing.
 

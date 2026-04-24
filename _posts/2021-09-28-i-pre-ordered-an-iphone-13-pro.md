@@ -2,11 +2,10 @@
 title: I've pre-ordered an iPhone 13 Pro
 date: 2021-09-28 19:33:00 +01:00
 categories:
-- Mobile
+  - hardware
 tags:
-- iOS
-- Android
-- iPhone
+  - apple
+  - google
 last_modified_at: 2021-09-28 19:35:00 +01:00
 notion_id: 44d848ff-bc74-4b01-9eb2-d7f276beca0d
 ---

@@ -2,7 +2,9 @@
 title: This post was (mostly) written by Notion AI
 date: 2022-12-19 15:00:00 +00:00
 categories:
-- codswallop
+  - ai
+tags:
+  - rant
 ---
 
 I recently ventured into the world of Notion AI, enabling the features on my workspace with an eager curiosity to see what it could do for my writing. Although I wasn't sure what to expect when I first began, after trying it out, I have to say that I'm not too impressed. The AI has only made minor alterations to my text and I'm not sure if these changes have made it any better. However, I'm still open to giving it a chance as I'm sure the AI will continue to learn and improve, and I'm looking forward to seeing what it can do in the future.

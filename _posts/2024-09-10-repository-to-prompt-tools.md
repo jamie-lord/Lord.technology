@@ -3,6 +3,8 @@ date: 2024-09-10T11:00
 title: Repository-to-Prompt Tools
 categories:
   - ai
+tags:
+  - prompt-engineering
 ---
 A new category of tools has emerged for AI-assisted software development: repository-to-prompt converters. These utilities address the need to feed entire codebases into LLMs like GPT-4, Claude, and Gemini. Here's how they work, where they differ, and which one I'd reach for.
 

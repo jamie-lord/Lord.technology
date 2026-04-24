@@ -3,6 +3,10 @@ date: 2025-04-13T14:00
 title: Cloudflare Containers - Reimagining Global Compute at the Edge
 categories:
   - cloudflare
+tags:
+  - containers
+  - edge-computing
+  - serverless
 ---
 The boundaries between containers, serverless functions, and edge computing are blurring. [Cloudflare's forthcoming Containers offering](https://blog.cloudflare.com/cloudflare-containers-coming-2025/), set to launch in June 2025, isn't just another product in the Developer Platform—it's a different model for running container workloads at global scale, and it challenges several assumptions about how infrastructure should be designed.
 

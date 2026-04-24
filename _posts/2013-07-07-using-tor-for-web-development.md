@@ -1,6 +1,10 @@
 ---
 title: Using Tor for web development
 date: 2013-07-07 01:00:00 +01:00
+categories:
+  - programming
+tags:
+  - privacy
 ---
 
 Project Tor enables anyone to browse the internet anonymously as if from another side of the planet. This is useful to those wanting to engage in shady activities, it's also very convenient for web developers.

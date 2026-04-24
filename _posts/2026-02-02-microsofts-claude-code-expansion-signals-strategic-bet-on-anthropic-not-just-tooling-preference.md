@@ -4,6 +4,10 @@ title: Microsoft's Claude Code expansion signals strategic bet on Anthropic, not
   just tooling preference
 categories:
   - ai
+tags:
+  - microsoft
+  - anthropic
+  - claude-code
 ---
 Microsoft is deploying Anthropic's Claude Code across its largest engineering divisions, including the teams responsible for Windows, Microsoft 365, Teams, and Edge. More significant than the engineering adoption itself is Microsoft's decision to count Anthropic model sales toward Azure sales quotas, a structural change the company typically reserves for its own products and OpenAI. This compensation adjustment reveals strategic intent that extends well beyond a typical vendor evaluation.
 

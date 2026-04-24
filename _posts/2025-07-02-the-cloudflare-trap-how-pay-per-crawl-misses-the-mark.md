@@ -3,6 +3,9 @@ date: 2025-07-02T15:00
 title: "The Cloudflare Trap: How Pay-Per-Crawl Misses the Mark"
 categories:
   - cloudflare
+  - ai
+tags:
+  - rant
 ---
 Cloudflare's [new pay-per-crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) system sounds reasonable on paper: AI companies pay content creators for the privilege of scraping their work. Finally, some economic justice for publishers getting steamrolled by Silicon Valley's data vacuum cleaners. But scratch beneath the surface, and this "solution" reveals itself as something far more troubling—a Trojan horse that may accelerate the very problems it claims to solve.
 

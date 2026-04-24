@@ -2,7 +2,10 @@
 date: 2025-06-23T13:00
 title: When Digital Archaeology Meets Border Control
 categories:
+  - policy
+tags:
   - privacy
+  - surveillance
 ---
 The US Embassy in Dublin just dropped a bombshell that should terrify anyone who values digital privacy. Future student visa applicants must now provide "all social media usernames or handles of every platform they have used from the last five years" and make their profiles public during the application process.
 

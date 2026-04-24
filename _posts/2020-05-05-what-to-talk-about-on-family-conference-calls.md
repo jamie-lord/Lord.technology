@@ -1,6 +1,8 @@
 ---
 title: What to talk about on family conference calls
 date: 2020-05-05 14:58:08 Z
+categories:
+  - personal
 ---
 
 With the ongoing pandemic and 'lockdown' facing a decent chunk of the planet, we've had to resort to video calls with our families using FaceTime, Facebook Messenger, WhatsApp or Zoom. This is all well and good but one thing many of us have noticed is that __there's a lot less than normal to talk about__. No longer can we discuss that great new restaurant we visited on Friday night, or about our recent holiday - as it of course didn't happen. The closest any of us are getting to a holiday at the moment is spending more time in the garden, or perhaps the kitchen if you're that way inclined.

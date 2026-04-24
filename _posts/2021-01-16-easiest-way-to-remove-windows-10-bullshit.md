@@ -1,6 +1,11 @@
 ---
 title: Easiest way to remove Windows 10 bullshit
 date: 2021-01-16 20:56:00 Z
+categories:
+  - hardware
+tags:
+  - microsoft
+  - privacy
 ---
 
 I like Windows 10. As a developer using .Net and Azure I use Windows all the time and generally think it's pretty great. However out of the box it does contain some annoying default settings, features and apps that I'd personally like gone.

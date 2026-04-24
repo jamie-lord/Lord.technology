@@ -2,10 +2,9 @@
 title: The best software documentation I've ever seen
 date: 2021-04-11 12:36:00 +01:00
 categories:
-- programming
+  - programming
 tags:
-- open source
-- documentation
+  - open-source
 ---
 
 This blog uses Jekyll and I've no plans to change that - Jekyll is a great static site generator with plenty of features and a high level of maturity. Once in a while though I like to freshen things up by changing the theme or editing the one I'm using.

@@ -2,7 +2,10 @@
 date: 2026-02-12T23:00
 title: I wrote a book about Cloudflare
 categories:
+  - personal
   - cloudflare
+tags:
+  - book
 ---
 I have been writing about Cloudflare's Developer Platform on this blog for a while now. Posts about [Workers](https://lord.technology/2024/02/21/hashing-passwords-on-cloudflare-workers.html), [Containers](https://lord.technology/2025/06/24/cloudflare-containers-changes-everything-for-serverless-computing.html), [Analytics Engine](https://lord.technology/2025/02/04/what-is-cloudflare-workers-analytics-engine.html), [the platform as a whole](https://lord.technology/2026/01/12/rethinking-state-at-the-edge-with-cloudflare-durable-objects.html). Each one started the same way: I would encounter something that surprised me, spend a few days pulling it apart, and write up what I found. It was never planned as a series. I just kept finding things worth writing about.
 

@@ -1,6 +1,12 @@
 ---
 title: How does Amazon DynamoDB work?
 date: 2020-05-05 10:12:23 Z
+categories:
+  - programming
+tags:
+  - aws
+  - databases
+  - amazon
 ---
 
 I've recently been looking into _how_ exactly nosql document databases work. Not just existing solution APIs like Amazon DynamoDB and Azure CosmosDB, I mean how they work _inside_, with a view to creating my own for fun. Amazon DynamoDB's [wikipedia](https://en.wikipedia.org/wiki/Amazon_DynamoDB) page is a good starting place but I wanted more technical detail!

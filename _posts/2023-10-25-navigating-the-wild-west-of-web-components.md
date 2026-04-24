@@ -2,9 +2,9 @@
 title: Navigating the Wild West of Web Components
 date: 2023-10-25 20:30:00 +01:00
 categories:
-- web
+  - programming
 tags:
-- webcomponents
+  - web-components
 ---
 
 Web components have gained a lot of attention as a way to encapsulate and reuse HTML, CSS, and JavaScript. They deliver on a lot of that promise—but there are several real-world considerations developers need to keep in mind before reaching for them.

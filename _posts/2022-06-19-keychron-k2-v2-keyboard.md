@@ -2,9 +2,7 @@
 title: Keychron K2 V2 keyboard
 date: 2022-06-19 18:07:00 +01:00
 categories:
-- hardware
-tags:
-- keyboard
+  - hardware
 ---
 
 Everyone keeps going on about how good Keychron keyboards are so I caved and got one. The keyboard I’ve been using for the last 6 years was still working fine but I’d begun to not appreciate having a number pad due to the space it takes up on my desk and it was also starting to look a bit tired although it’s still fully-functional.

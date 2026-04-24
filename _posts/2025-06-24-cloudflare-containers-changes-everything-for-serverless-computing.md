@@ -3,6 +3,10 @@ date: 2025-06-24T20:00
 title: Cloudflare Containers Changes Everything for Serverless Computing
 categories:
   - cloudflare
+tags:
+  - containers
+  - serverless
+  - edge-computing
 ---
 Cloudflare has launched [Containers](https://developers.cloudflare.com/containers/), and it changes how we think about building applications at the edge. This is the missing piece in Cloudflare's developer platform—the layer that handles everything Workers wasn't designed for.
 

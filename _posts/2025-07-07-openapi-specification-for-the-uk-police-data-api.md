@@ -1,6 +1,11 @@
 ---
 date: 2025-07-07T15:00
 title: OpenAPI Specification for the UK Police Data API
+categories:
+  - programming
+tags:
+  - apis
+  - side-project
 ---
 The UK government provides an excellent open data resource through [data.police.uk](https://data.police.uk/docs/), offering free access to street-level crime statistics, police force information, and neighbourhood policing details across England, Wales, and Northern Ireland. However, whilst the API documentation exists, there hasn't been a comprehensive OpenAPI specification available for developers who want to integrate this data into their applications.
 

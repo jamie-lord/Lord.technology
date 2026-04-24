@@ -3,6 +3,10 @@ date: 2025-02-04T13:00
 title: What is Cloudflare Workers Analytics Engine?
 categories:
   - cloudflare
+tags:
+  - analytics-engine
+  - workers
+  - databases
 ---
 Time-series databases are hardly new, but [Cloudflare's Workers Analytics Engine](https://developers.cloudflare.com/analytics/analytics-engine/) offers an intriguing twist on the traditional approach. After diving into its technical documentation and architecture, I found some fascinating design choices worth exploring – particularly around how it handles high-cardinality data at scale.
 

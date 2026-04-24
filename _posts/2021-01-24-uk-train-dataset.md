@@ -2,7 +2,10 @@
 title: UK train dataset
 date: 2021-01-24 13:36:00 +00:00
 categories:
-- dataset
+  - personal
+tags:
+  - side-project
+  - open-source
 ---
 
 I've published a [dataset on GitHub](https://github.com/jamie-lord/uk-train-dataset) that comprises of a single CSV file containing every locomotive in the UK. This includes historic and private locomotives, London Underground and other light rail rolling stock.

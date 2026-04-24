@@ -2,7 +2,9 @@
 title: 'Product idea: verifiable digital document sharing'
 date: 2021-01-23 15:13:00 +00:00
 categories:
-- idea
+  - personal
+tags:
+  - cryptography
 ---
 
 Some employers, utility companies, banks or government departments still *require* you to be in possession of physical documents - __it's now 2021 and this is stupid.__

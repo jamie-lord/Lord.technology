@@ -3,6 +3,9 @@ date: 2025-10-13T23:00
 title: The Deliberate Constraints of MCP Elicitation
 categories:
   - ai
+tags:
+  - mcp
+  - agents
 ---
 AI systems need to interact with the world. They need to read files, query databases, call APIs, and access services that require credentials, configuration, and context. The Model Context Protocol emerged to standardise how AI models connect to these resources through "servers"—services that expose tools, data sources, and capabilities to AI applications.
 

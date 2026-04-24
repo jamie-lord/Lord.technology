@@ -2,9 +2,10 @@
 title: Added categories and tags to NotionToJekyll
 date: 2021-06-29 20:31:00 +01:00
 categories:
-- programming
+  - programming
 tags:
-- notion
+  - jekyll
+  - side-project
 last_modified_at: 2021-06-29 20:35:00 +01:00
 notion_id: 3283ef53-4df3-4790-92a3-ac0b3500569e
 ---

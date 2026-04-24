@@ -2,7 +2,7 @@
 title: Purchase research rabbit holes
 date: 2022-07-23 15:20:00 +01:00
 categories:
-- thought
+  - personal
 ---
 
 I’ve been contemplating getting some binoculars for use at air shows and much like when I was looking for a microscope for micrometeorite hunting or looking for a new mattress, I’ve really enjoyed the fun of researching something with next to no previous knowledge of the domain.

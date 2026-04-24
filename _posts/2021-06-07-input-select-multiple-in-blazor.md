@@ -2,7 +2,11 @@
 title: Input select multiple in Blazor
 date: 2021-06-07 21:46:00 +01:00
 categories:
-- Blazor
+  - programming
+tags:
+  - blazor
+  - dotnet
+  - csharp
 ---
 
 There's no built-in multiple select in Blazor but it's pretty easy to get one working without any libraries.

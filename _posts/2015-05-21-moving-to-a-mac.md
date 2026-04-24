@@ -1,6 +1,10 @@
 ---
 title: Moving to a Mac
 date: 2015-05-21 01:00:00 +01:00
+categories:
+  - hardware
+tags:
+  - apple
 ---
 
 First of all, I feel it's important to make clear that I'm typically a 'Windows person', that is to say, I've always used Windows as my primary OS. Of course I'm perfectly comfortable working with Linux, but normally you'll find me using Windows 8.1.

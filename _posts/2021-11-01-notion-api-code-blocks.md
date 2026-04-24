@@ -2,9 +2,10 @@
 title: Notion API code blocks
 date: 2021-11-01 10:47:00 +00:00
 categories:
-- programming
+  - programming
 tags:
-- notion
+  - apis
+  - side-project
 last_modified_at: 2021-11-01 11:04:00 +00:00
 notion_id: 19e01e1b-a6b1-4a92-98d8-0a5931d40f23
 ---

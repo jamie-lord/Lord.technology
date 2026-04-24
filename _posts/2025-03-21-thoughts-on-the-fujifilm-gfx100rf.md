@@ -3,6 +3,8 @@ date: 2025-03-21T08:00
 title: Thoughts on the Fujifilm GFX100RF
 categories:
   - photography
+tags:
+  - fujifilm
 ---
 In a world where camera manufacturers battle in technical one-upmanship, Fujifilm has made a curious move. The new GFX100RF presents something genuinely different: a fixed-lens medium format camera that weighs less than many full-frame systems. This strange chimera – part compact street shooter, part landscape powerhouse – raises profound questions about what photographers truly value in their tools.
 

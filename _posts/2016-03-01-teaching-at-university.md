@@ -1,6 +1,8 @@
 ---
 title: Teaching at University
 date: 2016-03-01 00:00:00 +00:00
+categories:
+  - personal
 ---
 
 Whilst studying for my integrated master's degree in Computer Science at the University of Lincoln, I'm also demonstrating on a number of modules to enhance my own skills as well as gain some valuable teaching experience.

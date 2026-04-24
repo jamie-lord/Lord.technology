@@ -2,9 +2,10 @@
 title: How ChatGPT Designed My Personal Logo
 date: 2023-10-15 19:00:00 +01:00
 categories:
-- design
+  - ai
 tags:
-- chatgpt
+  - chatgpt
+  - openai
 ---
 
 ![Jamie Lord logo](/assets/images/JL_logo.png)

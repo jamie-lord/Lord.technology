@@ -3,6 +3,9 @@ date: 2025-06-14T16:00
 title: When Giants Fall - The Anatomy of Google's June 2025 Outage
 categories:
   - programming
+tags:
+  - google
+  - architecture
 ---
 On 12 June 2025, Google Cloud Platform experienced what can only be described as a catastrophic failure that brought down not only their own services but cascaded across the internet, taking Cloudflare, numerous third-party applications, and countless businesses offline for nearly three hours. As someone who has spent years working with cloud architecture, reading Google's incident report left me genuinely stunned—not by the complexity of the failure, but by its sheer preventability.
 

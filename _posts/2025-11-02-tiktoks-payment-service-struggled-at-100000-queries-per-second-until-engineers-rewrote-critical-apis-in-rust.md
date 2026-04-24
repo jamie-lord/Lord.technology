@@ -4,6 +4,10 @@ title: TikTok's payment service struggled at 100,000 queries per second until
   engineers rewrote critical APIs in Rust
 categories:
   - programming
+tags:
+  - rust
+  - performance
+  - apis
 ---
 At exactly 100,000 queries per second, TikTok's payment service stopped being an engineering problem and became an economic one. The APIs fetching user balances and transaction statistics consumed so much CPU that continuing to scale horizontally meant spending hundreds of thousands on additional servers annually. The team faced a choice: keep optimising Go code that was already well-written, or rewrite the bottlenecks in Rust and risk everything that could go wrong.
 

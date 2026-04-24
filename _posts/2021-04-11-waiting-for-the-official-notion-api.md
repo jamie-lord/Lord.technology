@@ -2,10 +2,9 @@
 title: Waiting for the official Notion API
 date: 2021-04-11 12:04:00 +01:00
 categories:
-- thought
+  - programming
 tags:
-- notion
-- api
+  - apis
 ---
 
 [Spring 2021](https://www.notion.so/api-beta) is still outlined as the release timeframe for the Notion API and I can't wait. I've been using Notion since becoming a [Lead Developer](https://lord.technology/work) to try and improve my knowledge storage and it's been a fantastic choice so far.
