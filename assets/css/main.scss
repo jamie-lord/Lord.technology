@@ -364,6 +364,7 @@ a.v2-underline--link:hover { color: var(--copper-deep); }
 .v2-post:hover { background: rgba(251, 248, 242, 0.6); text-decoration: none; color: inherit; }
 
 .v2-post-date {
+  display: block;
   font-family: var(--font-display);
   text-align: right;
   padding-right: 14px;
@@ -372,9 +373,9 @@ a.v2-underline--link:hover { color: var(--copper-deep); }
   line-height: 1;
   padding-top: 4px;
 }
-.v2-post-day { font-size: 36px; font-weight: 500; letter-spacing: -0.04em; }
-.v2-post-mo  { font-size: 12px; letter-spacing: 0.2em; margin-top: 6px; color: var(--copper); }
-.v2-post-yr  { font-size: 12px; letter-spacing: 0.18em; margin-top: 4px; color: var(--slate); }
+.v2-post-day { display: block; font-size: 36px; font-weight: 500; letter-spacing: -0.04em; }
+.v2-post-mo  { display: block; font-size: 12px; letter-spacing: 0.2em; margin-top: 6px; color: var(--copper); }
+.v2-post-yr  { display: block; font-size: 12px; letter-spacing: 0.18em; margin-top: 4px; color: var(--slate); }
 
 .v2-post-body { min-width: 0; }
 .v2-stamp-cat {
