@@ -64,7 +64,7 @@ layout: default
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
         {% assign data_cats = "" %}
         {% for c in post.categories %}{% assign data_cats = data_cats | append: ' ' | append: c | downcase %}{% endfor %}
-        <a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">
+        {% if post.link %}<a class="v2-post v2-post--link" href="{{ post.link }}" target="_blank" rel="noopener" data-cats="{{ data_cats | strip }}">{% else %}<a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">{% endif %}
           <time class="v2-post-date" datetime="{{ post.date | date_to_xmlschema }}">
             <span class="v2-post-day">{{ post.date | date: '%d' }}</span>
             <span class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</span>
@@ -72,15 +72,15 @@ layout: default
           </time>
           <div class="v2-post-body">
             <span class="v2-stamp-cat">{{ cat }}</span>
-            <h3 class="v2-post-title">{{ post.title }}</h3>
-            <p class="v2-post-ex">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+            <h3 class="v2-post-title">{{ post.title }}{% if post.link %} <span class="v2-post-ext" aria-label="external link">↗</span>{% endif %}</h3>
+            {% unless post.link and post.excerpt == empty %}<p class="v2-post-ex">{{ post.excerpt | strip_html | truncate: 200 }}</p>{% endunless %}
             <div class="v2-post-meta">
               {% if post.tags and post.tags.size > 0 %}
                 {% for t in post.tags %}#{{ t }}{% unless forloop.last %} · {% endunless %}{% endfor %}
                 <span class="v2-post-sep"> · </span>
               {% endif %}
               <span>{{ minutes }} min</span>
-              <span class="v2-post-slug-meta"> · <span class="v2-post-slug">{{ post.url }}</span></span>
+              <span class="v2-post-slug-meta"> · <span class="v2-post-slug">{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span></span>
             </div>
           </div>
         </a>

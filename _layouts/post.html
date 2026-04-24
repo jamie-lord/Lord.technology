@@ -74,6 +74,12 @@ layout: default
   <section class="v2-block v2-block-tight">
     <article class="v2-post-article">
       <div class="v2-post-body-v3">
+        {% if page.link %}
+          {% assign linkhost = page.link | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
+          <div class="v2-post-link-cta">
+            <a href="{{ page.link }}" target="_blank" rel="noopener">Read it on {{ linkhost }} <span aria-hidden="true">↗</span></a>
+          </div>
+        {% endif %}
         {{ content }}
 
         <div class="v2-post-footer">
