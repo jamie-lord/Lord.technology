@@ -18,6 +18,6 @@ Battery life is one of the biggest open questions. Whilst e-ink devices often qu
 
 Pre-orders are open now starting at a steep $729 (£600) for the tablet, stylus, and case, with orders slated to ship in batches starting in October. However, many tech enthusiasts balked at the high price for a first-gen product compared to established e-ink devices and traditional tablets. The company states the pricing reflects the high cost of the custom low-volume display but hopes to drive down prices in the future.
 
-Daylight has ambitious plans to bring LivePaper to a range of devices like phones, monitors, and laptops. A large group of users are already clamouring for an external monitor using the tech that could be paired with laptops and desktops.
+Daylight wants to bring LivePaper to phones, monitors, and laptops, and a sizeable cohort of users is already asking for an external monitor version to pair with existing machines.
 
-The Daylight Computer certainly shows some intriguing innovations in an attempt to merge the benefits of e-ink with the speed of LCDs. But many key questions remain around real-world performance, longevity, and software ecosystem. Whilst there is no shortage of excitement and early adopters eager to test the product, it's fair to remain somewhat sceptical until we see objective analysis of this new display technology and overall execution.
+The Daylight Computer is the most interesting attempt I've seen at merging the benefits of e-ink with the speed of LCDs. I'm not sold yet—a $729 first-generation product with unknown battery life and a custom Android fork is a lot to ask on faith—but if the display performs as claimed in independent testing, this is a category worth watching.

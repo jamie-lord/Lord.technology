@@ -4,7 +4,7 @@ title: Why Machines Find Easy Things Hard
 categories:
   - ai
 ---
-Watch a child gracefully pluck a raisin from a bowl, and you're witnessing a feat that would humble the world's most sophisticated robots. Yet these same robots can solve complex mathematical equations that would leave most adults scratching their heads. Welcome to [Moravec's Paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox), perhaps the most fascinating quirk in artificial intelligence.
+Watch a child pluck a raisin from a bowl and you're seeing a feat that would humble the world's most sophisticated robots. Yet those same robots can solve mathematical equations that would leave most adults scratching their heads. This is [Moravec's Paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox), and it's the quirk in artificial intelligence that I find hardest to forget.
 
 The paradox reveals a peculiar truth: the mental tasks we find most challenging—like algebraic calculations or chess strategies—are relatively straightforward for computers. Meanwhile, the things we do without thinking—recognising faces, walking across a room, or picking up objects—are fiendishly difficult for machines to master.
 

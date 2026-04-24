@@ -46,22 +46,4 @@ The pricing strategy reveals careful market positioning. By eliminating egress f
 
 Early feature limitations suggest a measured approach to capability expansion. Rather than attempting feature parity with established platforms, they're building core functionality well and expanding systematically. This reduces execution risk whilst establishing market presence.
 
-## Implications for Practice
-
-The broader pattern here extends beyond Cloudflare's specific implementation. Edge-native analytics represents a change in how we think about data architecture. As data sources become increasingly distributed and regulatory requirements demand regional data residency, centralised processing models face growing constraints.
-
-Successful adoption requires rethinking traditional data architecture patterns. Teams accustomed to batch-oriented, warehouse-centric approaches will need to develop expertise in stream processing, distributed systems, and edge computing concepts.
-
-The interoperability focus means this platform works best as part of hybrid architectures rather than wholesale replacements. Teams can adopt specific components—perhaps using Pipelines for ingestion whilst maintaining existing query infrastructure—and evolve their architecture incrementally.
-
-The real test will be operational maturity. Data platforms require sophisticated monitoring, debugging capabilities, and performance tuning tools. Cloudflare's success will depend as much on operational tooling as core functionality.
-
-## Synthesis
-
-Cloudflare's Data Platform matters because it demonstrates how infrastructure advantages can enable entirely different approaches to common problems. By leveraging their network position and zero-egress economics, they've created something that looks familiar but operates on fundamentally different principles.
-
-The architectural implications extend beyond data processing. This represents a broader pattern of bringing compute to data rather than the reverse—a model we'll likely see replicated across other domains as edge infrastructure matures.
-
-For practitioners, this signals the importance of understanding distributed systems concepts and stream processing patterns. The future of data architecture increasingly involves reasoning about geographic distribution, network effects, and edge computing capabilities.
-
-The platform's success will ultimately depend on execution quality and ecosystem development. But the architectural vision—treating the entire global network as a unified compute platform for analytical workloads—represents a compelling evolution in how we approach data infrastructure at scale.
+The interoperability focus means this platform works best as part of hybrid architectures rather than wholesale replacements. Teams can adopt specific components—perhaps using Pipelines for ingestion whilst maintaining existing query infrastructure—and evolve their architecture incrementally. The real test will be operational maturity: data platforms live or die by monitoring, debugging, and performance tuning, and Cloudflare's success will depend as much on that tooling as on the core functionality.

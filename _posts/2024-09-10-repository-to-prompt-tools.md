@@ -4,11 +4,11 @@ title: Repository-to-Prompt Tools
 categories:
   - ai
 ---
-In the rapidly evolving landscape of AI-assisted software development, a new category of tools has emerged: repository-to-prompt converters. These utilities address the growing need to feed entire codebases into Large Language Models (LLMs) like GPT-4, Claude, and Gemini. Let's delve into the technical aspects and implications of these tools.
+A new category of tools has emerged for AI-assisted software development: repository-to-prompt converters. These utilities address the need to feed entire codebases into LLMs like GPT-4, Claude, and Gemini. Here's how they work, where they differ, and which one I'd reach for.
 
 ## Core Functionality
 
-At their heart, these tools perform a seemingly simple task: they traverse a directory structure, typically a Git repository, and concatenate the contents of text files into a single document. However, the devil is in the details:
+These tools perform a deceptively simple task: traverse a directory structure (typically a Git repository) and concatenate the contents of text files into a single document. The interesting work is in the details:
 
 1\. **Intelligent File Selection**: Most tools respect `.gitignore` files and offer additional filtering capabilities through glob patterns or custom exclusion lists.
 

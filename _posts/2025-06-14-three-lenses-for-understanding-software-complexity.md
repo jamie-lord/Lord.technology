@@ -47,10 +47,4 @@ The choice of complexity definition shapes architectural decisions and team stan
 
 Tellman's framework offers particular value for modern development contexts involving distributed teams and varying skill levels. By explicitly considering who needs to understand what and when, it provides tools for reasoning about complexity within organisational realities rather than purely technical abstractions.
 
-## Synthesis
-
-Rather than competing definitions, these represent complementary lenses for different aspects of complexity. Hickey's structural independence principles inform service boundary decisions. Ousterhout's cognitive burden guidance shapes API design. Tellman's explanatory framework addresses team dynamics and documentation strategies.
-
-The most sophisticated approach involves applying the appropriate lens contextually. This multi-faceted view aligns with contemporary trends towards contextual decision-making in software architecture, recognising that complexity emerges from the interaction between systems, people, and organisational contexts.
-
-Understanding these different perspectives enables more productive complexity discussions and better-informed architectural trade-offs that serve both technical and human needs effectively.
+These aren't competing definitions but complementary lenses. Hickey's structural independence principles inform service boundary decisions. Ousterhout's cognitive burden guidance shapes API design. Tellman's explanatory framework addresses team dynamics and documentation strategies. Pick the lens that fits the decision in front of you.

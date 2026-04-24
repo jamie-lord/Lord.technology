@@ -18,4 +18,4 @@ Ironically, we seem to be better off asking an LLM directly rather than doing a 
 
 Some argue that Google remains dominant simply due to inertia and lack of strong competition, not because they are still the best. Upstarts like Kagi and You.com show promise, but have an uphill battle against Google's entrenched position.
 
-Still, if the quality decline continues, more users will start seeking alternatives. Google may be headed down the same path as former tech giants like Nokia and Blackberry - overtaken not because they lacked resources, but because they grew complacent and lost touch with what users wanted. The future is looking more and more like it belongs to AI, not traditional search. And that may not be a bad thing. A shakeup of the search market is long overdue, and perhaps AI will be the force that finally dethrones the Google hegemony.
+Still, if the quality decline continues, more users will start seeking alternatives. Google's problem isn't a lack of resources—it's complacency, and a search product that has stopped trying to be what users actually want. A shakeup of the search market is long overdue, and AI may be the thing that finally forces it.

@@ -22,7 +22,7 @@ The enterprise risks extend far beyond individual compromises to systemic archit
 
 Supply chain attacks through MCP servers present immediate dangers. The recent CVE-2025-6514 vulnerability in a popular npm authentication package exposed thousands of AI integrations overnight. Unlike traditional software vulnerabilities that affect discrete applications, AI security breaches cascade across entire digital ecosystems through the interconnected nature of agent workflows.
 
-Data leakage becomes endemic without centralised governance. I've observed organisations where customer data flows between systems through AI agents in ways that violate both technical boundaries and regulatory requirements. The interconnected nature of these agents means a single misconfigured integration can expose data across multiple business domains.
+Data leakage becomes endemic without centralised governance. Customer data can flow between systems through AI agents in ways that violate both technical boundaries and regulatory requirements. The interconnected nature of these agents means a single misconfigured integration can expose data across multiple business domains.
 
 The scale of exposure grows exponentially with each new integration, yet most organisations treat AI tool adoption as they would installing browser extensions—individual decisions with minimal oversight.
 
@@ -48,10 +48,4 @@ The organisations that solve this governance challenge first will establish sust
 
 ## The Architectural Inflection Point
 
-We're witnessing the same pattern that shaped API management a decade ago. Initially, APIs proliferated without governance, creating security gaps and operational chaos. The subsequent consolidation around API gateways established the architectural foundation for modern digital transformation.
-
-AI agents are following an identical trajectory. The current proliferation of point-to-point integrations will inevitably give way to structured, governable architectures. The timing of this transition determines whether organisations harness AI's potential or become victims of its security implications.
-
-The convergence of AI security with established enterprise frameworks signals the field's maturation. Rather than treating AI as an entirely separate domain requiring bespoke solutions, we're discovering how proven security principles apply to AI contexts with appropriate adaptation.
-
-This evolution demands the same architectural discipline, governance processes, and security mindset that characterise mature enterprise systems. The organisations that understand this will build competitive advantages through AI whilst avoiding the spectacular failures that await those who prioritise speed over security.
+This is the same pattern that shaped API management a decade ago. APIs proliferated without governance, created security gaps and operational chaos, then consolidated around gateways. AI agents are following the identical trajectory. The current proliferation of point-to-point integrations will give way to structured, governable architectures. The timing of that transition determines whether organisations harness AI's potential or become victims of its security implications.

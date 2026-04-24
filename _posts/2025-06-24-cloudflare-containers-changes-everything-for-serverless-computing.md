@@ -4,9 +4,9 @@ title: Cloudflare Containers Changes Everything for Serverless Computing
 categories:
   - cloudflare
 ---
-Today marks a watershed moment for the serverless ecosystem. Cloudflare has launched [Containers](https://developers.cloudflare.com/containers/), and it fundamentally changes how we think about building applications at the edge. This isn't just another container platform—it's the missing piece that transforms Cloudflare's developer platform from impressive to genuinely revolutionary.
+Cloudflare has launched [Containers](https://developers.cloudflare.com/containers/), and it changes how we think about building applications at the edge. This is the missing piece in Cloudflare's developer platform—the layer that handles everything Workers wasn't designed for.
 
-After spending time with the beta and analysing the architecture, I'm convinced this represents the most significant advancement in serverless computing since AWS Lambda's introduction. Here's why Containers matters, what it unlocks, and where it's heading.
+After spending time with the beta and analysing the architecture, I think this is the most consequential serverless launch in years. Here's why Containers matters, what it unlocks, and where it's heading.
 
 ## The Problem Containers Solves
 
