@@ -7,6 +7,7 @@ tags:
   - claude-code
   - claude
   - anthropic
+  - agentic-engineering
 ---
 Claude Code's new plan mode solves a problem most developers didn't realise they had. We've grown accustomed to AI tools that immediately start generating code, but this reactive approach often produces technically correct solutions that miss the bigger picture entirely.
 

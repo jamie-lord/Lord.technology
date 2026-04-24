@@ -8,6 +8,7 @@ tags:
   - claude
   - anthropic
   - mcp
+  - agentic-engineering
 ---
 The fastest-growing category of Claude Code add-ons solves a problem Anthropic has already mostly solved. Native CLAUDE.md, auto memory, plan mode, hooks, and skills cover roughly 80% of what third-party memory and planning tools promise. Before spending a weekend wiring up vector databases and agent orchestration layers, technical leaders should know that the evidence points the other way: more context and more instructions measurably degrade Claude's output.
 
