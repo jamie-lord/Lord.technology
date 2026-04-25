@@ -263,8 +263,10 @@ img { max-width: 100%; height: auto; }
 }
 .v2-uline { display: none; }
 .v2-underline {
-  border-bottom: 2px solid var(--copper);
-  padding-bottom: 2px;
+  text-decoration: underline;
+  text-decoration-color: var(--copper);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 a.v2-underline--link {
   text-decoration: none;
