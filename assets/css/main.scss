@@ -926,6 +926,72 @@ button:focus-visible,
   color: inherit;
   font-size: inherit;
 }
+
+/* ---------- Syntax highlighting (Rouge) ----------
+   Warm dark theme tuned to the site's copper / paper palette.
+   Tokens reference: https://rouge-ruby.github.io/docs/file.tokens.html */
+.v2-post-body-v3 .highlight { color: var(--paper); }
+.v2-post-body-v3 .highlight .c,
+.v2-post-body-v3 .highlight .c1,
+.v2-post-body-v3 .highlight .cm,
+.v2-post-body-v3 .highlight .cs,
+.v2-post-body-v3 .highlight .cd,
+.v2-post-body-v3 .highlight .cp { color: #7E8794; font-style: italic; }
+.v2-post-body-v3 .highlight .k,
+.v2-post-body-v3 .highlight .kc,
+.v2-post-body-v3 .highlight .kd,
+.v2-post-body-v3 .highlight .kn,
+.v2-post-body-v3 .highlight .kp,
+.v2-post-body-v3 .highlight .kr,
+.v2-post-body-v3 .highlight .kt { color: #E89A55; }
+.v2-post-body-v3 .highlight .o,
+.v2-post-body-v3 .highlight .ow { color: #9AA4B0; }
+.v2-post-body-v3 .highlight .p,
+.v2-post-body-v3 .highlight .pi { color: #9AA4B0; }
+.v2-post-body-v3 .highlight .n,
+.v2-post-body-v3 .highlight .nx,
+.v2-post-body-v3 .highlight .nv,
+.v2-post-body-v3 .highlight .vi,
+.v2-post-body-v3 .highlight .py { color: var(--paper); }
+.v2-post-body-v3 .highlight .nb,
+.v2-post-body-v3 .highlight .bp { color: #D4B27A; }
+.v2-post-body-v3 .highlight .nc,
+.v2-post-body-v3 .highlight .nn,
+.v2-post-body-v3 .highlight .no { color: #D4B27A; }
+.v2-post-body-v3 .highlight .nf,
+.v2-post-body-v3 .highlight .fm { color: #F0DCB8; }
+.v2-post-body-v3 .highlight .nt { color: #E89A55; }
+.v2-post-body-v3 .highlight .na { color: #D4A574; }
+.v2-post-body-v3 .highlight .nl { color: #D4B27A; }
+.v2-post-body-v3 .highlight .ni { color: #D4A574; }
+.v2-post-body-v3 .highlight .nd { color: #D4B27A; font-style: italic; }
+.v2-post-body-v3 .highlight .s,
+.v2-post-body-v3 .highlight .s1,
+.v2-post-body-v3 .highlight .s2,
+.v2-post-body-v3 .highlight .sb,
+.v2-post-body-v3 .highlight .sc,
+.v2-post-body-v3 .highlight .sd,
+.v2-post-body-v3 .highlight .sh,
+.v2-post-body-v3 .highlight .sx,
+.v2-post-body-v3 .highlight .ss,
+.v2-post-body-v3 .highlight .dl { color: #C9B98A; }
+.v2-post-body-v3 .highlight .si { color: #E89A55; }
+.v2-post-body-v3 .highlight .se { color: #E89A55; }
+.v2-post-body-v3 .highlight .sr { color: #C9B98A; }
+.v2-post-body-v3 .highlight .m,
+.v2-post-body-v3 .highlight .mi,
+.v2-post-body-v3 .highlight .mf,
+.v2-post-body-v3 .highlight .mh,
+.v2-post-body-v3 .highlight .mo,
+.v2-post-body-v3 .highlight .il { color: #D4A574; }
+.v2-post-body-v3 .highlight .err { color: #D88A7A; }
+.v2-post-body-v3 .highlight .gh,
+.v2-post-body-v3 .highlight .gu { color: #E89A55; font-weight: 600; }
+.v2-post-body-v3 .highlight .gd { color: #D88A7A; }
+.v2-post-body-v3 .highlight .gi { color: #9CC58F; }
+.v2-post-body-v3 .highlight .ge { font-style: italic; }
+.v2-post-body-v3 .highlight .gs { font-weight: 600; }
+.v2-post-body-v3 .highlight .w { color: inherit; }
 .v2-post-body-v3 img {
   display: block;
   margin: 24px auto;
