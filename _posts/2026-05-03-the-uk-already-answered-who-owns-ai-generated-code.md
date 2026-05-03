@@ -10,7 +10,7 @@ tags:
   - agentic-engineering
 ---
 
-Sena Evren's piece on who owns the code Claude Code writes was the most-discussed link on Hacker News this week, and it is a careful walk through human authorship, work-for-hire, GPL contamination, and the Bartz settlement. Every authority it cites is American. So is every authority cited in the 549 comments. The thread argues out US copyright doctrine to four decimal places without anyone mentioning that the UK has had a statutory answer to the same question since 1988.
+[Sena Evren's piece](https://legallayer.substack.com/p/who-owns-the-claude-code-wrote) on who owns the code Claude Code writes was the most-discussed link on Hacker News this week, and it is a careful walk through human authorship, work-for-hire, GPL contamination, and the Bartz settlement. Every authority it cites is American. So is every authority cited in the 549 comments. The thread argues out US copyright doctrine to four decimal places without anyone mentioning that the UK has had a statutory answer to the same question since 1988.
 
 I work on UK contracts for UK clients, mostly on Cloudflare's developer platform, and Claude Code writes a lot of what I ship. The answer that applies to my output is not the one being argued over.
 
