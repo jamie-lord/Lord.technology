@@ -2,6 +2,16 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
+  title: Cusp — a WordPress-class CMS that runs entirely on Cloudflare
+  wip: true
+  stack: [TypeScript, Cloudflare Workers, D1, R2, KV, Durable Objects, Workflows, Hono, Astro, React]
+
+- year: 2026
+  title: Military aircraft tracking site with daily AI briefings
+  wip: true
+  stack: [TypeScript, Cloudflare Workers, D1, R2, Workers AI, Cron Triggers, Hono]
+
+- year: 2026
   title: AI-powered UK employment policy compliance platform
   wip: true
   stack: [SvelteKit, TypeScript, Cloudflare Workers, D1, R2, Workers AI, Workflows, AI Gateway]
