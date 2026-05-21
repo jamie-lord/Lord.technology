@@ -31,7 +31,7 @@ The current numbers, on the day I am writing this:
 
 ![MilMov daily brief](/uploads/milmov-daily-brief.png)
 
-The header above is roughly what greets me when I open the laptop in the morning. The "What's happening" feed is composed events — co-firing anomalies grouped by subject — and the chips on the right are the dimensions they fired on. Four Pilatus PC-21s in formation at FL185 over France. Sixteen British T-6 Texan IIs out of Whiting Field within thirty minutes. A New York State Police Bell 430 squawking emergency. The number in the orange pill on the left is the composed score; the colour intensity is the rarity tier. If you have ever stayed up too late reading Aviation Week, this image is probably already producing a small reaction in your chest.
+The header above is roughly what greets me when I open the laptop in the morning. The "What's happening" feed is composed events — co-firing anomalies grouped by subject — and the chips on the right are the dimensions they fired on. Four Pilatus PC-21s in formation at FL185 over France. Ten US Navy T-45 Goshawks holding tight formation at FL132. A New York State Police Bell 430 squawking emergency. The number in the orange pill on the left is the composed score; the colour intensity is the rarity tier. If you have ever stayed up too late reading Aviation Week, this image is probably already producing a small reaction in your chest.
 
 ## It started as a different project
 
