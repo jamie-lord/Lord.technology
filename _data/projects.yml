@@ -7,9 +7,10 @@
   stack: [TypeScript, Cloudflare Workers, D1, R2, KV, Durable Objects, Workflows, Hono, Astro, React]
 
 - year: 2026
-  title: Military aircraft tracking site with daily AI briefings
+  title: MilMov — military aircraft tracker built on Cloudflare
+  url: /2026/05/21/the-military-aircraft-tracker-i-built-for-an-audience-of-one.html
   wip: true
-  stack: [TypeScript, Cloudflare Workers, D1, R2, Workers AI, Cron Triggers, Hono]
+  stack: [TypeScript, Cloudflare Workers, D1, R2, Queues, Workflows, Cron Triggers, Hono]
 
 - year: 2026
   title: AI-powered UK employment policy compliance platform
