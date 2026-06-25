@@ -2,6 +2,28 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
+  title: Mars Rover Coder — a programming game for a primary school careers fair
+  url: /2026/06/25/a-mars-rover-a-careers-fair-and-a-hundred-future-developers.html
+  stack: [HTML, CSS, vanilla JS, Cloudflare Workers]
+
+- year: 2026
+  title: Daily film guessing game (Spotle-style)
+  stack: [React 18, TypeScript, XState, Tailwind CSS, Vite, Cloudflare Pages]
+
+- year: 2026
+  title: trolli — budget-aware weekly meal planner and shopping list
+  wip: true
+  stack: [React 19, TypeScript, Vite, Hono, Cloudflare Workers]
+
+- year: 2026
+  title: Carcassonne-style procedural tile landscape generator
+  stack: [TypeScript, Vite, Wave Function Collapse, HTML Canvas]
+
+- year: 2026
+  title: Rummikub with a twist — browser game with move suggestions
+  stack: [React 19, TypeScript, Vite]
+
+- year: 2026
   title: Cusp — a WordPress-class CMS that runs entirely on Cloudflare
   wip: true
   stack: [TypeScript, Cloudflare Workers, D1, R2, KV, Durable Objects, Workflows, Hono, Astro, React]
