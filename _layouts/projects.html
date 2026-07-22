@@ -43,6 +43,9 @@ layout: default
                 {% for s in proj.stack %}<span class="v2-tape">{{ s }}</span>{% endfor %}
               </div>
               {% endif %}
+              {% if proj.post %}
+              <a class="v2-proj-post" href="{{ proj.post }}">write-up &rarr;</a>
+              {% endif %}
             </div>
           </li>
         {% endfor %}

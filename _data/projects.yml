@@ -2,8 +2,20 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
+  title: cutiemail — a small, self-contained mail server in TypeScript, built from the byte up
+  url: https://cuti.email
+  wip: true
+  stack: [TypeScript, Node.js, SQLite, SMTP, IMAP4rev2, DKIM/SPF/DMARC]
+
+- year: 2026
+  title: paint — a from-scratch GPU oil-painting engine and autonomous painter
+  wip: true
+  stack: [TypeScript, WebGPU, WGSL, Vite]
+
+- year: 2026
   title: Mars Rover Coder — a programming game for a primary school careers fair
-  url: /2026/06/25/a-mars-rover-a-careers-fair-and-a-hundred-future-developers.html
+  url: https://barnack.lord.technology
+  post: /2026/06/25/a-mars-rover-a-careers-fair-and-a-hundred-future-developers.html
   stack: [HTML, CSS, vanilla JS, Cloudflare Workers]
 
 - year: 2026
@@ -31,7 +43,6 @@
 - year: 2026
   title: MilMov — military aircraft tracker built on Cloudflare
   url: /2026/05/21/the-military-aircraft-tracker-i-built-for-an-audience-of-one.html
-  wip: true
   stack: [TypeScript, Cloudflare Workers, D1, R2, Queues, Workflows, Cron Triggers, Hono]
 
 - year: 2026
@@ -47,7 +58,7 @@
 - year: 2026
   title: Architecting on Cloudflare — the book
   url: https://architectingoncloudflare.com
-  wip: true
+  post: /2026/02/12/i-wrote-a-book-about-cloudflare.html
   stack: [Workers, Durable Objects, D1, R2, Vectorize, Workers AI]
 
 - year: 2026
@@ -120,7 +131,7 @@
   stack: [Ionic, Angular, GitHub API]
 
 - year: 2022
-  title: Military aircraft tracker
+  title: Military aircraft tracker — the first version of what became MilMov
   stack: [C# .Net 6, Entity Framework, SQLite]
 
 - year: 2021
