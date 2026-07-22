@@ -445,6 +445,13 @@ a.v2-underline--link:hover { color: var(--copper-deep); }
 }
 .v2-proj-title a { text-decoration: underline; text-decoration-color: var(--copper); text-underline-offset: 3px; }
 .v2-proj-stack { display: flex; gap: 6px; flex-wrap: wrap; }
+.v2-proj-post {
+  display: inline-block; margin-top: 8px;
+  font-family: var(--font-display); font-size: 12px;
+  letter-spacing: 0.04em; color: var(--slate);
+  text-decoration: underline; text-decoration-color: var(--copper); text-underline-offset: 3px;
+}
+.v2-proj-post:hover { color: var(--ink); }
 .v2-tape {
   display: inline-block;
   font-family: var(--font-display); font-size: 11px;
