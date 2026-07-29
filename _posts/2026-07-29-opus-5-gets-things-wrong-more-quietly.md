@@ -25,7 +25,7 @@ Every model gets things wrong. That's fine; I've never expected otherwise, and I
 
 Opus 4.8, when it was unsure, was legibly unsure. It would hedge, it would ask, it would leave the risky part for last and flag it. When it was wrong, it was usually wrong in a way I could see in the diff — a called function that didn't exist, a test it hadn't run, an approach it walked me through before committing to. The errors lived on the surface. You caught them in review because review is where surface errors go to die.
 
-Opus 5's errors live underneath. The priming shader is one. Here's another, from `cutiemail`, my from-scratch mail server. I'd asked it to close a small security gap, it made the change, tests green, and — because I'd asked it to sweep its own work afterwards — it came back and told me this, which I'm going to quote in full because I still find it remarkable:
+Opus 5's errors live underneath. The priming shader is one. Here's another, from [`cutiemail`](https://cuti.email), my from-scratch mail server. I'd asked it to close a small security gap, it made the change, tests green, and — because I'd asked it to sweep its own work afterwards — it came back and told me this, which I'm going to quote in full because I still find it remarkable:
 
 > My own fix introduced a worse bug than the one it closed. Making registry lookups case-insensitive without canonicalising `upsert` meant `account set-password ALICE` printed "password changed", forked the account into two rows, and left the old password working. An operator rotating a leaked credential would have been told it worked while the attacker kept access.
 
