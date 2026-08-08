@@ -1,0 +1,1125 @@
+# Tom Gilbey "class" wines + top recommendations, 2026 videos.
+# Compiled 2026-08-08 from the @tomgilbeywine back-catalogue (Jan–Aug 2026).
+# tier: class = explicit "Class" verdict in a Class/Pass/Arse game;
+#       rec   = clear top pick from a non-game video.
+# type: white | red | rose | sparkling
+# p = indicative sort price (£, low end of current range). price = display string.
+# shops = where you can actually buy it (drives the shop filter).
+
+wines:
+  # ---- Whites ---------------------------------------------------------------
+  - name: "Errázuriz Estate Reserva Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Casablanca, Chile"
+    shops: ["Morrisons"]
+    price: "£6.65"
+    p: 6.65
+    note: "Crisp, green-fruited value SB. Explicit Class."
+    tier: class
+    video: "https://www.youtube.com/watch?v=m4K_0sVzGJQ"
+    date: "2026-01-08"
+
+  - name: "Klein Constantia Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Constantia, South Africa"
+    shops: ["Majestic"]
+    price: "£12.50–16"
+    p: 16
+    note: "Serious estate SB — bell pepper, wild ferment."
+    tier: class
+    video: "https://www.youtube.com/watch?v=m4K_0sVzGJQ"
+    date: "2026-01-08"
+
+  - name: "Villa Maria Private Bin Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Marlborough, New Zealand"
+    shops: ["Sainsbury's", "Tesco", "Waitrose", "Asda", "Morrisons"]
+    price: "£8–11"
+    p: 8
+    note: "His overall winner of the SB test; a benchmark NZ SB."
+    tier: class
+    video: "https://www.youtube.com/watch?v=m4K_0sVzGJQ"
+    date: "2026-01-08"
+
+  - name: "Tesco Finest Organic Rueda Verdejo"
+    type: white
+    grape: "Verdejo"
+    region: "Rueda, Spain"
+    shops: ["Tesco"]
+    price: "£7.75"
+    p: 7.75
+    note: "Bright, grassy, nettly, clean. \"Your first class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=KcTQF0FA7F8"
+    date: "2026-02-04"
+
+  - name: "Tesco Finest Viñas del Rey Albariño"
+    type: white
+    grape: "Albariño"
+    region: "Rías Baixas, Spain"
+    shops: ["Tesco"]
+    price: "£12"
+    p: 12
+    note: "His favourite of the Tesco Finest video. 90pts Decanter."
+    tier: class
+    video: "https://www.youtube.com/watch?v=KcTQF0FA7F8"
+    date: "2026-02-04"
+
+  - name: "Waitrose Loved & Found Gelber Muskateller"
+    type: white
+    grape: "Gelber Muskateller"
+    region: "Weinviertel, Austria"
+    shops: ["Waitrose"]
+    price: "£9.50"
+    p: 8.5
+    note: "\"Utter class — a chilled liquidised Turkish delight.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=iqGCAe1N5lk"
+    date: "2026-02-13"
+
+  - name: "M&S Sabroso Sauvignon Blanc (2.25L box)"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Central Valley, Chile"
+    shops: ["M&S"]
+    price: "£6.33/btl"
+    p: 6.33
+    note: "His Class boxed white — festival/camping wine."
+    tier: class
+    video: "https://www.youtube.com/watch?v=dQX4Kc_ytcc"
+    date: "2026-05-29"
+
+  - name: "The Long Road Viognier"
+    type: white
+    grape: "Viognier"
+    region: "Cape South Coast, South Africa"
+    shops: ["Tesco"]
+    price: "£16–18.50"
+    p: 18.5
+    note: "\"Absolutely delicious, bloody awesome.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=QGgC6YE_MnE"
+    date: "2026-06-12"
+
+  - name: "Domaine Bégude 'Le Paradis' Organic Viognier"
+    type: white
+    grape: "Viognier"
+    region: "Limoux, France"
+    shops: ["Majestic"]
+    price: "~£15–17"
+    p: 15
+    note: "\"An absolute banger.\" High-altitude organic Limoux."
+    tier: class
+    video: "https://www.youtube.com/watch?v=QGgC6YE_MnE"
+    date: "2026-06-12"
+
+  - name: "Paul Mas Réserve Viognier"
+    type: white
+    grape: "Viognier"
+    region: "Pays d'Oc, France"
+    shops: ["Tesco"]
+    price: "£10"
+    p: 10
+    note: "\"That's different gravy — a really nice wine.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=QGgC6YE_MnE"
+    date: "2026-06-12"
+
+  - name: "Paul Jaboulet Aîné 'Secret de Famille' Viognier"
+    type: white
+    grape: "Viognier"
+    region: "Rhône / Vin de France"
+    shops: ["Tesco", "Sainsbury's"]
+    price: "£11.75"
+    p: 11.75
+    note: "\"Fabulous — fresh, fruity, light, easy drinking.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=QGgC6YE_MnE"
+    date: "2026-06-12"
+
+  - name: "Exceptional by Asda Grüner Veltliner"
+    type: white
+    grape: "Grüner Veltliner"
+    region: "Austria"
+    shops: ["Asda"]
+    price: "£8.50"
+    p: 8.5
+    note: "\"Liveliness, apple, spice — class. My monster-munch wine.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Exceptional by Asda Languedoc (white)"
+    type: white
+    grape: "Languedoc blend"
+    region: "Languedoc, France"
+    shops: ["Asda"]
+    price: "£8"
+    p: 8
+    note: "\"Wow, that's a yummy wine — that's going there.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Casillero del Diablo Reserva Chardonnay"
+    type: white
+    grape: "Chardonnay"
+    region: "Casablanca/Limarí, Chile"
+    shops: ["Morrisons", "Tesco", "Asda", "Sainsbury's"]
+    price: "~£9.99"
+    p: 9
+    note: "\"Standout winner for the white — melon, lemon, peach.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=EAPcnAt2ea0"
+    date: "2026-01-16"
+
+  - name: "Definition Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Marlborough, New Zealand"
+    shops: ["Majestic"]
+    price: "~£12"
+    p: 12
+    note: "\"Absolutely outstanding.\" (Marisco/Brent Marris)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=_5C2rDuNGOY"
+    date: "2026-03-20"
+
+  - name: "Lidl Chablis"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis, Burgundy, France"
+    shops: ["Lidl"]
+    price: "£15"
+    p: 15
+    note: "\"About where the money should be for Chablis.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=_5C2rDuNGOY"
+    date: "2026-03-20"
+
+  - name: "Encostas de Caíz Avesso Vinho Verde"
+    type: white
+    grape: "Avesso"
+    region: "Vinho Verde, Portugal"
+    shops: ["Lidl"]
+    price: "£8.99"
+    p: 8.99
+    note: "\"Zippy, fresh, hammock-tastic. Absolutely brilliant.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=MD1Abg-D-1c"
+    date: "2026-02-18"
+
+  - name: "Paço do Bispo Palmela DOC (white)"
+    type: white
+    grape: "Fernão Pires / Verdelho / Arinto"
+    region: "Setúbal Peninsula, Portugal"
+    shops: ["Lidl"]
+    price: "£6.99"
+    p: 6.99
+    note: "\"Beautiful juicy fruit bowl — dry, clean, stone fruit.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=MD1Abg-D-1c"
+    date: "2026-02-18"
+
+  - name: "Stellenrust Barrel-Fermented Chenin Blanc"
+    type: white
+    grape: "Chenin Blanc"
+    region: "Stellenbosch, South Africa"
+    shops: ["Tesco", "Sainsbury's"]
+    price: "~£12–15"
+    p: 12
+    note: "\"Every Chardonnay lover would love this.\" (his weak spot)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PquZk_2O98E"
+    date: "2026-04-29"
+
+  - name: "M&S Classics Riesling (Pfalz)"
+    type: white
+    grape: "Riesling (dry)"
+    region: "Pfalz, Germany"
+    shops: ["M&S"]
+    price: "~£10"
+    p: 10
+    note: "For the SB lover wanting something more interesting."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PquZk_2O98E"
+    date: "2026-04-29"
+
+  - name: "Tesco Finest Chablis Premier Cru"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis Premier Cru, France"
+    shops: ["Tesco"]
+    price: "£25"
+    p: 25
+    note: "Blind winner — \"buttery, lemony, saline. A glass of class.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=bDlIoHQ3Lj0"
+    date: "2026-06-05"
+
+  - name: "Sainsbury's Taste the Difference Chablis Vieilles Vignes"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis, Burgundy, France"
+    shops: ["Sainsbury's"]
+    price: "£16"
+    p: 16
+    note: "Blind 2nd — \"it slaps. Really bloody good Chablis.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=bDlIoHQ3Lj0"
+    date: "2026-06-05"
+
+  - name: "Laurent Delaunay 'Les Grappillages' Chablis 2023"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis, Burgundy, France"
+    shops: ["Morrisons"]
+    price: "£18"
+    p: 18
+    note: "His \"wine of the day\" — salt, lemon and marzipan."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=bDlIoHQ3Lj0"
+    date: "2026-06-05"
+
+  - name: "Errázuriz Estate Reserva Chardonnay"
+    type: white
+    grape: "Chardonnay"
+    region: "Aconcagua, Chile"
+    shops: ["Waitrose"]
+    price: "£7.50"
+    p: 7.5
+    note: "Hands-down winner with roast chicken — \"beautiful.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=Hhji6ZKgrdA"
+    date: "2026-06-26"
+
+  - name: "Tesco Finest Chenin Blanc 2025"
+    type: white
+    grape: "Chenin Blanc"
+    region: "Stellenbosch, South Africa"
+    shops: ["Tesco"]
+    price: "£8.75"
+    p: 8.75
+    note: "Runner-up with chicken — \"will do very, very well.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=Hhji6ZKgrdA"
+    date: "2026-06-26"
+
+  - name: "Waitrose Blueprint Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "Romania"
+    shops: ["Waitrose"]
+    price: "£7.25"
+    p: 7.25
+    note: "Top-3 beginner red — \"brilliant alcoholic Ribena, not sweet.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=4uuUVOwhorA"
+    date: "2026-01-30"
+
+  - name: "Waitrose No.1 New Zealand Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Awatere, Marlborough, NZ"
+    shops: ["Waitrose"]
+    price: "£12"
+    p: 12
+    note: "One of his four \"teaching\" wines; classed on his wine club."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=qAL15bC9444"
+    date: "2026-08-07"
+
+  # ---- Reds -----------------------------------------------------------------
+  - name: "Tesco Finest Viña del Cura Rioja Gran Reserva 2018"
+    type: red
+    grape: "Tempranillo / Graciano"
+    region: "Rioja, Spain"
+    shops: ["Tesco"]
+    price: "~£11–15"
+    p: 11
+    note: "Class in the Tesco Finest game AND value winner vs a £75 Rioja."
+    tier: class
+    video: "https://www.youtube.com/watch?v=DLHpsBMNmlU"
+    date: "2026-05-15"
+
+  - name: "Waitrose Loved & Found Castelão"
+    type: red
+    grape: "Castelão"
+    region: "Lisboa, Portugal"
+    shops: ["Waitrose"]
+    price: "£9.50"
+    p: 8.5
+    note: "\"Grunt, grip and juicy fruit. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=iqGCAe1N5lk"
+    date: "2026-02-13"
+
+  - name: "Waitrose Loved & Found Touriga Franca"
+    type: red
+    grape: "Touriga Franca"
+    region: "Alentejo, Portugal"
+    shops: ["Waitrose"]
+    price: "£9.50"
+    p: 9.5
+    note: "One of his four favourites — \"absolutely banging.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=iqGCAe1N5lk"
+    date: "2026-02-13"
+
+  - name: "Palacio de Primavera Rioja Tinto"
+    type: red
+    grape: "Tempranillo"
+    region: "Rioja, Spain"
+    shops: ["Waitrose"]
+    price: "~£10"
+    p: 10
+    note: "Class twice over; Decanter World Wine Awards 2025 Gold, 95pts."
+    tier: class
+    video: "https://www.youtube.com/watch?v=_S0dPQhBFYg"
+    date: "2026-03-06"
+
+  - name: "Lidl Barbera d'Asti Superiore"
+    type: red
+    grape: "Barbera"
+    region: "Piedmont, Italy"
+    shops: ["Lidl"]
+    price: "~£7"
+    p: 7
+    note: "\"Re-grade this, pal — a really great wine.\" (given a gold)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=wsoTLLVczS0"
+    date: "2026-03-04"
+
+  - name: "Vinalba Reserve Malbec"
+    type: red
+    grape: "Malbec"
+    region: "Argentina"
+    shops: ["Asda"]
+    price: "~£8–9"
+    p: 8
+    note: "\"A really juicy Malbec, I love this.\" (bumped to gold)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=wsoTLLVczS0"
+    date: "2026-03-04"
+
+  - name: "Marqués de los Ríos Rioja"
+    type: red
+    grape: "Tempranillo"
+    region: "Rioja, Spain"
+    shops: ["Morrisons"]
+    price: "£7.75"
+    p: 7.75
+    note: "Class. One of Morrisons' two picks in the Rioja game."
+    tier: class
+    video: "https://www.youtube.com/watch?v=_S0dPQhBFYg"
+    date: "2026-03-06"
+
+  - name: "Marqués de los Ríos Rioja Reserva"
+    type: red
+    grape: "Tempranillo"
+    region: "Rioja, Spain"
+    shops: ["Morrisons"]
+    price: "£8.75"
+    p: 8.75
+    note: "\"An absolutely delicious wine.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=_S0dPQhBFYg"
+    date: "2026-03-06"
+
+  - name: "Kirkland Signature Chianti Classico"
+    type: red
+    grape: "Sangiovese"
+    region: "Chianti Classico, Tuscany"
+    shops: ["Costco"]
+    price: "£9.29"
+    p: 9.29
+    note: "\"Elegance, spice, ripe fruit — she's safe.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=SgnKQuQP7k4"
+    date: "2026-03-25"
+
+  - name: "Aldi French Malbec (Pierre Jaurant)"
+    type: red
+    grape: "Malbec"
+    region: "France"
+    shops: ["Aldi"]
+    price: "~£5"
+    p: 5
+    note: "Overall winner of the Aldi under-£5 game. \"A blackcurrant bombshell.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=kuI9UHUoeTk"
+    date: "2026-03-27"
+
+  - name: "La Mascota Malbec"
+    type: red
+    grape: "Malbec"
+    region: "Mendoza, Argentina"
+    shops: ["Tesco"]
+    price: "£14.50"
+    p: 14.5
+    note: "\"Fantastic Argentinian Malbec — going on the class shelf.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=0mIuCdHDjrA"
+    date: "2026-05-01"
+
+  - name: "Morador High Altitude Malbec (Taste the Difference)"
+    type: red
+    grape: "Malbec"
+    region: "Uco Valley, Argentina"
+    shops: ["Sainsbury's"]
+    price: "£13.75"
+    p: 13.75
+    note: "Upgraded to class on re-taste — \"a glass of class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=0mIuCdHDjrA"
+    date: "2026-05-01"
+
+  - name: "Lidl Cimarosa Australian Merlot"
+    type: red
+    grape: "Merlot"
+    region: "Australia"
+    shops: ["Lidl"]
+    price: "£4.49"
+    p: 4.49
+    note: "\"A really good bloody Merlot — juicy, fleshy. Class shelf.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=fCpSDi27NWw"
+    date: "2026-05-22"
+
+  - name: "Lidl French Malbec (Vin de Pays)"
+    type: red
+    grape: "Malbec"
+    region: "France"
+    shops: ["Lidl"]
+    price: "£4.69"
+    p: 4.69
+    note: "\"Rich, ripe fruit, tannin, balance — a Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=fCpSDi27NWw"
+    date: "2026-05-22"
+
+  - name: "Terre di Faiano Organic Primitivo di Puglia"
+    type: red
+    grape: "Primitivo (organic)"
+    region: "Puglia, Italy"
+    shops: ["Waitrose"]
+    price: "£18 / 1.5L"
+    p: 11.5
+    note: "Class boxed red (1.5L) — \"totally utter class, absolutely lush.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=dQX4Kc_ytcc"
+    date: "2026-05-29"
+
+  - name: "Exceptional by Asda Old Vine Garnacha"
+    type: red
+    grape: "Garnacha"
+    region: "Cariñena, Spain"
+    shops: ["Asda"]
+    price: "£7"
+    p: 7
+    note: "\"It's doing blue fruit to me — Class. Very good.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Exceptional by Asda Primitivo, Puglia"
+    type: red
+    grape: "Primitivo"
+    region: "Puglia, Italy"
+    shops: ["Asda"]
+    price: "£7.50"
+    p: 7.5
+    note: "\"An absolutely delicious wine — shove a couple in the ice bath.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Exceptional by Asda Margaret River Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "Margaret River, Australia"
+    shops: ["Asda"]
+    price: "~£7.50"
+    p: 7.5
+    note: "\"A blackcurrant bombshell — a fillet-of-beef wine.\" Decanter Gold 95."
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Casillero del Diablo Reserva Malbec"
+    type: red
+    grape: "Malbec"
+    region: "Central Valley, Chile"
+    shops: ["Morrisons", "Asda", "Tesco", "Sainsbury's"]
+    price: "~£9.99"
+    p: 8.5
+    note: "\"The Malbec wins — like a raspberry-ripple ice cream.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=EAPcnAt2ea0"
+    date: "2026-01-16"
+
+  - name: "Diablo 'Volcanic' Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "Rapel, Chile"
+    shops: ["Tesco", "Asda", "Morrisons", "Sainsbury's"]
+    price: "~£11"
+    p: 11
+    note: "His take-home favourite — \"smells like an espresso martini.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=EAPcnAt2ea0"
+    date: "2026-01-16"
+
+  - name: "Diablo Dark Red"
+    type: red
+    grape: "Cabernet-led blend"
+    region: "Maule, Chile"
+    shops: ["Morrisons", "Asda", "Tesco", "Sainsbury's"]
+    price: "~£9–11"
+    p: 9
+    note: "\"All of that without the spice — smoother, sexier.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=EAPcnAt2ea0"
+    date: "2026-01-16"
+
+  - name: "Terre di Faiano Primitivo Organic (bottle)"
+    type: red
+    grape: "Primitivo (organic)"
+    region: "Puglia, Italy"
+    shops: ["Waitrose"]
+    price: "£11.50"
+    p: 11.5
+    note: "Top-3 beginner red — \"a smooth, sexy little bombshell.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=4uuUVOwhorA"
+    date: "2026-01-30"
+
+  - name: "Dark Horse Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "California, USA"
+    shops: ["Tesco", "Asda", "Sainsbury's", "Waitrose"]
+    price: "£10"
+    p: 10
+    note: "Top-3 beginner red — \"utterly, completely lush, rich.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=4uuUVOwhorA"
+    date: "2026-01-30"
+
+  - name: "Torre de Ferro Reserva Dão"
+    type: red
+    grape: "Touriga Nacional blend"
+    region: "Dão, Portugal"
+    shops: ["Lidl"]
+    price: "£7.49"
+    p: 7.49
+    note: "\"A party in a glass — really juicy.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=MD1Abg-D-1c"
+    date: "2026-02-18"
+
+  - name: "Terre da Vino Barolo DOCG Vendemmia"
+    type: red
+    grape: "Nebbiolo"
+    region: "Barolo, Piedmont, Italy"
+    shops: ["Waitrose"]
+    price: "£21"
+    p: 21
+    note: "His #1 supermarket Barolo — \"rose petals, bright cherries.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=GY9S3NlJK2A"
+    date: "2026-02-20"
+
+  - name: "Terre del Barolo DOCG"
+    type: red
+    grape: "Nebbiolo"
+    region: "Barolo, Piedmont, Italy"
+    shops: ["Waitrose"]
+    price: "~£19–24"
+    p: 19
+    note: "Joint top tier of the Barolo test."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=GY9S3NlJK2A"
+    date: "2026-02-20"
+
+  - name: "Ricossa Barolo DOCG"
+    type: red
+    grape: "Nebbiolo"
+    region: "Barolo, Piedmont, Italy"
+    shops: ["Sainsbury's"]
+    price: "~£18–19"
+    p: 18
+    note: "\"Bright fruit, very savoury — a really good wine.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=GY9S3NlJK2A"
+    date: "2026-02-20"
+
+  - name: "Definition Malbec"
+    type: red
+    grape: "Malbec"
+    region: "Uco Valley, Argentina"
+    shops: ["Majestic"]
+    price: "~£14"
+    p: 14
+    note: "\"Absolutely outstanding.\" (Familia Zuccardi)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=_5C2rDuNGOY"
+    date: "2026-03-20"
+
+  - name: "Lidl Barossa Shiraz (Deluxe)"
+    type: red
+    grape: "Shiraz"
+    region: "Barossa, South Australia"
+    shops: ["Lidl"]
+    price: "~£7–8"
+    p: 7.79
+    note: "\"150% a Barossa Shiraz. At 7 sheets, you're a darling.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=_5C2rDuNGOY"
+    date: "2026-03-20"
+
+  - name: "Lidl Saint-Émilion Grand Cru 2023"
+    type: red
+    grape: "Merlot-led Bordeaux blend"
+    region: "Saint-Émilion, Bordeaux"
+    shops: ["Lidl"]
+    price: "£15"
+    p: 15
+    note: "\"Bright red plum fruit — an absolute banger.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=_5C2rDuNGOY"
+    date: "2026-03-20"
+
+  - name: "Villa Cafaggio Chianti Classico (Organic)"
+    type: red
+    grape: "Sangiovese (organic)"
+    region: "Chianti Classico, Tuscany"
+    shops: ["Waitrose"]
+    price: "~£15"
+    p: 15
+    note: "His #1 with lamb — \"a glass full of class.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=2-Ir7PR1-tY"
+    date: "2026-04-03"
+
+  - name: "Barón de Ley Club Privado Reserva Rioja"
+    type: red
+    grape: "Tempranillo"
+    region: "Rioja, Spain"
+    shops: ["Waitrose"]
+    price: "~£11"
+    p: 11
+    note: "His #2 with lamb — \"utter joy in a glass.\" (often out of stock)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=2-Ir7PR1-tY"
+    date: "2026-04-03"
+
+  - name: "Allegrini Valpolicella"
+    type: red
+    grape: "Corvina blend"
+    region: "Valpolicella, Veneto, Italy"
+    shops: ["The Wine Society"]
+    price: "£15"
+    p: 15
+    note: "Light, chillable red — \"charm, elegance. My kind of wine.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PquZk_2O98E"
+    date: "2026-04-29"
+
+  - name: "Sainsbury's Taste the Difference Maipo Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "Maipo Valley, Chile"
+    shops: ["Sainsbury's"]
+    price: "£11"
+    p: 11
+    note: "A \"6 wines to always have\" pick and a \"teaching\" wine."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PquZk_2O98E"
+    date: "2026-04-29"
+
+  - name: "Incanta Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "Recaș, Romania"
+    shops: ["Majestic"]
+    price: "£8"
+    p: 8
+    note: "Eurovision WINNER — \"an absolute banger of a Pinot.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=vd5FRDHbRMI"
+    date: "2026-05-13"
+
+  - name: "Von der Land Zweigelt"
+    type: red
+    grape: "Zweigelt"
+    region: "Austria"
+    shops: ["Majestic"]
+    price: "£11"
+    p: 11
+    note: "Eurovision finalist — \"bursting with red fruit.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=vd5FRDHbRMI"
+    date: "2026-05-13"
+
+  - name: "M&S Expressions Xinomavro"
+    type: red
+    grape: "Xinomavro"
+    region: "Macedonia, Greece"
+    shops: ["M&S", "Ocado"]
+    price: "£12"
+    p: 12
+    note: "Eurovision finalist — \"a lovely wine for my picnic basket.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=vd5FRDHbRMI"
+    date: "2026-05-13"
+
+  - name: "Mimo Moutinho Dão DOC"
+    type: red
+    grape: "Touriga Nacional blend"
+    region: "Dão, Portugal"
+    shops: ["Aldi"]
+    price: "£6.49"
+    p: 6.49
+    note: "Eurovision finalist — \"delicious, honestly a bloody banger.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=vd5FRDHbRMI"
+    date: "2026-05-13"
+
+  - name: "Maison Dominique Piron Beaujolais-Villages"
+    type: red
+    grape: "Gamay"
+    region: "Beaujolais, France"
+    shops: ["Laithwaites"]
+    price: "£15–17"
+    p: 15
+    note: "Eurovision finalist — \"crunchy red cherry, a glass of joy.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=vd5FRDHbRMI"
+    date: "2026-05-13"
+
+  - name: "La Rioja Alta Viña Alberdi Reserva"
+    type: red
+    grape: "Tempranillo"
+    region: "Rioja, Spain"
+    shops: ["Waitrose"]
+    price: "£15"
+    p: 15
+    note: "\"Absolutely tops\" of the supermarket Riojas — juicy, spicy, fresh."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=DLHpsBMNmlU"
+    date: "2026-05-15"
+
+  - name: "La Rioja Alta Gran Reserva 904"
+    type: red
+    grape: "Tempranillo / Graciano"
+    region: "Rioja, Spain"
+    shops: ["Majestic"]
+    price: "£75"
+    p: 75
+    note: "His £75 \"desert-island\" icon and blind winner. (Splurge.)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=DLHpsBMNmlU"
+    date: "2026-05-15"
+
+  # ---- Rosé -----------------------------------------------------------------
+  - name: "Barcelona Hola Rosé"
+    type: rose
+    grape: "Garnacha/Tempranillo/Syrah (organic)"
+    region: "Catalonia, Spain"
+    shops: ["Tesco"]
+    price: "£8–10"
+    p: 8
+    note: "Class in the under-£10 rosé game — \"a glass full of joy.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=JL9yaMt6msY"
+    date: "2026-05-08"
+
+  - name: "Studio by Miraval Rosé"
+    type: rose
+    grape: "Cinsault/Grenache/Rolle"
+    region: "IGP Méditerranée, France"
+    shops: ["Sainsbury's", "Waitrose", "Morrisons"]
+    price: "~£10.50"
+    p: 10.5
+    note: "\"It's going on the Class — really good for under a tenner.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=JL9yaMt6msY"
+    date: "2026-05-08"
+
+  - name: "Exceptional by Asda Côtes de Provence Rosé (Notre-Dame des Anges)"
+    type: rose
+    grape: "Grenache/Cinsault/Syrah"
+    region: "Côtes de Provence, France"
+    shops: ["Asda"]
+    price: "£9.75"
+    p: 9.75
+    note: "His most surprising wine and overall Asda favourite."
+    tier: class
+    video: "https://www.youtube.com/watch?v=XoGMUco3cIc"
+    date: "2026-07-03"
+
+  - name: "Whispering Angel"
+    type: rose
+    grape: "Grenache/Cinsault/Rolle"
+    region: "Côtes de Provence, France"
+    shops: ["Sainsbury's", "Majestic"]
+    price: "£19.50–23"
+    p: 19.5
+    note: "Class — \"really good\" (though he flags it as pricey)."
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Miraval Côtes de Provence Rosé"
+    type: rose
+    grape: "Provence blend"
+    region: "Côtes de Provence, France"
+    shops: ["Sainsbury's"]
+    price: "£19.50"
+    p: 19.5
+    note: "Class-tier Provence benchmark."
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Miraval Cru Sainte-Victoire Rosé"
+    type: rose
+    grape: "Provence blend"
+    region: "Sainte-Victoire, Provence"
+    shops: ["Majestic"]
+    price: "£21"
+    p: 21
+    note: "\"Fabulously clean, crisp, juicy.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Love by Léoube Organic Rosé"
+    type: rose
+    grape: "Provence blend (organic)"
+    region: "Côtes de Provence, France"
+    shops: ["Tesco"]
+    price: "£16.50"
+    p: 16.5
+    note: "\"Delicious. Delicious. Delicious.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "The Pale by Sacha Lichine"
+    type: rose
+    grape: "Provence-style blend"
+    region: "Var, France"
+    shops: ["Sainsbury's"]
+    price: "£15.75"
+    p: 15.75
+    note: "\"I think it is class — you're going on the class shelf.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Ultimate Provence (UP) Rosé"
+    type: rose
+    grape: "Grenache/Cinsault/Syrah"
+    region: "Côtes de Provence, France"
+    shops: ["Tesco"]
+    price: "£17"
+    p: 17
+    note: "\"Wow, absolutely delicious.\" (ribbed bottle)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Sea Change Provence Rosé"
+    type: rose
+    grape: "Provence blend"
+    region: "Provence, France"
+    shops: ["Online"]
+    price: "£16–20"
+    p: 16
+    note: "\"Going on the class shelf.\" Eco/sustainable brand."
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Sainsbury's Taste the Difference Bandol Rosé"
+    type: rose
+    grape: "Mourvèdre-based"
+    region: "Bandol, Provence"
+    shops: ["Sainsbury's"]
+    price: "£16.25"
+    p: 16.25
+    note: "The serious tier — \"biggest, richest, juiciest rosé.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  - name: "Trouble Cloudy Rosé"
+    type: rose
+    grape: "unfiltered rosé"
+    region: "France"
+    shops: ["M&S"]
+    price: "£12.50"
+    p: 12.5
+    note: "\"It tastes really bloody good.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=BEQzbTwXsxA"
+    date: "2026-07-24"
+
+  # ---- Sparkling ------------------------------------------------------------
+  - name: "Waitrose Loved & Found Fetească Albă Brut"
+    type: sparkling
+    grape: "Fetească Albă"
+    region: "Moldova"
+    shops: ["Waitrose"]
+    price: "~£9.25"
+    p: 9.25
+    note: "\"Way more delicious than any prosecco at that money. Banger.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=iqGCAe1N5lk"
+    date: "2026-02-13"
+
+  - name: "Kirkland Signature DOCG Prosecco"
+    type: sparkling
+    grape: "Glera"
+    region: "Prosecco DOCG, Italy"
+    shops: ["Costco"]
+    price: "£8.29"
+    p: 8.29
+    note: "\"A class Prosecco best enjoyed with a blindfold on.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=SgnKQuQP7k4"
+    date: "2026-03-25"
+
+  - name: "Yellow Tail Prosecco"
+    type: sparkling
+    grape: "Glera"
+    region: "Prosecco DOC, Italy"
+    shops: ["Sainsbury's"]
+    price: "~£9.99"
+    p: 9.99
+    note: "\"Going on the class shelf — a very good Prosecco.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=MM1w4m7Q0TY"
+    date: "2026-07-10"
+
+  - name: "La Gioiosa Prosecco"
+    type: sparkling
+    grape: "Glera"
+    region: "Prosecco DOC, Italy"
+    shops: ["Morrisons"]
+    price: "~£10"
+    p: 10
+    note: "His 2nd class Prosecco (\"one of the biggest brands\")."
+    tier: class
+    video: "https://www.youtube.com/watch?v=MM1w4m7Q0TY"
+    date: "2026-07-10"
+
+  - name: "Graham Beck Brut (Vintner's Selection)"
+    type: sparkling
+    grape: "Chardonnay/Pinot Noir"
+    region: "Robertson, South Africa"
+    shops: ["Tesco", "Majestic", "Waitrose"]
+    price: "~£14.50"
+    p: 14.5
+    note: "\"Peachy, apricot, completely lush — a super wine.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=mi6W4fj08cw"
+    date: "2026-02-27"
+
+  - name: "Prince Alexandre Crémant de Loire"
+    type: sparkling
+    grape: "Chenin/Chardonnay/Cabernet Franc"
+    region: "Loire, France"
+    shops: ["Waitrose"]
+    price: "£15.50"
+    p: 15.5
+    note: "\"Green apple, quince, a lift — I'd drink it all day.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=mi6W4fj08cw"
+    date: "2026-02-27"
+
+  - name: "Graham Beck Brut Rosé"
+    type: sparkling
+    grape: "Pinot Noir/Chardonnay"
+    region: "Robertson, South Africa"
+    shops: ["Waitrose", "Majestic", "Tesco"]
+    price: "~£12–16"
+    p: 12
+    note: "Pink-fizz pick — \"very kissable and very classy.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=ob6hscrIbL0"
+    date: "2026-02-06"
+
+  - name: "Cuvée Royale Crémant de Limoux Brut NV"
+    type: sparkling
+    grape: "Chardonnay/Chenin/Mauzac"
+    region: "Limoux, France"
+    shops: ["Waitrose"]
+    price: "£10–14"
+    p: 10
+    note: "\"Serve me this at £10 and I'd think you were total class.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PquZk_2O98E"
+    date: "2026-04-29"
+
+  - name: "Laurent-Perrier Cuvée Rosé Brut"
+    type: sparkling
+    grape: "Pinot Noir"
+    region: "Champagne, France"
+    shops: ["Laithwaites", "Majestic"]
+    price: "~£59–70"
+    p: 59
+    note: "Pink-fizz pick, 8/10 — \"an absolutely delicious drop.\" (Splurge.)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=ob6hscrIbL0"
+    date: "2026-02-06"
+
+# Fine / special-occasion bottles tasted (not everyday buys; shown separately).
+fine:
+  - name: "Louis Roederer Cristal Rosé 2014"
+    type: "Sparkling rosé Champagne"
+    price: "~£500"
+    note: "His top-scored pink fizz — \"an absolutely insane wine.\""
+    video: "https://www.youtube.com/watch?v=ob6hscrIbL0"
+    date: "2026-02-06"
+  - name: "Château Mouton Rothschild 2016"
+    type: "Red, Pauillac (First Growth)"
+    price: "~£998/btl"
+    note: "The blender-video subject — \"a complex, magical red.\""
+    video: "https://www.youtube.com/watch?v=L2h0ok3b7wA"
+    date: "2026-06-19"
+  - name: "Château Lafleur 2014"
+    type: "Red, Pomerol"
+    price: "~£395+/btl"
+    note: "\"A beautiful wine — you can taste the soil.\""
+    video: "https://www.youtube.com/watch?v=1rWJJLDNZ3A"
+    date: "2026-04-08"
+  - name: "Les Tourelles de Longueville 2020"
+    type: "Red, Pauillac (2nd wine of Pichon Baron)"
+    price: "fine wine"
+    note: "\"That 2020 Pichon is fantastic.\""
+    video: "https://www.youtube.com/watch?v=1rWJJLDNZ3A"
+    date: "2026-04-08"
+  - name: "Clos Fourtet"
+    type: "Red, Saint-Émilion Premier Grand Cru Classé"
+    price: "fine wine"
+    note: "\"An absolutely delicious wine.\""
+    video: "https://www.youtube.com/watch?v=r-0rCbZ3wy8"
+    date: "2026-04-24"
+  - name: "La Closerie de Fourtet"
+    type: "Red, Saint-Émilion (2nd wine of Clos Fourtet)"
+    price: "~£36/btl"
+    note: "\"Very fresh, very clean — a banger.\""
+    video: "https://www.youtube.com/watch?v=r-0rCbZ3wy8"
+    date: "2026-04-24"
+  - name: "Château Clarke 2005"
+    type: "Red, Listrac-Médoc"
+    price: "secondary market (~£40 for younger vintages)"
+    note: "His standout of the decanting test."
+    video: "https://www.youtube.com/watch?v=DVNUWBl_5mQ"
+    date: "2026-04-17"
