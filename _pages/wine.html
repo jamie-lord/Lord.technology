@@ -1,0 +1,309 @@
+---
+title: Wine
+permalink: /wine/
+layout: default
+sitemap: false
+description: "A private shopping list of the 'class' wines Tom Gilbey rates on YouTube — filter by type and by shop."
+---
+{% comment %} Unlisted on purpose: not in the nav (_data/navigation.yml) and excluded from the sitemap. {% endcomment %}
+{% assign wines = site.data.wines.wines %}
+{% assign all_shops = "" | split: "" %}
+{% for w in wines %}{% for s in w.shops %}{% assign all_shops = all_shops | push: s %}{% endfor %}{% endfor %}
+{% assign shops = all_shops | uniq | sort_natural %}
+{% assign whites = wines | where: "type", "white" | sort: "p" %}
+{% assign reds = wines | where: "type", "red" | sort: "p" %}
+{% assign roses = wines | where: "type", "rose" | sort: "p" %}
+{% assign sparkling = wines | where: "type", "sparkling" | sort: "p" %}
+
+<style>
+  .wine { max-width: 900px; margin: 0 auto; padding: 0 var(--gutter-sm); }
+  .wine-head { padding: 40px 0 20px; }
+  .wine-kicker { font-family: var(--font-mono); font-size: var(--size-label); letter-spacing: var(--ls-label);
+    text-transform: uppercase; color: var(--copper-deep); }
+  .wine-head h1 { font-family: var(--font-display); font-size: clamp(2.2rem, 7vw, 3rem); letter-spacing: var(--ls-display);
+    line-height: var(--lh-tight); margin: .3rem 0 .4rem; color: var(--ink); }
+  .wine-lede { font-family: var(--font-body); color: var(--slate); max-width: 60ch; line-height: var(--lh-normal); }
+  .wine-lede a { color: var(--copper-deep); }
+
+  /* Sticky control panel */
+  .wine-controls { position: sticky; top: var(--mast-h, 60px); z-index: 20; background: var(--paper);
+    border-top: var(--border-hair) solid var(--border); border-bottom: var(--border-emph) solid var(--ink);
+    padding: 10px 0; margin: 8px calc(-1 * var(--gutter-sm)) 0; }
+  .wine-controls-inner { padding: 0 var(--gutter-sm); display: flex; flex-direction: column; gap: 9px; }
+  .wine-row { display: flex; align-items: flex-start; gap: 8px; }
+  .wine-row-label { flex: 0 0 auto; font-family: var(--font-mono); font-size: 11px; letter-spacing: var(--ls-label);
+    text-transform: uppercase; color: var(--slate); padding-top: 8px; width: 44px; }
+  .wine-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 auto; min-width: 0; }
+  /* Shop list is long — keep it to one compact swipeable row on mobile. */
+  #shop-chips { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    padding-bottom: 2px; -webkit-mask-image: linear-gradient(to right, #000 94%, transparent);
+    mask-image: linear-gradient(to right, #000 94%, transparent); }
+  #shop-chips::-webkit-scrollbar { display: none; }
+  #shop-chips .wchip { flex: 0 0 auto; }
+  .wchip { font-family: var(--font-mono); font-size: 13px; line-height: 1; cursor: pointer;
+    padding: 8px 11px; border: var(--border-hair) solid var(--border-strong); border-radius: 999px;
+    background: transparent; color: var(--ink); display: inline-flex; align-items: center; gap: 6px;
+    transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease); }
+  .wchip:hover { background: var(--fog); }
+  .wchip.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .wchip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dot, var(--slate)); display: inline-block; }
+  .wchip[data-type="white"]    { --dot: #B8912E; }
+  .wchip[data-type="red"]      { --dot: #8C2A1F; }
+  .wchip[data-type="rose"]     { --dot: #C0607A; }
+  .wchip[data-type="sparkling"]{ --dot: #2C5977; }
+
+  .wine-searchrow { display: flex; align-items: center; gap: 10px; }
+  .wine-search { flex: 1 1 auto; font-family: var(--font-body); font-size: 16px; padding: 9px 12px;
+    border: var(--border-hair) solid var(--border-strong); border-radius: var(--radius-sm);
+    background: var(--paper); color: var(--ink); }
+  .wine-search:focus { outline: 2px solid var(--copper); outline-offset: 1px; }
+  .wine-count { font-family: var(--font-mono); font-size: 12px; color: var(--slate); white-space: nowrap; }
+  .wine-reset { font-family: var(--font-mono); font-size: 12px; background: none; border: none; cursor: pointer;
+    color: var(--copper-deep); text-decoration: underline; padding: 4px; }
+  .wine-reset[hidden] { display: none; }
+
+  /* Groups + cards */
+  .wine-groups { padding: 8px 0 24px; }
+  .wine-group { margin-top: 22px; }
+  .wine-group-head { display: flex; align-items: baseline; gap: 10px;
+    background: var(--paper); padding: 6px 0; border-bottom: var(--border-hair) solid var(--border); }
+  .wine-group-head h2 { font-family: var(--font-display); font-size: 1.15rem; letter-spacing: var(--ls-display);
+    text-transform: uppercase; margin: 0; color: var(--ink); display: flex; align-items: center; gap: 9px; }
+  .wine-group-head .bar { width: 14px; height: 14px; border-radius: 3px; background: var(--gc, var(--slate)); }
+  .wine-group[data-type-group="white"]     { --gc: #B8912E; }
+  .wine-group[data-type-group="red"]       { --gc: #8C2A1F; }
+  .wine-group[data-type-group="rose"]      { --gc: #C0607A; }
+  .wine-group[data-type-group="sparkling"] { --gc: #2C5977; }
+  .wine-group-count { font-family: var(--font-mono); font-size: 11px; color: var(--slate); }
+
+  .wine-card { display: grid; grid-template-columns: 6px 1fr auto; gap: 0 14px; align-items: start;
+    padding: 13px 0; border-bottom: var(--border-hair) solid var(--border); }
+  .wine-card .accent { grid-row: 1 / span 3; align-self: stretch; border-radius: 3px; background: var(--gc, var(--slate)); }
+  .wine-main { min-width: 0; }
+  .wine-name { font-family: var(--font-body); font-weight: 600; font-size: 17px; line-height: 1.25; color: var(--ink); }
+  .wine-meta { font-family: var(--font-mono); font-size: 12px; color: var(--slate); margin-top: 3px; }
+  .wine-note { font-family: var(--font-body); font-size: 14px; color: var(--ink); opacity: .82; margin-top: 5px; line-height: 1.4; }
+  .wine-shops { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+  .wine-shop { font-family: var(--font-mono); font-size: 11px; padding: 3px 7px; border-radius: 3px;
+    background: var(--fog); color: var(--ink); }
+  .wine-aside { grid-column: 3; grid-row: 1 / span 3; display: flex; flex-direction: column; align-items: flex-end;
+    gap: 6px; text-align: right; max-width: 40vw; }
+  .wine-price { font-family: var(--font-display); font-weight: 600; font-size: 16px; color: var(--ink); line-height: 1.2; }
+  .wine-badge { font-family: var(--font-mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
+    padding: 2px 6px; border-radius: 3px; display: inline-block; }
+  .wine-badge.class { background: var(--ink); color: var(--paper); }
+  .wine-badge.rec { background: transparent; color: var(--slate); border: var(--border-hair) solid var(--border-strong); }
+  .wine-src { display: block; margin-top: 6px; font-family: var(--font-mono); font-size: 11px; color: var(--copper-deep); }
+  .wine-card[hidden] { display: none; }
+  .wine-group[hidden] { display: none; }
+  .wine-empty { font-family: var(--font-body); color: var(--slate); padding: 30px 0; text-align: center; }
+  .wine-empty[hidden] { display: none; }
+
+  /* Fine wines + footnote */
+  .wine-fine { margin: 34px 0 0; border-top: var(--border-emph) solid var(--ink); padding-top: 18px; }
+  .wine-fine > summary { font-family: var(--font-display); font-size: 1.1rem; letter-spacing: var(--ls-display);
+    text-transform: uppercase; cursor: pointer; color: var(--ink); }
+  .wine-fine-row { padding: 11px 0; border-bottom: var(--border-hair) solid var(--border); }
+  .wine-fine-name { font-family: var(--font-body); font-weight: 600; color: var(--ink); }
+  .wine-fine-name .p { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--slate); margin-left: 6px; }
+  .wine-fine-meta { font-family: var(--font-mono); font-size: 12px; color: var(--slate); margin-top: 2px; }
+  .wine-fine-note { font-family: var(--font-body); font-size: 14px; opacity: .82; margin-top: 3px; }
+  .wine-foot { font-family: var(--font-mono); font-size: 12px; color: var(--slate); line-height: 1.6;
+    margin: 26px 0 60px; padding-top: 16px; border-top: var(--border-hair) solid var(--border); }
+  .wine-foot a { color: var(--copper-deep); }
+
+  @media (min-width: 620px) {
+    .wine { padding: 0 32px; }
+    .wine-controls { margin: 8px -32px 0; }
+    .wine-controls-inner { padding: 0 32px; }
+    /* Room to wrap all shops on wider screens — no horizontal scroll needed. */
+    #shop-chips { flex-wrap: wrap; overflow: visible; -webkit-mask-image: none; mask-image: none; }
+  }
+  @media (max-width: 380px) {
+    .wine-row { flex-direction: column; gap: 4px; }
+    .wine-row-label { padding-top: 0; }
+  }
+</style>
+
+<main class="wine">
+  <header class="wine-head">
+    <div class="wine-kicker">Cellar · shopping list</div>
+    <h1>Wine.</h1>
+    <p class="wine-lede">The wines <a href="https://www.youtube.com/@tomgilbeywine" target="_blank" rel="noopener">Tom Gilbey</a>
+      rates <strong>&ldquo;class&rdquo;</strong> (plus his clear top picks), pulled from every 2026 video and checked online.
+      Pick a <strong>type</strong> and a <strong>shop</strong> &mdash; e.g. white &times; Tesco &mdash; and grab one.
+      Cheapest first. Prices are indicative.</p>
+  </header>
+
+  <div class="wine-controls" id="wine-controls">
+    <div class="wine-controls-inner">
+      <div class="wine-row">
+        <span class="wine-row-label">Type</span>
+        <div class="wine-chips" id="type-chips">
+          <button class="wchip is-active" data-type="all" type="button">All</button>
+          <button class="wchip" data-type="white" type="button"><span class="dot"></span>White</button>
+          <button class="wchip" data-type="red" type="button"><span class="dot"></span>Red</button>
+          <button class="wchip" data-type="rose" type="button"><span class="dot"></span>Ros&eacute;</button>
+          <button class="wchip" data-type="sparkling" type="button"><span class="dot"></span>Sparkling</button>
+        </div>
+      </div>
+      <div class="wine-row">
+        <span class="wine-row-label">Shop</span>
+        <div class="wine-chips" id="shop-chips">
+          <button class="wchip is-active" data-shop="all" type="button">All</button>
+          {% for s in shops %}<button class="wchip" data-shop="{{ s | slugify }}" type="button">{{ s }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="wine-searchrow">
+        <input class="wine-search" id="wine-search" type="search" inputmode="search"
+          placeholder="Search name, grape or region&hellip;" aria-label="Search wines">
+        <span class="wine-count" id="wine-count"></span>
+        <button class="wine-reset" id="wine-reset" type="button" hidden>reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wine-groups" id="wine-groups">
+    {% assign groups = "white,red,rose,sparkling" | split: "," %}
+    {% for g in groups %}
+      {% case g %}
+        {% when "white" %}{% assign glist = whites %}{% assign glabel = "White" %}
+        {% when "red" %}{% assign glist = reds %}{% assign glabel = "Red" %}
+        {% when "rose" %}{% assign glist = roses %}{% assign glabel = "Rosé" %}
+        {% when "sparkling" %}{% assign glist = sparkling %}{% assign glabel = "Sparkling" %}
+      {% endcase %}
+      <section class="wine-group" data-type-group="{{ g }}">
+        <div class="wine-group-head">
+          <h2><span class="bar"></span>{{ glabel }}</h2>
+          <span class="wine-group-count">{{ glist | size }}</span>
+        </div>
+        {% for w in glist %}
+          {% capture shopslugs %}{% for s in w.shops %}{{ s | slugify }} {% endfor %}{% endcapture %}
+          {% capture shopnames %}{% for s in w.shops %}{{ s }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+          {% assign haystack = w.name | append: " " | append: w.grape | append: " " | append: w.region | append: " " | append: shopnames | downcase %}
+          <article class="wine-card" data-type="{{ w.type }}" data-shops="{{ shopslugs | strip }}" data-search="{{ haystack | escape }}">
+            <span class="accent" aria-hidden="true"></span>
+            <div class="wine-main">
+              <div class="wine-name">{{ w.name }}</div>
+              <div class="wine-meta">{{ w.grape }} &middot; {{ w.region }}</div>
+              {% if w.note %}<div class="wine-note">{{ w.note }}</div>{% endif %}
+              <div class="wine-shops">
+                {% for s in w.shops %}<span class="wine-shop">{{ s }}</span>{% endfor %}
+              </div>
+            </div>
+            <div class="wine-aside">
+              <div class="wine-price">{{ w.price }}</div>
+              <span class="wine-badge {{ w.tier }}">{{ w.tier }}</span>
+              <a class="wine-src" href="{{ w.video }}" target="_blank" rel="noopener">▶ {{ w.date | date: "%b %Y" }}</a>
+            </div>
+          </article>
+        {% endfor %}
+      </section>
+    {% endfor %}
+    <p class="wine-empty" id="wine-empty" hidden>No wines match &mdash; try a different shop or clear the filters.</p>
+  </div>
+
+  {% if site.data.wines.fine %}
+  <details class="wine-fine">
+    <summary>Special-occasion bottles ({{ site.data.wines.fine | size }})</summary>
+    <p class="wine-lede" style="margin:10px 0 4px;">Wines he raved about but that aren&rsquo;t everyday buys &mdash; kept out of the shop filter above.</p>
+    {% for f in site.data.wines.fine %}
+      <div class="wine-fine-row">
+        <div class="wine-fine-name">{{ f.name }}<span class="p">{{ f.price }}</span></div>
+        <div class="wine-fine-meta">{{ f.type }}</div>
+        {% if f.note %}<div class="wine-fine-note">{{ f.note }} &nbsp;<a href="{{ f.video }}" target="_blank" rel="noopener" style="color:var(--copper-deep);font-family:var(--font-mono);font-size:12px;">▶ {{ f.date | date: "%b %Y" }}</a></div>{% endif %}
+      </div>
+    {% endfor %}
+  </details>
+  {% endif %}
+
+  <p class="wine-foot">
+    {{ wines | size }} wines &middot; compiled {{ site.time | date: "%-d %b %Y" }} from the
+    <a href="https://www.youtube.com/@tomgilbeywine" target="_blank" rel="noopener">Tom Gilbey</a>
+    &ldquo;Class, Pass or Arse&rdquo; videos (Jan&ndash;Aug 2026).
+    <strong>class</strong> = an explicit class verdict; <strong>rec</strong> = a top pick from a non-game video.
+    Prices are indicative and move with Clubcard / Nectar / mix-six deals and vintage; Aldi &amp; Lidl aren&rsquo;t sold online so those are in-store prices.
+    Own-label ranges rotate vintages. Unlisted page &mdash; just for me.
+  </p>
+</main>
+
+<script>
+(function () {
+  var typeChips = document.getElementById('type-chips');
+  var shopChips = document.getElementById('shop-chips');
+  var search = document.getElementById('wine-search');
+  var countEl = document.getElementById('wine-count');
+  var resetEl = document.getElementById('wine-reset');
+  var emptyEl = document.getElementById('wine-empty');
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.wine-group'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.wine-card'));
+  var total = cards.length;
+  var state = { type: 'all', shop: 'all', q: '' };
+
+  function setActive(container, attr, val) {
+    container.querySelectorAll('.wchip').forEach(function (b) {
+      b.classList.toggle('is-active', b.getAttribute(attr) === val);
+    });
+  }
+
+  function apply() {
+    var q = state.q.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (card) {
+      var okType = state.type === 'all' || card.getAttribute('data-type') === state.type;
+      var shopTokens = (card.getAttribute('data-shops') || '').split(' ');
+      var okShop = state.shop === 'all' || shopTokens.indexOf(state.shop) !== -1;
+      var okQ = !q || (card.getAttribute('data-search') || '').indexOf(q) !== -1;
+      var visible = okType && okShop && okQ;
+      card.hidden = !visible;
+      if (visible) shown++;
+    });
+    // Hide a whole type group when it has no visible cards (or type filter excludes it).
+    groups.forEach(function (group) {
+      var g = group.getAttribute('data-type-group');
+      var typeAllows = state.type === 'all' || state.type === g;
+      var anyVisible = group.querySelector('.wine-card:not([hidden])');
+      group.hidden = !typeAllows || !anyVisible;
+      var c = group.querySelectorAll('.wine-card:not([hidden])').length;
+      var badge = group.querySelector('.wine-group-count');
+      if (badge) badge.textContent = c;
+    });
+    countEl.textContent = shown + ' / ' + total;
+    emptyEl.hidden = shown !== 0;
+    var dirty = state.type !== 'all' || state.shop !== 'all' || q !== '';
+    resetEl.hidden = !dirty;
+  }
+
+  typeChips.addEventListener('click', function (e) {
+    var btn = e.target.closest('.wchip'); if (!btn) return;
+    state.type = btn.getAttribute('data-type');
+    setActive(typeChips, 'data-type', state.type);
+    apply();
+  });
+  shopChips.addEventListener('click', function (e) {
+    var btn = e.target.closest('.wchip'); if (!btn) return;
+    state.shop = btn.getAttribute('data-shop');
+    setActive(shopChips, 'data-shop', state.shop);
+    apply();
+  });
+  search.addEventListener('input', function () { state.q = search.value; apply(); });
+
+  // Pin the filter bar just below the site masthead, whatever height it is.
+  function setMast() {
+    var m = document.querySelector('.masthead');
+    document.documentElement.style.setProperty('--mast-h', (m ? m.offsetHeight : 60) + 'px');
+  }
+  setMast();
+  window.addEventListener('resize', setMast);
+  resetEl.addEventListener('click', function () {
+    state = { type: 'all', shop: 'all', q: '' };
+    search.value = '';
+    setActive(typeChips, 'data-type', 'all');
+    setActive(shopChips, 'data-shop', 'all');
+    apply();
+  });
+
+  apply();
+})();
+</script>
