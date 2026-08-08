@@ -14,6 +14,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
 {% assign reds = wines | where: "type", "red" | sort: "p" %}
 {% assign roses = wines | where: "type", "rose" | sort: "p" %}
 {% assign sparkling = wines | where: "type", "sparkling" | sort: "p" %}
+{% assign fortified = wines | where: "type", "fortified" | sort: "p" %}
 
 <style>
   .wine { max-width: 900px; margin: 0 auto; padding: 0 var(--gutter-sm); }
@@ -51,6 +52,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   .wchip[data-type="red"]      { --dot: #8C2A1F; }
   .wchip[data-type="rose"]     { --dot: #C0607A; }
   .wchip[data-type="sparkling"]{ --dot: #2C5977; }
+  .wchip[data-type="fortified"]{ --dot: #8A5A2B; }
 
   .wine-searchrow { display: flex; align-items: center; gap: 10px; }
   .wine-search { flex: 1 1 auto; font-family: var(--font-body); font-size: 16px; padding: 9px 12px;
@@ -74,6 +76,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   .wine-group[data-type-group="red"]       { --gc: #8C2A1F; }
   .wine-group[data-type-group="rose"]      { --gc: #C0607A; }
   .wine-group[data-type-group="sparkling"] { --gc: #2C5977; }
+  .wine-group[data-type-group="fortified"] { --gc: #8A5A2B; }
   .wine-group-count { font-family: var(--font-mono); font-size: 11px; color: var(--slate); }
 
   .wine-card { display: grid; grid-template-columns: 6px 1fr auto; gap: 0 14px; align-items: start;
@@ -130,7 +133,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
     <div class="wine-kicker">Cellar · shopping list</div>
     <h1>Wine.</h1>
     <p class="wine-lede">The wines <a href="https://www.youtube.com/@tomgilbeywine" target="_blank" rel="noopener">Tom Gilbey</a>
-      rates <strong>&ldquo;class&rdquo;</strong> (plus his clear top picks), pulled from every 2026 video and checked online.
+      rates <strong>&ldquo;class&rdquo;</strong> (plus his clear top picks), pulled from every video since the channel began (2025&ndash;2026) and checked online.
       Pick a <strong>type</strong> and a <strong>shop</strong> &mdash; e.g. white &times; Tesco &mdash; and grab one.
       Cheapest first. Prices are indicative.</p>
   </header>
@@ -145,6 +148,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
           <button class="wchip" data-type="red" type="button"><span class="dot"></span>Red</button>
           <button class="wchip" data-type="rose" type="button"><span class="dot"></span>Ros&eacute;</button>
           <button class="wchip" data-type="sparkling" type="button"><span class="dot"></span>Sparkling</button>
+          <button class="wchip" data-type="fortified" type="button"><span class="dot"></span>Fortified</button>
         </div>
       </div>
       <div class="wine-row">
@@ -165,13 +169,14 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   </div>
 
   <div class="wine-groups" id="wine-groups">
-    {% assign groups = "white,red,rose,sparkling" | split: "," %}
+    {% assign groups = "white,red,rose,sparkling,fortified" | split: "," %}
     {% for g in groups %}
       {% case g %}
         {% when "white" %}{% assign glist = whites %}{% assign glabel = "White" %}
         {% when "red" %}{% assign glist = reds %}{% assign glabel = "Red" %}
         {% when "rose" %}{% assign glist = roses %}{% assign glabel = "Rosé" %}
         {% when "sparkling" %}{% assign glist = sparkling %}{% assign glabel = "Sparkling" %}
+        {% when "fortified" %}{% assign glist = fortified %}{% assign glabel = "Fortified &amp; Sweet" %}
       {% endcase %}
       <section class="wine-group" data-type-group="{{ g }}">
         <div class="wine-group-head">
@@ -221,7 +226,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   <p class="wine-foot">
     {{ wines | size }} wines &middot; compiled {{ site.time | date: "%-d %b %Y" }} from the
     <a href="https://www.youtube.com/@tomgilbeywine" target="_blank" rel="noopener">Tom Gilbey</a>
-    &ldquo;Class, Pass or Arse&rdquo; videos (Jan&ndash;Aug 2026).
+    &ldquo;Class, Pass or Arse&rdquo; videos (2025&ndash;2026).
     <strong>class</strong> = an explicit class verdict; <strong>rec</strong> = a top pick from a non-game video.
     Prices are indicative and move with Clubcard / Nectar / mix-six deals and vintage; Aldi &amp; Lidl aren&rsquo;t sold online so those are in-store prices.
     Own-label ranges rotate vintages. Unlisted page &mdash; just for me.

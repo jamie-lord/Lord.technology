@@ -1,5 +1,5 @@
-# Tom Gilbey "class" wines + top recommendations, 2026 videos.
-# Compiled 2026-08-08 from the @tomgilbeywine back-catalogue (Jan–Aug 2026).
+# Tom Gilbey "class" wines + top recommendations, 2025–2026 videos.
+# Compiled 2026-08-08 from the @tomgilbeywine back-catalogue (Jan 2025 – Aug 2026).
 # tier: class = explicit "Class" verdict in a Class/Pass/Arse game;
 #       rec   = clear top pick from a non-game video.
 # type: white | red | rose | sparkling
@@ -1079,6 +1079,628 @@ wines:
     video: "https://www.youtube.com/watch?v=ob6hscrIbL0"
     date: "2026-02-06"
 
+  # ===========================================================================
+  # 2025 additions (channel's first year, Jan–Dec 2025). Same method: extracted
+  # from the videos, names/prices from Tom's own descriptions, checked online.
+  # ===========================================================================
+
+  # ---- Whites (2025) --------------------------------------------------------
+  - name: "Sainsbury's Taste the Difference Albariño"
+    type: white
+    grape: "Albariño"
+    region: "Rías Baixas, Spain"
+    shops: ["Sainsbury's"]
+    price: "£12.50"
+    p: 12.5
+    note: "His pick for cod & clams — \"such a great fish wine.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=O2VMnzdcCMk"
+    date: "2025-03-06"
+
+  - name: "Aldi Baron Amarillo Albariño"
+    type: white
+    grape: "Albariño"
+    region: "Rías Baixas, Spain"
+    shops: ["Aldi"]
+    price: "£8.99"
+    p: 8.99
+    note: "Sub-£10 Rías Baixas — \"really bloody good, cheap as chips.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=UHclPMaWQNA"
+    date: "2025-01-31"
+
+  - name: "Pazo Señoráns Albariño"
+    type: white
+    grape: "Albariño"
+    region: "Rías Baixas, Spain"
+    shops: ["Merchants"]
+    price: "~£21"
+    p: 21
+    note: "His benchmark Albariño — \"a really complete wine.\" (Alliance Wine)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=UHclPMaWQNA"
+    date: "2025-01-31"
+
+  - name: "Pazo Señoráns Colección Albariño"
+    type: white
+    grape: "Albariño (lees-aged)"
+    region: "Rías Baixas, Spain"
+    shops: ["Merchants"]
+    price: "~£25"
+    p: 25
+    note: "\"Taken Albariño somewhere I've never tasted before.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=UHclPMaWQNA"
+    date: "2025-01-31"
+
+  - name: "M&S Tbilvino Qvevris Orange Wine"
+    type: white
+    grape: "Rkatsiteli (orange/skin-contact)"
+    region: "Kakheti, Georgia"
+    shops: ["M&S", "Ocado"]
+    price: "£10"
+    p: 10
+    note: "His surprise winner with steak — an orange wine for beef."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=hKt8_F4q514"
+    date: "2025-04-17"
+
+  - name: "Aldi Specially Selected Chablis Premier Cru"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis Premier Cru, France"
+    shops: ["Aldi"]
+    price: "~£13 (seasonal)"
+    p: 13
+    note: "\"Marzipan and green apple… literally the nuts.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=5B1i_Qa_nF4"
+    date: "2025-07-30"
+
+  - name: "Waitrose Blueprint Grüner Veltliner"
+    type: white
+    grape: "Grüner Veltliner"
+    region: "Lower Austria"
+    shops: ["Waitrose"]
+    price: "£9.25"
+    p: 9.25
+    note: "\"Fresh, zippy — a summer banger.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=zuVNAdr5RnQ"
+    date: "2025-08-15"
+
+  - name: "Waitrose Blueprint Fairtrade Chenin Blanc"
+    type: white
+    grape: "Chenin Blanc"
+    region: "Stellenbosch, South Africa"
+    shops: ["Waitrose"]
+    price: "£8.75"
+    p: 8.75
+    note: "\"Deliciously exotic — honeydew melon.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=zuVNAdr5RnQ"
+    date: "2025-08-15"
+
+  - name: "Waitrose Blueprint White Burgundy"
+    type: white
+    grape: "Chardonnay"
+    region: "Burgundy, France"
+    shops: ["Waitrose"]
+    price: "£12.50"
+    p: 12.5
+    note: "\"Really mellow, really smooth and super sexy.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=zuVNAdr5RnQ"
+    date: "2025-08-15"
+
+  - name: "Famille Brocard Chablis Premier Cru"
+    type: white
+    grape: "Chardonnay"
+    region: "Chablis Premier Cru, France"
+    shops: ["Asda"]
+    price: "£23"
+    p: 23
+    note: "His Xmas-table #1 — \"one of the most ludicrous supermarket deals.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=b60yk56cVDE"
+    date: "2025-12-17"
+
+  - name: "Ken Forrester Old Vine Reserve Chenin Blanc"
+    type: white
+    grape: "Chenin Blanc"
+    region: "Stellenbosch, South Africa"
+    shops: ["Laithwaites"]
+    price: "~£15"
+    p: 15
+    note: "Xmas-table #2 — \"gorgeously rich, juicy. I love that wine.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=b60yk56cVDE"
+    date: "2025-12-17"
+
+  - name: "Domaine Cordier Vieilles Vignes Pouilly-Fuissé"
+    type: white
+    grape: "Chardonnay"
+    region: "Pouilly-Fuissé, Burgundy"
+    shops: ["Majestic"]
+    price: "~£27"
+    p: 27
+    note: "Xmas-table #3 — \"a rich, spread-it-on-toast white Burgundy.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=b60yk56cVDE"
+    date: "2025-12-17"
+
+  - name: "Sainsbury's Taste the Difference Riverblock Marlborough Sauvignon Blanc"
+    type: white
+    grape: "Sauvignon Blanc"
+    region: "Marlborough, New Zealand"
+    shops: ["Sainsbury's"]
+    price: "£10.75"
+    p: 10.75
+    note: "\"Jumping out of the glass with tutti frutti. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=DVyhmKjj_Lo"
+    date: "2025-11-27"
+
+  - name: "Aldi Specially Selected Picpoul de Pinet"
+    type: white
+    grape: "Piquepoul"
+    region: "Languedoc, France"
+    shops: ["Aldi"]
+    price: "~£8"
+    p: 8
+    note: "Value winner vs pricier Picpoul — \"zippy, fresh, chug all day.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=PWY07vcu264"
+    date: "2025-07-17"
+
+  - name: "Lidl Deluxe Gisborne Pinot Gris"
+    type: white
+    grape: "Pinot Gris"
+    region: "Gisborne, New Zealand"
+    shops: ["Lidl"]
+    price: "£7.99"
+    p: 7.99
+    note: "\"Really aromatic. Class — a beautifully made Pinot Gris.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=LpCNYr2qtiE"
+    date: "2025-10-23"
+
+  # ---- Reds (2025) ----------------------------------------------------------
+  - name: "M&S Collection Chianti Classico Riserva Poggio Tosco"
+    type: red
+    grape: "Sangiovese"
+    region: "Chianti Classico, Tuscany"
+    shops: ["M&S", "Ocado"]
+    price: "£14"
+    p: 14
+    note: "His beef winner — \"acidity, tannin, body… an absolute banger.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=hKt8_F4q514"
+    date: "2025-04-17"
+
+  - name: "M. Chapoutier Belleruche Côtes du Rhône"
+    type: red
+    grape: "Grenache/Syrah"
+    region: "Côtes du Rhône, France"
+    shops: ["Waitrose", "Ocado"]
+    price: "~£11"
+    p: 11
+    note: "His Rhône value pick — \"fill your boots. Happy Rhône days.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=Ubmib3k6tJg"
+    date: "2025-04-09"
+
+  - name: "Aldi Specially Selected Cairanne"
+    type: red
+    grape: "Grenache/Syrah"
+    region: "Cairanne Cru, Rhône, France"
+    shops: ["Aldi"]
+    price: "~£8.49 (seasonal)"
+    p: 8.49
+    note: "\"A fantastic, beautifully rich glass of red. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=5B1i_Qa_nF4"
+    date: "2025-07-30"
+
+  - name: "Asda Extra Special North Canterbury Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "North Canterbury, New Zealand"
+    shops: ["Asda"]
+    price: "£8.97"
+    p: 8.97
+    note: "\"Literally a banger… just do a glass of this.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=kD3DiT5s4r4"
+    date: "2025-08-07"
+
+  - name: "Château Gloria 2018"
+    type: red
+    grape: "Cabernet Sauvignon blend"
+    region: "Saint-Julien, Bordeaux"
+    shops: ["Merchants"]
+    price: "~£45–50"
+    p: 48
+    note: "His Bordeaux \"outperformer\" — \"open something famous, Gloria beats it.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=--_qEzZ7cqI"
+    date: "2025-09-23"
+
+  - name: "Lidl Deluxe Coonawarra Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "Coonawarra, South Australia"
+    shops: ["Lidl"]
+    price: "£6.99 (seasonal)"
+    p: 6.99
+    note: "His top Lidl wine — \"a joyous glass. That's my top wine. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=LpCNYr2qtiE"
+    date: "2025-10-23"
+
+  - name: "Errázuriz Estate Reserva Cabernet Sauvignon"
+    type: red
+    grape: "Cabernet Sauvignon"
+    region: "Aconcagua, Chile"
+    shops: ["Waitrose"]
+    price: "£7.50"
+    p: 7.5
+    note: "The lone class among the 8 big brands — \"an absolutely very good wine.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=TbQTdd1ipRk"
+    date: "2025-11-06"
+
+  - name: "Louis Jadot Bourgogne Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "Bourgogne, Burgundy"
+    shops: ["Majestic", "Waitrose"]
+    price: "~£21"
+    p: 21
+    note: "His Pinot-Noir-hype winner — \"an absolute banger… I love it.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=fs-pyFYukP8"
+    date: "2025-11-25"
+
+  - name: "Elephant in the Room Palatial Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "South Australia"
+    shops: ["Tesco", "Sainsbury's"]
+    price: "£10"
+    p: 10
+    note: "His entry-level Pinot pick — \"a banger of a Pinot.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=fs-pyFYukP8"
+    date: "2025-11-25"
+
+  - name: "Sainsbury's Taste the Difference Barbera d'Asti"
+    type: red
+    grape: "Barbera"
+    region: "Piedmont, Italy"
+    shops: ["Sainsbury's"]
+    price: "£9.75"
+    p: 9.75
+    note: "\"Joy in a glass. Class — absolutely yummy.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=DVyhmKjj_Lo"
+    date: "2025-11-27"
+
+  - name: "Sainsbury's Taste the Difference Valpolicella Ripasso"
+    type: red
+    grape: "Corvina (Ripasso)"
+    region: "Valpolicella, Veneto"
+    shops: ["Sainsbury's"]
+    price: "£12.50"
+    p: 12.5
+    note: "\"A class — absolutely freaking delicious.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=DVyhmKjj_Lo"
+    date: "2025-11-27"
+
+  - name: "Domaine de Thalabert Crozes-Hermitage 2015"
+    type: red
+    grape: "Syrah"
+    region: "Crozes-Hermitage, Rhône"
+    shops: ["Majestic"]
+    price: "£37"
+    p: 37
+    note: "His Christmas-red winner (Paul Jaboulet Aîné's flagship estate)."
+    tier: rec
+    video: "https://www.youtube.com/watch?v=kAt3XZwX8ss"
+    date: "2025-12-22"
+
+  - name: "Les Fiefs de Lagrange 2015"
+    type: red
+    grape: "Cabernet Sauvignon blend"
+    region: "Saint-Julien, Bordeaux"
+    shops: ["Majestic"]
+    price: "£36"
+    p: 36
+    note: "\"The classic Bordeaux wine… that is my favourite. Classic always works.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=kAt3XZwX8ss"
+    date: "2025-12-22"
+
+  - name: "Schug Carneros Pinot Noir"
+    type: red
+    grape: "Pinot Noir"
+    region: "Carneros, California"
+    shops: ["Majestic"]
+    price: "~£26 (Dec 2025)"
+    p: 26
+    note: "His easy-drinking Christmas Pinot. (Was at Majestic; may be delisted.)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=kAt3XZwX8ss"
+    date: "2025-12-22"
+
+  # ---- Rosé (2025) ----------------------------------------------------------
+  - name: "Aldi Specially Selected Rosorange Rosé"
+    type: rose
+    grape: "Rosé/orange hybrid"
+    region: "Languedoc, France"
+    shops: ["Aldi"]
+    price: "£9.99 (seasonal)"
+    p: 9.99
+    note: "\"Fabulously juicy rosé. Love that. Class.\" (rosé/orange hybrid)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=5B1i_Qa_nF4"
+    date: "2025-07-30"
+
+  - name: "Aldi Specially Selected Sancerre Rosé"
+    type: rose
+    grape: "Pinot Noir"
+    region: "Sancerre, Loire, France"
+    shops: ["Aldi"]
+    price: "~£11 (seasonal)"
+    p: 11
+    note: "\"A beautifully elegant rosé… so clean, so fresh. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=5B1i_Qa_nF4"
+    date: "2025-07-30"
+
+  - name: "Roseblood d'Estoublon Rosé"
+    type: rose
+    grape: "Grenache/Syrah/Cinsault"
+    region: "Provence, France"
+    shops: ["Merchants"]
+    price: "~£18"
+    p: 18
+    note: "Tied top of his £5–£100 rosé test — \"utterly beautiful, classy.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=3qW2ysPpRkE"
+    date: "2025-08-29"
+
+  - name: "Folc English Rosé"
+    type: rose
+    grape: "English rosé blend"
+    region: "England"
+    shops: ["Online"]
+    price: "£22.99"
+    p: 22.99
+    note: "His Valentine's English rosé — \"so much energy and life to it.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=Qp8bbJnxYz0"
+    date: "2025-02-13"
+
+  - name: "The Heretics 'Blowhorn' Pale Rosé 2023"
+    type: rose
+    grape: "Pinot Noir"
+    region: "Crouch Valley, Essex, England"
+    shops: ["Online"]
+    price: "£29"
+    p: 29
+    note: "\"Absolutely delicious… beautifully fresh.\" (barrel-fermented English rosé)"
+    tier: rec
+    video: "https://www.youtube.com/watch?v=yF9jb-lc1-s"
+    date: "2025-06-12"
+
+  # ---- Sparkling (2025) -----------------------------------------------------
+  - name: "Taittinger Prestige Rosé Champagne"
+    type: sparkling
+    grape: "Pinot Noir/Chardonnay/Meunier"
+    region: "Champagne, France"
+    shops: ["Waitrose", "Majestic"]
+    price: "£50"
+    p: 50
+    note: "His Valentine's fizz — \"a super class glass of rosé Champagne.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=Qp8bbJnxYz0"
+    date: "2025-02-13"
+
+  - name: "Domaine Evremond Classic Cuvée"
+    type: sparkling
+    grape: "Chardonnay/Pinot Noir/Meunier"
+    region: "Kent, England"
+    shops: ["Online"]
+    price: "£55"
+    p: 55
+    note: "Taittinger's Kent estate — \"beautifully round… delicious.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=nUKbc5mKvVg"
+    date: "2025-05-29"
+
+  - name: "Harrow & Hope Brut Reserve No.10"
+    type: sparkling
+    grape: "Chardonnay/Pinot Noir/Meunier"
+    region: "Marlow, England"
+    shops: ["Online"]
+    price: "£34"
+    p: 34
+    note: "\"Croissant, brioche, but still fresh — lemon, citrus.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=qFhmb84Css0"
+    date: "2025-06-26"
+
+  - name: "Laurent-Perrier La Cuvée Brut Champagne"
+    type: sparkling
+    grape: "Chardonnay-led Champagne"
+    region: "Champagne, France"
+    shops: ["Merchants", "Waitrose"]
+    price: "~£45–53"
+    p: 45
+    note: "\"One of my favourite Champagnes… it bangs it out.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=jJAXK00sKjw"
+    date: "2025-12-09"
+
+  - name: "G.H. Mumm Cordon Rouge Brut Champagne"
+    type: sparkling
+    grape: "Pinot Noir-led Champagne"
+    region: "Champagne, France"
+    shops: ["Merchants"]
+    price: "~£40"
+    p: 40
+    note: "The surprise class — \"absolutely really wonderful.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=jJAXK00sKjw"
+    date: "2025-12-09"
+
+  - name: "Aldi Specially Selected Crémant de Loire"
+    type: sparkling
+    grape: "Crémant de Loire"
+    region: "Loire, France"
+    shops: ["Aldi"]
+    price: "£8 (seasonal)"
+    p: 8
+    note: "Best-value sparkling winner — \"£8. Utterly insane. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=uSq9GvWtri4"
+    date: "2025-12-15"
+
+  - name: "Aldi Crémant du Jura"
+    type: sparkling
+    grape: "Chardonnay"
+    region: "Jura, France"
+    shops: ["Aldi"]
+    price: "£10.99 (seasonal)"
+    p: 10.99
+    note: "\"£10.99… honestly an utter banger. Class.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=uSq9GvWtri4"
+    date: "2025-12-15"
+
+  - name: "Lidl Crémant de Loire"
+    type: sparkling
+    grape: "Crémant de Loire"
+    region: "Loire, France"
+    shops: ["Lidl"]
+    price: "£8.99 (seasonal)"
+    p: 8.99
+    note: "\"Class. Very fresh, very clean, very fruity.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=uSq9GvWtri4"
+    date: "2025-12-15"
+
+  - name: "Sainsbury's Taste the Difference Ellercombe English Sparkling"
+    type: sparkling
+    grape: "English sparkling blend"
+    region: "England"
+    shops: ["Sainsbury's"]
+    price: "£22"
+    p: 22
+    note: "His English champion — \"a belter. Such a beautiful sparkling wine.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=DVyhmKjj_Lo"
+    date: "2025-11-27"
+
+  - name: "Aldi Nicolas de Montbart Champagne"
+    type: sparkling
+    grape: "Champagne blend"
+    region: "Champagne, France"
+    shops: ["Aldi"]
+    price: "~£20 (seasonal)"
+    p: 20
+    note: "Blind class in England-vs-Champagne — \"very good, and it's a Champagne.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=sl9roljr8OM"
+    date: "2025-12-19"
+
+  - name: "Aldi Veuve Monsigny Champagne Premier Cru"
+    type: sparkling
+    grape: "Champagne blend"
+    region: "Champagne, France"
+    shops: ["Aldi"]
+    price: "£21 (seasonal)"
+    p: 21
+    note: "\"A really, really lovely glass of wine.\" (Class)"
+    tier: class
+    video: "https://www.youtube.com/watch?v=sl9roljr8OM"
+    date: "2025-12-19"
+
+  - name: "Lidl Bissinger Premier Cru Champagne"
+    type: sparkling
+    grape: "Champagne blend"
+    region: "Champagne, France"
+    shops: ["Lidl"]
+    price: "£19.99 (seasonal)"
+    p: 19.99
+    note: "The blind standout — \"absolutely fantastic… utterly ridiculous.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=sl9roljr8OM"
+    date: "2025-12-19"
+
+  - name: "Co-op Les Pionniers Vintage Champagne 2013"
+    type: sparkling
+    grape: "Vintage Champagne"
+    region: "Champagne, France"
+    shops: ["Co-op"]
+    price: "£35.20"
+    p: 35.2
+    note: "His best-supermarket-Champagne winner — \"class class Champagne.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=BhSuseufrrI"
+    date: "2025-12-29"
+
+  - name: "Waitrose No.1 Brut Special Reserve Vintage Champagne 2018"
+    type: sparkling
+    grape: "Vintage Champagne"
+    region: "Champagne, France"
+    shops: ["Waitrose"]
+    price: "£39"
+    p: 39
+    note: "Runner-up supermarket Champagne — \"far and away one of the best.\""
+    tier: class
+    video: "https://www.youtube.com/watch?v=BhSuseufrrI"
+    date: "2025-12-29"
+
+  # ---- Fortified & sweet (2025) --------------------------------------------
+  - name: "Barbadillo Solear Manzanilla Sherry"
+    type: fortified
+    grape: "Palomino (dry manzanilla)"
+    region: "Sanlúcar de Barrameda, Spain"
+    shops: ["Waitrose"]
+    price: "£13.50"
+    p: 13.5
+    note: "\"I'd lock myself in a broom cupboard and drink that.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=dOMOcAQ0OTs"
+    date: "2025-12-11"
+
+  - name: "Royal Tokaji Blue Label 5 Puttonyos Aszú"
+    type: fortified
+    grape: "Furmint blend (sweet)"
+    region: "Tokaj, Hungary"
+    shops: ["Waitrose"]
+    price: "£16.75 (25cl)"
+    p: 16.75
+    note: "His sweet-wine pick — \"so fresh.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=dOMOcAQ0OTs"
+    date: "2025-12-11"
+
+  - name: "Taylor's 20 Year Old Tawny Port"
+    type: fortified
+    grape: "Tawny Port"
+    region: "Douro, Portugal"
+    shops: ["Merchants", "Tesco"]
+    price: "~£40"
+    p: 40
+    note: "His overall festive winner — \"keeps you happy until lights out.\""
+    tier: rec
+    video: "https://www.youtube.com/watch?v=dOMOcAQ0OTs"
+    date: "2025-12-11"
+
 # Fine / special-occasion bottles tasted (not everyday buys; shown separately).
 fine:
   - name: "Louis Roederer Cristal Rosé 2014"
@@ -1123,3 +1745,21 @@ fine:
     note: "His standout of the decanting test."
     video: "https://www.youtube.com/watch?v=DVNUWBl_5mQ"
     date: "2026-04-17"
+  - name: "Dom Pérignon"
+    type: "Vintage Champagne"
+    price: "~£175"
+    note: "\"If you want to be flash, buy Dom Pérignon. Very, very good.\" (Class)"
+    video: "https://www.youtube.com/watch?v=jJAXK00sKjw"
+    date: "2025-12-09"
+  - name: "Château Langoa Barton 2014"
+    type: "Red, Saint-Julien (3rd growth)"
+    price: "~£45/btl (fine wine)"
+    note: "His take-home pick from the Bordeaux merchant tasting."
+    video: "https://www.youtube.com/watch?v=ZN8Ig9hll0Q"
+    date: "2025-10-09"
+  - name: "Danbury Ridge Estate Pinot Noir"
+    type: "Red, Pinot Noir, Essex (England)"
+    price: "~£40/btl"
+    note: "The English still red that changed his mind — \"not from England.\""
+    video: "https://www.youtube.com/watch?v=RQqqvTQcoLY"
+    date: "2025-06-19"
