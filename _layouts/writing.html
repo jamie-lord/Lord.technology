@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-{% comment %}
-  Collect categories case-insensitively and only surface those with
-  at least 3 posts in the filter bar. Sorted by post count, descending.
-{% endcomment %}
+{% comment %} Surface categories with >=3 posts in the filter bar, sorted by count desc. {% endcomment %}
 {% assign all_cats = "" | split: "" %}
 {% for post in site.posts %}
   {% for c in post.categories %}
@@ -27,60 +24,46 @@ layout: default
 {% assign top_cats = rows | sort | reverse %}
 {% assign first_post = site.posts.last %}
 {% assign first_year = first_post.date | date: '%Y' %}
-<main class="page v2 no-wobble">
-  <section class="v2-page-head">
-    <div class="v2-hero-num" aria-hidden="true">01</div>
-    <div class="v2-stamp v2-stamp--writing">
-      <div class="v2-stamp-row">INDEX · {{ site.posts.size }} POSTS</div>
-      <div class="v2-stamp-row">SINCE {{ first_year }}</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk">
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/writing</span> <span class="sep">$</span> <span class="cmd">ls</span> <span class="flag">-la --sort=date</span><span class="cursor" aria-hidden="true"></span>
     </div>
-
-    <div class="v2-page-inner">
-      <div class="v2-hero-label">
-        <span class="v2-kicker">01 / Writing</span>
-      </div>
-      <h1 class="v2-hero-title">Writing.</h1>
-      <p class="v2-hero-sub">{{ site.posts.size }} posts going back to {{ first_year }}. Some are single-link references I wanted to remember. Most are short.</p>
-    </div>
+    <h1 class="hero-title" style="font-size:var(--size-h2)">Writing.</h1>
+    <div class="hero-meta"><span class="k">{{ site.posts.size }}</span> posts · since {{ first_year }} · some are single-link refs, most are short</div>
   </section>
 
-  <section class="v2-block v2-block-tight">
-    <div class="v2-filter-bar" id="writing-filter">
-      <span class="v2-filter-label">Filter</span>
-      <button class="v2-chip is-active" data-cat="all" type="button">all</button>
+  <section class="blk blk--tight">
+    <div class="filter" id="writing-filter">
+      <span class="lbl">grep</span>
+      <button class="chip is-active" data-cat="all" type="button">all</button>
       {% for row in top_cats %}
         {% assign bits = row | split: '|' %}
         {% assign name = bits[1] %}
-        <button class="v2-chip" data-cat="{{ name }}" type="button">{{ name }}</button>
+        <button class="chip" data-cat="{{ name }}" type="button">{{ name }}</button>
       {% endfor %}
-      <span class="v2-filter-count" id="writing-count">· {{ site.posts.size }} shown</span>
+      <span class="count" id="writing-count">{{ site.posts.size }} shown</span>
     </div>
 
-    <ul class="v2-post-list" id="writing-list">
+    <ul class="t-list" id="writing-list">
       {% for post in site.posts %}
         {% assign cat = post.categories | first | default: 'notes' | downcase %}
         {% assign words = post.content | number_of_words %}
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
         {% assign data_cats = "" %}
         {% for c in post.categories %}{% assign data_cats = data_cats | append: ' ' | append: c | downcase %}{% endfor %}
-        {% if post.link %}<a class="v2-post v2-post--link" href="{{ post.link }}" target="_blank" rel="noopener" data-cats="{{ data_cats | strip }}">{% else %}<a class="v2-post" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">{% endif %}
-          <time class="v2-post-date" datetime="{{ post.date | date_to_xmlschema }}">
-            <span class="v2-post-day">{{ post.date | date: '%d' }}</span>
-            <span class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</span>
-            <span class="v2-post-yr">'{{ post.date | date: '%y' }}</span>
+        {% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener" data-cats="{{ data_cats | strip }}">{% else %}<a class="t-row" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">{% endif %}
+          <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
+            <b>{{ post.date | date: '%d' }}</b>
+            <span>{{ post.date | date: '%b' | upcase }}</span>
+            <span class="yr">'{{ post.date | date: '%y' }}</span>
           </time>
-          <div class="v2-post-body">
-            <span class="v2-stamp-cat">{{ cat }}</span>
-            <h3 class="v2-post-title">{{ post.title }}{% if post.link %} <span class="v2-post-ext" aria-label="external link">↗</span>{% endif %}</h3>
-            {% unless post.link and post.excerpt == empty %}<p class="v2-post-ex">{{ post.excerpt | strip_html | truncate: 200 }}</p>{% endunless %}
-            <div class="v2-post-meta">
-              {% if post.tags and post.tags.size > 0 %}
-                {% for t in post.tags %}#{{ t }}{% unless forloop.last %} · {% endunless %}{% endfor %}
-                <span class="v2-post-sep"> · </span>
-              {% endif %}
-              <span>{{ minutes }} min</span>
-              <span class="v2-post-slug-meta"> · <span class="v2-post-slug">{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span></span>
+          <div class="body">
+            <span class="t-cat">{{ cat }}</span>
+            <div class="title">{{ post.title }}{% if post.link %} <span class="ext" aria-label="external link">↗</span>{% endif %}</div>
+            {% unless post.link and post.excerpt == empty %}<p class="ex">{{ post.excerpt | strip_html | truncatewords: 33, "…" }}</p>{% endunless %}
+            <div class="meta">
+              {% if post.tags and post.tags.size > 0 %}{% for t in post.tags %}<span class="tg">#{{ t }}</span>{% unless forloop.last %}<wbr>{% endunless %}{% endfor %} · {% endif %}<span>{{ minutes }} min</span><span class="slug"> · {% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span>
             </div>
           </div>
         </a>
@@ -101,11 +84,11 @@ layout: default
   var count = document.getElementById('writing-count');
   if (!bar || !list) return;
   bar.addEventListener('click', function(e) {
-    var btn = e.target.closest('.v2-chip');
+    var btn = e.target.closest('.chip');
     if (!btn) return;
     var cat = btn.dataset.cat;
-    bar.querySelectorAll('.v2-chip').forEach(function(b) { b.classList.toggle('is-active', b === btn); });
-    var items = list.querySelectorAll('.v2-post');
+    bar.querySelectorAll('.chip').forEach(function(b) { b.classList.toggle('is-active', b === btn); });
+    var items = list.querySelectorAll('.t-row');
     var shown = 0;
     items.forEach(function(item) {
       var cats = (item.dataset.cats || '').split(' ').filter(Boolean);
@@ -113,7 +96,7 @@ layout: default
       item.style.display = match ? '' : 'none';
       if (match) shown++;
     });
-    if (count) count.textContent = '· ' + shown + ' shown';
+    if (count) count.textContent = shown + ' shown';
   });
 })();
 </script>

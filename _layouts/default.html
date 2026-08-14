@@ -1,14 +1,28 @@
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}" data-webtui-theme="dark">
 <head>
 {% include head.html %}
 </head>
 <body class="layout--{{ page.layout | default: 'default' }}">
+  <div class="crt" aria-hidden="true"></div>
+  <div class="crt-flicker" aria-hidden="true"></div>
   <a class="skip-link" href="#content">Skip to content</a>
   <div class="app">
-    {% include masthead.html %}
-    <div id="content">
-      {{ content }}
+    <div class="wrap">
+      <div class="term">
+        <div class="term__bar">
+          <span class="term__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          {% if page.nav_key == 'home' %}{% assign term_path = '' %}{% elsif page.nav_key %}{% assign term_path = page.nav_key | prepend: '/' %}{% elsif page.layout == 'post' %}{% assign term_path = '/writing' %}{% elsif page.layout == 'project' %}{% assign term_path = '/projects' %}{% else %}{% assign term_path = '' %}{% endif %}
+          <span class="term__title">{% if page.title %}<b>{{ page.title | downcase }}</b> — {% endif %}jamie@lord.technology: ~{{ term_path }}</span>
+          <span class="term__meta">zsh · {{ site.time | date: '%Y-%m-%d' }}</span>
+        </div>
+        <div class="term__body">
+          {% include masthead.html %}
+          <div id="content">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     </div>
     {% include footer.html %}
   </div>

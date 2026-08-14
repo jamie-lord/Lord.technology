@@ -27,33 +27,19 @@ layout: default
 }
 </script>
 
-<main class="page v2">
-  <section class="v2-page-head v2-post-head-wrap">
-    <div class="v2-hero-num" aria-hidden="true">02</div>
-    <div class="v2-stamp v2-stamp--projects">
-      <div class="v2-stamp-row">PROJECT</div>
-      {% if page.date %}<div class="v2-stamp-row">{{ page.date | date: '%Y' }}</div>{% endif %}
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk post-head">
+    <a href="{{ '/projects/' | relative_url }}" class="back">← cd ../projects</a>
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/projects</span> <span class="sep">$</span> <span class="cmd">cat</span> <span class="flag">{{ page.url | split: '/' | last }}</span>
     </div>
-
-    <div class="v2-page-inner">
-      <a href="{{ '/projects/' | relative_url }}" class="v2-back">← Back to projects</a>
-      <h1 class="v2-hero-title">{{ page.title }}</h1>
-      {% if page.date %}
-      <div class="v2-post-meta-top">
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y' }}</time>
-        <span class="v2-post-sep">·</span>
-        <span class="v2-post-slug">{{ page.url }}</span>
-      </div>
-      {% endif %}
-    </div>
+    <h1 class="title">{{ page.title }}</h1>
+    {% if page.date %}<div class="byline"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y' }}</time><span class="sep">·</span><span style="color:var(--term-fg-faint)">{{ page.url }}</span></div>{% endif %}
   </section>
 
-  <section class="v2-block v2-block-tight">
-    <article class="v2-post-article">
-      <div class="v2-post-body-v3">
-        {{ content }}
-      </div>
+  <section class="blk blk--tight">
+    <article class="prose">
+      {{ content }}
     </article>
   </section>
 

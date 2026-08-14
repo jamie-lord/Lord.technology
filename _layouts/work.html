@@ -2,42 +2,25 @@
 layout: default
 ---
 {% assign jobs = site.data.work %}
-<main class="page v2 no-wobble">
-  <section class="v2-page-head">
-    <div class="v2-hero-num" aria-hidden="true">03</div>
-    <div class="v2-stamp v2-stamp--work">
-      <div class="v2-stamp-row">RECORD · EMPLOYMENT</div>
-      <div class="v2-stamp-row">{% assign last_job = jobs | last %}{{ last_job.years | split: ' ' | first }} — NOW</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk">
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/work</span> <span class="sep">$</span> <span class="cmd">cat</span> <span class="flag">employment.log</span><span class="cursor" aria-hidden="true"></span>
     </div>
-
-    <div class="v2-page-inner">
-      <div class="v2-hero-label">
-        <span class="v2-kicker">03 / Work</span>
-      </div>
-      <h1 class="v2-hero-title">Where I've worked.</h1>
-      <p class="v2-hero-sub">What I do now, and how I got here.</p>
-    </div>
+    <h1 class="hero-title" style="font-size:var(--size-h2)">Where I've worked.</h1>
+    <p class="hero-sub">What I do now, and how I got here.</p>
   </section>
 
-  <section class="v2-block">
-    <div class="v2-timeline">
+  <section class="blk">
+    <div class="tl">
       {% for job in jobs %}
-        <article class="v2-job">
-          <div class="v2-job-when">
-            <div class="v2-job-start">{{ job.start }}</div>
-            <div class="v2-job-end">{{ job.end }}</div>
-            {% if job.current %}<div class="v2-job-now">· now</div>{% endif %}
-          </div>
-          <div class="v2-job-body">
-            <div class="v2-job-org">{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</div>
-            <div class="v2-job-role">{{ job.role }}</div>
-            {% if job.bullets and job.bullets.size > 0 %}
-            <ul class="v2-job-bullets">
-              {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
-            </ul>
-            {% endif %}
-          </div>
+        <article class="job{% if job.current %} job--now{% endif %}">
+          <div class="when">{{ job.start }} — {{ job.end }}{% if job.current %} <span class="now">· now</span>{% endif %}</div>
+          <div class="org">{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</div>
+          <div class="role">{{ job.role }}</div>
+          {% if job.bullets and job.bullets.size > 0 %}
+          <ul>{% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+          {% endif %}
         </article>
       {% endfor %}
     </div>
@@ -45,5 +28,5 @@ layout: default
 
   {% include colophon.html
      body="If any of this is relevant to what you're working on, I'm on <a href='mailto:jamie@lord.technology'>email</a> or <a href='https://www.linkedin.com/in/jamie-lord-3564472a4/'>LinkedIn</a>."
-     status="currently: Solution Architect at CDS, working remotely from Stamford, Lincolnshire" %}
+     status="currently: Solution Architect at CDS, remote from Stamford, Lincolnshire" %}
 </main>

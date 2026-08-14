@@ -27,13 +27,11 @@
     </div>
   </div>
   {% if site.data.navigation.external and site.data.navigation.external.size > 0 %}
-  <div class="footer-inner" style="margin-top: 12px;">
-    <div class="footer-external">
-      <span>Also writing at:</span>
-      {% for link in site.data.navigation.external %}
-        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
-      {% endfor %}
-    </div>
+  <div class="footer-external">
+    <span>Also writing at:</span>
+    {% for link in site.data.navigation.external %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+    {% endfor %}
   </div>
   {% endif %}
   <div class="footer-meta">
