@@ -1,61 +1,53 @@
 ---
 layout: default
 ---
-<main class="page v2">
-  <section class="v2-hero">
-    <div class="v2-hero-num" aria-hidden="true">00</div>
-    <div class="v2-stamp v2-stamp--home">
-      <div class="v2-stamp-row">{{ site.author.name | upcase }}</div>
-      <div class="v2-stamp-row">{{ site.author.location | upcase }}</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="hero">
+    <pre class="banner" aria-label="lord.technology">██╗      ██████╗ ██████╗ ██████╗
+██║     ██╔═══██╗██╔══██╗██╔══██╗
+██║     ██║   ██║██████╔╝██║  ██║
+██║     ██║   ██║██╔══██╗██║  ██║
+███████╗╚██████╔╝██║  ██║██████╔╝
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝</pre>
+    <div class="banner-sub"><span class="c">//</span> <b>lord.technology</b> <span class="s">—</span> software, writing &amp; side-projects · est. 2013</div>
+
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~</span> <span class="sep">$</span> <span class="cmd">whoami</span><span class="cursor" aria-hidden="true"></span>
     </div>
 
-    <div class="v2-hero-inner">
-      <div class="v2-hero-label">
-        <span class="v2-kicker">Solution Architect at CDS</span>
-        <span class="v2-bullet">·</span>
-        <span class="v2-kicker">Stamford, Lincolnshire</span>
-      </div>
+    <div class="hero-meta"><span class="k">role</span>: Solution Architect at CDS &nbsp;·&nbsp; <span class="k">loc</span>: Stamford, Lincolnshire</div>
 
-      <h1 class="v2-hero-title">
-        Building software, <span class="v2-underline">for the love of it</span>.
-      </h1>
+    <h1 class="hero-title">Building software, <span class="hi">for the love of it</span>.</h1>
 
-      <p class="v2-hero-sub">
-        Architect, developer, or consultant — whatever the work calls for. My toolkit evolves; right now that's mostly Cloudflare's Developer Platform, which I'm <a href="https://architectingoncloudflare.com">writing a book about</a>.
-      </p>
+    <p class="hero-sub">
+      Architect, developer, or consultant — whatever the work calls for. My toolkit evolves; right now that's mostly Cloudflare's Developer Platform, which I'm <a href="https://architectingoncloudflare.com">writing a book about</a>.
+    </p>
 
-      <div class="v2-hero-ctas">
-        <a class="v2-btn" href="{{ '/writing/' | relative_url }}">Recent writing →</a>
-        <a class="v2-btn v2-btn--ghost" href="{{ '/about/' | relative_url }}">About me</a>
-      </div>
+    <div class="ctas">
+      <a class="btn" href="{{ '/writing/' | relative_url }}">cat ./writing</a>
+      <a class="btn btn--ghost" href="{{ '/about/' | relative_url }}">./about --me</a>
     </div>
   </section>
 
-  <section class="v2-block">
-    <div class="v2-section-head">
-      <div class="v2-section-num">01</div>
-      <h2 class="v2-section-title">Recent writing</h2>
-      <a href="{{ '/writing/' | relative_url }}" class="v2-see-all">See all posts →</a>
-    </div>
-
-    <ul class="v2-post-list">
+  <section class="blk">
+    <h2 class="t-h2"><span class="hash">##</span> recent_writing <span class="rule" aria-hidden="true"></span> <a class="more" href="{{ '/writing/' | relative_url }}">see_all →</a></h2>
+    <ul class="t-list">
       {% assign recent_posts = site.posts | slice: 0, 3 %}
       {% for post in recent_posts %}
         {% assign cat = post.categories | first | default: 'notes' %}
         {% assign words = post.content | number_of_words %}
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
-        {% if post.link %}<a class="v2-post v2-post--link" href="{{ post.link }}" target="_blank" rel="noopener">{% else %}<a class="v2-post" href="{{ post.url | relative_url }}">{% endif %}
-          <time class="v2-post-date" datetime="{{ post.date | date_to_xmlschema }}">
-            <span class="v2-post-day">{{ post.date | date: '%d' }}</span>
-            <span class="v2-post-mo">{{ post.date | date: '%b' | upcase }}</span>
-            <span class="v2-post-yr">'{{ post.date | date: '%y' }}</span>
+        {% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener">{% else %}<a class="t-row" href="{{ post.url | relative_url }}">{% endif %}
+          <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
+            <b>{{ post.date | date: '%d' }}</b>
+            <span>{{ post.date | date: '%b' | upcase }}</span>
+            <span class="yr">'{{ post.date | date: '%y' }}</span>
           </time>
-          <div class="v2-post-body">
-            <span class="v2-stamp-cat">{{ cat }}</span>
-            <h3 class="v2-post-title">{{ post.title }}{% if post.link %} <span class="v2-post-ext" aria-label="external link">↗</span>{% endif %}</h3>
-            {% unless post.link and post.excerpt == empty %}<p class="v2-post-ex">{{ post.excerpt | strip_html | truncate: 180 }}</p>{% endunless %}
-            <div class="v2-post-meta">{{ minutes }} min · <span class="v2-post-slug">{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span></div>
+          <div class="body">
+            <span class="t-cat">{{ cat }}</span>
+            <div class="title">{{ post.title }}{% if post.link %} <span class="ext" aria-label="external link">↗</span>{% endif %}</div>
+            {% unless post.link and post.excerpt == empty %}<p class="ex">{{ post.excerpt | strip_html | truncatewords: 28, "…" }}</p>{% endunless %}
+            <div class="meta">{{ minutes }} min<span class="slug"> · {% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span></div>
           </div>
         </a>
       {% endfor %}
@@ -63,24 +55,16 @@ layout: default
   </section>
 
   {% if site.data.projects %}
-  <section class="v2-block">
-    <div class="v2-section-head">
-      <div class="v2-section-num">02</div>
-      <h2 class="v2-section-title">Things I'm building</h2>
-      <a href="{{ '/projects/' | relative_url }}" class="v2-see-all">All {{ site.data.projects.size }}+ projects →</a>
-    </div>
-
-    <ol class="v2-proj-list">
+  <section class="blk">
+    <h2 class="t-h2"><span class="hash">##</span> ~/projects <span class="rule" aria-hidden="true"></span> <a class="more" href="{{ '/projects/' | relative_url }}">all_{{ site.data.projects.size }}+ →</a></h2>
+    <ol class="ledger">
       {% assign featured = site.data.projects | slice: 0, 5 %}
       {% for proj in featured %}
-        <li class="v2-proj">
-          <span class="v2-proj-year">{{ proj.year }}</span>
-          <span class="v2-proj-check{% if proj.wip %} v2-proj-check--wip{% endif %}" aria-hidden="true">{% if proj.wip %}◦{% else %}✓{% endif %}</span>
-          <div class="v2-proj-main">
-            <h3 class="v2-proj-title">{% if proj.url %}<a href="{{ proj.url }}">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
-            <div class="v2-proj-stack">
-              {% for s in proj.stack %}<span class="v2-tape">{{ s }}</span>{% endfor %}
-            </div>
+        <li>
+          <span class="box{% if proj.wip %} wip{% endif %}" aria-hidden="true">{% if proj.wip %}[~]{% else %}[x]{% endif %}</span>
+          <div>
+            <div class="t">{% if proj.url %}<a href="{{ proj.url }}">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %} <span style="color:var(--term-fg-faint);font-size:12px;">{{ proj.year }}</span></div>
+            <div class="stack">{% for s in proj.stack %}<span class="t-tag">{{ s }}</span>{% endfor %}</div>
           </div>
         </li>
       {% endfor %}
@@ -89,30 +73,20 @@ layout: default
   {% endif %}
 
   {% if site.data.work %}
-  <section class="v2-block">
-    <div class="v2-section-head">
-      <div class="v2-section-num">03</div>
-      <h2 class="v2-section-title">Where I've worked</h2>
-    </div>
-
-    <div class="v2-ledger">
+  <section class="blk">
+    <h2 class="t-h2"><span class="hash">##</span> ~/work <span class="rule" aria-hidden="true"></span> <a class="more" href="{{ '/work/' | relative_url }}">full_timeline →</a></h2>
+    <ul class="kv kv--dates">
       {% assign jobs = site.data.work | slice: 0, 5 %}
       {% for job in jobs %}
-        <div class="v2-ledger-row">
-          <span class="v2-ledger-year">{{ job.years }}</span>
-          <span class="v2-ledger-org">{{ job.org }}</span>
-          <span class="v2-ledger-role">{{ job.role }}</span>
-          {% if job.current %}<span class="v2-ledger-now">· now</span>{% endif %}
-        </div>
+        <li><span class="k">{{ job.years }}</span><span><b style="color:var(--term-fg-bright)">{{ job.org }}</b> — {{ job.role }}{% if job.current %} <span style="color:var(--neon)">· now</span>{% endif %}</span></li>
       {% endfor %}
-    </div>
-    <a class="v2-more" href="{{ '/work/' | relative_url }}">Full timeline →</a>
+    </ul>
   </section>
   {% endif %}
 
   {% assign first_year = site.posts.last.date | date: '%Y' %}
   {% capture home_status %}{{ site.posts.size }} posts · {% if site.data.projects %}{{ site.data.projects.size }} projects · {% endif %}archive since {{ first_year }}{% endcapture %}
   {% include colophon.html
-     body="Built by hand in Stamford, Lincolnshire."
+     body="Built by hand in Stamford, Lincolnshire — a Jekyll static site reskinned as a terminal."
      status=home_status %}
 </main>

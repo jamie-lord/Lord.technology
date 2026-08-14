@@ -1,12 +1,11 @@
-<section class="v2-colophon">
-  <div class="v2-colophon-rule" aria-hidden="true"></div>
+<section class="colophon">
   {% if include.body %}
     <p>{{ include.body }}</p>
   {% else %}
     <p>If you spotted a mistake or want to reply, <a href="mailto:{{ site.author.email }}">send me an email</a>.</p>
   {% endif %}
-  <div class="v2-sig-row">
-    {% if include.status %}<span class="v2-colophon-status">{{ include.status }}</span>{% endif %}
-    <span class="v2-sig">— jl</span>
+  <div class="sig-row">
+    {% if include.status %}<span class="status">{{ include.status }}</span>{% endif %}
+    <span class="sig">— jl</span>
   </div>
 </section>

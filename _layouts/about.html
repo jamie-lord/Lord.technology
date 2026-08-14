@@ -1,137 +1,47 @@
 ---
 layout: default
 ---
-<main class="page v2">
-  <section class="v2-page-head">
-    <div class="v2-hero-num" aria-hidden="true">04</div>
-    <div class="v2-stamp v2-stamp--about">
-      <div class="v2-stamp-row">PROFILE · {{ site.author.name | upcase }}</div>
-      <div class="v2-stamp-row">{{ site.author.location | upcase }}</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk">
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/about</span> <span class="sep">$</span> <span class="cmd">whoami</span> <span class="flag">--verbose</span><span class="cursor" aria-hidden="true"></span>
     </div>
-    <div class="v2-page-inner">
-      <div class="v2-hero-label">
-        <span class="v2-kicker">04 / About</span>
-      </div>
-      <h1 class="v2-hero-title">About me.</h1>
-    </div>
+    <h1 class="hero-title" style="font-size:var(--size-h2)">About me.</h1>
   </section>
 
-  <section class="v2-block v2-about-grid">
-    <aside class="v2-polaroid">
-      <div class="v2-polaroid-frame">
+  <section class="blk blk--tight">
+    <div class="about-grid">
+      <aside class="avatar">
         <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="1920" height="1920" loading="lazy" decoding="async">
-      </div>
-      <div class="v2-polaroid-caption">
-        <div class="v2-polaroid-name">{{ site.author.name }}</div>
-        <div class="v2-polaroid-sub">{{ site.author.location }} · he/him</div>
-      </div>
-    </aside>
+        <div class="cap">
+          <b>{{ site.author.name }}</b>
+          {{ site.author.location }} · he/him
+        </div>
+      </aside>
 
-    <div class="v2-about-body">
-      {{ content }}
+      <div class="prose">
+        {{ content }}
 
-      <figure class="v2-about-map" aria-label="Hand-drawn map of Stamford, Lincolnshire">
-        <svg viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
-          <!-- River Welland: runs west-to-east just south of the town centre -->
-          <path d="M2 80 C 22 76, 44 84, 66 82 S 108 85, 130 80 S 158 78, 158 80" fill="none" stroke="#0F1620" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
-          <path d="M2 84 C 22 80, 44 88, 66 86 S 108 89, 130 84 S 158 82, 158 84" fill="none" stroke="#0F1620" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
-
-          <!-- Town streets (north of the river) -->
-          <!-- Scotgate / St Paul's Street (N) -->
-          <path d="M20 30 L 128 32" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
-          <!-- High Street — the main east–west through the centre -->
-          <path d="M28 50 L 128 52" fill="none" stroke="#0F1620" stroke-width="0.8" opacity="0.5"/>
-          <!-- Broad Street (south of High Street) -->
-          <path d="M50 60 L 120 61" fill="none" stroke="#0F1620" stroke-width="0.55" opacity="0.4"/>
-          <!-- Wharf Road (along the north bank) -->
-          <path d="M40 74 L 118 75" fill="none" stroke="#0F1620" stroke-width="0.45" opacity="0.35"/>
-          <!-- St Mary's Hill (N–S, from the church down to the river) -->
-          <path d="M82 50 L 82 80" fill="none" stroke="#0F1620" stroke-width="0.7" opacity="0.5"/>
-          <!-- Barn Hill / St George's Street (N–S, east of centre) -->
-          <path d="M106 32 L 108 78" fill="none" stroke="#0F1620" stroke-width="0.55" opacity="0.4"/>
-          <!-- Diagonal NW (Scotgate into town) -->
-          <path d="M18 24 L 58 48" fill="none" stroke="#0F1620" stroke-width="0.5" opacity="0.35"/>
-          <!-- Short spurs north -->
-          <path d="M60 14 L 62 30" fill="none" stroke="#0F1620" stroke-width="0.4" opacity="0.3"/>
-          <path d="M96 14 L 98 30" fill="none" stroke="#0F1620" stroke-width="0.4" opacity="0.3"/>
-
-          <!-- South of the river — St Martin's area and roads out to the south -->
-          <path d="M70 86 L 54 112" fill="none" stroke="#0F1620" stroke-width="0.6" opacity="0.4"/>
-          <path d="M70 86 L 86 112" fill="none" stroke="#0F1620" stroke-width="0.55" opacity="0.35"/>
-
-          <!-- St Mary's Church tower — the landmark, central, north of the river -->
-          <g transform="translate(82,48)" stroke="#0F1620" stroke-width="0.9" fill="none" opacity="0.8">
-            <path d="M-3 8 L -3 -2 L 0 -8 L 3 -2 L 3 8 Z"/>
-            <line x1="0" y1="-8" x2="0" y2="-14"/>
-            <circle cx="0" cy="-15" r="0.8" fill="#0F1620"/>
-          </g>
-
-          <!-- St Martin's Church tower — south of the river, smaller -->
-          <g transform="translate(70,92)" stroke="#0F1620" stroke-width="0.7" fill="none" opacity="0.65">
-            <path d="M-2 5 L -2 -1 L 0 -5 L 2 -1 L 2 5 Z"/>
-            <line x1="0" y1="-5" x2="0" y2="-9"/>
-          </g>
-
-          <!-- Pin marker — town centre, near Red Lion Square / St Mary's -->
-          <g transform="translate(88,58)">
-            <path d="M0 -18 C -6 -18, -9 -12, -9 -8 C -9 -3, 0 6, 0 6 C 0 6, 9 -3, 9 -8 C 9 -12, 6 -18, 0 -18 Z" fill="#B8703A" stroke="#8E541F" stroke-width="0.8"/>
-            <circle cx="0" cy="-9" r="2.6" fill="#F6F1E8"/>
-          </g>
-
-          <!-- Labels -->
-          <text x="100" y="52" font-family="Source Serif 4, Georgia, serif" font-size="9" font-style="italic" fill="#0F1620" opacity="0.85">Stamford</text>
-          <text x="100" y="62" font-family="JetBrains Mono, monospace" font-size="5" letter-spacing="1" fill="#8E541F">52.65°N · 0.48°W</text>
-          <text x="10" y="78" font-family="Source Serif 4, Georgia, serif" font-size="5" font-style="italic" fill="#0F1620" opacity="0.5">Welland</text>
-          <text x="18" y="104" font-family="Source Serif 4, Georgia, serif" font-size="5" font-style="italic" fill="#0F1620" opacity="0.5">The Meadows</text>
-
-          <!-- Compass rose -->
-          <g transform="translate(142,14)" stroke="#0F1620" stroke-width="0.6" fill="none" opacity="0.55">
-            <circle cx="0" cy="0" r="6"/>
-            <path d="M0 -7 L 1.4 0 L 0 7 L -1.4 0 Z" fill="#0F1620"/>
-            <text x="-1.6" y="-9" font-family="JetBrains Mono, monospace" font-size="4" fill="#0F1620" stroke="none">N</text>
-          </g>
-
-          <!-- Scale bar -->
-          <g transform="translate(8,114)" stroke="#0F1620" stroke-width="0.6" opacity="0.6">
-            <line x1="0" y1="0" x2="24" y2="0"/>
-            <line x1="0" y1="-2" x2="0" y2="2"/>
-            <line x1="12" y1="-1.5" x2="12" y2="1.5"/>
-            <line x1="24" y1="-2" x2="24" y2="2"/>
-            <text x="0" y="5" font-family="JetBrains Mono, monospace" font-size="4" fill="#0F1620" stroke="none">0 — 500m</text>
-          </g>
-        </svg>
-        <figcaption class="v2-about-map-caption">
-          <strong>Stamford, Lincolnshire</strong>
-          Small stone town on the Welland. Quiet enough to think, an hour from anywhere that isn't.
-        </figcaption>
-      </figure>
-
-      {% if site.data.stack %}
-      <h3 class="v2-about-h3">
-        <span class="v2-about-h3-num">a.</span> What I use today
-      </h3>
-      <div class="v2-stack-grid">
-        {% for group in site.data.stack %}
-          <div class="v2-stack-item">
-            <div class="v2-stack-label">{{ group.label }}</div>
-            <div class="v2-stack-tags">
-              {% for t in group.items %}<span class="v2-tape">{{ t }}</span>{% endfor %}
+        {% if site.data.stack %}
+        <h3 class="about-h3"><span class="n">a.</span> What I use today</h3>
+        <div class="stack-grid">
+          {% for group in site.data.stack %}
+            <div class="stack-item">
+              <div class="lbl">{{ group.label }}</div>
+              <div>{% for t in group.items %}<span class="t-tag">{{ t }}</span>{% endfor %}</div>
             </div>
-          </div>
-        {% endfor %}
-      </div>
-      {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
 
-      <h3 class="v2-about-h3">
-        <span class="v2-about-h3-num">b.</span> Say hello
-      </h3>
-      <ul class="v2-contact-list">
-        <li><span class="v2-contact-key">Email</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-        <li><span class="v2-contact-key">GitHub</span><a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></li>
-        <li><span class="v2-contact-key">LinkedIn</span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">linkedin.com/in/{{ site.author.linkedin }}</a></li>
-        <li><span class="v2-contact-key">RSS</span><a href="{{ '/feed.xml' | relative_url }}">/feed.xml</a></li>
-      </ul>
+        <h3 class="about-h3"><span class="n">b.</span> Say hello</h3>
+        <ul class="kv">
+          <li><span class="k">email</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><span class="k">github</span><a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></li>
+          <li><span class="k">linkedin</span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">linkedin.com/in/{{ site.author.linkedin }}</a></li>
+          <li><span class="k">rss</span><a href="{{ '/feed.xml' | relative_url }}">/feed.xml</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 

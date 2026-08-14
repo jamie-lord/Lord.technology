@@ -5,47 +5,31 @@ layout: default
 {% assign years = "" | split: "," %}
 {% for p in projects %}{% assign years = years | push: p.year %}{% endfor %}
 {% assign years = years | uniq | sort | reverse %}
-<main class="page v2 no-wobble">
-  <section class="v2-page-head">
-    <div class="v2-hero-num" aria-hidden="true">02</div>
-    <div class="v2-stamp v2-stamp--projects">
-      <div class="v2-stamp-row">LEDGER · {{ projects.size }}+ ENTRIES</div>
-      <div class="v2-stamp-row">{{ years | last }} — {{ years | first }}</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk">
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/projects</span> <span class="sep">$</span> <span class="cmd">ls</span> <span class="flag">-la --sort=year</span><span class="cursor" aria-hidden="true"></span>
     </div>
-
-    <div class="v2-page-inner">
-      <div class="v2-hero-label">
-        <span class="v2-kicker">02 / Projects</span>
-      </div>
-      <h1 class="v2-hero-title">Projects.</h1>
-      <p class="v2-hero-sub">{{ projects.size }} things I've built, in chronological order.</p>
-    </div>
+    <h1 class="hero-title" style="font-size:var(--size-h2)">Projects.</h1>
+    <p class="hero-sub">{{ projects.size }} things I've built, in chronological order. <span style="color:var(--neon)">[x]</span> shipped · <span style="color:var(--amber)">[~]</span> work in progress.</p>
   </section>
 
   {% for year in years %}
     {% assign year_projects = projects | where: 'year', year %}
-    <section class="v2-block v2-block-tight">
-      <div class="v2-year-head">
-        <span class="v2-year-num">{{ year }}</span>
-        <span class="v2-year-rule" aria-hidden="true"></span>
-        <span class="v2-year-count">{{ year_projects.size }} project{% if year_projects.size != 1 %}s{% endif %}</span>
+    <section class="blk blk--tight">
+      <div class="year-head">
+        <span class="yr">{{ year }}</span>
+        <span class="rule" aria-hidden="true"></span>
+        <span class="n">{{ year_projects.size }} entr{% if year_projects.size == 1 %}y{% else %}ies{% endif %}</span>
       </div>
-      <ol class="v2-proj-list v2-proj-list--grouped">
+      <ol class="ledger">
         {% for proj in year_projects %}
-          <li class="v2-proj">
-            <span class="v2-proj-year">{{ proj.year }}</span>
-            <span class="v2-proj-check{% if proj.wip %} v2-proj-check--wip{% endif %}" aria-hidden="true">{% if proj.wip %}◦{% else %}✓{% endif %}</span>
-            <div class="v2-proj-main">
-              <h3 class="v2-proj-title">{% if proj.url %}<a href="{{ proj.url }}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
-              {% if proj.stack and proj.stack.size > 0 %}
-              <div class="v2-proj-stack">
-                {% for s in proj.stack %}<span class="v2-tape">{{ s }}</span>{% endfor %}
-              </div>
-              {% endif %}
-              {% if proj.post %}
-              <a class="v2-proj-post" href="{{ proj.post }}">write-up &rarr;</a>
-              {% endif %}
+          <li>
+            <span class="box{% if proj.wip %} wip{% endif %}" aria-hidden="true">{% if proj.wip %}[~]{% else %}[x]{% endif %}</span>
+            <div>
+              <div class="t">{% if proj.url %}<a href="{{ proj.url }}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</div>
+              {% if proj.stack and proj.stack.size > 0 %}<div class="stack">{% for s in proj.stack %}<span class="t-tag">{{ s }}</span>{% endfor %}</div>{% endif %}
+              {% if proj.post %}<a class="writeup" href="{{ proj.post }}">→ write-up</a>{% endif %}
             </div>
           </li>
         {% endfor %}

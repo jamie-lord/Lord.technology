@@ -37,73 +37,47 @@ layout: default
   ]
 }
 </script>
-<main class="page v2">
-  <section class="v2-page-head v2-post-head-wrap">
-    <div class="v2-hero-num" aria-hidden="true">01</div>
-    <div class="v2-stamp v2-stamp--entry">
-      <div class="v2-stamp-row">ENTRY · {{ page.date | date: '%Y' }}</div>
-      <div class="v2-stamp-row">{{ minutes }} MIN · {{ cat | upcase }}</div>
-      <div class="v2-stamp-mark">[ jl ]</div>
+<main class="page">
+  <section class="blk post-head">
+    <a href="{{ '/writing/' | relative_url }}" class="back">← cd ../writing</a>
+    <div class="prompt">
+      <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/writing</span> <span class="sep">$</span> <span class="cmd">cat</span> <span class="flag">{{ page.url | split: '/' | last }}</span>
     </div>
-
-    <div class="v2-page-inner">
-      <a href="{{ '/writing/' | relative_url }}" class="v2-back">← Back to writing</a>
-
-      <div class="v2-post-hero-row">
-        <time class="v2-post-date v2-post-date--big" datetime="{{ page.date | date_to_xmlschema }}">
-          <span class="v2-post-day">{{ page.date | date: '%d' }}</span>
-          <span class="v2-post-mo">{{ page.date | date: '%b' | upcase }}</span>
-          <span class="v2-post-yr">'{{ page.date | date: '%y' }}</span>
-        </time>
-        <div class="v2-post-hero-body">
-          <span class="v2-stamp-cat">{{ cat }}</span>
-          <h1 class="v2-post-h1">{{ page.title }}</h1>
-          <div class="v2-post-meta-top">
-            <span>By <a href="{{ '/about/' | relative_url }}" rel="author">{{ site.author.name }}</a></span>
-            <span class="v2-post-sep">·</span>
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y' }}</time>
-            <span class="v2-post-sep">·</span>
-            <span>{{ minutes }} min read</span>
-            <span class="v2-post-slug-meta"><span class="v2-post-sep">·</span> <span class="v2-post-slug">{{ page.url }}</span></span>
-          </div>
-        </div>
-      </div>
+    <span class="t-cat">{{ cat }}</span>
+    <h1 class="title">{{ page.title }}</h1>
+    <div class="byline">
+      By <a href="{{ '/about/' | relative_url }}" rel="author">{{ site.author.name }}</a>
+      <span class="sep">·</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %b %Y' | downcase }}</time>
+      <span class="sep">·</span>{{ minutes }} min read
     </div>
   </section>
 
-  <section class="v2-block v2-block-tight">
-    <article class="v2-post-article">
-      <div class="v2-post-body-v3">
-        {% if page.link %}
-          {% assign linkhost = page.link | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
-          <div class="v2-post-link-cta">
-            <a href="{{ page.link }}" target="_blank" rel="noopener">Read it on {{ linkhost }} <span aria-hidden="true">↗</span></a>
-          </div>
-        {% endif %}
-        {{ content }}
+  <section class="blk blk--tight">
+    <article class="prose">
+      {% if page.link %}
+        {% assign linkhost = page.link | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
+        <div class="linkcta">↗ <a href="{{ page.link }}" target="_blank" rel="noopener">Read it on {{ linkhost }}</a></div>
+      {% endif %}
+      {{ content }}
 
-        <div class="v2-post-footer">
-          <div class="v2-post-footer-rule" aria-hidden="true"></div>
-          {% if page.tags and page.tags.size > 0 %}
-          <div class="v2-post-tags">
-            <span class="v2-post-tags-label">Tagged</span>
-            {% for t in page.tags %}<span class="v2-tape">{{ t }}</span>{% endfor %}
-          </div>
-          {% endif %}
-          {% comment %}
-            page.previous = older post (earlier in time), page.next = newer.
-            Older reads left, newer reads right.
-          {% endcomment %}
-          <nav class="v2-post-nav" aria-label="Adjacent posts">
-            <div class="v2-post-nav-prev">
-              {% if page.previous %}<a href="{{ page.previous.url | relative_url }}" rel="prev"><span class="v2-post-nav-label">← Older</span><span class="v2-post-nav-title">{{ page.previous.title }}</span></a>{% endif %}
-            </div>
-            <span class="v2-post-nav-sig" aria-hidden="true">— jl</span>
-            <div class="v2-post-nav-next">
-              {% if page.next %}<a href="{{ page.next.url | relative_url }}" rel="next"><span class="v2-post-nav-label">Newer →</span><span class="v2-post-nav-title">{{ page.next.title }}</span></a>{% endif %}
-            </div>
-          </nav>
+      <div class="post-foot">
+        {% if page.tags and page.tags.size > 0 %}
+        <div class="post-tags">
+          <span class="lbl">tagged</span>
+          {% for t in page.tags %}<span class="t-tag">{{ t }}</span>{% endfor %}
         </div>
+        {% endif %}
+        {% comment %} page.previous = older; page.next = newer. {% endcomment %}
+        <nav class="post-nav" aria-label="Adjacent posts">
+          <div class="prev">
+            {% if page.previous %}<a href="{{ page.previous.url | relative_url }}" rel="prev"><span class="l">← older</span><span class="tt">{{ page.previous.title }}</span></a>{% endif %}
+          </div>
+          <span class="sig" aria-hidden="true">— jl</span>
+          <div class="next">
+            {% if page.next %}<a href="{{ page.next.url | relative_url }}" rel="next"><span class="l">newer →</span><span class="tt">{{ page.next.title }}</span></a>{% endif %}
+          </div>
+        </nav>
       </div>
     </article>
   </section>

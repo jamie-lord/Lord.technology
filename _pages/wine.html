@@ -42,11 +42,11 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   #shop-chips::-webkit-scrollbar { display: none; }
   #shop-chips .wchip { flex: 0 0 auto; }
   .wchip { font-family: var(--font-mono); font-size: 13px; line-height: 1; cursor: pointer;
-    padding: 8px 11px; border: var(--border-hair) solid var(--border-strong); border-radius: 999px;
+    padding: 8px 11px; border: var(--border-hair) solid var(--border-strong); border-radius: 0;
     background: transparent; color: var(--ink); display: inline-flex; align-items: center; gap: 6px;
     transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease); }
-  .wchip:hover { background: var(--fog); }
-  .wchip.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .wchip:hover { background: var(--fog); border-color: var(--neon-dim); }
+  .wchip.is-active { background: var(--neon); color: var(--term-bg); border-color: var(--neon); }
   .wchip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dot, var(--slate)); display: inline-block; }
   .wchip[data-type="white"]    { --dot: #B8912E; }
   .wchip[data-type="red"]      { --dot: #8C2A1F; }
@@ -71,7 +71,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
     background: var(--paper); padding: 6px 0; border-bottom: var(--border-hair) solid var(--border); }
   .wine-group-head h2 { font-family: var(--font-display); font-size: 1.15rem; letter-spacing: var(--ls-display);
     text-transform: uppercase; margin: 0; color: var(--ink); display: flex; align-items: center; gap: 9px; }
-  .wine-group-head .bar { width: 14px; height: 14px; border-radius: 3px; background: var(--gc, var(--slate)); }
+  .wine-group-head .bar { width: 14px; height: 14px; border-radius: 0; background: var(--gc, var(--slate)); }
   .wine-group[data-type-group="white"]     { --gc: #B8912E; }
   .wine-group[data-type-group="red"]       { --gc: #8C2A1F; }
   .wine-group[data-type-group="rose"]      { --gc: #C0607A; }
@@ -81,19 +81,19 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
 
   .wine-card { display: grid; grid-template-columns: 6px 1fr auto; gap: 0 14px; align-items: start;
     padding: 13px 0; border-bottom: var(--border-hair) solid var(--border); }
-  .wine-card .accent { grid-row: 1 / span 3; align-self: stretch; border-radius: 3px; background: var(--gc, var(--slate)); }
+  .wine-card .accent { grid-row: 1 / span 3; align-self: stretch; border-radius: 0; background: var(--gc, var(--slate)); }
   .wine-main { min-width: 0; }
   .wine-name { font-family: var(--font-body); font-weight: 600; font-size: 17px; line-height: 1.25; color: var(--ink); }
   .wine-meta { font-family: var(--font-mono); font-size: 12px; color: var(--slate); margin-top: 3px; }
   .wine-note { font-family: var(--font-body); font-size: 14px; color: var(--ink); opacity: .82; margin-top: 5px; line-height: 1.4; }
   .wine-shops { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
-  .wine-shop { font-family: var(--font-mono); font-size: 11px; padding: 3px 7px; border-radius: 3px;
+  .wine-shop { font-family: var(--font-mono); font-size: 11px; padding: 3px 7px; border-radius: 0;
     background: var(--fog); color: var(--ink); }
   .wine-aside { grid-column: 3; grid-row: 1 / span 3; display: flex; flex-direction: column; align-items: flex-end;
     gap: 6px; text-align: right; max-width: 40vw; }
   .wine-price { font-family: var(--font-display); font-weight: 600; font-size: 16px; color: var(--ink); line-height: 1.2; }
   .wine-badge { font-family: var(--font-mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
-    padding: 2px 6px; border-radius: 3px; display: inline-block; }
+    padding: 2px 6px; border-radius: 0; display: inline-block; }
   .wine-badge.class { background: var(--ink); color: var(--paper); }
   .wine-badge.rec { background: transparent; color: var(--slate); border: var(--border-hair) solid var(--border-strong); }
   .wine-src { display: block; margin-top: 6px; font-family: var(--font-mono); font-size: 11px; color: var(--copper-deep); }
