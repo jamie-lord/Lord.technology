@@ -334,9 +334,10 @@ html { scroll-padding-top: 72px; }
 .prompt .cmd { color: var(--term-fg-bright); }
 .prompt .flag { color: var(--term-fg-dim); }
 
-.cursor { display: inline-block; width: .62ch; height: 0.95em; margin-left: 2px;
+/* Block cursor sized to a character cell: near-full-width, cap-height, bottom
+   flush on the text baseline so it matches the glyphs beside it. */
+.cursor { display: inline-block; width: .85ch; height: .78em; margin-left: 2px;
   background: var(--neon); box-shadow: var(--glow); vertical-align: baseline;
-  transform: translateY(0.05em);
   animation: blink 1.05s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 
