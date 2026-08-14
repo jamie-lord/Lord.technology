@@ -296,10 +296,10 @@ html { scroll-padding-top: 72px; }
   padding: 5px 10px; border: 1px solid transparent; border-bottom: none;
   letter-spacing: .02em;
 }
-.masthead nav a::before { content: "./"; color: var(--term-fg-faint); }
+.masthead nav a::before { content: "./"; color: var(--term-fg-faint); display: inline-block; min-width: 2ch; white-space: nowrap; }
 .masthead nav a:hover { color: var(--neon); text-shadow: var(--glow); }
 .masthead nav a.active { color: var(--term-bg); background: var(--neon); text-shadow: none; }
-.masthead nav a.active::before { content: ">"; color: var(--term-bg); margin-right: 2px; }
+.masthead nav a.active::before { content: ">"; color: var(--term-bg); }
 
 /* =====================================================================
    terminal primitives
@@ -320,8 +320,9 @@ html { scroll-padding-top: 72px; }
 .prompt .cmd { color: var(--term-fg-bright); }
 .prompt .flag { color: var(--term-fg-dim); }
 
-.cursor { display: inline-block; width: .62ch; height: 1.05em; margin-left: 2px;
-  background: var(--neon); box-shadow: var(--glow); vertical-align: text-bottom;
+.cursor { display: inline-block; width: .62ch; height: 0.95em; margin-left: 2px;
+  background: var(--neon); box-shadow: var(--glow); vertical-align: baseline;
+  transform: translateY(0.05em);
   animation: blink 1.05s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 
