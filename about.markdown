@@ -1,5 +1,6 @@
 ---
 title: About me
+description: "Jamie Lord — Solution Architect at CDS, writing about software architecture, Cloudflare and agentic engineering from Stamford, Lincolnshire."
 permalink: /about/
 layout: about
 nav_key: about

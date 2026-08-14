@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="page">
   <section class="blk">
-    <div class="prompt">
+    <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/about</span> <span class="sep">$</span> <span class="cmd">whoami</span> <span class="flag">--verbose</span><span class="cursor" aria-hidden="true"></span>
     </div>
     <h1 class="hero-title" style="font-size:var(--size-h2)">About me.</h1>
@@ -23,7 +23,7 @@ layout: default
         {{ content }}
 
         {% if site.data.stack %}
-        <h3 class="about-h3"><span class="n">a.</span> What I use today</h3>
+        <h2 class="about-h2"><span class="n">a.</span> What I use today</h2>
         <div class="stack-grid">
           {% for group in site.data.stack %}
             <div class="stack-item">
@@ -34,7 +34,7 @@ layout: default
         </div>
         {% endif %}
 
-        <h3 class="about-h3"><span class="n">b.</span> Say hello</h3>
+        <h2 class="about-h2"><span class="n">b.</span> Say hello</h2>
         <ul class="kv">
           <li><span class="k">email</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           <li><span class="k">github</span><a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></li>

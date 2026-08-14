@@ -1,5 +1,6 @@
 ---
 title: Writing
+description: "Short essays and link notes by Jamie Lord on software architecture, Cloudflare, agentic engineering and edge computing — an archive going back to 2013."
 permalink: /writing/
 layout: writing
 nav_key: writing
