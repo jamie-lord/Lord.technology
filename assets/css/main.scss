@@ -411,6 +411,9 @@ html { scroll-padding-top: 72px; }
 .btn:hover::before, .btn:hover::after { color: var(--term-bg); }
 .btn--ghost { color: var(--term-fg-dim); border-color: var(--term-border-2); background: transparent; }
 .btn--ghost:hover { color: var(--cyan); background: rgba(41,224,255,.06); border-color: var(--cyan-dim); box-shadow: var(--glow-cyan); }
+/* The ghost button doesn't fill on hover, so its brackets must stay visible —
+   override the primary button's dark-bracket rule with a dim cyan. */
+.btn--ghost:hover::before, .btn--ghost:hover::after { color: var(--cyan-dim); }
 
 /* =====================================================================
    post list (home + writing)
