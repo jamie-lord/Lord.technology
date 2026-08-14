@@ -383,6 +383,8 @@ html { scroll-padding-top: 72px; }
    post list (home + writing)
    ===================================================================== */
 .t-list { list-style: none; margin: 0; padding: 0; }
+.t-list > li { display: block; }
+.t-list > li::before { content: none; }
 .t-row {
   display: grid; grid-template-columns: 92px 1fr; gap: 0 18px;
   padding: 14px 12px; border: 1px solid transparent; border-bottom: 1px solid var(--term-border);
@@ -486,9 +488,9 @@ html { scroll-padding-top: 72px; }
   border-top: 1px solid var(--term-border); margin-top: 8px; }
 .avatar .cap b { color: var(--neon); display: block; font-weight: 700; }
 
-.about-h3 { font-family: var(--font-display); font-size: 16px; color: var(--term-fg-bright); letter-spacing: .04em;
-  margin: 28px 0 12px; }
-.about-h3 .n { color: var(--neon); }
+.about-h2 { font-family: var(--font-display); font-size: 16px; color: var(--term-fg-bright); letter-spacing: .04em;
+  margin: 28px 0 12px; font-weight: 400; }
+.about-h2 .n { color: var(--neon); }
 
 .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
 .stack-item .lbl { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;

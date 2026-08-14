@@ -30,7 +30,7 @@ layout: default
 <main class="page">
   <section class="blk post-head">
     <a href="{{ '/projects/' | relative_url }}" class="back">← cd ../projects</a>
-    <div class="prompt">
+    <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/projects</span> <span class="sep">$</span> <span class="cmd">cat</span> <span class="flag">{{ page.url | split: '/' | last }}</span>
     </div>
     <h1 class="title">{{ page.title }}</h1>

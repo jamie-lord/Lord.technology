@@ -10,7 +10,7 @@
   <div class="app">
     <div class="wrap">
       <div class="term">
-        <div class="term__bar">
+        <div class="term__bar" aria-hidden="true">
           <span class="term__dots" aria-hidden="true"><i></i><i></i><i></i></span>
           {% if page.nav_key == 'home' %}{% assign term_path = '' %}{% elsif page.nav_key %}{% assign term_path = page.nav_key | prepend: '/' %}{% elsif page.layout == 'post' %}{% assign term_path = '/writing' %}{% elsif page.layout == 'project' %}{% assign term_path = '/projects' %}{% else %}{% assign term_path = '' %}{% endif %}
           <span class="term__title">{% if page.title %}<b>{{ page.title | downcase }}</b> — {% endif %}jamie@lord.technology: ~{{ term_path }}</span>
@@ -26,5 +26,24 @@
     </div>
     {% include footer.html %}
   </div>
+  <script>
+    /* Make horizontally-scrollable code blocks reachable and scrollable by
+       keyboard (WCAG 2.1.1); only the ones that actually overflow. */
+    (function () {
+      function mark() {
+        document.querySelectorAll('.prose pre').forEach(function (p) {
+          if (p.scrollWidth > p.clientWidth + 1) {
+            p.setAttribute('tabindex', '0');
+            p.setAttribute('role', 'group');
+            if (!p.hasAttribute('aria-label')) p.setAttribute('aria-label', 'Code block, scrollable');
+          } else {
+            p.removeAttribute('tabindex'); p.removeAttribute('role'); p.removeAttribute('aria-label');
+          }
+        });
+      }
+      window.addEventListener('load', mark);
+      window.addEventListener('resize', mark);
+    })();
+  </script>
 </body>
 </html>

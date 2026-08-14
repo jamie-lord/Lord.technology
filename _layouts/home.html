@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="page">
   <section class="hero">
-    <pre class="banner" aria-label="lord.technology">██╗      ██████╗ ██████╗ ██████╗
+    <pre class="banner" role="img" aria-label="lord.technology">██╗      ██████╗ ██████╗ ██████╗
 ██║     ██╔═══██╗██╔══██╗██╔══██╗
 ██║     ██║   ██║██████╔╝██║  ██║
 ██║     ██║   ██║██╔══██╗██║  ██║
@@ -11,7 +11,7 @@ layout: default
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝</pre>
     <div class="banner-sub"><span class="c">//</span> <b>lord.technology</b> <span class="s">—</span> software, writing &amp; side-projects · est. 2013</div>
 
-    <div class="prompt">
+    <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~</span> <span class="sep">$</span> <span class="cmd">whoami</span><span class="cursor" aria-hidden="true"></span>
     </div>
 
@@ -37,7 +37,7 @@ layout: default
         {% assign cat = post.categories | first | default: 'notes' %}
         {% assign words = post.content | number_of_words %}
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
-        {% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener">{% else %}<a class="t-row" href="{{ post.url | relative_url }}">{% endif %}
+        <li>{% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener">{% else %}<a class="t-row" href="{{ post.url | relative_url }}">{% endif %}
           <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
             <b>{{ post.date | date: '%d' }}</b>
             <span>{{ post.date | date: '%b' | upcase }}</span>
@@ -49,7 +49,7 @@ layout: default
             {% unless post.link and post.excerpt == empty %}<p class="ex">{{ post.excerpt | strip_html | truncatewords: 28, "…" }}</p>{% endunless %}
             <div class="meta">{{ minutes }} min<span class="slug"> · {% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}</span></div>
           </div>
-        </a>
+        </a></li>
       {% endfor %}
     </ul>
   </section>
