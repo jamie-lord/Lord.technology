@@ -334,9 +334,11 @@ html { scroll-padding-top: 72px; }
 .prompt .cmd { color: var(--term-fg-bright); }
 .prompt .flag { color: var(--term-fg-dim); }
 
-/* Block cursor sized to a character cell: near-full-width, cap-height, bottom
-   flush on the text baseline so it matches the glyphs beside it. */
-.cursor { display: inline-block; width: .85ch; height: .78em; margin-left: 2px;
+/* Block cursor exactly cap-height (the `cap` unit is the font's own cap height;
+   the em value is a fallback for browsers without cap-unit support), sitting on
+   the text baseline — so it's as tall as the capitals/ascenders beside it and
+   never dips below the line. */
+.cursor { display: inline-block; width: .9ch; height: .72em; height: 1cap; margin-left: 2px;
   background: var(--neon); box-shadow: var(--glow); vertical-align: baseline;
   animation: blink 1.05s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
