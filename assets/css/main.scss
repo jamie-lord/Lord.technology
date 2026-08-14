@@ -283,6 +283,20 @@ html { scroll-padding-top: 72px; }
 .brand .mark { font-family: var(--font-mono); color: var(--neon); text-shadow: var(--glow);
   font-weight: 700; letter-spacing: .04em; }
 .brand .mark .b { color: var(--neon-dim); }
+/* [jl] logo: a colour gradient drifts through the whole monogram. Solid neon
+   above is the fallback where background-clip:text is unsupported. */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .brand .mark {
+    color: transparent; -webkit-text-fill-color: transparent; text-shadow: none;
+    background: linear-gradient(100deg, var(--neon), var(--cyan), var(--neon));
+    background-size: 300% 100%;
+    -webkit-background-clip: text; background-clip: text;
+    filter: drop-shadow(0 0 5px rgba(0, 255, 156, .4));
+    animation: jl-drift 7s linear infinite;
+  }
+  .brand .mark .b { color: transparent; -webkit-text-fill-color: transparent; }
+}
+@keyframes jl-drift { to { background-position: 300% 0; } }
 .brand .wm { font-family: var(--font-display); font-size: 16px; letter-spacing: .06em; color: var(--term-fg); }
 .brand .wm .tld { color: var(--term-fg-dim); }
 .brand:hover .wm { color: var(--term-fg-bright); }
@@ -356,6 +370,23 @@ html { scroll-padding-top: 72px; }
 .banner { font-family: var(--font-mono); color: var(--neon); text-shadow: var(--glow);
   font-size: clamp(9px, 2.7vw, 19px); line-height: 1.0; margin: 0 0 12px; white-space: pre;
   overflow-x: auto; letter-spacing: 0; display: block; }
+/* Aurora drift: layered gradients crawl through the glyphs. Solid neon above is
+   the fallback where background-clip:text is unsupported (e.g. old iOS Safari). */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .banner {
+    color: transparent; -webkit-text-fill-color: transparent; text-shadow: none;
+    background:
+      radial-gradient(60% 140% at 20% 30%, var(--neon) 0%, transparent 55%),
+      radial-gradient(55% 130% at 75% 55%, var(--cyan) 0%, transparent 55%),
+      radial-gradient(60% 130% at 45% 85%, #7af7c8 0%, transparent 55%),
+      linear-gradient(var(--neon-deep), var(--neon-deep));
+    background-size: 200% 200%;
+    -webkit-background-clip: text; background-clip: text;
+    filter: drop-shadow(0 0 6px rgba(0, 255, 156, .3));
+    animation: aurora 16s ease-in-out infinite alternate;
+  }
+}
+@keyframes aurora { from { background-position: 0% 0%; } to { background-position: 100% 100%; } }
 .banner-sub { font-family: var(--font-mono); font-size: 13px; color: var(--term-fg-dim);
   letter-spacing: .02em; margin: 0 0 22px; }
 .banner-sub b { color: var(--term-fg-bright); font-weight: 500; }
@@ -660,4 +691,5 @@ html { scroll-padding-top: 72px; }
 @media (prefers-reduced-motion: reduce) {
   .cursor { animation: none; }
   .crt-flicker { animation: none; opacity: .5; }
+  .banner, .brand .mark { animation: none; }
 }
