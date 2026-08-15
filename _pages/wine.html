@@ -26,8 +26,10 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   .wine-lede { font-family: var(--font-body); color: var(--slate); max-width: 60ch; line-height: var(--lh-normal); }
   .wine-lede a { color: var(--copper-deep); }
 
-  /* Sticky control panel */
-  .wine-controls { position: sticky; top: var(--mast-h, 60px); z-index: 20; background: var(--paper);
+  /* Control panel. On phones the wrapped shop list makes this tall, so it
+     scrolls with the page there; it only pins (sticky) on wider screens
+     below, where the chips fit in a couple of rows. */
+  .wine-controls { z-index: 20; background: var(--paper);
     border-top: var(--border-hair) solid var(--border); border-bottom: var(--border-emph) solid var(--ink);
     padding: 10px 0; margin: 8px calc(-1 * var(--gutter-sm)) 0; }
   .wine-controls-inner { padding: 0 var(--gutter-sm); display: flex; flex-direction: column; gap: 9px; }
@@ -35,12 +37,9 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   .wine-row-label { flex: 0 0 auto; font-family: var(--font-mono); font-size: 11px; letter-spacing: var(--ls-label);
     text-transform: uppercase; color: var(--slate); padding-top: 8px; width: 44px; }
   .wine-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 auto; min-width: 0; }
-  /* Shop list is long — keep it to one compact swipeable row on mobile. */
-  #shop-chips { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
-    padding-bottom: 2px; -webkit-mask-image: linear-gradient(to right, #000 94%, transparent);
-    mask-image: linear-gradient(to right, #000 94%, transparent); }
-  #shop-chips::-webkit-scrollbar { display: none; }
-  #shop-chips .wchip { flex: 0 0 auto; }
+  /* Shop list is long — let it wrap onto as many rows as it needs so no
+     chip ever runs off the right edge on a narrow screen. */
+  #shop-chips { flex-wrap: wrap; }
   .wchip { font-family: var(--font-mono); font-size: 13px; line-height: 1; cursor: pointer;
     padding: 8px 11px; border: var(--border-hair) solid var(--border-strong); border-radius: 0;
     background: transparent; color: var(--ink); display: inline-flex; align-items: center; gap: 6px;
@@ -117,10 +116,8 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
 
   @media (min-width: 620px) {
     .wine { padding: 0 32px; }
-    .wine-controls { margin: 8px -32px 0; }
+    .wine-controls { margin: 8px -32px 0; position: sticky; top: var(--mast-h, 60px); }
     .wine-controls-inner { padding: 0 32px; }
-    /* Room to wrap all shops on wider screens — no horizontal scroll needed. */
-    #shop-chips { flex-wrap: wrap; overflow: visible; -webkit-mask-image: none; mask-image: none; }
   }
   @media (max-width: 380px) {
     .wine-row { flex-direction: column; gap: 4px; }
