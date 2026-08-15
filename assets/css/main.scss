@@ -643,13 +643,10 @@ html { scroll-padding-top: 72px; }
 .post-nav .tt { display: block; color: var(--cyan); line-height: 1.3; }
 .post-nav a:hover .tt { text-shadow: var(--glow-cyan); }
 .post-nav .next { text-align: right; }
-.post-nav .sig { color: var(--neon); font-family: var(--font-mono); align-self: center; }
-/* On phones the older/signature/newer row crushes into three cramped columns
-   and the centred "— jl" flourish breaks mid-token onto two lines. Stack the
-   two entries and drop the decorative signature so each gets the full width. */
+/* On phones the older/newer row crushes into two cramped columns. Stack the
+   two entries so each gets the full width. */
 @media (max-width: 640px) {
   .post-nav { flex-direction: column; gap: 20px; }
-  .post-nav .sig { display: none; }
   .post-nav .next { text-align: left; }
   .post-nav a { max-width: none; }
 }
