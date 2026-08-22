@@ -8,6 +8,28 @@
   stack: [TypeScript, Node.js, SQLite, SMTP, IMAP4rev2, DKIM/SPF/DMARC]
 
 - year: 2026
+  title: cutibrowser — a from-scratch desktop browser for the document web, with zero runtime dependencies
+  wip: true
+  stack: [TypeScript, Node.js FFI, macOS frameworks]
+
+- year: 2026
+  title: RADAR — an air-traffic-control scope over live ADS-B data
+  stack: [Node.js, SQLite, vanilla JS, HTML Canvas, ADS-B Exchange]
+
+- year: 2026
+  title: What's that flight? — the aircraft overhead right now, as a map of your sky
+  stack: [TypeScript, Cloudflare Workers, vanilla JS, ADS-B Exchange]
+
+- year: 2026
+  title: world — an infinite, procedurally generated natural world to walk and fly through
+  wip: true
+  stack: [TypeScript, Three.js, WebGPU, Vite, Web Workers]
+
+- year: 2026
+  title: tiny-hn — the Hacker News front page as one tiny, no-JS HTML file
+  stack: [Cloudflare Workers, HTMLRewriter, Hacker News API]
+
+- year: 2026
   title: paint — a from-scratch GPU oil-painting engine and autonomous painter
   wip: true
   stack: [TypeScript, WebGPU, WGSL, Vite]
