@@ -10,21 +10,48 @@ layout: default
     <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/projects</span> <span class="sep">$</span> <span class="cmd">ls</span> <span class="flag">-la --sort=year</span><span class="cursor" aria-hidden="true"></span>
     </div>
-    <h1 class="hero-title" style="font-size:var(--size-h2)">Projects.</h1>
-    <p class="hero-sub">{{ projects.size }} things I've built, in chronological order. <span style="color:var(--neon)">[x]</span> shipped · <span style="color:var(--amber)">[~]</span> work in progress.</p>
+    <h1 class="hero-title page-title">Projects.</h1>
+    <p class="hero-sub project-state">{{ projects.size }} things I've built, in chronological order. <span class="done">[x]</span> shipped · <span class="wip">[~]</span> work in progress.</p>
   </section>
 
-  {% for year in years %}
-    {% assign year_projects = projects | where: 'year', year %}
-    <section class="blk blk--tight">
-      <div class="year-head">
-        <span class="yr">{{ year }}</span>
-        <span class="rule" aria-hidden="true"></span>
-        <span class="n">{{ year_projects.size }} entr{% if year_projects.size == 1 %}y{% else %}ies{% endif %}</span>
+  <section class="blk blk--tight">
+    <div class="archive-tools">
+      <div class="archive-search-row" role="search" aria-label="Search projects">
+        <label class="archive-search" for="projects-search">
+          <span class="archive-search-label">find</span>
+          <input id="projects-search" type="search" placeholder="project or technology"
+            aria-label="Search projects by name or technology" autocomplete="off" spellcheck="false">
+        </label>
+        <button class="archive-clear" id="projects-clear" type="button" hidden>clear</button>
+        <span class="archive-count" id="projects-count" role="status" aria-live="polite" aria-atomic="true">{{ projects.size }} projects</span>
       </div>
-      <ol class="ledger">
+      <div class="filter" id="projects-filter" role="group" aria-label="Filter projects by status">
+        <span class="lbl" aria-hidden="true">status</span>
+        <button class="chip is-active" type="button" data-status="all" aria-pressed="true">all</button>
+        <button class="chip" type="button" data-status="shipped" aria-pressed="false">shipped</button>
+        <button class="chip" type="button" data-status="wip" aria-pressed="false">in progress</button>
+      </div>
+      <nav class="archive-jump" aria-label="Project archive by year">
+        <span class="lbl">year</span>
+        {% for year in years %}<a href="#projects-{{ year }}">{{ year }}</a>{% endfor %}
+      </nav>
+    </div>
+
+    <div class="archive" id="projects-list" data-collapsible-archive>
+    {% for year in years %}
+    {% assign year_projects = projects | where: 'year', year %}
+      <section class="archive-year" id="projects-{{ year }}" data-archive-year="{{ year }}">
+      <div class="archive-year-head">
+        <h2 id="projects-heading-{{ year }}">{{ year }}</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <span class="year-count">{{ year_projects.size }} project{% unless year_projects.size == 1 %}s{% endunless %}</span>
+        <button class="archive-toggle" type="button" aria-expanded="true"
+          aria-controls="projects-list-{{ year }}" aria-label="Hide {{ year }} projects">hide</button>
+      </div>
+      <ol class="ledger archive-year-list" id="projects-list-{{ year }}" aria-labelledby="projects-heading-{{ year }}">
         {% for proj in year_projects %}
-          <li>
+          {% capture project_search %}{{ proj.title }} {{ proj.stack | join: ' ' }} {{ proj.year }}{% endcapture %}
+          <li data-status="{% if proj.wip %}wip{% else %}shipped{% endif %}" data-search="{{ project_search | downcase | escape }}">
             <span class="box{% if proj.wip %} wip{% endif %}" aria-hidden="true">{% if proj.wip %}[~]{% else %}[x]{% endif %}</span>
             <div>
               <div class="t">{% if proj.url %}<a href="{{ proj.url }}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</div>
@@ -34,11 +61,100 @@ layout: default
           </li>
         {% endfor %}
       </ol>
-    </section>
-  {% endfor %}
+      </section>
+    {% endfor %}
+    </div>
+    <p class="archive-empty" id="projects-empty" hidden>No projects match that search. Try a technology name or clear the filters.</p>
+  </section>
 
   {% capture projects_status %}{{ projects.size }} entries · {{ years | last }}–{{ years | first }}{% endcapture %}
   {% include colophon.html
      body="Not all of these are live — I build a lot of things to learn, then move on. Source for most lives on <a href='https://github.com/jamie-lord'>GitHub</a>."
      status=projects_status %}
 </main>
+
+<script>
+(function() {
+  var archive = document.getElementById('projects-list');
+  var filter = document.getElementById('projects-filter');
+  var search = document.getElementById('projects-search');
+  var clear = document.getElementById('projects-clear');
+  var count = document.getElementById('projects-count');
+  var empty = document.getElementById('projects-empty');
+  if (!archive || !filter || !search) return;
+  var years = Array.prototype.slice.call(archive.querySelectorAll('.archive-year'));
+  var items = Array.prototype.slice.call(archive.querySelectorAll('.ledger > li'));
+  var state = { status: 'all', q: '' };
+
+  function setYear(section, open) {
+    var button = section.querySelector('.archive-toggle');
+    var yearList = section.querySelector('.archive-year-list');
+    var year = section.getAttribute('data-archive-year');
+    yearList.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', (open ? 'Hide ' : 'Show ') + year + ' projects');
+    button.textContent = open ? 'hide' : 'show';
+  }
+
+  years.forEach(function(section, index) {
+    setYear(section, index === 0);
+    section.querySelector('.archive-toggle').addEventListener('click', function() {
+      setYear(section, this.getAttribute('aria-expanded') !== 'true');
+    });
+  });
+
+  document.querySelectorAll('.archive-jump a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      var id = this.getAttribute('href').slice(1);
+      var section = document.getElementById(id);
+      if (section) setYear(section, true);
+    });
+  });
+
+  function setStatus(button) {
+    state.status = button.dataset.status;
+    filter.querySelectorAll('.chip').forEach(function(candidate) {
+      var active = candidate === button;
+      candidate.classList.toggle('is-active', active);
+      candidate.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function apply() {
+    var q = state.q.trim().toLowerCase();
+    var dirty = state.status !== 'all' || q !== '';
+    var matched = 0;
+    items.forEach(function(item) {
+      var statusMatch = state.status === 'all' || item.dataset.status === state.status;
+      var textMatch = !q || (item.dataset.search || '').indexOf(q) !== -1;
+      item.hidden = !(statusMatch && textMatch);
+      if (!item.hidden) matched++;
+    });
+    years.forEach(function(section, index) {
+      var visible = section.querySelectorAll('.ledger > li:not([hidden])').length;
+      section.hidden = dirty && visible === 0;
+      section.querySelector('.year-count').textContent = visible + (visible === 1 ? ' project' : ' projects');
+      if (dirty && visible) setYear(section, true);
+      if (!dirty) setYear(section, index === 0);
+    });
+    count.textContent = dirty ? matched + (matched === 1 ? ' match' : ' matches') : items.length + ' projects';
+    clear.hidden = !dirty;
+    empty.hidden = matched !== 0;
+  }
+
+  filter.addEventListener('click', function(event) {
+    var button = event.target.closest('.chip');
+    if (!button) return;
+    setStatus(button); apply();
+  });
+  search.addEventListener('input', function() { state.q = this.value; apply(); });
+  clear.addEventListener('click', function() {
+    search.value = ''; state.q = '';
+    setStatus(filter.querySelector('[data-status="all"]'));
+    apply(); search.focus();
+  });
+  var hashId = location.hash.slice(1);
+  var hashSection = hashId && document.getElementById(hashId);
+  if (hashSection && hashSection.classList.contains('archive-year')) setYear(hashSection, true);
+})();
+</script>

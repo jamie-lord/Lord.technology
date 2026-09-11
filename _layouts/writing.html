@@ -29,30 +29,56 @@ layout: default
     <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/writing</span> <span class="sep">$</span> <span class="cmd">ls</span> <span class="flag">-la --sort=date</span><span class="cursor" aria-hidden="true"></span>
     </div>
-    <h1 class="hero-title" style="font-size:var(--size-h2)">Writing.</h1>
+    <h1 class="hero-title page-title">Writing.</h1>
     <div class="hero-meta"><span class="k">{{ site.posts.size }}</span> posts · since {{ first_year }} · some are single-link refs, most are short</div>
   </section>
 
   <section class="blk blk--tight">
-    <div class="filter" id="writing-filter">
-      <span class="lbl">grep</span>
-      <button class="chip is-active" data-cat="all" type="button">all</button>
+    <div class="archive-tools">
+      <div class="archive-search-row" role="search" aria-label="Search writing">
+        <label class="archive-search" for="writing-search">
+          <span class="archive-search-label">find</span>
+          <input id="writing-search" type="search" placeholder="title, topic, or tag"
+            aria-label="Search writing by title, topic, or tag" autocomplete="off" spellcheck="false">
+        </label>
+        <button class="archive-clear" id="writing-clear" type="button" hidden>clear</button>
+        <span class="archive-count" id="writing-count" role="status" aria-live="polite" aria-atomic="true">{{ site.posts.size }} posts</span>
+      </div>
+      <div class="filter" id="writing-filter" role="group" aria-label="Filter writing by category">
+      <span class="lbl" aria-hidden="true">grep</span>
+      <button class="chip is-active" data-cat="all" type="button" aria-pressed="true">all</button>
       {% for row in top_cats %}
         {% assign bits = row | split: '|' %}
         {% assign name = bits[1] %}
-        <button class="chip" data-cat="{{ name }}" type="button">{{ name }}</button>
+        <button class="chip" data-cat="{{ name }}" type="button" aria-pressed="false">{{ name }}</button>
       {% endfor %}
-      <span class="count" id="writing-count">{{ site.posts.size }} shown</span>
+      </div>
+      {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+      <nav class="archive-jump" aria-label="Writing archive by year">
+        <span class="lbl">year</span>
+        {% for year_group in posts_by_year %}<a href="#writing-{{ year_group.name }}">{{ year_group.name }}</a>{% endfor %}
+      </nav>
     </div>
 
-    <ul class="t-list" id="writing-list">
-      {% for post in site.posts %}
+    <div class="archive" id="writing-list" data-collapsible-archive>
+    {% for year_group in posts_by_year %}
+      <section class="archive-year" id="writing-{{ year_group.name }}" data-archive-year="{{ year_group.name }}">
+        <div class="archive-year-head">
+          <h2 id="writing-heading-{{ year_group.name }}">{{ year_group.name }}</h2>
+          <span class="rule" aria-hidden="true"></span>
+          <span class="year-count">{{ year_group.items.size }} posts</span>
+          <button class="archive-toggle" type="button" aria-expanded="true"
+            aria-controls="writing-list-{{ year_group.name }}" aria-label="Hide {{ year_group.name }} posts">hide</button>
+        </div>
+        <ul class="t-list archive-year-list" id="writing-list-{{ year_group.name }}" aria-labelledby="writing-heading-{{ year_group.name }}">
+      {% for post in year_group.items %}
         {% assign cat = post.categories | first | default: 'notes' | downcase %}
         {% assign words = post.content | number_of_words %}
         {% assign minutes = words | divided_by: 200 | plus: 1 %}
         {% assign data_cats = "" %}
         {% for c in post.categories %}{% assign data_cats = data_cats | append: ' ' | append: c | downcase %}{% endfor %}
-        <li>{% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener" data-cats="{{ data_cats | strip }}">{% else %}<a class="t-row" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}">{% endif %}
+        {% capture search_text %}{{ post.title }} {{ post.excerpt | strip_html }} {{ post.categories | join: ' ' }} {{ post.tags | join: ' ' }}{% endcapture %}
+        <li>{% if post.link %}<a class="t-row" href="{{ post.link }}" target="_blank" rel="noopener" data-cats="{{ data_cats | strip }}" data-search="{{ search_text | strip_newlines | downcase | escape }}">{% else %}<a class="t-row" href="{{ post.url | relative_url }}" data-cats="{{ data_cats | strip }}" data-search="{{ search_text | strip_newlines | downcase | escape }}">{% endif %}
           <time class="date" datetime="{{ post.date | date_to_xmlschema }}">
             <b>{{ post.date | date: '%d' }}</b>
             <span>{{ post.date | date: '%b' | upcase }}</span>
@@ -68,7 +94,11 @@ layout: default
           </div>
         </a></li>
       {% endfor %}
-    </ul>
+        </ul>
+      </section>
+    {% endfor %}
+    </div>
+    <p class="archive-empty" id="writing-empty" hidden>No writing matches that search. Try a broader term or clear the filters.</p>
   </section>
 
   {% capture writing_status %}{{ site.posts.size }} posts · archive since {{ first_year }}{% endcapture %}
@@ -82,21 +112,85 @@ layout: default
   var bar = document.getElementById('writing-filter');
   var list = document.getElementById('writing-list');
   var count = document.getElementById('writing-count');
+  var search = document.getElementById('writing-search');
+  var clear = document.getElementById('writing-clear');
+  var empty = document.getElementById('writing-empty');
   if (!bar || !list) return;
+  var years = Array.prototype.slice.call(list.querySelectorAll('.archive-year'));
+  var items = Array.prototype.slice.call(list.querySelectorAll('.t-row'));
+  var state = { cat: 'all', q: '' };
+
+  function setYear(section, open) {
+    var button = section.querySelector('.archive-toggle');
+    var yearList = section.querySelector('.archive-year-list');
+    var year = section.getAttribute('data-archive-year');
+    yearList.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+    button.setAttribute('aria-label', (open ? 'Hide ' : 'Show ') + year + ' posts');
+    button.textContent = open ? 'hide' : 'show';
+  }
+
+  years.forEach(function(section, index) {
+    setYear(section, index === 0);
+    section.querySelector('.archive-toggle').addEventListener('click', function() {
+      setYear(section, this.getAttribute('aria-expanded') !== 'true');
+    });
+  });
+
+  document.querySelectorAll('.archive-jump a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      var section = document.getElementById(this.getAttribute('href').slice(1));
+      if (section) setYear(section, true);
+    });
+  });
+
+  function setCategory(btn) {
+    state.cat = btn.dataset.cat;
+    bar.querySelectorAll('.chip').forEach(function(b) {
+      var active = b === btn;
+      b.classList.toggle('is-active', active);
+      b.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function apply() {
+    var q = state.q.trim().toLowerCase();
+    var dirty = state.cat !== 'all' || q !== '';
+    var matched = 0;
+    items.forEach(function(item) {
+      var cats = (item.dataset.cats || '').split(' ').filter(Boolean);
+      var categoryMatch = state.cat === 'all' || cats.indexOf(state.cat) !== -1;
+      var textMatch = !q || (item.dataset.search || '').indexOf(q) !== -1;
+      var match = categoryMatch && textMatch;
+      item.closest('li').hidden = !match;
+      if (match) matched++;
+    });
+    years.forEach(function(section, index) {
+      var visible = section.querySelectorAll('.t-list > li:not([hidden])').length;
+      section.hidden = dirty && visible === 0;
+      section.querySelector('.year-count').textContent = visible + (visible === 1 ? ' post' : ' posts');
+      if (dirty && visible) setYear(section, true);
+      if (!dirty) setYear(section, index === 0);
+    });
+    count.textContent = dirty ? matched + (matched === 1 ? ' match' : ' matches') : items.length + ' posts';
+    clear.hidden = !dirty;
+    empty.hidden = matched !== 0;
+  }
+
   bar.addEventListener('click', function(e) {
     var btn = e.target.closest('.chip');
     if (!btn) return;
-    var cat = btn.dataset.cat;
-    bar.querySelectorAll('.chip').forEach(function(b) { b.classList.toggle('is-active', b === btn); });
-    var items = list.querySelectorAll('.t-row');
-    var shown = 0;
-    items.forEach(function(item) {
-      var cats = (item.dataset.cats || '').split(' ').filter(Boolean);
-      var match = cat === 'all' || cats.indexOf(cat) !== -1;
-      (item.closest('li') || item).style.display = match ? '' : 'none';
-      if (match) shown++;
-    });
-    if (count) count.textContent = shown + ' shown';
+    setCategory(btn);
+    apply();
   });
+  search.addEventListener('input', function() { state.q = this.value; apply(); });
+  clear.addEventListener('click', function() {
+    search.value = ''; state.q = '';
+    setCategory(bar.querySelector('[data-cat="all"]'));
+    apply(); search.focus();
+  });
+  var hashSection = location.hash && document.getElementById(location.hash.slice(1));
+  if (hashSection && !hashSection.classList.contains('archive-year')) hashSection = null;
+  if (hashSection) setYear(hashSection, true);
 })();
 </script>

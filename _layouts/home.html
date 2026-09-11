@@ -56,7 +56,7 @@ layout: default
 
   {% if site.data.projects %}
   <section class="blk">
-    <h2 class="t-h2"><span class="hash">##</span> ~/projects <span class="rule" aria-hidden="true"></span> <a class="more" href="{{ '/projects/' | relative_url }}">all_{{ site.data.projects.size }}+ →</a></h2>
+    <h2 class="t-h2"><span class="hash">##</span> ~/projects <span class="rule" aria-hidden="true"></span> <a class="more" href="{{ '/projects/' | relative_url }}">all_{{ site.data.projects.size }} →</a></h2>
     <ol class="ledger">
       {% assign featured = site.data.projects | slice: 0, 5 %}
       {% for proj in featured %}

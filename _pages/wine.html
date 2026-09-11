@@ -41,22 +41,22 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
      chip ever runs off the right edge on a narrow screen. */
   #shop-chips { flex-wrap: wrap; }
   .wchip { font-family: var(--font-mono); font-size: 13px; line-height: 1; cursor: pointer;
-    padding: 8px 11px; border: var(--border-hair) solid var(--border-strong); border-radius: 0;
+    padding: 8px 11px; border: var(--border-hair) solid var(--term-border-control); border-radius: 0;
     background: transparent; color: var(--ink); display: inline-flex; align-items: center; gap: 6px;
     transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease); }
   .wchip:hover { background: var(--fog); border-color: var(--neon-dim); }
   .wchip.is-active { background: var(--neon); color: var(--term-bg); border-color: var(--neon); }
   .wchip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dot, var(--slate)); display: inline-block; }
-  .wchip[data-type="white"]    { --dot: #B8912E; }
-  .wchip[data-type="red"]      { --dot: #8C2A1F; }
-  .wchip[data-type="rose"]     { --dot: #C0607A; }
-  .wchip[data-type="sparkling"]{ --dot: #2C5977; }
-  .wchip[data-type="fortified"]{ --dot: #8A5A2B; }
+  .wchip[data-type="white"]    { --dot: var(--wine-white); }
+  .wchip[data-type="red"]      { --dot: var(--wine-red); }
+  .wchip[data-type="rose"]     { --dot: var(--wine-rose); }
+  .wchip[data-type="sparkling"]{ --dot: var(--wine-sparkling); }
+  .wchip[data-type="fortified"]{ --dot: var(--wine-fortified); }
 
-  .wine-searchrow { display: flex; align-items: center; gap: 10px; }
+  .wine-searchrow { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 10px; }
   .wine-search { flex: 1 1 auto; font-family: var(--font-body); font-size: 16px; padding: 9px 12px;
-    border: var(--border-hair) solid var(--border-strong); border-radius: var(--radius-sm);
-    background: var(--paper); color: var(--ink); }
+    border: var(--border-hair) solid var(--term-border-control); border-radius: var(--radius-sm);
+    background: var(--paper); color: var(--ink); min-width: 0; }
   .wine-search:focus { outline: 2px solid var(--copper); outline-offset: 1px; }
   .wine-count { font-family: var(--font-mono); font-size: 12px; color: var(--slate); white-space: nowrap; }
   .wine-reset { font-family: var(--font-mono); font-size: 12px; background: none; border: none; cursor: pointer;
@@ -71,16 +71,16 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   .wine-group-head h2 { font-family: var(--font-display); font-size: 1.15rem; letter-spacing: var(--ls-display);
     text-transform: uppercase; margin: 0; color: var(--ink); display: flex; align-items: center; gap: 9px; }
   .wine-group-head .bar { width: 14px; height: 14px; border-radius: 0; background: var(--gc, var(--slate)); }
-  .wine-group[data-type-group="white"]     { --gc: #B8912E; }
-  .wine-group[data-type-group="red"]       { --gc: #8C2A1F; }
-  .wine-group[data-type-group="rose"]      { --gc: #C0607A; }
-  .wine-group[data-type-group="sparkling"] { --gc: #2C5977; }
-  .wine-group[data-type-group="fortified"] { --gc: #8A5A2B; }
+  .wine-group[data-type-group="white"]     { --gc: var(--wine-white); }
+  .wine-group[data-type-group="red"]       { --gc: var(--wine-red); }
+  .wine-group[data-type-group="rose"]      { --gc: var(--wine-rose); }
+  .wine-group[data-type-group="sparkling"] { --gc: var(--wine-sparkling); }
+  .wine-group[data-type-group="fortified"] { --gc: var(--wine-fortified); }
   .wine-group-count { font-family: var(--font-mono); font-size: 11px; color: var(--slate); }
 
-  .wine-card { display: grid; grid-template-columns: 6px 1fr auto; gap: 0 14px; align-items: start;
+  .wine-card { display: grid; grid-template-columns: 8px minmax(0, 1fr) auto; gap: 0 12px; align-items: start;
     padding: 13px 0; border-bottom: var(--border-hair) solid var(--border); }
-  .wine-card .accent { grid-row: 1 / span 3; align-self: stretch; border-radius: 0; background: var(--gc, var(--slate)); }
+  .wine-card .accent { grid-row: 1; width: 8px; height: 8px; margin-top: 6px; background: var(--gc, var(--slate)); }
   .wine-main { min-width: 0; }
   .wine-name { font-family: var(--font-body); font-weight: 600; font-size: 17px; line-height: 1.25; color: var(--ink); }
   .wine-meta { font-family: var(--font-mono); font-size: 12px; color: var(--slate); margin-top: 3px; }
@@ -122,6 +122,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   @media (max-width: 380px) {
     .wine-row { flex-direction: column; gap: 4px; }
     .wine-row-label { padding-top: 0; }
+    .wine-count { grid-column: 1 / -1; }
   }
 </style>
 
@@ -138,28 +139,28 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   <div class="wine-controls" id="wine-controls">
     <div class="wine-controls-inner">
       <div class="wine-row">
-        <span class="wine-row-label">Type</span>
-        <div class="wine-chips" id="type-chips">
-          <button class="wchip is-active" data-type="all" type="button">All</button>
-          <button class="wchip" data-type="white" type="button"><span class="dot"></span>White</button>
-          <button class="wchip" data-type="red" type="button"><span class="dot"></span>Red</button>
-          <button class="wchip" data-type="rose" type="button"><span class="dot"></span>Ros&eacute;</button>
-          <button class="wchip" data-type="sparkling" type="button"><span class="dot"></span>Sparkling</button>
-          <button class="wchip" data-type="fortified" type="button"><span class="dot"></span>Fortified</button>
+        <span class="wine-row-label" id="wine-type-label">Type</span>
+        <div class="wine-chips" id="type-chips" role="group" aria-labelledby="wine-type-label">
+          <button class="wchip is-active" data-type="all" type="button" aria-pressed="true">All</button>
+          <button class="wchip" data-type="white" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>White</button>
+          <button class="wchip" data-type="red" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>Red</button>
+          <button class="wchip" data-type="rose" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>Ros&eacute;</button>
+          <button class="wchip" data-type="sparkling" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>Sparkling</button>
+          <button class="wchip" data-type="fortified" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>Fortified</button>
         </div>
       </div>
       <div class="wine-row">
-        <span class="wine-row-label">Shop</span>
-        <div class="wine-chips" id="shop-chips">
-          <button class="wchip is-active" data-shop="all" type="button">All</button>
-          {% for s in shops %}<button class="wchip" data-shop="{{ s | slugify }}" type="button">{{ s }}</button>
+        <span class="wine-row-label" id="wine-shop-label">Shop</span>
+        <div class="wine-chips" id="shop-chips" role="group" aria-labelledby="wine-shop-label">
+          <button class="wchip is-active" data-shop="all" type="button" aria-pressed="true">All</button>
+          {% for s in shops %}<button class="wchip" data-shop="{{ s | slugify }}" type="button" aria-pressed="false">{{ s }}</button>
           {% endfor %}
         </div>
       </div>
       <div class="wine-searchrow">
         <input class="wine-search" id="wine-search" type="search" inputmode="search"
           placeholder="Search name, grape or region&hellip;" aria-label="Search wines">
-        <span class="wine-count" id="wine-count"></span>
+        <span class="wine-count" id="wine-count" role="status" aria-live="polite" aria-atomic="true"></span>
         <button class="wine-reset" id="wine-reset" type="button" hidden>reset</button>
       </div>
     </div>
@@ -203,7 +204,7 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
         {% endfor %}
       </section>
     {% endfor %}
-    <p class="wine-empty" id="wine-empty" hidden>No wines match &mdash; try a different shop or clear the filters.</p>
+    <p class="wine-empty" id="wine-empty" role="status" aria-live="polite" hidden>No wines match &mdash; try a different shop or clear the filters.</p>
   </div>
 
   {% if site.data.wines.fine %}
@@ -245,7 +246,9 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
 
   function setActive(container, attr, val) {
     container.querySelectorAll('.wchip').forEach(function (b) {
-      b.classList.toggle('is-active', b.getAttribute(attr) === val);
+      var active = b.getAttribute(attr) === val;
+      b.classList.toggle('is-active', active);
+      b.setAttribute('aria-pressed', String(active));
     });
   }
 

@@ -5,9 +5,7 @@
 
 /* =====================================================================
    lord.technology — TERMINAL BUILD
-   A cyberpunk / neon TUI reskin, layered on top of WebTUI (@webtui/css).
-   WebTUI is loaded first (vendor/webtui.css) inside CSS @layers; every
-   rule here is unlayered, so it wins the cascade without !important.
+   A cyberpunk / neon TUI theme for the lord.technology Jekyll site.
    ===================================================================== */
 /* Fonts self-hosted (no external runtime dependency). JetBrains Mono ships as
    one variable file spanning the 400–800 weights the theme uses; Share Tech
@@ -50,11 +48,13 @@
   --cyan:           #29e0ff;
   --cyan-dim:       #178ba3;
   --magenta:        #ff2fb3;
+  --magenta-soft:   #ff8bd6;
   --amber:          #ffb000;
   --red:            #ff4d5e;
 
   --term-border:    #163a2c;   /* dim neon hairline                     */
   --term-border-2:  #1f5a41;
+  --term-border-control: #287052; /* interactive edges; >=3:1 on bg     */
   --glow:           0 0 6px rgba(0, 255, 156, .55), 0 0 14px rgba(0, 255, 156, .22);
   --glow-cyan:      0 0 6px rgba(41, 224, 255, .55), 0 0 14px rgba(41, 224, 255, .2);
 
@@ -88,6 +88,14 @@
   --danger:       var(--red);
   --info:         var(--cyan);
 
+  /* domain accents used by the private wine index; bright enough to remain
+     legible as small markers on the single dark surface */
+  --wine-white:     #d5ad45;
+  --wine-red:       #d85f52;
+  --wine-rose:      #db7c9b;
+  --wine-sparkling: #5ca1ca;
+  --wine-fortified: #c58a4a;
+
   /* ---- fonts: monospace everywhere -------------------------------- */
   --font-display: "Share Tech Mono", "JetBrains Mono", ui-monospace, monospace;
   --font-body:    "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -95,6 +103,7 @@
   --font-editorial:"JetBrains Mono", ui-monospace, monospace;
 
   --size-h1:        clamp(30px, 4.4vw, 46px);
+  --size-page-title:clamp(30px, 4vw, 36px);
   --size-h2:        24px;
   --size-h3:        19px;
   --size-body-lg:   17px;
@@ -127,18 +136,6 @@
   --gutter:      40px;
   --gutter-sm:   16px;
 
-  /* wire WebTUI internals to the palette ---------------------------- */
-  --background0: var(--term-bg);
-  --background1: var(--term-bg-1);
-  --background2: var(--term-bg-2);
-  --background3: var(--term-bg-3);
-  --foreground0: var(--term-fg);
-  --foreground1: var(--term-fg-dim);
-  --foreground2: var(--term-fg-faint);
-  --font-family: var(--font-mono);
-  --font-size:   var(--size-body);
-  --line-height: var(--lh-normal);
-  --box-border-color: var(--term-border-2);
 }
 
 /* =====================================================================
@@ -164,6 +161,11 @@ body {
   background-attachment: fixed;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
+button, input { border-radius: 0; }
+button { transition: color var(--dur-fast) var(--ease), background-color var(--dur-fast) var(--ease),
+  border-color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease); }
+button:active { transform: translateY(1px); }
 
 /* Links are colour-only by default (terminal style); running-text links get
    an underline via the .prose / .hero-sub / .colophon contexts below. */
@@ -222,13 +224,13 @@ html { scroll-padding-top: 72px; }
   content: ""; position: absolute; inset: 0;
   background: repeating-linear-gradient(
     to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 2px, rgba(0,0,0,.18) 3px, rgba(0,0,0,0) 4px);
-  mix-blend-mode: multiply; opacity: .5;
+  mix-blend-mode: multiply; opacity: .28;
 }
 .crt::after {
   content: ""; position: absolute; inset: 0;
   background:
-    radial-gradient(120% 100% at 50% 50%, transparent 62%, rgba(0,0,0,.55) 100%);
-  box-shadow: inset 0 0 140px rgba(0, 20, 12, .6);
+    radial-gradient(120% 100% at 50% 50%, transparent 66%, rgba(0,0,0,.38) 100%);
+  box-shadow: inset 0 0 120px rgba(0, 20, 12, .4);
 }
 .crt-flicker { position: fixed; inset: 0; z-index: 9001; pointer-events: none;
   background: rgba(0, 255, 156, .012); animation: crtflicker 6s infinite steps(1); }
@@ -283,20 +285,6 @@ html { scroll-padding-top: 72px; }
 .brand .mark { font-family: var(--font-mono); color: var(--neon); text-shadow: var(--glow);
   font-weight: 700; letter-spacing: .04em; }
 .brand .mark .b { color: var(--neon-dim); }
-/* [jl] logo: a colour gradient drifts through the whole monogram. Solid neon
-   above is the fallback where background-clip:text is unsupported. */
-@supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .brand .mark {
-    color: transparent; -webkit-text-fill-color: transparent; text-shadow: none;
-    background: linear-gradient(100deg, var(--neon), var(--cyan), var(--neon));
-    background-size: 300% 100%;
-    -webkit-background-clip: text; background-clip: text;
-    filter: drop-shadow(0 0 5px rgba(0, 255, 156, .4));
-    animation: jl-drift 7s linear infinite;
-  }
-  .brand .mark .b { color: transparent; -webkit-text-fill-color: transparent; }
-}
-@keyframes jl-drift { to { background-position: 300% 0; } }
 .brand .wm { font-family: var(--font-display); font-size: 16px; letter-spacing: .06em; color: var(--term-fg); }
 .brand .wm .tld { color: var(--term-fg-dim); }
 .brand:hover .wm { color: var(--term-fg-bright); }
@@ -314,6 +302,20 @@ html { scroll-padding-top: 72px; }
 .masthead nav a:hover { color: var(--neon); text-shadow: var(--glow); }
 .masthead nav a.active { color: var(--term-bg); background: var(--neon); text-shadow: none; }
 .masthead nav a.active::before { content: ">"; color: var(--term-bg); }
+
+/* On narrow phones, give the navigation its own compact row. Four concise
+   destinations fit without the two-row wrap that used to consume almost a
+   quarter of the viewport while sticky. */
+@media (max-width: 480px) {
+  html { scroll-padding-top: 96px; }
+  .wrap { padding: 0 0 32px; }
+  .term { border-inline: 0; }
+  .masthead { gap: 8px; padding: 10px var(--gutter-sm); }
+  .masthead nav { width: 100%; justify-content: space-between; gap: 0; }
+  .masthead nav a { padding: 5px 3px; }
+  .masthead nav a::before { content: "/"; min-width: 1ch; margin-right: .35ch; }
+  .masthead nav a.active::before { content: ">"; }
+}
 
 /* =====================================================================
    terminal primitives
@@ -349,20 +351,20 @@ html { scroll-padding-top: 72px; }
   color: var(--term-fg-bright); font-weight: 400; }
 .t-h2 .hash { color: var(--neon); text-shadow: var(--glow); }
 .t-h2 .rule { flex: 1 1 auto; height: 0; border-top: 1px dashed var(--term-border-2); }
-.t-h2 .more { font-family: var(--font-mono); font-size: 12px; letter-spacing: .1em; color: var(--term-fg-dim); border: none; }
+.t-h2 .more { font-family: var(--font-mono); font-size: 12px; letter-spacing: .1em; color: var(--term-fg-dim);
+  border: none; padding-block: 4px; }
 .t-h2 .more:hover { color: var(--neon); }
+@media (max-width: 480px) {
+  .t-h2 { gap: 8px; font-size: 20px; }
+  .t-h2 .rule { display: none; }
+  .t-h2 .more { margin-left: auto; flex: 0 0 auto; letter-spacing: .04em; }
+}
 
 /* neon tag chips */
 .t-tag { display: inline-block; font-family: var(--font-mono); font-size: 11px; line-height: 1.5;
   color: var(--neon); padding: 1px 7px; margin: 2px 4px 2px 0;
   border: 1px solid var(--term-border-2); background: rgba(0,255,156,.04); letter-spacing: .04em; }
 .t-tag::before { content: "#"; color: var(--term-fg-faint); }
-
-/* boxed panel via WebTUI box- attribute; give it a neon border */
-[box-] { --box-border-color: var(--term-border-2); }
-.panel { background: var(--term-panel); }
-.panel--neon { --box-border-color: var(--neon-dim); box-shadow: 0 0 18px rgba(0,255,156,.06); }
-.panel--cyan { --box-border-color: var(--cyan-dim); }
 
 /* =====================================================================
    HOME
@@ -371,25 +373,8 @@ html { scroll-padding-top: 72px; }
 @media (max-width: 720px) { .hero { padding-left: var(--gutter-sm); padding-right: var(--gutter-sm); } }
 
 .banner { font-family: var(--font-mono); color: var(--neon); text-shadow: var(--glow);
-  font-size: clamp(9px, 2.7vw, 19px); line-height: 1.0; margin: 0 0 12px; white-space: pre;
-  overflow-x: auto; letter-spacing: 0; display: block; }
-/* Aurora drift: layered gradients crawl through the glyphs. Solid neon above is
-   the fallback where background-clip:text is unsupported (e.g. old iOS Safari). */
-@supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .banner {
-    color: transparent; -webkit-text-fill-color: transparent; text-shadow: none;
-    background:
-      radial-gradient(60% 140% at 20% 30%, var(--neon) 0%, transparent 55%),
-      radial-gradient(55% 130% at 75% 55%, var(--cyan) 0%, transparent 55%),
-      radial-gradient(60% 130% at 45% 85%, #7af7c8 0%, transparent 55%),
-      linear-gradient(var(--neon-deep), var(--neon-deep));
-    background-size: 200% 200%;
-    -webkit-background-clip: text; background-clip: text;
-    filter: drop-shadow(0 0 6px rgba(0, 255, 156, .3));
-    animation: aurora 16s ease-in-out infinite alternate;
-  }
-}
-@keyframes aurora { from { background-position: 0% 0%; } to { background-position: 100% 100%; } }
+  font-size: clamp(9px, 2.7vw, 18px); line-height: 1.0; margin: 0 0 12px; white-space: pre;
+  overflow-x: clip; letter-spacing: 0; display: block; }
 .banner-sub { font-family: var(--font-mono); font-size: 13px; color: var(--term-fg-dim);
   letter-spacing: .02em; margin: 0 0 22px; }
 .banner-sub b { color: var(--term-fg-bright); font-weight: 500; }
@@ -398,6 +383,7 @@ html { scroll-padding-top: 72px; }
 
 .hero-title { font-family: var(--font-display); font-size: var(--size-h1); line-height: var(--lh-tight);
   letter-spacing: var(--ls-display); color: var(--term-fg-bright); font-weight: 400; margin: 6px 0 14px; }
+.page-title { font-size: var(--size-page-title); }
 .hero-title .hi { color: var(--neon); text-shadow: var(--glow); }
 .hero-sub { max-width: 68ch; color: var(--term-fg); line-height: var(--lh-normal); margin: 0 0 20px; }
 .hero-meta { font-family: var(--font-mono); font-size: 12px; color: var(--term-fg-dim); letter-spacing: .04em;
@@ -406,13 +392,13 @@ html { scroll-padding-top: 72px; }
 
 .ctas { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
 .btn { font-family: var(--font-mono); font-size: 13px; color: var(--neon); border: 1px solid var(--neon-dim);
-  padding: 9px 15px; background: rgba(0,255,156,.05); letter-spacing: .03em; cursor: pointer; }
+  padding: 9px 15px; background: var(--term-bg-1); letter-spacing: .03em; cursor: pointer; }
 .btn::before { content: "[ "; color: var(--term-fg-faint); }
 .btn::after { content: " ]"; color: var(--term-fg-faint); }
 .btn:hover { background: var(--neon); color: var(--term-bg); box-shadow: var(--glow); }
 .btn:hover::before, .btn:hover::after { color: var(--term-bg); }
 .btn--ghost { color: var(--term-fg-dim); border-color: var(--term-border-2); background: transparent; }
-.btn--ghost:hover { color: var(--cyan); background: rgba(41,224,255,.06); border-color: var(--cyan-dim); box-shadow: var(--glow-cyan); }
+.btn--ghost:hover { color: var(--cyan); background: var(--term-bg-2); border-color: var(--cyan-dim); box-shadow: var(--glow-cyan); }
 /* The ghost button doesn't fill on hover, so its brackets must stay visible —
    override the primary button's dark-bracket rule with a dim cyan. */
 .btn--ghost:hover::before, .btn--ghost:hover::after { color: var(--cyan-dim); }
@@ -428,7 +414,7 @@ html { scroll-padding-top: 72px; }
   padding: 14px 12px; border: 1px solid transparent; border-bottom: 1px solid var(--term-border);
   color: var(--term-fg);
 }
-.t-row:hover { border-color: var(--term-border-2); background: rgba(0,255,156,.03); }
+.t-row:hover { border-color: var(--term-border-2); background: var(--term-bg-1); }
 .t-row .date { font-family: var(--font-mono); font-size: 12px; color: var(--term-fg-dim); line-height: 1.35;
   display: flex; flex-direction: column; align-items: flex-start; padding-top: 2px; }
 .t-row .date b { color: var(--neon); font-weight: 700; font-size: 15px; }
@@ -450,40 +436,95 @@ html { scroll-padding-top: 72px; }
    the date (already in the left column) and the title, so drop it there and
    keep the tags + read-time. Desktop keeps the ls-style path on one line. */
 @media (max-width: 640px) { .t-row .meta .slug { display: none; } }
+@media (max-width: 480px) {
+  .t-row { grid-template-columns: 56px minmax(0, 1fr); gap: 0 12px; padding: 14px 0; }
+  .t-row .ex {
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+}
 
 /* filter chips */
 .filter { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 14px;
   font-family: var(--font-mono); font-size: 12px; }
 .filter .lbl { color: var(--term-fg-dim); }
 .filter .lbl::after { content: " ▸"; color: var(--neon); }
-/* line-height:1 tames WebTUI's `button { height: 3lh }` to a compact chip
-   (matching the wine filter's .wchip); without it the inherited 1.6 leading
-   inflates every chip to ~58px and the padding below is defeated. */
+/* Compact, explicit filter control rather than relying on browser defaults. */
 .chip { font-family: var(--font-mono); font-size: 12px; line-height: 1; color: var(--term-fg-dim); cursor: pointer;
-  border: 1px solid var(--term-border-2); background: transparent; padding: 4px 9px; letter-spacing: .02em; }
+  display: inline-flex; align-items: center; min-height: 32px; appearance: none;
+  border: 1px solid var(--term-border-control); background: transparent; padding: 4px 9px; letter-spacing: .02em; }
 .chip:hover { color: var(--neon); border-color: var(--neon-dim); }
-.chip.is-active { background: var(--neon); color: var(--term-bg); border-color: var(--neon); text-shadow: none; }
+.chip.is-active, .chip[aria-pressed="true"] { background: var(--neon); color: var(--term-bg); border-color: var(--neon); text-shadow: none; }
 .filter .count { color: var(--term-fg-faint); margin-left: auto; }
+
+/* Search + year navigation shared by the long writing/projects archives. The
+   structure stays flat and typographic: one ruled control surface, no card
+   chrome competing with the terminal shell. */
+.archive-tools { margin: 0 0 18px; border-block: 1px solid var(--term-border); padding-block: 12px; }
+.archive-search-row { display: grid; grid-template-columns: minmax(220px, 1fr) auto auto;
+  align-items: center; gap: 8px 12px; margin-bottom: 12px; }
+.archive-search { display: flex; align-items: center; min-width: 0; height: 40px;
+  border: 1px solid var(--term-border-control); background: var(--term-bg); }
+.archive-search:focus-within { border-color: var(--neon); box-shadow: 0 0 0 1px var(--neon); }
+.archive-search .archive-search-label { flex: 0 0 auto; padding-left: 10px;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; color: var(--neon); }
+.archive-search .archive-search-label::after { content: ":"; color: var(--term-fg-faint); }
+.archive-search input { width: 100%; min-width: 0; height: 100%; border: 0; outline: 0;
+  padding: 0 10px; background: transparent; color: var(--term-fg-bright);
+  font-family: var(--font-body); font-size: 16px; }
+.archive-search input::placeholder { color: var(--term-fg-dim); opacity: 1; }
+.archive-clear, .archive-toggle { min-height: 32px; padding: 5px 9px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; appearance: none;
+  border: 1px solid var(--term-border-control); background: transparent; color: var(--term-fg-dim);
+  font-family: var(--font-mono); font-size: 11px; line-height: 1; letter-spacing: .04em; height: auto; }
+.archive-clear:hover, .archive-toggle:hover { color: var(--neon); border-color: var(--neon-dim); }
+.archive-clear[hidden] { display: none; }
+.archive-count { color: var(--term-fg-faint); font-family: var(--font-mono); font-size: 11px;
+  white-space: nowrap; }
+.archive-jump { display: flex; align-items: center; gap: 6px 12px; flex-wrap: wrap;
+  margin-top: 10px; font-family: var(--font-mono); font-size: 11px; }
+.archive-jump .lbl { color: var(--term-fg-faint); letter-spacing: .08em; }
+.archive-jump a { color: var(--term-fg-dim); border-bottom: 1px solid transparent; padding-block: 5px; }
+.archive-jump a:hover { color: var(--neon); border-bottom-color: var(--neon-dim); }
+.archive-year { scroll-margin-top: 110px; }
+.archive-year[hidden], .archive-year-list[hidden] { display: none; }
+.archive-year-head { display: flex; align-items: center; gap: 10px; margin: 22px 0 4px; }
+.archive-year-head h2 { margin: 0; font-family: var(--font-display); font-size: 21px;
+  line-height: 1; font-weight: 400; color: var(--neon); text-shadow: var(--glow); }
+.archive-year-head .rule { flex: 1 1 auto; height: 0; border-top: 1px dashed var(--term-border-2); }
+.archive-year-head .year-count { color: var(--term-fg-faint); font-family: var(--font-mono);
+  font-size: 11px; letter-spacing: .04em; white-space: nowrap; }
+.archive-toggle { min-height: 30px; }
+.archive-empty { margin: 22px 0 34px; padding: 18px 0; border-block: 1px dashed var(--term-border-2);
+  color: var(--term-fg-dim); font-family: var(--font-mono); font-size: 13px; }
+.archive-empty::before { content: "// "; color: var(--neon); }
+.archive-empty[hidden] { display: none; }
+@media (max-width: 480px) {
+  .archive-search-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .archive-count { grid-column: 1 / -1; }
+  .archive-year { scroll-margin-top: 100px; }
+  .archive-year-head { gap: 8px; }
+  .archive-year-head .year-count { letter-spacing: 0; }
+}
 
 /* =====================================================================
    projects ledger
    ===================================================================== */
-.year-head { display: flex; align-items: baseline; gap: 12px; margin: 18px 0 8px; }
-.year-head:first-child { margin-top: 4px; }
-.year-head .yr { font-family: var(--font-display); font-size: 20px; color: var(--neon); text-shadow: var(--glow); }
-.year-head .rule { flex: 1 1 auto; height: 0; border-top: 1px dashed var(--term-border-2); }
-.year-head .n { font-family: var(--font-mono); font-size: 11px; color: var(--term-fg-faint); letter-spacing: .1em; }
-
 .ledger { list-style: none; margin: 0; padding: 0; }
 .ledger li { display: grid; grid-template-columns: 44px 1fr; gap: 0 14px; padding: 9px 8px;
   border-bottom: 1px solid var(--term-border); }
-.ledger li:hover { background: rgba(0,255,156,.03); }
+.ledger li:hover { background: var(--term-bg-1); }
 .ledger .box { font-family: var(--font-mono); color: var(--neon); font-size: 14px; padding-top: 1px; }
 .ledger .box.wip { color: var(--amber); }
 .ledger .t { font-family: var(--font-display); font-size: 16px; color: var(--term-fg-bright); letter-spacing: .01em; }
+.ledger .t a { display: inline-block; padding-block: 3px; }
 .ledger li:hover .t { color: var(--neon); }
 .ledger .stack { margin-top: 3px; }
-.ledger .writeup { font-family: var(--font-mono); font-size: 11px; letter-spacing: .05em; display: inline-block; margin-top: 4px; }
+.ledger .writeup { font-family: var(--font-mono); font-size: 11px; letter-spacing: .05em; display: inline-block;
+  margin-top: 2px; padding-block: 4px; }
+.project-state { color: var(--term-fg-dim); }
+.project-state .done { color: var(--neon); }
+.project-state .wip { color: var(--amber); }
 
 /* =====================================================================
    work timeline
@@ -537,8 +578,7 @@ html { scroll-padding-top: 72px; }
 
 .kv { list-style: none; margin: 0; padding: 0; font-family: var(--font-mono); font-size: 13px; }
 .kv li { display: flex; gap: 14px; padding: 7px 0; border-bottom: 1px solid var(--term-border); align-items: baseline; }
-/* the list's only marker is the "›" key chevron below; suppress the default
-   WebTUI "- " ul marker so the two don't stack. */
+/* the list's only marker is the "›" key chevron below */
 .kv li::before { content: none; }
 /* Fixed key column so the value column forms a clean aligned edge. The basis
    must clear the widest key or a nowrap key overflows and shunts its value
@@ -559,7 +599,7 @@ html { scroll-padding-top: 72px; }
    post header + prose
    ===================================================================== */
 .back { font-family: var(--font-mono); font-size: 12px; color: var(--term-fg-dim); border: none;
-  display: inline-block; margin-bottom: 14px; }
+  display: inline-block; margin-bottom: 10px; padding-block: 4px; }
 .back:hover { color: var(--neon); }
 
 .post-head .title { font-family: var(--font-display); font-size: var(--size-h1); line-height: var(--lh-tight);
@@ -575,6 +615,7 @@ html { scroll-padding-top: 72px; }
 
 .prose { max-width: var(--prose-max); font-size: 15.5px; line-height: var(--lh-loose); color: var(--term-fg); }
 .prose > * + * { margin-top: var(--space-4); }
+.prose p, .prose li { color: var(--term-fg); }
 .prose h2, .prose h3, .prose h4 { font-family: var(--font-display); color: var(--term-fg-bright); font-weight: 400;
   letter-spacing: .02em; line-height: 1.25; margin-top: var(--space-7); }
 .prose h2 { font-size: 23px; } .prose h3 { font-size: 19px; } .prose h4 { font-size: 16px; }
@@ -583,8 +624,7 @@ html { scroll-padding-top: 72px; }
 .prose a { color: var(--cyan); }
 .prose strong { color: var(--term-fg-bright); }
 .prose em { color: var(--term-fg); }
-/* Lists: override WebTUI's "- " ::before marker with a neon "›", and keep
-   loose-list <p> items on the same line as their marker. */
+/* Lists use a neon "›" and keep loose-list paragraphs beside the marker. */
 .prose ul { list-style: none; padding-left: 0; }
 .prose ol { padding-left: 1.6em; }
 .prose li { margin-bottom: 6px; }
@@ -597,7 +637,7 @@ html { scroll-padding-top: 72px; }
 .prose li > ul, .prose li > ol { display: block; margin-top: 6px; }
 .prose blockquote { border-left: 2px solid var(--neon); background: rgba(0,255,156,.04); margin: var(--space-5) 0;
   padding: 10px 16px; color: var(--term-fg-dim); font-style: normal; }
-.prose blockquote p { margin: 0; }
+.prose blockquote p { margin: 0; color: inherit; }
 .prose code { font-family: var(--font-mono); font-size: var(--size-code); color: var(--neon);
   background: var(--term-bg-2); border: 1px solid var(--term-border); padding: 1px 5px; }
 .prose pre { font-family: var(--font-mono); font-size: 13px; line-height: 1.55; color: var(--term-fg);
@@ -618,7 +658,7 @@ html { scroll-padding-top: 72px; }
 .prose .highlight .se, .prose .highlight .sh, .prose .highlight .si,
 .prose .highlight .sx, .prose .highlight .sr, .prose .highlight .dl { color: var(--amber); }
 .prose .highlight .m, .prose .highlight .mi, .prose .highlight .mf,
-.prose .highlight .mh, .prose .highlight .mo, .prose .highlight .il { color: #ff8bd6; }
+.prose .highlight .mh, .prose .highlight .mo, .prose .highlight .il { color: var(--magenta-soft); }
 .prose .highlight .nf, .prose .highlight .fm { color: var(--cyan); }
 .prose .highlight .nc, .prose .highlight .nn, .prose .highlight .nt,
 .prose .highlight .bp, .prose .highlight .nb { color: var(--neon); }
@@ -692,7 +732,8 @@ html { scroll-padding-top: 72px; }
    misc / motion safety
    ===================================================================== */
 @media (prefers-reduced-motion: reduce) {
+  a, button { transition: none; }
+  button:active { transform: none; }
   .cursor { animation: none; }
   .crt-flicker { animation: none; opacity: .5; }
-  .banner, .brand .mark { animation: none; }
 }
