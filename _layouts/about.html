@@ -6,13 +6,19 @@ layout: default
     <div class="prompt" aria-hidden="true">
       <span class="u">jamie</span><span class="at">@</span><span class="host">lord.technology</span><span class="sep">:</span><span class="path">~/about</span> <span class="sep">$</span> <span class="cmd">whoami</span> <span class="flag">--verbose</span><span class="cursor" aria-hidden="true"></span>
     </div>
-    <h1 class="hero-title" style="font-size:var(--size-h2)">About me.</h1>
+    <h1 class="hero-title page-title">About me.</h1>
   </section>
 
   <section class="blk blk--tight">
     <div class="about-grid">
       <aside class="avatar">
-        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="1920" height="1920" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp"
+            srcset="{{ '/assets/images/jamie-320.webp' | relative_url }} 320w, {{ '/assets/images/jamie-640.webp' | relative_url }} 640w"
+            sizes="(max-width: 480px) calc(100vw - 48px), (max-width: 840px) 380px, 260px">
+          <img src="{{ '/assets/images/jamie-640.jpg' | relative_url }}" alt="{{ site.author.name }}"
+            width="640" height="640" loading="lazy" decoding="async">
+        </picture>
         <div class="cap">
           <b>{{ site.author.name }}</b>
           {{ site.author.location }} · he/him
