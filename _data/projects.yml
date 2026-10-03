@@ -2,6 +2,38 @@
 # based on ordering, linked posts, and tech clues; refine as needed.
 
 - year: 2026
+  title: Git hosting and code review on Cloudflare — with Git implemented from scratch in TypeScript
+  post: /2026/10/03/what-the-next-git-platform-needs-to-remember.html
+  wip: true
+  stack: [TypeScript, Cloudflare Workers, Durable Objects, R2, D1, Queues, Workflows]
+
+- year: 2026
+  title: The Other Staffroom — a social network for teachers in England, with school-email verification and a chronological feed
+  wip: true
+  stack: [React, TypeScript, Hono, Cloudflare Workers, D1, R2, Durable Objects]
+
+- year: 2026
+  title: Fox — reproducible market-data research, machine-learning experiments and offline backtesting
+  wip: true
+  stack: [Python, Alpaca API, pandas, Parquet, scikit-learn, PyTorch]
+
+- year: 2026
+  title: Keep Nigel Alive — a roomful of people co-parenting a digital tardigrade at Leeds Digital Festival (demo now retired)
+  stack: [TypeScript, Cloudflare Workers, Durable Objects, WebSockets, Workers AI, Workflows, D1, R2, Queues]
+
+- year: 2026
+  title: si — transistor-level silicon design, automatic layout and simulation in the browser, including a Z80
+  stack: [TypeScript, WebGL2, HTML Canvas, Vite]
+
+- year: 2026
+  title: ASCII Wilds — a first-person landscape rendered entirely from coloured text characters
+  stack: [HTML, CSS, vanilla JS, HTML Canvas]
+
+- year: 2026
+  title: Personal knowledge base — turning coding sessions into reusable notes, with search, backlinks and review tools
+  stack: [Python, Markdown, Claude Code, HTML, CSS, vanilla JS]
+
+- year: 2026
   title: cutiemail — a small, self-contained mail server in TypeScript, built from the byte up
   url: https://cuti.email
   wip: true
@@ -45,9 +77,9 @@
   stack: [React 18, TypeScript, XState, Tailwind CSS, Vite, Cloudflare Pages]
 
 - year: 2026
-  title: trolli — budget-aware weekly meal planner and shopping list
+  title: trolli — weekly meal plans matched to real supermarket products, with a budget and a shared shopping list
   wip: true
-  stack: [React 19, TypeScript, Vite, Hono, Cloudflare Workers]
+  stack: [React 19, TypeScript, Vite, Hono, Cloudflare Workers, D1, Drizzle]
 
 - year: 2026
   title: Carcassonne-style procedural tile landscape generator
@@ -73,8 +105,7 @@
   stack: [SvelteKit, TypeScript, Cloudflare Workers, D1, R2, Workers AI, Workflows, AI Gateway]
 
 - year: 2026
-  title: AI-assisted cloud configuration auditing toolkit
-  wip: true
+  title: Northstar — AI-assisted cloud configuration auditing with verifiable reasoning chains
   stack: [TypeScript, SQLite, Azure SDK, Cloudflare API, Claude Code, MCP]
 
 - year: 2026
