@@ -1,37 +1,10 @@
-/* Temporary Halloween homepage banner. */
-.layout--home:has(.pumpkin-stage) {
-  --pumpkin-orange: #d98240;
-  --pumpkin-highlight: #efaa62;
-  --pumpkin-shadow: #8d542d;
-  --pumpkin-light: #ffe0a0;
-  --pumpkin-glow: #ffb34e;
-  --pumpkin-wash: #ffae4612;
-  --pumpkin-stem: #78915c;
-  --pumpkin-stem-highlight: #adb87a;
-  --pumpkin-stem-shadow: #465b3b;
-  --pumpkin-stem-cut: #b29568;
+/* Fixed character outlines scale together, independent of mobile font settings. */
+.pumpkin-stage {
+  width: min(100%, 690px);
+  margin: 0 0 var(--space-4);
 }
-.pumpkin-stage { display: block; width: min(100%, 690px); container-type: inline-size; position: relative; isolation: isolate; margin: 0 0 var(--space-4); }
-.pumpkin-stage::before { content: ""; position: absolute; z-index: -1; inset: 16% 9% 5%; background: radial-gradient(ellipse, var(--pumpkin-wash), transparent 67%); }
-.pumpkin-art { font-family: var(--font-mono); font-size: 2.05cqw; font-weight: 500; line-height: 1.06; letter-spacing: 0; white-space: pre; margin: 0; overflow: visible; color: var(--pumpkin-orange); font-variant-ligatures: none; }
-.pumpkin-art .rind { color: var(--pumpkin-orange); }
-.pumpkin-art .lit-rind { color: var(--pumpkin-highlight); }
-.pumpkin-art .shade { color: var(--pumpkin-shadow); }
-.pumpkin-art .stem { color: var(--pumpkin-stem); }
-.pumpkin-art .stem-highlight { color: var(--pumpkin-stem-highlight); }
-.pumpkin-art .stem-shadow { color: var(--pumpkin-stem-shadow); }
-.pumpkin-art .stem-cut { color: var(--pumpkin-stem-cut); }
-.pumpkin-stage .carving { color: var(--pumpkin-light); text-shadow: 0 0 .43cqw var(--pumpkin-light), 0 0 1.3cqw var(--pumpkin-glow), 0 0 2.9cqw var(--pumpkin-glow); animation: pumpkin-candle 7.9s ease-in-out -2s infinite; }
-.pumpkin-lettering { position: absolute; top: calc(38.9% + 2.173cqw); left: 50%; transform: translateX(-50%); margin: 0; font-family: var(--font-mono); font-size: 3.5cqw; line-height: 1.06; font-weight: 700; letter-spacing: 0; white-space: pre; }
-@keyframes pumpkin-candle {
-  0%, 100% { opacity: .94; filter: brightness(1); }
-  13% { opacity: .88; filter: brightness(.94); }
-  19% { opacity: 1; filter: brightness(1.08); }
-  32% { opacity: .93; filter: brightness(.98); }
-  38% { opacity: .82; filter: brightness(.9); }
-  43% { opacity: .97; filter: brightness(1.04); }
-  61% { opacity: .91; filter: brightness(.96); }
-  72% { opacity: 1; filter: brightness(1.06); }
-  83% { opacity: .86; filter: brightness(.93); }
+.pumpkin-stage img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-@media (prefers-reduced-motion: reduce) { .pumpkin-stage[data-pumpkin] .carving { animation: none; } }

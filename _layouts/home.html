@@ -5,7 +5,9 @@ layout: default
   {% if page.halloween %}{% include halloween-assets.html %}{% endif %}
   <section class="hero">
     {% if page.halloween %}
-    <div class="pumpkin-stage" data-pumpkin="copper" role="img" aria-label="An orange ASCII pumpkin with LORD carved into it, glowing by candlelight"></div>
+    <div class="pumpkin-stage">
+      <img src="{{ '/assets/images/halloween-pumpkin.svg' | relative_url }}?v={{ site.time | date: '%s' }}" width="690" height="540" alt="An orange ASCII pumpkin with LORD carved into it, glowing by candlelight">
+    </div>
     {% else %}
     <pre class="banner" role="img" aria-label="lord.technology">██╗      ██████╗ ██████╗ ██████╗
 ██║     ██╔═══██╗██╔══██╗██╔══██╗
