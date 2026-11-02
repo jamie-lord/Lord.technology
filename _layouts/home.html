@@ -2,20 +2,13 @@
 layout: default
 ---
 <main class="page">
-  {% if page.halloween %}{% include halloween-assets.html %}{% endif %}
   <section class="hero">
-    {% if page.halloween %}
-    <div class="pumpkin-stage">
-      <img src="{{ '/assets/images/halloween-pumpkin.svg' | relative_url }}?v={{ site.time | date: '%s' }}" width="690" height="540" alt="An orange ASCII pumpkin with LORD carved into it, glowing by candlelight">
-    </div>
-    {% else %}
     <pre class="banner" role="img" aria-label="lord.technology">██╗      ██████╗ ██████╗ ██████╗
 ██║     ██╔═══██╗██╔══██╗██╔══██╗
 ██║     ██║   ██║██████╔╝██║  ██║
 ██║     ██║   ██║██╔══██╗██║  ██║
 ███████╗╚██████╔╝██║  ██║██████╔╝
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝</pre>
-    {% endif %}
     <div class="banner-sub"><span class="c">//</span> <b>lord.technology</b> <span class="s">—</span> software, writing &amp; side-projects · archive since 2013</div>
 
     <div class="prompt" aria-hidden="true">
