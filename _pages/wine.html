@@ -222,11 +222,12 @@ description: "A private shopping list of the 'class' wines Tom Gilbey rates on Y
   {% endif %}
 
   <p class="wine-foot">
-    {{ wines | size }} wines &middot; compiled {{ site.time | date: "%-d %b %Y" }} from the
+    {{ wines | size }} wines &middot; updated {{ site.data.wines.updated | date: "%-d %b %Y" }} from the
     <a href="https://www.youtube.com/@tomgilbeywine" target="_blank" rel="noopener">Tom Gilbey</a>
     &ldquo;Class, Pass or Arse&rdquo; videos (2025&ndash;2026).
     <strong>class</strong> = an explicit class verdict; <strong>rec</strong> = a top pick from a non-game video.
     Prices are indicative and move with Clubcard / Nectar / mix-six deals and vintage; Aldi &amp; Lidl aren&rsquo;t sold online so those are in-store prices.
+    New videos checked through 6 Nov 2026; older entries retain their earlier prices.
     Own-label ranges rotate vintages. Unlisted page &mdash; just for me.
   </p>
 </main>
