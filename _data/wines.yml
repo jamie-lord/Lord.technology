@@ -1,6 +1,7 @@
 # Tom Gilbey "class" wines + top recommendations, 2025–2026 videos.
 # Compiled 2026-08-08 from the @tomgilbeywine back-catalogue (Jan 2025 – Aug 2026).
 # Supplemented 2026-11-08: seven newer long-form uploads through 2026-11-06 reviewed.
+# Supplemented 2026-11-23: both newer long-form uploads through 2026-11-20 reviewed.
 # Original entries/prices have not been reverified; new entries carry their own sources and price_basis.
 # tier: class = explicit "Class" verdict in a Class/Pass/Arse game;
 #       rec   = clear top pick from a non-game video.
@@ -8,7 +9,7 @@
 # p = indicative sort price (£, low end of current range). price = display string.
 # shops = where you can actually buy it (drives the shop filter).
 
-updated: "2026-11-08"
+updated: "2026-11-23"
 
 wines:
   # ---- Whites ---------------------------------------------------------------
@@ -1392,15 +1393,20 @@ wines:
 
   - name: "Sainsbury's Taste the Difference Valpolicella Ripasso"
     type: red
-    grape: "Corvina (Ripasso)"
+    grape: "Corvina/Rondinella/Corvinone"
     region: "Valpolicella, Veneto"
     shops: ["Sainsbury's"]
-    price: "£12.50"
-    p: 12.5
-    note: "\"A class — absolutely freaking delicious.\""
+    price: "£13"
+    p: 13
+    note: "A Class pick in 2025 and back in his Italian reds guide. Ripe plum and warming spice, paired with risotto all’Amarone."
     tier: class
     video: "https://www.youtube.com/watch?v=DVyhmKjj_Lo"
     date: "2025-11-27"
+    verified_on: '2026-11-23'
+    price_basis: Sainsbury’s standard shelf price, checked 2026-11-23
+    sources:
+    - https://sainsburys.co.uk/groceries/product/sainsburys-valpolicella-ripasso-doc-taste-the-difference-75cl
+    - https://www.youtube.com/watch?v=IUN5NRVyTio&t=128s
 
   - name: "Domaine de Thalabert Crozes-Hermitage 2015"
     type: red
@@ -1918,6 +1924,156 @@ wines:
     price_basis: retailer page, checked 2026-11-08
     sources:
     - https://www.asda.com/groceries/product/exceptional-wine/exceptional-by-asda-mclaren-vale-grenache-shiraz-mourvedre-75cl/9351025
+
+  # ---- Nov 2026 Italian reds guide and Lidl Wine Tour ------------------------
+  - name: Lidl Barolo DOCG
+    type: red
+    grape: Nebbiolo
+    region: Barolo, Piedmont, Italy
+    shops: [Lidl]
+    price: £14.99 (Christmas range)
+    p: 14.99
+    note: Sour cherry, leather and herbs with brisk acidity. His pick for beef braised in Barolo.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=54s
+    date: '2026-11-13'
+    verdict_at: 54
+    verified_on: '2026-11-23'
+    price_basis: Lidl GB 2026 Christmas magazine; tasted vintage and local stock unconfirmed
+    sources:
+    - https://rhapsody.ceros.site/lidl-christmas-2026-digi-mag-eng-wls/page-11
+  - name: M&S Dimora Moretta Chianti Classico
+    type: red
+    grape: Sangiovese/Cabernet Sauvignon/Merlot
+    region: Chianti Classico, Tuscany, Italy
+    shops: [M&S, Ocado]
+    price: £13
+    p: 13
+    note: Juicy plum and tomato leaf. His Sunday-lunch pick with a Tuscan grilled steak.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=232s
+    date: '2026-11-13'
+    verdict_at: 232
+    verified_on: '2026-11-23'
+    price_basis: Ocado product page, checked 2026-11-23
+    sources:
+    - https://www.ocado.com/products/m-s-dimora-moretta-chianti-classico/512221011
+  - name: Val di Suga Brunello di Montalcino
+    type: red
+    grape: Sangiovese
+    region: Montalcino, Tuscany, Italy
+    shops: [Waitrose]
+    price: £30
+    p: 30
+    note: Powerful, dark-cherry Brunello. His Saturday dinner-party pick with wild boar pasta.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=320s
+    date: '2026-11-13'
+    verdict_at: 320
+    verified_on: '2026-11-23'
+    price_basis: Waitrose product page, checked 2026-11-23
+    sources:
+    - https://www.waitrose.com/ecom/products/val-di-suga-brunello-di-montalcino/669339-754353-754354
+  - name: Sainsbury's Taste the Difference Montepulciano d'Abruzzo
+    type: red
+    grape: Montepulciano
+    region: Abruzzo, Italy
+    shops: ["Sainsbury's"]
+    price: £8.75
+    p: 8.75
+    note: Juicy dark plum and soft tannins. His easy-drinking party red with grilled lamb skewers.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=419s
+    date: '2026-11-13'
+    verdict_at: 419
+    verified_on: '2026-11-23'
+    price_basis: Sainsbury’s standard shelf price, checked 2026-11-23
+    sources:
+    - https://sainsburys.co.uk/groceries/product/sainsburys-montepulciano-d-abruzzo-red-wine-taste-the-difference-75cl
+  - name: Waitrose No.1 Primitivo di Manduria Riserva
+    type: red
+    grape: Primitivo
+    region: Manduria, Puglia, Italy
+    shops: [Waitrose]
+    price: £16
+    p: 16
+    note: Dried dates, plums and prunes. His Friday-night pick with Puglian stuffed pork.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=493s
+    date: '2026-11-13'
+    verdict_at: 493
+    verified_on: '2026-11-23'
+    price_basis: Waitrose product page, checked 2026-11-23
+    sources:
+    - https://www.waitrose.com/ecom/products/no1-primitivo-di-manduria-riserva/824860-1-2
+  - name: M&S Etna Rosso DOC
+    type: red
+    grape: Nerello Mascalese/Nerello Cappuccio
+    region: Mount Etna, Sicily, Italy
+    shops: [M&S, Ocado]
+    price: £14
+    p: 14
+    note: Cherry, lively tannins and bright acidity. His date-night pick with pasta alla Norma.
+    tier: rec
+    video: https://www.youtube.com/watch?v=IUN5NRVyTio&t=562s
+    date: '2026-11-13'
+    verdict_at: 562
+    verified_on: '2026-11-23'
+    price_basis: Ocado product page, checked 2026-11-23
+    sources:
+    - https://www.marksandspencer.com/food/mands-etna-rosso/p/fdp60627411
+    - https://www.ocado.com/products/m-s-etna-rosso-doc/616768011
+  - name: Marquis de Plagne Organic Crémant de Loire Brut
+    type: sparkling
+    grape: Loire blend
+    region: Loire Valley, France
+    shops: [Lidl]
+    price: £9.99 (Wine Edit)
+    p: 9.99
+    note: Class. Dry, clean and fresh with green apple. Look for the green organic mark on the label.
+    tier: class
+    video: https://www.youtube.com/watch?v=xn1CL2mv60I&t=664s
+    date: '2026-11-20'
+    verdict_at: 664
+    verified_on: '2026-11-23'
+    price_basis: Lidl GB organic product listing, checked 2026-11-23; £9.49 in the video
+    sources:
+    - https://www.lidl.co.uk/p/cremant-de-loire-blanc-bio-aop-0-75l/p11328522
+    - https://vincod.com/9N21ZF
+  - name: Fantini Calalenta Merlot Rosato
+    type: rose
+    grape: Merlot
+    region: Abruzzo, Italy
+    shops: [Lidl]
+    price: £8.99 (video)
+    p: 8.99
+    note: Class. Juicy red fruit and peach with a streak of lemony acidity.
+    tier: class
+    video: https://www.youtube.com/watch?v=xn1CL2mv60I&t=703s
+    date: '2026-11-20'
+    verdict_at: 703
+    verified_on: '2026-11-23'
+    price_basis: On-screen Lidl price in the 2026-11-20 video; current UK price and local stock unconfirmed
+    sources:
+    - https://static.fantiniwines.com/media/2022/12/CALALENTA_ROSATO.pdf
+    - https://www.midweekwines.co.uk/lidls-latest-wine-tour-reviewed/
+  - name: Cuor di Pietra Salice Salentino Negroamaro Riserva
+    type: red
+    grape: Negroamaro/Malvasia Nera
+    region: Salice Salentino, Puglia, Italy
+    shops: [Lidl]
+    price: £5.49 (video)
+    p: 5.49
+    note: His favourite of the Lidl tasting. Dry, brambly and Christmas-cake spicy. He paired it with beef casserole.
+    tier: class
+    video: https://www.youtube.com/watch?v=xn1CL2mv60I&t=729s
+    date: '2026-11-20'
+    verdict_at: 729
+    verified_on: '2026-11-23'
+    price_basis: On-screen Lidl price in the 2026-11-20 video; current UK price and local stock unconfirmed
+    sources:
+    - https://www.lidl.it/p/cuore-di-pietra-salice-salentino-doc-negroamaro-riserva/p11005862
+    - https://winedrinker.co.uk/lidl-pick-list/
 
 # Fine / special-occasion bottles tasted (not everyday buys; shown separately).
 fine:
